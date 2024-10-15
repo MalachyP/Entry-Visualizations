@@ -1,0 +1,461 @@
+,Timestamp,Rurality,University,Final Combo Score,GPA,GAMSAT,Raw Combo Score,UQ RMP/MP Tier,CASPer Quartile,Deakin Bonus,ANU Bonus,MQ Bonus (GPA),Notes,Outlier?
+0,"=SORT(O2:AB, 2, TRUE, 3, TRUE, 4, FALSE)",Non-Rural,Australian National University,1.76729571428571,6.896,74.75,1.73264285714286,N/A,4th,0,2,0,-,
+1,30/08/2023 13:46:08,Non-Rural,Australian National University,1.75642857142857,6.835,78,1.75642857142857,N/A,N/A,2,0,0,GAM,
+2,23/10/2023 11:25:03,Non-Rural,Australian National University,1.74492857142857,6.865,73,1.71071428571429,N/A,4th,2,2,0,-,
+3,07/09/2023 08:34:47,Non-Rural,Australian National University,1.74285714285714,6.88,76,1.74285714285714,N/A,2nd,0,0,0,-,
+4,30/08/2023 16:08:15,Non-Rural,Australian National University,1.73582142857143,6.925,71.25,1.70178571428571,N/A,N/A,2,2,0,-,
+5,31/08/2023 14:52:07,Non-Rural,Australian National University,1.73174142857143,6.967,70.25,1.69778571428571,N/A,3rd,0,2,0,-,
+6,31/08/2023 20:21:56,Non-Rural,Australian National University,1.71535714285714,6.6,77.25,1.71535714285714,N/A,N/A,0,0,0,-,
+7,28/10/2023 13:03:16,Non-Rural,Australian National University,1.71492857142857,6.667,76.25,1.71492857142857,N/A,N/A,0,0,0,-,
+8,30/08/2023 16:51:10,Non-Rural,Australian National University,1.71367285714286,6.528,74.75,1.68007142857143,N/A,1st,0,2,0,-,
+9,30/08/2023 16:54:37,Non-Rural,Australian National University,1.70966571428571,6.938,68.5,1.67614285714286,N/A,N/A,0,2,3,-,
+10,30/08/2023 15:24:10,Non-Rural,Australian National University,1.70711571428571,6.903,68.75,1.67364285714286,N/A,3rd,0,2,0,-,Lowest I > Max R
+11,31/08/2023 22:44:16,Non-Rural,Australian National University,1.69378571428571,6.729,73.25,1.69378571428571,N/A,3rd,2,0,0,N/A,-
+12,07/09/2023 21:18:28,Non-Rural,Australian National University,1.69247142857143,6.575,72,1.65928571428571,N/A,2nd,2,2,0,-,-
+13,30/08/2023 15:13:03,Non-Rural,Australian National University,1.69218,6.958,66.5,1.659,N/A,2nd,0,2,0,-,-
+14,30/08/2023 11:13:03,Non-Rural,Australian National University,1.69164285714286,6.609,74.75,1.69164285714286,N/A,4th,2,0,0,-,-
+15,30/08/2023 11:22:37,Non-Rural,Australian National University,1.68928571428571,6.505,76,1.68928571428571,N/A,N/A,2,0,0,-,-
+16,30/08/2023 11:12:30,Non-Rural,Australian National University,1.68584142857143,6.792,68.25,1.65278571428571,N/A,4th,0,2,0,-,-
+17,31/08/2023 06:03:02,Non-Rural,Australian National University,1.67425714285714,6.52,71,1.64142857142857,N/A,N/A,0,2,0,-,-
+18,03/09/2023 23:51:26,Non-Rural,Australian National University,1.64214285714286,6.84,66.5,1.64214285714286,N/A,N/A,0,0,0,-,Yes
+19,30/08/2023 12:25:01,Non-Rural,Australian National University,1.59285714285714,6.6,65,1.59285714285714,N/A,N/A,0,0,0,-,Yes
+20,30/08/2023 11:21:48,Non-Rural,Deakin University,1.84980857142857,6.967,71.75,1.71278571428571,N/A,N/A,8,0,0,-,
+21,30/08/2023 13:50:52,Non-Rural,Deakin University,1.84191428571429,6.99,77.25,1.77107142857143,N/A,N/A,4,0,0,-,
+22,30/08/2023 16:13:33,Non-Rural,Deakin University,1.8205,7,65.5,1.655,N/A,4th,10,0,0,-,
+23,30/08/2023 12:36:11,Non-Rural,Deakin University,1.80502857142857,6.67,75,1.70285714285714,N/A,N/A,6,0,0,-,
+24,30/08/2023 18:30:42,Non-Rural,Deakin University,1.78821428571429,6.865,80.75,1.78821428571429,N/A,3rd,0,0,0,-,
+25,30/08/2023 19:03:19,Non-Rural,Deakin University,1.77297428571429,6.854,66.25,1.64164285714286,N/A,4th,8,0,0,-,
+26,30/08/2023 11:21:16,Non-Rural,Deakin University,1.76413714285714,6.729,73.5,1.69628571428571,N/A,3rd,4,2,0,"GAM application, above average portfolio for UoW, 4% Deakin bonus for financial disadvantage and work experience, Honours bonus @ ANU",
+27,30/08/2023 13:54:53,Non-Rural,Deakin University,1.75611428571429,6.99,69,1.68857142857143,N/A,4th,4,2,0,-,
+28,30/08/2023 16:51:35,Non-Rural,Deakin University,1.75584857142857,6.708,66.75,1.62578571428571,N/A,N/A,8,0,0,-,
+29,30/08/2023 11:35:24,Non-Rural,Deakin University,1.75299428571429,6.427,70.5,1.62314285714286,N/A,N/A,8,0,0,-,
+30,30/08/2023 12:07:10,Non-Rural,Deakin University,1.74740571428571,6.917,72.5,1.71314285714286,N/A,1st,2,2,0,-,
+31,30/08/2023 11:43:10,Non-Rural,Deakin University,1.74697714285714,6.458,69.5,1.61757142857143,N/A,N/A,8,0,0,-,
+32,30/08/2023 15:54:10,Non-Rural,Deakin University,1.73976285714286,6.904,65.5,1.64128571428571,N/A,N/A,6,0,0,-,
+33,30/08/2023 18:42:15,Non-Rural,Deakin University,1.7384,7,64,1.64,N/A,3rd,6,0,0,-,
+34,13/09/2023 17:37:00,Non-Rural,Deakin University,1.73605285714286,6.302,73.75,1.63778571428571,N/A,4th,6,0,0,-,
+35,30/08/2023 22:35:41,Non-Rural,Deakin University,1.73458285714286,6.654,75,1.70057142857143,N/A,3rd,2,0,0,-,
+36,30/08/2023 11:18:00,Non-Rural,Deakin University,1.73432,6.552,61.25,1.5485,N/A,4th,12,4,0,No,
+37,30/08/2023 11:16:28,Non-Rural,Deakin University,1.73278571428571,6.722,77.25,1.73278571428571,N/A,N/A,0,0,0,-,
+38,30/08/2023 22:58:33,Non-Rural,Deakin University,1.7325,7,73.25,1.7325,N/A,N/A,0,2,0,-,
+39,30/08/2023 11:44:18,Non-Rural,Deakin University,1.73092857142857,6.57,63.5,1.57357142857143,N/A,N/A,10,0,0,-,
+40,30/08/2023 22:31:35,Non-Rural,Deakin University,1.73007142857143,6.49,70.5,1.63214285714286,N/A,N/A,6,0,0,N/A,
+41,30/08/2023 11:29:03,Non-Rural,Deakin University,1.72933714285714,6.268,80,1.69542857142857,N/A,N/A,2,0,0,-,
+42,30/08/2023 14:16:46,Non-Rural,Deakin University,1.72796,6.363,75.25,1.6615,N/A,3rd,4,0,0,Below average portfolio,
+43,30/08/2023 12:17:22,Non-Rural,Deakin University,1.72656857142857,6.809,72,1.69271428571429,N/A,4th,2,2,0,above average portfolio,
+44,30/08/2023 12:21:13,Non-Rural,Deakin University,1.72543428571429,6.906,67.25,1.65907142857143,N/A,N/A,4,0,0,-,
+45,30/08/2023 21:54:49,Non-Rural,Deakin University,1.72241571428571,6.833,71.25,1.68864285714286,N/A,3rd,2,0,0,none,
+46,30/08/2023 19:01:16,Non-Rural,Deakin University,1.72038285714286,6.487,72.75,1.65421428571429,N/A,4th,4,0,0,GAM,
+47,30/08/2023 15:14:02,Non-Rural,Deakin University,1.72022857142857,6.67,67,1.62285714285714,N/A,N/A,6,0,0,-,Lowest I > Max R
+48,31/08/2023 07:33:06,Non-Rural,Deakin University,1.72015714285714,6.625,74,1.68642857142857,N/A,3rd,2,0,0,-,-
+49,30/08/2023 11:46:22,Non-Rural,Deakin University,1.71899142857143,6.687,73,1.68528571428571,N/A,4th,2,0,0,-,-
+50,30/08/2023 12:50:26,Non-Rural,Deakin University,1.71038571428571,6.71,65.5,1.61357142857143,N/A,1st,6,0,0,-,-
+51,30/08/2023 14:11:57,Non-Rural,Deakin University,1.70571428571429,6.83,73,1.70571428571429,N/A,N/A,0,0,0,-,-
+52,30/08/2023 17:46:40,Non-Rural,Deakin University,1.69857142857143,6.78,73,1.69857142857143,N/A,N/A,0,0,0,-,-
+53,30/08/2023 12:57:28,Non-Rural,Deakin University,1.69705714285714,6.68,67.75,1.63178571428571,N/A,N/A,4,0,0,-,-
+54,30/08/2023 15:17:07,Non-Rural,Deakin University,1.61785714285714,6.6,67.5,1.61785714285714,N/A,3rd,0,0,0,"(if this was you please message me, I am guessing you didn't select your bonuses -Luke)",Yes
+55,30/08/2023 22:20:32,Non-Rural,Griffith University,1.76535714285714,6.95,77.25,1.76535714285714,N/A,N/A,0,0,0,"(unsure what is happening re UQ here, could potentially be prereq related? have contacted applicant -Luke)",
+56,30/08/2023 11:12:50,Non-Rural,Griffith University,1.73771428571429,6.844,76,1.73771428571429,N/A,4th,0,0,0,-,
+57,30/08/2023 11:51:21,Non-Rural,Griffith University,1.72042857142857,6.443,80,1.72042857142857,N/A,N/A,0,0,0,-,
+58,30/08/2023 11:46:43,Non-Rural,Griffith University,1.71578571428571,6.813,74.25,1.71578571428571,Tier 3,4th,0,2,0,-,
+59,30/08/2023 12:51:57,Non-Rural,Griffith University,1.71364285714286,6.938,72.25,1.71364285714286,N/A,3rd,0,4,0,-,
+60,30/08/2023 17:35:13,Non-Rural,Griffith University,1.71021428571429,6.914,72.25,1.71021428571429,N/A,4th,0,0,0,-,
+61,31/08/2023 21:39:52,Non-Rural,Griffith University,1.70292857142857,6.688,74.75,1.70292857142857,N/A,4th,2,0,0,GAM,
+62,30/08/2023 13:18:16,Non-Rural,Griffith University,1.7025,7,70.25,1.7025,N/A,3rd,0,0,0,-,
+63,30/08/2023 15:29:09,Non-Rural,Griffith University,1.69714285714286,6.98,70,1.69714285714286,Tier 3,N/A,0,0,0,-,
+64,31/08/2023 08:27:21,Non-Rural,Griffith University,1.68607142857143,6.64,73.75,1.68607142857143,N/A,N/A,0,0,0,-,
+65,30/08/2023 13:04:53,Non-Rural,Griffith University,1.685,7,68.5,1.685,Tier 3,N/A,0,4,0,-,
+66,12/09/2023 21:37:34,Non-Rural,Griffith University,1.68107142857143,6.885,69.75,1.68107142857143,N/A,N/A,0,0,0,-,
+67,30/08/2023 17:17:43,Non-Rural,Griffith University,1.67857142857143,6.885,69.5,1.67857142857143,Tier 3,N/A,0,0,0,-,
+68,30/08/2023 15:27:29,Non-Rural,Griffith University,1.67814285714286,6.917,69,1.67814285714286,N/A,2nd,2,0,0,Portfolio,
+69,30/08/2023 16:54:03,Non-Rural,Griffith University,1.67778571428571,6.792,70.75,1.67778571428571,N/A,2nd,0,0,0,-,Lowest I > Max R
+70,31/08/2023 19:56:29,Non-Rural,Griffith University,1.67507142857143,6.458,75.25,1.67507142857143,Tier 3,2nd,2,2,0,-,-
+71,30/08/2023 12:52:55,Non-Rural,Griffith University,1.67428571428571,6.75,71,1.67428571428571,N/A,N/A,4,0,0,-,-
+72,30/08/2023 11:20:30,Non-Rural,Griffith University,1.67271428571429,6.844,69.5,1.67271428571429,N/A,N/A,0,0,0,-,-
+73,30/08/2023 11:46:41,Non-Rural,Griffith University,1.6725,7,67.25,1.6725,N/A,4th,0,0,0,-,-
+74,30/08/2023 21:26:27,Non-Rural,Griffith University,1.67021428571429,6.844,69.25,1.67021428571429,N/A,N/A,0,2,0,-,-
+75,04/09/2023 12:48:11,Non-Rural,Griffith University,1.67,7,67,1.67,N/A,4th,0,0,0,"(initially reported DDMP, but given N/A for tier likely only applied to metro - Luke)",-
+76,11/09/2023 14:24:59,Non-Rural,Griffith University,1.66792857142857,6.688,71.25,1.66792857142857,N/A,N/A,0,2,0,-,-
+77,30/08/2023 22:01:14,Non-Rural,Griffith University,1.6675,6.755,70.25,1.6675,N/A,N/A,0,0,0,-,-
+78,30/08/2023 11:26:53,Non-Rural,Griffith University,1.66314285714286,6.742,70,1.66314285714286,N/A,N/A,0,0,0,-,-
+79,30/10/2023 11:53:21,Non-Rural,Griffith University,1.66142857142857,6.8,69,1.66142857142857,Tier 1 (CQ-WB RMP),2nd,0,0,0,-,-
+80,04/09/2023 14:09:08,Non-Rural,Macquarie University,1.7222,6.93,70.25,1.6925,N/A,1st,0,0,3,-,
+81,30/08/2023 17:54:16,Non-Rural,Macquarie University,1.7025,7,67.25,1.6725,N/A,2nd,0,0,3,-,
+82,24/09/2023 18:31:51,Non-Rural,Macquarie University,1.685,7,65.5,1.655,N/A,N/A,0,0,3,-,
+83,30/09/2023 12:19:32,Non-Rural,Macquarie University,1.685,7,65.5,1.655,N/A,N/A,0,0,3,-,
+84,30/08/2023 14:11:05,Non-Rural,Macquarie University,1.66857142857143,6.885,68.5,1.66857142857143,N/A,2nd,0,0,0,-,
+85,30/08/2023 23:29:50,Non-Rural,Macquarie University,1.66791142857143,6.646,69,1.63942857142857,N/A,3rd,0,0,3,B.Clinsci graduate,
+86,30/08/2023 18:22:28,Non-Rural,Macquarie University,1.66278571428571,6.9,64.75,1.63321428571429,N/A,4th,0,0,3,-,
+87,03/09/2023 21:41:04,Non-Rural,Macquarie University,1.65705714285714,6.98,63,1.62714285714286,N/A,4th,0,0,3,-,
+88,30/08/2023 11:50:22,Non-Rural,Macquarie University,1.65285714285714,6.88,67,1.65285714285714,N/A,3rd,0,0,0,UNDF rez,
+89,30/08/2023 12:53:34,Non-Rural,Macquarie University,1.64957142857143,6.787,68,1.64957142857143,N/A,1st,0,0,0,-,
+90,30/08/2023 12:08:07,Non-Rural,Macquarie University,1.64357142857143,6.64,69.5,1.64357142857143,N/A,2nd,0,2,0,WA resident,
+91,30/08/2023 17:31:54,Non-Rural,Macquarie University,1.64285714285714,6.53,71,1.64285714285714,N/A,2nd,0,0,0,-,
+92,03/09/2023 23:19:37,Non-Rural,Macquarie University,1.6425,6.65,69.25,1.6425,N/A,1st,2,2,0,-,
+93,05/09/2023 22:44:30,Non-Rural,Macquarie University,1.64178571428571,6.61,69.75,1.64178571428571,N/A,2nd,0,0,0,-,
+94,02/09/2023 15:52:18,Non-Rural,Macquarie University,1.64174285714286,6.74,65,1.61285714285714,N/A,2nd,0,2,3,-,
+95,30/08/2023 13:50:48,Non-Rural,Macquarie University,1.64164285714286,6.889,65.75,1.64164285714286,N/A,4th,0,0,0,-,Lowest I > Max R
+96,30/08/2023 13:42:21,Non-Rural,Macquarie University,1.63514285714286,6.896,65,1.63514285714286,N/A,4th,2,2,0,Strong Portfolio,-
+97,31/08/2023 02:18:07,Non-Rural,Macquarie University,1.63357142857143,6.78,66.5,1.63357142857143,N/A,1st,0,0,0,-,-
+98,30/08/2023 13:35:19,Non-Rural,Macquarie University,1.63071428571429,6.9,64.5,1.63071428571429,N/A,3rd,0,0,0,High portfolio strength,-
+99,30/08/2023 15:43:10,Non-Rural,Macquarie University,1.63071428571429,6.76,66.5,1.63071428571429,N/A,N/A,0,0,0,-,-
+100,30/08/2023 15:03:39,Non-Rural,Macquarie University,1.6125,6.51,68.25,1.6125,N/A,3rd,0,0,0,-,-
+101,02/09/2023 19:16:27,Non-Rural,The University of Melbourne,1.8233,7,82.33,1.8233,N/A,N/A,0,0,0,-,
+102,31/08/2023 23:59:29,Non-Rural,The University of Melbourne,1.80812857142857,6.94,81.67,1.80812857142857,N/A,N/A,0,0,0,-,
+103,30/08/2023 11:28:07,Non-Rural,The University of Melbourne,1.80241428571429,6.9,81.67,1.80241428571429,N/A,4th,0,0,0,-,
+104,30/08/2023 12:34:24,Non-Rural,The University of Melbourne,1.7767,7,77.67,1.7767,N/A,N/A,2,0,0,-,
+105,30/08/2023 12:48:14,Non-Rural,The University of Melbourne,1.7767,7,77.67,1.7767,N/A,N/A,0,0,0,-,
+106,30/08/2023 13:11:44,Non-Rural,The University of Melbourne,1.7767,7,77.67,1.7767,N/A,N/A,0,0,0,-,
+107,30/08/2023 11:18:58,Non-Rural,The University of Melbourne,1.7733,7,77.33,1.7733,N/A,N/A,0,0,0,-,
+108,30/08/2023 11:38:04,Non-Rural,The University of Melbourne,1.76828571428571,6.988,77,1.76828571428571,N/A,N/A,0,0,0,-,
+109,30/08/2023 12:52:50,Non-Rural,The University of Melbourne,1.76285714285714,6.88,78,1.76285714285714,N/A,N/A,0,0,0,-,
+110,30/08/2023 14:57:54,Non-Rural,The University of Melbourne,1.75428571428571,6.96,76,1.75428571428571,N/A,N/A,0,0,0,-,
+111,30/08/2023 11:58:26,Non-Rural,The University of Melbourne,1.75158571428571,6.638,80.33,1.75158571428571,N/A,N/A,0,0,0,-,
+112,30/08/2023 23:27:52,Non-Rural,The University of Melbourne,1.75,7,75,1.75,N/A,N/A,0,0,0,-,
+113,03/09/2023 09:25:53,Non-Rural,The University of Melbourne,1.75,7,75,1.75,N/A,N/A,0,0,0,-,
+114,30/08/2023 11:47:20,Non-Rural,The University of Melbourne,1.74241428571429,6.97,74.67,1.74241428571429,N/A,N/A,0,0,0,-,
+115,30/08/2023 13:23:03,Non-Rural,The University of Melbourne,1.73571428571429,6.97,74,1.73571428571429,N/A,N/A,0,0,0,-,
+116,30/08/2023 11:26:29,Non-Rural,The University of Melbourne,1.73471428571429,6.963,74,1.73471428571429,N/A,N/A,0,0,0,-,
+117,31/08/2023 11:30:43,Non-Rural,The University of Melbourne,1.73142857142857,6.73,77,1.73142857142857,N/A,4th,0,2,0,-,
+118,30/08/2023 11:18:45,Non-Rural,The University of Melbourne,1.73,7,73,1.73,N/A,N/A,0,0,0,GPA confirmed with gemsas via email for unimelb. I think it was 6.98 for anu.,
+119,30/08/2023 14:03:31,Non-Rural,The University of Melbourne,1.72884285714286,6.875,74.67,1.72884285714286,N/A,N/A,0,2,0,-,
+120,30/08/2023 15:01:12,Non-Rural,The University of Melbourne,1.72685714285714,6.838,75,1.72685714285714,N/A,N/A,0,0,0,-,
+121,02/09/2023 18:52:59,Non-Rural,The University of Melbourne,1.7267,7,72.67,1.7267,N/A,N/A,2,0,0,-,
+122,30/08/2023 14:16:51,Non-Rural,The University of Melbourne,1.72642857142857,6.975,73,1.72642857142857,N/A,N/A,4,0,0,GAM Applicant,
+123,30/08/2023 11:22:38,Non-Rural,The University of Melbourne,1.72285714285714,6.95,73,1.72285714285714,N/A,N/A,0,0,0,-,
+124,30/08/2023 13:59:38,Non-Rural,The University of Melbourne,1.71901428571429,6.9,73.33,1.71901428571429,N/A,4th,0,2,0,No,
+125,30/08/2023 18:10:08,Non-Rural,The University of Melbourne,1.71544285714286,6.875,73.33,1.71544285714286,N/A,N/A,2,0,0,-,
+126,30/08/2023 11:25:13,Non-Rural,The University of Melbourne,1.71471428571429,6.963,72,1.71471428571429,N/A,N/A,0,0,0,-,
+127,30/08/2023 12:06:36,Non-Rural,The University of Melbourne,1.714,6.888,73,1.714,N/A,N/A,0,0,0,-,
+128,30/08/2023 11:26:12,Non-Rural,The University of Melbourne,1.7133,7,71.33,1.7133,N/A,N/A,0,0,0,-,
+129,30/08/2023 11:12:26,Non-Rural,The University of Melbourne,1.7124,6.76,74.67,1.7124,N/A,N/A,0,0,0,-,
+130,30/08/2023 12:13:36,Non-Rural,The University of Melbourne,1.71158571428571,6.708,75.33,1.71158571428571,N/A,N/A,2,2,0,GAM,
+131,30/08/2023 18:14:06,Non-Rural,The University of Melbourne,1.71158571428571,6.988,71.33,1.71158571428571,N/A,N/A,0,0,0,-,
+132,30/08/2023 12:45:26,Non-Rural,The University of Melbourne,1.71,7,71,1.71,N/A,N/A,0,0,0,No,
+133,30/08/2023 15:11:50,Non-Rural,The University of Melbourne,1.71,7,71,1.71,N/A,N/A,0,0,0,Monash interview offer,
+134,30/08/2023 17:52:23,Non-Rural,The University of Melbourne,1.70955714285714,6.95,71.67,1.70955714285714,N/A,N/A,0,0,0,no bonuses,
+135,30/08/2023 11:14:39,Non-Rural,The University of Melbourne,1.70928571428571,6.925,72,1.70928571428571,N/A,3rd,0,0,0,-,
+136,30/08/2023 23:33:44,Non-Rural,The University of Melbourne,1.70884285714286,6.875,72.67,1.70884285714286,N/A,N/A,0,0,0,-,
+137,30/08/2023 13:52:08,Non-Rural,The University of Melbourne,1.7087,6.594,76.67,1.7087,N/A,N/A,0,0,0,NA,
+138,30/08/2023 18:40:59,Non-Rural,The University of Melbourne,1.70857142857143,6.85,73,1.70857142857143,N/A,N/A,0,0,0,-,
+139,31/08/2023 14:14:15,Non-Rural,The University of Melbourne,1.70812857142857,6.94,71.67,1.70812857142857,N/A,N/A,0,0,0,-,
+140,31/08/2023 07:39:47,Non-Rural,The University of Melbourne,1.70758571428571,6.96,71.33,1.70758571428571,N/A,N/A,0,2,0,-,
+141,30/08/2023 22:21:09,Non-Rural,The University of Melbourne,1.70714285714286,6.98,71,1.70714285714286,N/A,4th,2,0,0,-,
+142,24/10/2023 00:55:46,Non-Rural,The University of Melbourne,1.70658571428571,6.813,73.33,1.70658571428571,N/A,2nd,0,0,0,-,
+143,31/08/2023 16:40:09,Non-Rural,The University of Melbourne,1.70472857142857,6.8,73.33,1.70472857142857,N/A,N/A,0,0,0,-,
+144,30/08/2023 11:21:15,Non-Rural,The University of Melbourne,1.70387142857143,6.934,71.33,1.70387142857143,N/A,N/A,0,0,0,-,
+145,07/09/2023 15:30:03,Non-Rural,The University of Melbourne,1.70285714285714,6.95,71,1.70285714285714,N/A,N/A,0,0,0,Applied for GAM,
+146,30/08/2023 11:52:00,Non-Rural,The University of Melbourne,1.70214285714286,6.875,72,1.70214285714286,N/A,N/A,0,0,0,-,
+147,30/08/2023 11:30:50,Non-Rural,The University of Melbourne,1.70172857142857,6.919,71.33,1.70172857142857,N/A,N/A,0,0,0,-,
+148,30/08/2023 12:36:04,Non-Rural,The University of Melbourne,1.70044285714286,6.84,72.33,1.70044285714286,N/A,4th,2,0,0,-,
+149,30/08/2023 13:40:02,Non-Rural,The University of Melbourne,1.69972857142857,6.975,70.33,1.69972857142857,N/A,2nd,0,4,0,-,
+150,30/08/2023 11:16:26,Non-Rural,The University of Melbourne,1.69898571428571,6.736,73.67,1.69898571428571,N/A,3rd,0,2,0,"GAM, above average port",
+151,31/08/2023 09:17:36,Non-Rural,The University of Melbourne,1.69801428571429,6.963,70.33,1.69801428571429,N/A,3rd,0,0,0,WA Resident,
+152,31/08/2023 09:30:22,Non-Rural,The University of Melbourne,1.6967,7,69.67,1.6967,N/A,N/A,0,0,0,-,
+153,31/08/2023 12:00:34,Non-Rural,The University of Melbourne,1.6967,7,69.67,1.6967,N/A,N/A,0,0,0,-,
+154,30/08/2023 11:31:42,Non-Rural,The University of Melbourne,1.694,6.818,72,1.694,N/A,4th,0,0,0,-,
+155,31/08/2023 22:09:53,Non-Rural,The University of Melbourne,1.69241428571429,6.83,71.67,1.69241428571429,N/A,N/A,0,0,0,GAM applicant,
+156,31/08/2023 20:16:06,Non-Rural,The University of Melbourne,1.69214285714286,6.945,70,1.69214285714286,N/A,N/A,0,0,0,-,
+157,30/08/2023 12:20:27,Non-Rural,The University of Melbourne,1.69114285714286,6.938,70,1.69114285714286,N/A,N/A,0,0,0,-,
+158,30/08/2023 11:41:28,Non-Rural,The University of Melbourne,1.69,6.86,71,1.69,N/A,N/A,0,0,0,-,
+159,30/08/2023 14:02:03,Non-Rural,The University of Melbourne,1.68901428571429,6.9,70.33,1.68901428571429,N/A,N/A,0,0,0,-,
+160,30/08/2023 11:44:30,Non-Rural,The University of Melbourne,1.68844285714286,6.896,70.33,1.68844285714286,N/A,N/A,0,0,0,-,
+161,30/08/2023 17:13:47,Non-Rural,The University of Melbourne,1.68801428571429,6.963,69.33,1.68801428571429,N/A,N/A,2,2,0,-,
+162,01/09/2023 20:26:57,Non-Rural,The University of Melbourne,1.6867,7,68.67,1.6867,N/A,N/A,0,0,0,n/a,
+163,30/08/2023 12:02:16,Non-Rural,The University of Melbourne,1.68557142857143,6.969,69,1.68557142857143,N/A,3rd,0,2,0,GAM,
+164,30/08/2023 12:15:40,Non-Rural,The University of Melbourne,1.68544285714286,6.875,70.33,1.68544285714286,N/A,N/A,2,2,0,GAM,
+165,30/08/2023 14:33:05,Non-Rural,The University of Melbourne,1.68398571428571,6.981,68.67,1.68398571428571,N/A,4th,2,0,0,Very strong portfolio for UoW,
+166,30/08/2023 13:19:03,Non-Rural,The University of Melbourne,1.68258571428571,6.575,74.33,1.68258571428571,N/A,N/A,0,0,0,-,
+167,30/08/2023 12:30:17,Non-Rural,The University of Melbourne,1.68242857142857,6.667,73,1.68242857142857,N/A,4th,2,2,0,-,
+168,30/08/2023 14:01:16,Non-Rural,The University of Melbourne,1.68044285714286,6.7,72.33,1.68044285714286,N/A,N/A,0,0,0,-,
+169,30/08/2023 11:36:19,Non-Rural,The University of Melbourne,1.68015714285714,6.838,70.33,1.68015714285714,N/A,N/A,0,0,0,-,
+170,30/08/2023 12:09:13,Non-Rural,The University of Melbourne,1.68014285714286,6.651,73,1.68014285714286,N/A,N/A,0,0,0,-,
+171,30/08/2023 17:29:20,Non-Rural,The University of Melbourne,1.68,7,68,1.68,N/A,N/A,0,0,0,-,
+172,30/08/2023 12:04:30,Non-Rural,The University of Melbourne,1.67987142857143,6.906,69.33,1.67987142857143,N/A,4th,0,0,0,-,
+173,30/08/2023 12:40:08,Non-Rural,The University of Melbourne,1.67955714285714,6.53,74.67,1.67955714285714,N/A,N/A,0,0,0,-,Lowest I > Max R
+174,30/08/2023 12:29:21,Non-Rural,The University of Melbourne,1.67741428571429,6.865,69.67,1.67741428571429,N/A,N/A,0,0,0,-,-
+175,30/08/2023 20:40:08,Non-Rural,The University of Melbourne,1.67571428571429,6.83,70,1.67571428571429,N/A,N/A,0,0,0,-,-
+176,30/08/2023 14:07:51,Non-Rural,The University of Melbourne,1.67498571428571,6.778,70.67,1.67498571428571,N/A,4th,6,0,0,-,-
+177,30/08/2023 11:44:30,Non-Rural,The University of Melbourne,1.67472857142857,6.87,69.33,1.67472857142857,Tier 3,N/A,0,0,0,-,-
+178,30/08/2023 13:42:06,Non-Rural,The University of Melbourne,1.6733,7,67.33,1.6733,N/A,N/A,0,0,0,-,-
+179,30/08/2023 16:42:03,Non-Rural,The University of Melbourne,1.67285714285714,6.95,68,1.67285714285714,N/A,3rd,0,0,0,-,-
+180,10/09/2023 13:36:00,Non-Rural,The University of Melbourne,1.67272857142857,6.646,72.33,1.67272857142857,N/A,4th,0,0,0,GAM,-
+181,30/08/2023 12:34:24,Non-Rural,The University of Melbourne,1.67098571428571,6.75,70.67,1.67098571428571,N/A,2nd,0,0,0,GAM,-
+182,11/11/2023 21:01:01,Non-Rural,The University of Melbourne,1.67098571428571,6.75,70.67,1.67098571428571,N/A,2nd,0,2,0,-,-
+183,30/08/2023 15:20:31,Non-Rural,The University of Melbourne,1.66857142857143,6.85,69,1.66857142857143,N/A,1st,2,0,0,-,-
+184,30/08/2023 11:27:49,Non-Rural,The University of Melbourne,1.57044285714286,6.98,57.33,1.57044285714286,N/A,4th,4,0,0,"(marked as an outlier as outside of LL expected for interview and significantly skews data, but that  doesn't mean it illegitimate given GAM could be a factor -Luke)",Yes
+185,30/08/2023 12:42:02,Non-Rural,The University of Notre Dame Fremantle,1.69801428571429,6.823,72.33,1.69801428571429,Tier 3,1st,0,0,0,-,
+186,30/08/2023 11:58:40,Non-Rural,The University of Notre Dame Fremantle,1.67241428571429,6.76,70.67,1.67241428571429,N/A,4th,0,0,0,-,
+187,30/08/2023 17:08:16,Non-Rural,The University of Notre Dame Fremantle,1.6633,7,66.33,1.6633,N/A,4th,0,0,0,WA resident,
+188,02/09/2023 17:25:50,Non-Rural,The University of Notre Dame Fremantle,1.6633,6.86,68.33,1.6633,N/A,4th,0,0,0,WA Resident,
+189,30/08/2023 17:34:54,Non-Rural,The University of Notre Dame Fremantle,1.66312857142857,6.625,71.67,1.66312857142857,N/A,2nd,0,0,0,below average portfolio,
+190,01/09/2023 17:37:35,Non-Rural,The University of Notre Dame Fremantle,1.66098571428571,6.96,66.67,1.66098571428571,N/A,4th,0,0,0,Eligible for WA Residency Bonus,
+191,30/08/2023 11:54:27,Non-Rural,The University of Notre Dame Fremantle,1.65812857142857,6.8,68.67,1.65812857142857,Tier 3,4th,0,0,0,WA resident,
+192,30/08/2023 21:29:26,Non-Rural,The University of Notre Dame Fremantle,1.657,6.979,66,1.657,N/A,4th,0,0,0,No WA residency or HDR bonus.,Lowest I > Max R
+193,30/08/2023 12:25:45,Non-Rural,The University of Notre Dame Fremantle,1.6533,7,65.33,1.6533,N/A,4th,0,0,0,WA resident,-
+194,03/09/2023 14:02:13,Non-Rural,The University of Notre Dame Fremantle,1.65142857142857,6.87,67,1.65142857142857,N/A,4th,0,0,0,-,-
+195,30/08/2023 13:48:00,Non-Rural,The University of Notre Dame Fremantle,1.6497,6.951,65.67,1.6497,N/A,3rd,0,0,0,-,-
+196,30/08/2023 14:20:00,Non-Rural,The University of Notre Dame Fremantle,1.64812857142857,6.94,65.67,1.64812857142857,N/A,4th,0,0,0,-,-
+197,30/08/2023 13:45:26,Non-Rural,The University of Notre Dame Fremantle,1.64615714285714,6.95,65.33,1.64615714285714,N/A,4th,0,0,0,WA resident,-
+198,30/08/2023 11:43:07,Non-Rural,The University of Notre Dame Fremantle,1.64587142857143,6.668,69.33,1.64587142857143,N/A,4th,0,0,0,"Strong UOW Portfolio, WA resident",-
+199,03/09/2023 17:59:19,Non-Rural,The University of Notre Dame Fremantle,1.63812857142857,6.87,65.67,1.63812857142857,N/A,3rd,0,2,0,-,-
+200,31/08/2023 01:13:34,Non-Rural,The University of Notre Dame Fremantle,1.63285714285714,6.88,65,1.63285714285714,N/A,4th,0,0,0,WA resident,-
+201,30/08/2023 20:19:40,Non-Rural,The University of Notre Dame Fremantle,1.6253,6.664,67.33,1.6253,N/A,4th,2,0,0,WA residency bonus,-
+202,01/09/2023 11:27:07,Non-Rural,The University of Notre Dame Fremantle,1.62244285714286,6.644,67.33,1.62244285714286,N/A,4th,0,0,0,WA resident,-
+203,30/08/2023 14:21:43,Non-Rural,The University of Notre Dame Fremantle,1.61857142857143,6.5,69,1.61857142857143,Tier 3,4th,2,2,0,-,-
+204,31/08/2023 11:59:05,Non-Rural,The University of Notre Dame Fremantle,1.61687142857143,6.885,63.33,1.61687142857143,N/A,4th,2,0,0,Above average portfolio,-
+205,30/08/2023 12:49:21,Non-Rural,The University of Notre Dame Fremantle,1.61328571428571,6.463,69,1.61328571428571,N/A,4th,6,2,0,-,-
+206,15/09/2023 11:41:01,Non-Rural,The University of Notre Dame Fremantle,1.61098571428571,6.75,64.67,1.61098571428571,N/A,4th,0,0,0,-,-
+207,18/10/2023 15:45:43,Non-Rural,The University of Notre Dame Fremantle,1.61044285714286,6.28,71.33,1.61044285714286,Tier 3,4th,0,2,0,-,-
+208,31/08/2023 15:45:47,Non-Rural,The University of Notre Dame Fremantle,1.60384285714286,6.77,63.67,1.60384285714286,N/A,4th,4,0,0,Good portfolio,-
+209,30/08/2023 11:43:46,Non-Rural,The University of Notre Dame Fremantle,1.59784285714286,6.588,65.67,1.59784285714286,N/A,3rd,0,0,0,-,-
+210,30/08/2023 19:17:44,Non-Rural,The University of Notre Dame Fremantle,1.5933,6.51,66.33,1.5933,N/A,4th,0,0,0,-,-
+211,31/08/2023 15:58:54,Non-Rural,The University of Notre Dame Fremantle,1.5833,6.44,66.33,1.5833,N/A,4th,4,0,0,-,-
+212,29/10/2023 00:42:45,Non-Rural,The University of Notre Dame Fremantle,1.56914285714286,6.504,64,1.56914285714286,N/A,4th,0,0,0,-,-
+213,30/08/2023 13:20:51,Non-Rural,The University of Notre Dame Fremantle,1.54871428571429,6.431,63,1.54871428571429,N/A,4th,0,0,0,"(marked as an outlier as outside of LL expected for interview and significantly skews data, but that doesn't mean it illegitimate given CASPer being a factor -Luke)",Yes
+214,30/08/2023 17:06:46,Non-Rural,The University of Notre Dame Fremantle,1.52941428571429,5.969,67.67,1.52941428571429,N/A,4th,0,0,0,"(marked as an outlier as outside of LL expected for interview and significantly skews data, but that  doesn't mean it illegitimate given CASPer being a factor -Luke)",Yes
+215,31/08/2023 06:17:22,Non-Rural,The University of Notre Dame Sydney,1.75184285714286,6.896,76.67,1.75184285714286,N/A,4th,4,0,0,-,
+216,16/09/2023 19:27:52,Non-Rural,The University of Notre Dame Sydney,1.74287142857143,6.927,75.33,1.74287142857143,N/A,4th,0,0,0,-,
+217,30/08/2023 14:19:41,Non-Rural,The University of Notre Dame Sydney,1.7333,7,73.33,1.7333,N/A,2nd,0,4,0,PhD,
+218,30/08/2023 12:07:56,Non-Rural,The University of Notre Dame Sydney,1.71484285714286,6.917,72.67,1.71484285714286,N/A,3rd,0,2,0,"average UoW portfolio, work experience in public health",
+219,30/08/2023 12:43:41,Non-Rural,The University of Notre Dame Sydney,1.71484285714286,6.917,72.67,1.71484285714286,N/A,4th,0,2,0,-,
+220,26/09/2023 14:20:21,Non-Rural,The University of Notre Dame Sydney,1.71285714285714,6.88,73,1.71285714285714,N/A,4th,0,0,0,-,
+221,30/08/2023 17:25:19,Non-Rural,The University of Notre Dame Sydney,1.71241428571429,6.97,71.67,1.71241428571429,N/A,3rd,0,2,0,above average - strong portfolio,
+222,03/09/2023 21:12:02,Non-Rural,The University of Notre Dame Sydney,1.70384285714286,6.56,76.67,1.70384285714286,N/A,4th,0,0,3,-,Lowest I > Max R
+223,30/08/2023 12:13:39,Non-Rural,The University of Notre Dame Sydney,1.69472857142857,6.87,71.33,1.69472857142857,N/A,4th,2,0,0,-,-
+224,10/09/2023 18:57:15,Non-Rural,The University of Notre Dame Sydney,1.68812857142857,6.8,71.67,1.68812857142857,N/A,4th,0,2,0,-,-
+225,30/08/2023 11:46:12,Non-Rural,The University of Notre Dame Sydney,1.68801428571429,6.823,71.33,1.68801428571429,N/A,4th,0,0,0,-,-
+226,30/08/2023 13:53:50,Non-Rural,The University of Notre Dame Sydney,1.68327142857143,6.906,69.67,1.68327142857143,N/A,3rd,0,0,3,-,-
+227,30/08/2023 13:11:27,Non-Rural,The University of Notre Dame Sydney,1.68241428571429,6.76,71.67,1.68241428571429,N/A,4th,0,0,0,-,-
+228,30/08/2023 17:22:43,Non-Rural,The University of Notre Dame Sydney,1.68227142857143,6.969,68.67,1.68227142857143,N/A,4th,2,0,0,-,-
+229,04/09/2023 11:03:29,Non-Rural,The University of Notre Dame Sydney,1.6783,6.825,70.33,1.6783,N/A,4th,0,0,0,-,-
+230,30/08/2023 12:11:15,Non-Rural,The University of Notre Dame Sydney,1.66955714285714,6.74,70.67,1.66955714285714,N/A,4th,2,2,0,-,-
+231,06/09/2023 11:31:52,Non-Rural,The University of Notre Dame Sydney,1.66642857142857,6.835,69,1.66642857142857,N/A,3rd,0,0,0,-,-
+232,30/08/2023 11:43:38,Non-Rural,The University of Notre Dame Sydney,1.66472857142857,6.8,69.33,1.66472857142857,N/A,4th,0,0,0,-,-
+233,01/09/2023 08:22:32,Non-Rural,The University of Notre Dame Sydney,1.66428571428571,6.75,70,1.66428571428571,N/A,3rd,2,0,0,-,-
+234,30/08/2023 11:34:04,Non-Rural,The University of Notre Dame Sydney,1.66427142857143,6.913,67.67,1.66427142857143,N/A,4th,0,0,0,-,-
+235,30/08/2023 12:37:04,Non-Rural,The University of Notre Dame Sydney,1.66187142857143,6.99,66.33,1.66187142857143,N/A,4th,2,0,0,-,-
+236,30/08/2023 14:01:44,Non-Rural,The University of Notre Dame Sydney,1.65901428571429,6.83,68.33,1.65901428571429,N/A,3rd,2,0,0,-,-
+237,30/08/2023 17:55:58,Non-Rural,The University of Notre Dame Sydney,1.65787142857143,6.962,66.33,1.65787142857143,N/A,4th,0,0,3,Strong portfolio,-
+238,30/08/2023 23:40:22,Non-Rural,The University of Notre Dame Sydney,1.65714285714286,6.84,68,1.65714285714286,N/A,4th,0,0,0,-,-
+239,30/08/2023 16:37:23,Non-Rural,The University of Notre Dame Sydney,1.65658571428571,6.953,66.33,1.65658571428571,N/A,3rd,0,0,0,-,-
+240,30/08/2023 12:11:00,Non-Rural,The University of Notre Dame Sydney,1.65441428571429,6.844,67.67,1.65441428571429,N/A,4th,2,0,0,-,-
+241,30/08/2023 11:40:25,Non-Rural,The University of Notre Dame Sydney,1.65401428571429,6.585,71.33,1.65401428571429,N/A,4th,0,0,0,-,-
+242,30/08/2023 12:03:56,Non-Rural,The University of Notre Dame Sydney,1.65212857142857,6.688,69.67,1.65212857142857,N/A,4th,0,0,0,-,-
+243,30/08/2023 17:31:55,Non-Rural,The University of Notre Dame Sydney,1.64842857142857,6.849,67,1.64842857142857,N/A,4th,0,0,0,Strong portfolio,-
+244,07/09/2023 12:26:00,Non-Rural,The University of Notre Dame Sydney,1.64758571428571,6.75,68.33,1.64758571428571,N/A,3rd,0,2,0,-,-
+245,31/08/2023 09:35:03,Non-Rural,The University of Notre Dame Sydney,1.64757142857143,6.703,69,1.64757142857143,N/A,4th,0,0,0,Portfolio probably below average - average.,-
+246,30/08/2023 11:48:16,Non-Rural,The University of Notre Dame Sydney,1.64485714285714,6.824,67,1.64485714285714,N/A,3rd,0,0,0,-,-
+247,30/08/2023 12:46:54,Non-Rural,The University of Notre Dame Sydney,1.64187142857143,6.5,71.33,1.64187142857143,N/A,3rd,2,0,0,-,-
+248,30/08/2023 17:50:13,Non-Rural,The University of Notre Dame Sydney,1.6417,6.895,65.67,1.6417,N/A,4th,0,0,0,-,-
+249,30/08/2023 18:36:35,Non-Rural,The University of Notre Dame Sydney,1.64098571428571,6.89,65.67,1.64098571428571,N/A,4th,0,0,0,-,-
+250,08/09/2023 16:10:11,Non-Rural,The University of Notre Dame Sydney,1.64071428571429,6.935,65,1.64071428571429,N/A,4th,0,0,0,-,-
+251,25/11/2023 11:02:12,Non-Rural,The University of Notre Dame Sydney,1.639,6.993,64,1.639,N/A,4th,0,0,0,-,-
+252,03/09/2023 08:45:27,Non-Rural,The University of Notre Dame Sydney,1.63884285714286,6.875,65.67,1.63884285714286,N/A,4th,0,0,0,-,-
+253,30/08/2023 15:00:16,Non-Rural,The University of Notre Dame Sydney,1.63612857142857,6.786,66.67,1.63612857142857,Tier 3,4th,0,0,0,-,-
+254,30/08/2023 14:11:05,Non-Rural,The University of Notre Dame Sydney,1.63542857142857,6.688,68,1.63542857142857,N/A,4th,2,2,0,-,-
+255,01/09/2023 20:49:39,Non-Rural,The University of Notre Dame Sydney,1.63384285714286,6.7,67.67,1.63384285714286,N/A,4th,0,0,0,-,-
+256,02/09/2023 16:04:46,Non-Rural,The University of Notre Dame Sydney,1.63187142857143,6.57,69.33,1.63187142857143,N/A,4th,0,0,0,-,-
+257,31/08/2023 19:39:34,Non-Rural,The University of Notre Dame Sydney,1.62714285714286,6.7,67,1.62714285714286,N/A,4th,0,2,0,-,-
+258,02/09/2023 16:43:19,Non-Rural,The University of Notre Dame Sydney,1.62472857142857,6.87,64.33,1.62472857142857,N/A,4th,0,0,0,-,-
+259,03/09/2023 14:56:07,Non-Rural,The University of Notre Dame Sydney,1.62401428571429,6.725,66.33,1.62401428571429,N/A,4th,6,0,0,-,-
+260,30/08/2023 15:10:11,Non-Rural,The University of Notre Dame Sydney,1.6233,7,62.33,1.6233,N/A,4th,0,0,0,-,-
+261,30/08/2023 11:49:48,Non-Rural,The University of Notre Dame Sydney,1.62242857142857,6.667,67,1.62242857142857,N/A,4th,6,2,0,-,-
+262,30/08/2023 11:44:35,Non-Rural,The University of Notre Dame Sydney,1.62098571428571,6.75,65.67,1.62098571428571,N/A,4th,2,0,0,GAM,-
+263,30/08/2023 11:36:13,Non-Rural,The University of Notre Dame Sydney,1.61971428571429,6.788,65,1.61971428571429,Tier 3,4th,2,0,0,-,-
+264,18/10/2023 01:00:15,Non-Rural,The University of Notre Dame Sydney,1.61758571428571,6.19,73.33,1.61758571428571,N/A,4th,0,0,0,-,-
+265,30/08/2023 13:42:22,Non-Rural,The University of Notre Dame Sydney,1.61671428571429,6.907,63,1.61671428571429,N/A,4th,0,0,0,-,-
+266,30/08/2024 20:17:53,Non-Rural,The University of Notre Dame Sydney,1.61615714285714,6.88,63.33,1.61615714285714,N/A,4th,0,0,0,-,
+267,30/08/2023 15:30:16,Non-Rural,The University of Notre Dame Sydney,1.61384285714286,6.7,65.67,1.61384285714286,N/A,4th,6,0,0,Below average UOW portfolio,-
+268,30/08/2023 12:49:04,Non-Rural,The University of Notre Dame Sydney,1.61058571428571,6.841,63.33,1.61058571428571,N/A,4th,0,2,0,-,-
+269,04/09/2023 12:42:52,Non-Rural,The University of Notre Dame Sydney,1.60758571428571,6.4,69.33,1.60758571428571,N/A,4th,0,2,0,-,-
+270,30/08/2023 21:45:55,Non-Rural,The University of Notre Dame Sydney,1.59784285714286,6.728,63.67,1.59784285714286,Tier 3,4th,4,2,0,Average to below average portfolio for UoW,-
+271,30/08/2023 12:42:59,Non-Rural,The University of Notre Dame Sydney,1.59187142857143,6.15,71.33,1.59187142857143,N/A,4th,0,0,0,-,-
+272,31/08/2023 11:06:07,Non-Rural,The University of Notre Dame Sydney,1.58527142857143,6.5,65.67,1.58527142857143,N/A,4th,2,0,0,GAM,-
+273,30/08/2023 12:41:04,Non-Rural,The University of Notre Dame Sydney,1.58384285714286,6.49,65.67,1.58384285714286,N/A,4th,2,0,0,-,-
+274,30/08/2023 11:52:42,Non-Rural,The University of Notre Dame Sydney,1.57228571428571,5.476,79,1.57228571428571,Tier 3,4th,4,0,0,-,-
+275,30/08/2023 15:05:39,Non-Rural,The University of Notre Dame Sydney,1.57172857142857,6.219,68.33,1.57172857142857,Tier 3,4th,0,0,0,-,-
+276,30/08/2023 20:38:36,Non-Rural,The University of Notre Dame Sydney,1.5667,6.3,66.67,1.5667,N/A,4th,0,0,3,I did the HealthSciGradDip at UNDS potentially giving me straight entry to interview,-
+277,31/08/2023 10:09:07,Non-Rural,The University of Notre Dame Sydney,1.56044285714286,6.28,66.33,1.56044285714286,N/A,4th,0,0,0,-,-
+278,30/08/2023 19:23:57,Non-Rural,The University of Queensland (CQ-WB RMP),1.7333,7,73.33,1.7333,Tier 3,N/A,0,2,0,-,
+279,30/08/2023 14:36:58,Non-Rural,The University of Queensland (CQ-WB RMP),1.7133,7,71.33,1.7133,Tier 3,4th,0,0,0,-,
+280,01/09/2023 05:45:20,Non-Rural,The University of Queensland (CQ-WB RMP),1.7033,7,70.33,1.7033,Tier 3,3rd,2,0,0,N/A,
+281,30/08/2023 16:33:32,Non-Rural,The University of Queensland (CQ-WB RMP),1.6767,7,67.67,1.6767,Tier 3,4th,2,2,0,-,
+282,30/08/2023 16:50:50,Non-Rural,The University of Queensland (CQ-WB RMP),1.6767,7,67.67,1.6767,Tier 3,4th,0,2,0,-,
+283,14/10/2023 19:31:51,Non-Rural,The University of Queensland (CQ-WB RMP),1.6767,7,67.67,1.6767,N/A,N/A,0,4,0,-,
+284,30/08/2023 14:45:49,Non-Rural,The University of Queensland (CQ-WB RMP),1.6683,6.825,69.33,1.6683,Tier 3,4th,0,0,0,-,
+285,30/08/2023 16:23:10,Non-Rural,The University of Queensland (CQ-WB RMP),1.6667,7,66.67,1.6667,Tier 3,N/A,0,2,0,-,
+286,30/08/2023 15:54:30,Non-Rural,The University of Queensland (CQ-WB RMP),1.66,7,66,1.66,Tier 3,4th,0,2,0,-,
+287,30/08/2023 21:38:49,Non-Rural,The University of Queensland (CQ-WB RMP),1.66,7,66,1.66,Tier 3,N/A,0,0,0,-,
+288,31/08/2023 02:51:58,Non-Rural,The University of Queensland (CQ-WB RMP),1.6567,7,65.67,1.6567,Tier 3,4th,4,0,0,-,
+289,31/08/2023 15:42:05,Non-Rural,The University of Queensland (CQ-WB RMP),1.65428571428571,6.89,67,1.65428571428571,Tier 3,N/A,2,0,0,-,
+290,13/09/2023 12:44:34,Non-Rural,The University of Queensland (CQ-WB RMP),1.6467,7,64.67,1.6467,Tier 3,4th,4,2,0,-,
+291,30/08/2023 16:57:13,Non-Rural,The University of Queensland (CQ-WB RMP),1.6433,7,64.33,1.6433,Tier 3,3rd,0,2,0,-,
+292,30/08/2023 18:35:40,Non-Rural,The University of Queensland (CQ-WB RMP),1.63955714285714,6.88,65.67,1.63955714285714,Tier 3,N/A,2,0,0,-,
+293,31/08/2023 19:11:22,Non-Rural,The University of Queensland (CQ-WB RMP),1.63955714285714,6.46,71.67,1.63955714285714,Tier 3,3rd,0,0,0,-,
+294,30/08/2023 15:02:44,Non-Rural,The University of Queensland (CQ-WB RMP),1.6357,6.783,66.67,1.6357,Tier 3,N/A,0,0,0,-,
+295,03/09/2023 20:26:32,Non-Rural,The University of Queensland (CQ-WB RMP),1.63098571428571,6.89,64.67,1.63098571428571,Tier 3,N/A,2,0,0,-,
+296,31/08/2023 07:59:05,Non-Rural,The University of Queensland (CQ-WB RMP),1.63,7,63,1.63,Tier 3,4th,0,0,0,-,
+297,01/09/2023 13:30:34,Non-Rural,The University of Queensland (CQ-WB RMP),1.62985714285714,6.859,65,1.62985714285714,Tier 3,4th,0,0,0,"average portfolio, WA residence",
+298,30/10/2023 20:52:30,Non-Rural,The University of Queensland (CQ-WB RMP),1.61527142857143,6.5,68.67,1.61527142857143,N/A,1st,0,0,0,-,
+299,15/10/2023 12:07:18,Non-Rural,The University of Queensland (CQ-WB RMP),1.60901428571429,6.41,69.33,1.60901428571429,Tier 3,3rd,0,2,0,-,
+300,30/08/2023 19:06:00,Non-Rural,The University of Queensland (CQ-WB RMP),1.60241428571429,6.48,67.67,1.60241428571429,Tier 3,N/A,0,0,0,-,Yes
+301,30/08/2023 20:58:51,Non-Rural,The University of Queensland (DD MP),1.72,7,72,1.72,Tier 3,N/A,0,0,0,-,
+302,30/08/2023 15:09:34,Non-Rural,The University of Queensland (DD MP),1.68758571428571,6.75,72.33,1.68758571428571,Tier 3,2nd,0,0,0,-,
+303,30/08/2023 16:29:57,Non-Rural,The University of Queensland (DD MP),1.67444285714286,6.868,69.33,1.67444285714286,Tier 3,N/A,0,0,0,-,
+304,30/08/2023 16:26:57,Non-Rural,The University of Queensland (DD MP),1.66944285714286,6.833,69.33,1.66944285714286,Tier 3,N/A,0,0,0,-,
+305,30/08/2023 17:38:06,Non-Rural,The University of Queensland (DD MP),1.66101428571429,6.984,66.33,1.66101428571429,Tier 3,3rd,0,0,0,-,
+306,30/08/2023 18:41:12,Non-Rural,The University of Queensland (DD MP),1.66,7,66,1.66,Tier 3,N/A,2,2,0,-,
+307,31/08/2023 14:53:15,Non-Rural,The University of Queensland (DD MP),1.66,7,66,1.66,Tier 3,4th,0,2,0,Average portfolio,
+308,31/08/2023 09:33:33,Non-Rural,The University of Queensland (DD MP),1.6567,7,65.67,1.6567,Tier 3,2nd,2,2,0,-,
+309,20/09/2023 21:34:55,Non-Rural,The University of Queensland (DD MP),1.65287142857143,6.647,70.33,1.65287142857143,Tier 3,N/A,2,0,0,-,
+310,30/08/2023 22:39:35,Non-Rural,The University of Queensland (DD MP),1.64612857142857,6.646,69.67,1.64612857142857,Tier 3,N/A,0,0,0,-,
+311,30/08/2023 14:50:42,Non-Rural,The University of Queensland (DD MP),1.64272857142857,6.786,67.33,1.64272857142857,Tier 3,4th,2,0,0,-,
+312,01/09/2023 02:46:12,Non-Rural,The University of Queensland (DD MP),1.62587142857143,6.388,71.33,1.62587142857143,Tier 3,N/A,0,0,0,-,
+313,30/08/2023 15:27:20,Non-Rural,The University of Queensland (Greater Brisbane),1.7833,7,78.33,1.7833,N/A,N/A,0,0,0,-,
+314,07/09/2023 15:04:45,Non-Rural,The University of Queensland (Greater Brisbane),1.7233,7,72.33,1.7233,N/A,4th,0,2,0,-,
+315,30/08/2023 18:12:41,Non-Rural,The University of Queensland (Greater Brisbane),1.7067,7,70.67,1.7067,N/A,1st,2,0,0,-,
+316,30/08/2023 14:34:12,Non-Rural,The University of Queensland (Greater Brisbane),1.70142857142857,6.8,73,1.70142857142857,N/A,4th,0,0,0,(reported T3 UQ RMP initially but can't have applied for the RMP if got a GB interview so changed to N/A -Luke),
+317,30/08/2023 14:40:36,Non-Rural,The University of Queensland (Greater Brisbane),1.7,7,70,1.7,N/A,4th,0,0,0,-,
+318,01/09/2023 00:44:42,Non-Rural,The University of Queensland (Greater Brisbane),1.7,7,70,1.7,N/A,N/A,0,0,0,nmo,
+319,10/09/2023 19:13:49,Non-Rural,The University of Queensland (Greater Brisbane),1.7,7,70,1.7,N/A,N/A,0,2,0,"Completed an honours with first class, but weak GPA in previous years",
+320,01/09/2023 00:24:44,Non-Rural,The University of Queensland (Greater Brisbane),1.69,7,69,1.69,N/A,4th,0,0,0,-,
+321,30/08/2023 17:27:25,Non-Rural,The University of Queensland (Greater Brisbane),1.6867,7,68.67,1.6867,N/A,N/A,0,0,0,-,
+322,30/08/2023 15:56:20,Non-Rural,The University of Queensland (Greater Brisbane),1.68,7,68,1.68,N/A,2nd,0,2,0,-,
+323,31/08/2023 12:38:49,Non-Rural,The University of Queensland (Greater Brisbane),1.6767,7,67.67,1.6767,N/A,N/A,0,0,0,Honours first class,
+324,31/08/2023 12:44:56,Non-Rural,The University of Queensland (Greater Brisbane),1.67285714285714,6.53,74,1.67285714285714,N/A,2nd,0,0,0,-,
+325,31/08/2023 18:30:22,Non-Rural,The University of Queensland (Greater Brisbane),1.5867,6.3,68.67,1.5867,N/A,N/A,0,0,0,-,Yes
+326,30/08/2023 21:28:25,Non-Rural,The University of Western Australia,1.8325,7,83.25,1.8325,N/A,N/A,0,0,0,-,
+327,30/08/2023 14:09:04,Non-Rural,The University of Western Australia,1.78292857142857,6.688,82.75,1.78292857142857,N/A,3rd,0,2,0,-,
+328,01/09/2023 07:49:10,Non-Rural,The University of Western Australia,1.73842857142857,6.919,75,1.73842857142857,N/A,N/A,0,2,0,-,
+329,30/08/2023 15:54:53,Non-Rural,The University of Western Australia,1.73178571428571,6.75,76.75,1.73178571428571,N/A,4th,0,0,0,-,
+330,05/09/2023 21:06:39,Non-Rural,The University of Western Australia,1.72871428571429,6.361,82,1.72871428571429,N/A,2nd,0,2,0,WA Resident,
+331,30/08/2023 18:06:09,Non-Rural,The University of Western Australia,1.71928571428571,6.96,72.5,1.71928571428571,N/A,N/A,6,0,0,-,
+332,30/08/2023 17:19:08,Non-Rural,The University of Western Australia,1.70785714285714,6.95,71.5,1.70785714285714,N/A,2nd,0,0,0,-,
+333,31/08/2023 10:37:21,Non-Rural,The University of Western Australia,1.70414285714286,6.854,72.5,1.70414285714286,N/A,N/A,2,0,0,-,
+334,30/08/2023 17:12:33,Non-Rural,The University of Western Australia,1.69628571428571,6.869,71.5,1.69628571428571,N/A,4th,0,0,0,GAM applicant. GPA (for UWA) confirmed via GEMSAS.,
+335,20/05/2024 20:32:59,Non-Rural,The University of Western Australia,1.69557142857143,6.969,70,1.69557142857143,N/A,3rd,2,0,0,-,
+336,30/08/2023 14:45:52,Non-Rural,The University of Western Australia,1.68178571428571,6.75,71.75,1.68178571428571,N/A,N/A,0,0,0,-,
+337,30/08/2023 15:21:09,Non-Rural,The University of Western Australia,1.68,6.86,70,1.68,N/A,4th,0,0,0,-,
+338,30/08/2023 14:15:44,Non-Rural,The University of Western Australia,1.67814285714286,6.917,69,1.67814285714286,N/A,3rd,0,0,0,GAM,
+339,01/09/2023 12:36:44,Non-Rural,The University of Western Australia,1.67571428571429,6.9,69,1.67571428571429,N/A,N/A,0,0,0,-,
+340,30/08/2023 15:25:36,Non-Rural,The University of Western Australia,1.67335714285714,6.656,72.25,1.67335714285714,N/A,2nd,2,0,0,-,
+341,31/08/2023 17:17:22,Non-Rural,The University of Western Australia,1.67314285714286,6.952,68,1.67314285714286,N/A,2nd,2,0,0,-,
+342,31/08/2023 10:58:26,Non-Rural,The University of Western Australia,1.671,6.902,68.5,1.671,N/A,1st,0,0,0,-,
+343,30/08/2023 14:39:30,Non-Rural,The University of Western Australia,1.67,7,67,1.67,N/A,3rd,0,0,0,-,
+344,31/08/2023 22:29:47,Non-Rural,The University of Western Australia,1.66314285714286,6.882,68,1.66314285714286,N/A,N/A,0,0,0,"(your place preference makes no difference to your chances at interview offer, deleted note as irrelivant and may cause confusion -Luke)",
+345,30/08/2023 14:39:32,Non-Rural,The University of Western Australia,1.66178571428571,6.75,69.75,1.66178571428571,N/A,N/A,0,0,0,-,
+346,30/08/2023 16:44:57,Non-Rural,The University of Western Australia,1.66,7,66,1.66,N/A,N/A,2,0,0,-,
+347,30/08/2023 15:06:54,Non-Rural,The University of Western Australia,1.65964285714286,6.875,67.75,1.65964285714286,N/A,3rd,2,0,0,GAM,
+348,30/08/2023 17:10:30,Non-Rural,The University of Western Australia,1.65778571428571,6.792,68.75,1.65778571428571,N/A,N/A,4,0,0,-,
+349,19/10/2023 16:19:43,Non-Rural,The University of Western Australia,1.65678571428571,6.68,70.25,1.65678571428571,N/A,4th,0,0,0,-,
+350,30/08/2023 15:08:52,Non-Rural,The University of Western Australia,1.65392857142857,6.625,70.75,1.65392857142857,N/A,4th,0,0,0,-,
+351,07/09/2023 14:29:59,Non-Rural,The University of Western Australia,1.65164285714286,6.504,72.25,1.65164285714286,N/A,1st,0,0,0,-,
+352,04/09/2023 10:35:18,Non-Rural,The University of Western Australia,1.65071428571429,6.69,69.5,1.65071428571429,N/A,N/A,4,0,0,-,
+353,02/09/2024 13:45:22,Non-Rural,The University of Western Australia,1.6475,7,64.75,1.6475,N/A,4th,0,0,0,-,
+354,30/08/2023 14:17:00,Non-Rural,The University of Western Australia,1.645,7,64.5,1.645,N/A,1st,0,0,0,-,Lowest I > Max R
+355,30/08/2023 20:21:41,Non-Rural,The University of Western Australia,1.6415,6.958,64.75,1.6415,N/A,1st,0,0,0,-,-
+356,30/08/2023 16:18:29,Non-Rural,The University of Western Australia,1.63928571428571,6.89,65.5,1.63928571428571,N/A,N/A,2,0,0,-,-
+357,30/08/2023 14:17:05,Non-Rural,The University of Western Australia,1.63892857142857,6.1,76.75,1.63892857142857,N/A,3rd,0,0,0,-,-
+358,30/08/2023 17:01:58,Non-Rural,The University of Western Australia,1.63714285714286,6.875,65.5,1.63714285714286,N/A,N/A,0,0,0,-,-
+359,30/08/2023 11:34:22,Non-Rural,The University of Wollongong,1.54071428571429,5.5,75.5,1.54071428571429,N/A,3rd,0,0,0,-,Lowest I > Max R
+360,30/08/2023 15:34:14,Non-Rural,The University of Wollongong,1.51571428571429,5.5,73,1.51571428571429,N/A,2nd,0,0,0,"GAM, decent portfolio",-
+361,03/09/2023 20:14:08,Non-Rural,The University of Wollongong,1.51321428571429,5.5,72.75,1.51321428571429,N/A,4th,0,2,0,-,-
+362,30/08/2023 15:58:13,Non-Rural,The University of Wollongong,1.49071428571429,5.5,70.5,1.49071428571429,N/A,4th,2,2,0,-,-
+363,09/09/2023 16:11:59,Non-Rural,The University of Wollongong,1.48571428571429,5.5,70,1.48571428571429,N/A,4th,0,0,0,"I think above average - rural experience as a health professional, disability work experience, lots of volunteering and team sport, bilingual etc.",-
+364,30/08/2023 12:40:25,Non-Rural,The University of Wollongong,1.47821428571429,5.5,69.25,1.47821428571429,N/A,3rd,0,0,0,-,-
+365,31/08/2023 09:54:37,Non-Rural,The University of Wollongong,1.47571428571429,5.5,69,1.47571428571429,N/A,3rd,6,2,0,Strong portfolio,-
+366,30/08/2023 11:53:24,Non-Rural,The University of Wollongong,1.47071428571429,5.5,68.5,1.47071428571429,N/A,2nd,0,0,0,Average portfolio,-
+367,31/08/2023 20:09:02,Non-Rural,The University of Wollongong,1.47071428571429,5.5,68.5,1.47071428571429,N/A,4th,0,0,0,-,-
+368,19/09/2023 21:02:52,Non-Rural,The University of Wollongong,1.46571428571429,5.5,68,1.46571428571429,N/A,4th,0,0,0,Relatively good portfolio with 2 years + full time rural paramedic experience and military background (non medical & non combat),-
+369,31/08/2023 08:49:24,Non-Rural,The University of Wollongong,1.46071428571429,5.5,67.5,1.46071428571429,N/A,4th,0,0,0,Portfolio was pretty strong,-
+370,30/08/2023 15:37:24,Non-Rural,The University of Wollongong,1.45821428571429,5.5,67.25,1.45821428571429,N/A,4th,4,2,0,-,-
+371,30/08/2023 12:54:26,Non-Rural,The University of Wollongong,1.45571428571429,5.5,67,1.45571428571429,N/A,4th,4,0,0,"Below average portfolio, WA residency",-
+372,05/09/2023 11:55:42,Non-Rural,The University of Wollongong,1.44321428571429,5.5,65.75,1.44321428571429,N/A,3rd,0,0,0,"Red Cross Volunteer, St John Ambulance Volunteer, rural work experience",-
+373,30/08/2023 18:39:56,Non-Rural,The University of Wollongong,1.44071428571429,5.5,65.5,1.44071428571429,N/A,4th,0,0,0,Pretty strong portfolio in most areas IMO,-
+374,01/09/2023 16:40:45,Non-Rural,The University of Wollongong,1.44071428571429,5.5,65.5,1.44071428571429,N/A,3rd,2,0,0,-,-
+375,30/08/2023 13:39:06,Non-Rural,The University of Wollongong,1.43071428571429,5.5,64.5,1.43071428571429,N/A,3rd,0,0,0,-,-
+376,30/08/2023 11:23:14,Rural,Australian National University,1.69640571428571,6.917,67.5,1.66314285714286,Tier 3,3rd,6,2,0,-,
+377,31/08/2023 13:18:00,Rural,Australian National University,1.56169285714286,6.5,60.25,1.53107142857143,N/A,3rd,0,2,0,-,
+378,31/08/2023 07:32:01,Rural,Australian National University,1.50595714285714,6.1,60.5,1.47642857142857,N/A,N/A,12,2,3,-,
+379,30/08/2023 13:24:10,Rural,Deakin University,1.92518571428571,6.98,66.25,1.65964285714286,N/A,N/A,16,0,0,RTS applicant - Tier 1,
+380,31/08/2023 20:42:36,Rural,Deakin University,1.82639285714286,6.95,66.75,1.66035714285714,N/A,4th,10,0,0,"Portfolio above average (?strong), GAM application below average, MM7, Deakin RTS Tier 3",
+381,30/08/2023 19:43:21,Rural,Deakin University,1.78744,6.604,65.25,1.59592857142857,Tier 2,N/A,12,4,0,Deakin RTS,
+382,30/08/2023 22:50:18,Rural,Deakin University,1.782,6.44,73,1.65,N/A,N/A,8,0,0,-,
+383,30/08/2023 18:26:15,Rural,Deakin University,1.78092,6.958,65.5,1.649,N/A,N/A,8,0,0,Deakin RTS Tier 1,
+384,30/08/2023 17:17:06,Rural,Deakin University,1.75622857142857,6.346,69,1.59657142857143,N/A,N/A,10,0,0,-,
+385,30/08/2023 19:18:31,Rural,Deakin University,1.75016,6.616,61.75,1.56264285714286,N/A,N/A,12,0,0,-,
+386,30/08/2023 12:13:21,Rural,Deakin University,1.72692142857143,6.422,65.25,1.56992857142857,N/A,1st,10,0,0,Casper score did not meet UoW hurdle,
+387,30/08/2023 12:31:31,Rural,Deakin University,1.72189285714286,6.6,62.25,1.56535714285714,Tier 2,N/A,10,0,0,-,
+388,30/08/2023 11:24:26,Rural,Deakin University,1.71529285714286,6.313,65.75,1.55935714285714,N/A,4th,10,0,0,-,
+389,02/09/2023 11:34:17,Rural,Deakin University,1.69989285714286,6.74,58.25,1.54535714285714,N/A,N/A,10,0,0,Deakin RTS,
+390,13/09/2023 11:36:53,Rural,Deakin University,1.66352,5.812,65.5,1.48528571428571,N/A,N/A,12,0,0,Deakin RTS selected,
+391,30/08/2023 13:10:36,Rural,Deakin University,1.65982142857143,6.1,63.75,1.50892857142857,N/A,N/A,10,0,3,Deakin RTS applicant Tier 1,
+392,30/08/2023 16:17:53,Rural,Deakin University,1.64689285714286,6,58.75,1.44464285714286,N/A,N/A,14,0,0,-,< Outlier LL
+393,31/08/2023 20:40:19,Rural,Deakin University,1.64371428571429,6.4,58,1.49428571428571,N/A,N/A,10,0,0,Deakin RTS Tier 1,< Outlier LL
+394,30/08/2023 11:19:22,Rural,Griffith University,1.664,6.643,71.5,1.664,N/A,N/A,10,0,0,-,
+395,04/09/2023 16:05:50,Rural,Griffith University,1.66121428571429,6.781,69.25,1.66121428571429,N/A,N/A,2,0,0,-,
+396,04/09/2023 22:07:29,Rural,Griffith University,1.64071428571429,6.9,65.5,1.64071428571429,N/A,N/A,2,0,0,-,
+397,30/08/2023 11:53:57,Rural,Griffith University,1.63321428571429,6.9,64.75,1.63321428571429,N/A,3rd,2,0,0,-,
+398,30/08/2023 15:32:00,Rural,Griffith University,1.632,6.909,64.5,1.632,N/A,N/A,0,0,0,-,
+399,30/08/2023 20:20:41,Rural,Griffith University,1.62542857142857,6.688,67,1.62542857142857,Tier 2,N/A,10,0,0,GAM,
+400,30/08/2023 13:17:44,Rural,Griffith University,1.61214285714286,6.91,62.5,1.61214285714286,N/A,4th,0,0,0,-,
+401,30/08/2023 11:25:33,Rural,Griffith University,1.595,6.895,61,1.595,N/A,2nd,10,0,0,-,
+402,30/08/2023 11:31:10,Rural,Griffith University,1.57285714285714,5.375,80.5,1.57285714285714,N/A,N/A,0,0,0,-,
+403,01/09/2023 09:02:20,Rural,Griffith University,1.57178571428571,6.715,61.25,1.57178571428571,Tier 2,N/A,0,0,0,-,
+404,30/08/2023 12:26:07,Rural,Griffith University,1.56357142857143,6.5,63.5,1.56357142857143,N/A,N/A,8,0,0,-,
+405,30/08/2023 15:40:37,Rural,Griffith University,1.56121428571429,6.851,58.25,1.56121428571429,Tier 1 (DD RMP),N/A,0,0,0,-,
+406,30/08/2023 17:58:36,Rural,Griffith University,1.54585714285714,6.656,59.5,1.54585714285714,Tier 2,N/A,0,0,0,-,
+407,30/08/2023 15:32:53,Rural,Griffith University,1.49407142857143,6.486,56.75,1.49407142857143,N/A,N/A,0,0,0,Only 1 preference. Eligible for bonuses elsewhere though.,< Outlier LL
+408,31/08/2023 00:30:25,Rural,The University of Melbourne,1.7733,7,77.33,1.7733,N/A,4th,0,0,0,-,
+409,30/08/2023 13:07:13,Rural,The University of Melbourne,1.71955714285714,6.6,77.67,1.71955714285714,N/A,N/A,0,0,0,"GAM, Rural Healthcare Experience",
+410,30/08/2023 12:44:23,Rural,The University of Melbourne,1.71,7,71,1.71,N/A,4th,6,0,0,-,
+411,30/08/2023 19:16:32,Rural,The University of Melbourne,1.67815714285714,6.754,71.33,1.67815714285714,N/A,N/A,0,0,0,-,
+412,31/08/2023 00:19:19,Rural,The University of Melbourne,1.66142857142857,6.8,69,1.66142857142857,N/A,N/A,0,0,0,-,
+413,30/08/2023 14:43:23,Rural,The University of Melbourne,1.65285714285714,6.88,67,1.65285714285714,N/A,N/A,10,0,0,-,
+414,10/09/2024 13:06:29,Rural,The University of Melbourne,1.64857142857143,6.85,67,1.64857142857143,N/A,N/A,0,0,0,-,
+415,30/08/2023 21:58:00,Rural,The University of Melbourne,1.644,6.958,65,1.644,N/A,2nd,8,0,0,-,
+416,30/08/2023 22:20:51,Rural,The University of Melbourne,1.62615714285714,6.6,68.33,1.62615714285714,N/A,2nd,8,0,0,GAM,
+417,01/09/2023 01:55:38,Rural,The University of Melbourne,1.62472857142857,6.8,65.33,1.62472857142857,N/A,N/A,12,0,0,-,
+418,30/08/2023 22:53:13,Rural,The University of Melbourne,1.62,6.3,72,1.62,N/A,N/A,4,0,0,-,
+419,30/08/2023 19:21:44,Rural,The University of Melbourne,1.61955714285714,6.25,72.67,1.61955714285714,N/A,4th,8,0,0,-,
+420,30/08/2023 14:50:04,Rural,The University of Melbourne,1.60714285714286,6.7,65,1.60714285714286,N/A,N/A,4,0,0,-,
+421,31/08/2023 10:28:13,Rural,The University of Melbourne,1.59758571428571,6.96,60.33,1.59758571428571,N/A,N/A,10,0,0,Mature aged student,
+422,31/08/2023 19:18:30,Rural,The University of Melbourne,1.5967,6.79,62.67,1.5967,Tier 3,N/A,8,0,0,-,
+423,30/08/2023 13:14:37,Rural,The University of Melbourne,1.56384285714286,6.98,56.67,1.56384285714286,N/A,N/A,0,0,0,-,
+424,30/08/2023 12:41:23,Rural,The University of Melbourne,1.53615714285714,6.6,59.33,1.53615714285714,N/A,4th,8,0,0,-,< Outlier LL
+425,30/08/2023 12:03:45,Rural,The University of Melbourne,1.51514285714286,6.756,55,1.51514285714286,Tier 2,N/A,0,0,3,Applied to/indicated for all relevant Rural Medical Programs.,< Outlier LL
+426,03/09/2023 23:22:13,Rural,The University of Notre Dame Fremantle,1.54444285714286,6.448,62.33,1.54444285714286,N/A,2nd,0,0,0,"MM7, WA resident bonus, First time applicant",
+427,05/09/2023 11:40:08,Rural,The University of Notre Dame Fremantle,1.50044285714286,6,64.33,1.50044285714286,N/A,4th,0,0,0,"MM6, WA resident. First time applicant.",
+428,31/08/2023 20:38:49,Rural,The University of Notre Dame Sydney,1.65098571428571,6.47,72.67,1.65098571428571,N/A,2nd,0,0,0,R,
+429,31/08/2023 20:36:36,Rural,The University of Notre Dame Sydney,1.64142857142857,6.73,68,1.64142857142857,N/A,4th,0,0,0,-,
+430,30/08/2023 12:37:58,Rural,The University of Notre Dame Sydney,1.61514285714286,6.896,63,1.61514285714286,N/A,1st,10,0,0,-,
+431,30/08/2023 12:06:16,Rural,The University of Notre Dame Sydney,1.57384285714286,6.77,60.67,1.57384285714286,N/A,2nd,4,0,0,-,
+432,30/08/2023 12:15:02,Rural,The University of Notre Dame Sydney,1.44955714285714,5.76,62.67,1.44955714285714,N/A,3rd,6,0,0,-,< Outlier LL
+433,30/08/2023 15:10:42,Rural,The University of Queensland (CQ-WB RMP),1.5667,7,56.67,1.5667,Tier 1 (CQ-WB RMP),4th,0,0,0,-,
+434,30/08/2023 23:31:01,Rural,The University of Queensland (CQ-WB RMP),1.55758571428571,6.89,57.33,1.55758571428571,Tier 2,N/A,0,0,0,-,
+435,30/08/2023 23:19:22,Rural,The University of Queensland (CQ-WB RMP),1.54312857142857,6.625,59.67,1.54312857142857,Tier 3,N/A,0,0,0,-,
+436,30/08/2023 21:00:29,Rural,The University of Queensland (CQ-WB RMP),1.5213,6.706,56.33,1.5213,Tier 1 (CQ-WB RMP),N/A,0,0,0,-,
+437,01/09/2023 12:41:56,Rural,The University of Queensland (CQ-WB RMP),1.34571428571429,5.5,56,1.34571428571429,Tier 2,2nd,8,0,0,Gamsas calc my GPA off 4 units only (0.5FTE) as my key degree (3yr full time) was entirely calculated as credits by them. Great portfolio.,< Outlier LL
+438,30/08/2023 14:34:12,Rural,The University of Queensland (DD MP),1.77657142857143,6.906,79,1.77657142857143,Tier 2,N/A,0,0,0,-,
+439,30/08/2023 15:38:24,Rural,The University of Queensland (DD MP),1.62,7,62,1.62,Tier 2,N/A,12,2,0,GAM,
+440,30/08/2023 15:03:12,Rural,The University of Queensland (DD MP),1.57714285714286,6.7,62,1.57714285714286,Tier 1 (DD RMP),2nd,0,0,0,-,
+441,30/08/2023 16:19:21,Rural,The University of Queensland (DD MP),1.57087142857143,6.493,64.33,1.57087142857143,Tier 1 (DD RMP),N/A,0,0,0,-,
+442,20/09/2023 16:08:06,Rural,The University of Queensland (DD MP),1.50687142857143,6.185,62.33,1.50687142857143,Tier 2,1st,0,0,0,-,
+443,30/08/2023 14:44:20,Rural,The University of Queensland (DD MP),1.50044285714286,6,64.33,1.50044285714286,Tier 1 (DD RMP),N/A,0,0,0,-,
+444,31/08/2023 17:30:00,Rural,The University of Queensland (DD MP),1.48901428571429,5.99,63.33,1.48901428571429,Tier 2,N/A,8,0,0,-,
+445,09/09/2023 21:46:33,Rural,The University of Queensland (DD MP),1.45044285714286,6,59.33,1.45044285714286,N/A,3rd,6,0,0,-,< Outlier LL
+446,30/08/2023 15:28:32,Rural,The University of Queensland (Greater Brisbane),1.7467,7,74.67,1.7467,N/A,N/A,2,0,0,Tier 2 rurality,
+447,30/08/2023 14:48:24,Rural,The University of Queensland (Greater Brisbane),1.64158571428571,6.988,64.33,1.64158571428571,N/A,N/A,4,0,0,-,
+448,30/08/2023 14:48:10,Rural,The University of Queensland (Greater Brisbane),1.6367,7,63.67,1.6367,N/A,N/A,0,0,0,-,
+449,01/09/2023 19:54:50,Rural,The University of Queensland (Greater Brisbane),1.6167,6.51,68.67,1.6167,N/A,N/A,0,0,0,-,
+450,30/08/2023 14:28:36,Rural,The University of Western Australia,1.74,7,74,1.74,N/A,2nd,0,2,0,-,
+451,30/08/2023 14:24:00,Rural,The University of Western Australia,1.69192857142857,6.646,74.25,1.69192857142857,N/A,3rd,14,0,0,"WA Resident, Deakin RTS",
+452,30/08/2023 17:22:22,Rural,The University of Western Australia,1.61,7,61,1.61,N/A,1st,10,0,0,"WA resident, MM5",
+453,30/08/2023 18:03:54,Rural,The University of Western Australia,1.56642857142857,6.8,59.5,1.56642857142857,N/A,3rd,8,0,0,-,
+454,31/08/2023 11:21:49,Rural,The University of Western Australia,1.53892857142857,6.66,58.75,1.53892857142857,N/A,N/A,0,0,0,MM3,
+455,30/10/2023 23:03:07,Rural,The University of Western Australia,1.53892857142857,6.66,58.75,1.53892857142857,N/A,N/A,0,0,0,Rural MM3,
+456,30/08/2023 17:05:20,Rural,The University of Wollongong,1.50071428571429,5.5,71.5,1.50071428571429,N/A,2nd,0,0,0,Strong portfolio (I think),
+457,21/09/2023 07:53:18,Rural,The University of Wollongong,1.38071428571429,5.5,59.5,1.38071428571429,N/A,3rd,0,0,0,"Average portfolio, team sports, NDIS work, volunteering",
+458,30/08/2023 15:47:03,Rural,The University of Wollongong,1.30821428571429,5.5,52.25,1.30821428571429,N/A,4th,10,0,0,"rural, also studies cert IV woolclassing",< Outlier LL
+459,,,,,,,,,,,,,,

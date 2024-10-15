@@ -1,0 +1,528 @@
+Timestamp	Rurality	GAMSAT S1 Score	GAMSAT S2 Score	GAMSAT S3 Score	UW GAMSAT	W GAMSAT	Deakin Bonus	ANU Bonus	MQ Bonus (GPA)	Notes	Interview?	Interviewing Uni	GPA	GAMSAT	1st Pref Uni	GPA	GAMSAT	2nd Pref Uni	GPA	GAMSAT	3rd Pref Uni	GPA	GAMSAT	4th Pref Uni	GPA	GAMSAT	5th Pref Uni	GPA	GAMSAT	6th Pref Uni	GPA	GAMSAT	Duplicates?
+8/30/2022 18:18:49	Non-Rural	68	88	78	78	78	0	0	0	Non-WA resident	Yes	The University of Western Australia	6.274	78	Australian National University	6.118	78																FALSE
+8/30/2022 18:53:15	Non-Rural	67	77	78	74	75	2	4	0	WA Resident, Masters by Coursework and Research complete	Yes	The University of Western Australia	6.6	75	The University of Melbourne	5.5	74																FALSE
+8/30/2022 18:53:52	Non-Rural	67	78	93	79.33333333	82.75	0	0	0		Yes	The University of Western Australia	6.719	82.75																			FALSE
+8/30/2022 20:09:20	Non-Rural	53	76	84	71	74.25	0	0	0		Yes	The University of Western Australia	6.95	74.25																			FALSE
+8/30/2022 20:46:38	Non-Rural	54	62	72	62.66666667	65	0	0	0		Yes	The University of Western Australia	7	65	Griffith University	7	65	The University of Queensland	7	62.66666667	The University of Melbourne	7	62.66666667	The University of Notre Dame Sydney	7	62.66666667	Deakin University	7	65				FALSE
+8/30/2022 20:55:29	Non-Rural	75	68	76	73	73.75	0	0	0		Yes	The University of Western Australia	6.826	73.75																			FALSE
+8/30/2022 20:59:07	Non-Rural	67	72	76	71.66666667	72.75	2	0	0		Yes	The University of Western Australia	6.47	72.75	The University of Melbourne	6.47	71.66666667	The University of Notre Dame Sydney	6.46	71.66666667	Deakin University	6.47	72.75	The University of Notre Dame Fremantle	6.46	71.66666667							FALSE
+8/30/2022 22:12:24	Non-Rural	59	74	65	66	65.75	0	0	0		Yes	The University of Western Australia	6.969	65.75	The University of Melbourne	6.969	66	Deakin University	6.99	65.75													FALSE
+8/30/2022 22:32:22	Non-Rural	65	60	71	65.33333333	66.75	0	0	0		Yes	The University of Western Australia	6.9063	66.75	Deakin University	6.9	66.75	The University of Melbourne	6.9063	65.33333333	The University of Wollongong	5.5	66.75										FALSE
+8/30/2022 22:43:45	Rural	77	64	77	72.66666667	73.75	8	0	0	WA resident	Yes	The University of Western Australia	6.76	73.75																			FALSE
+8/30/2022 23:50:34	Non-Rural	63	62	79	68	70.75	0	0	0	WA resident	Yes	The University of Western Australia	6.97	70.75																			FALSE
+8/31/2022 0:28:49	Non-Rural	58	72	67	65.66666667	66	2	0	0		Yes	The University of Western Australia	7	66	The University of Queensland	7	65.66666667	Griffith University	7	66	The University of Melbourne	7	65.66666667	Deakin University	7	66	Australian National University	7	66				FALSE
+8/31/2022 1:31:25	Non-Rural	62	75	76	71	72.25	0	0	0		Yes	The University of Western Australia	6.41	72.25	The University of Melbourne	6.41	71	Deakin University	6.41	72.25													FALSE
+8/31/2022 7:51:27	Rural	61	60	62	61	61.25	8	0	5	WA resident	Yes	The University of Western Australia	5.893	61.25																			FALSE
+8/31/2022 9:43:15	Non-Rural	70	74	64	69.33333333	68	0	0	0		Yes	The University of Western Australia	6.917	68	The University of Melbourne	6.913	69.33333333	Deakin University	6.917	68	Griffith University	6.896	68										FALSE
+8/31/2022 9:45:48	Non-Rural	77	72	93	80.66666667	83.75	0	0	0		Yes	The University of Western Australia	6.2	83.75	The University of Notre Dame Fremantle	6.2	80.66666667																FALSE
+8/31/2022 11:03:44	Non-Rural	62	68	67	65.66666667	66	0	2	0		Yes	The University of Western Australia	6.95	66	The University of Melbourne	6.94	65.66666667																FALSE
+8/31/2022 11:06:10	Non-Rural	61	65	77	67.66666667	70	0	0	0	Non-WA resident	Yes	The University of Western Australia	6.854	70	Griffith University	6.465	70	Deakin University	6.875	70	The University of Melbourne	6.875	67.66666667	Australian National University	6.847	70	The University of Queensland	6.857	67.66666667				FALSE
+8/31/2022 11:09:30	Non-Rural	65	72	65	67.33333333	66.75	0	0	0	WA resident	Yes	The University of Western Australia	7	66.75	The University of Notre Dame Fremantle	7	67.33333333																FALSE
+8/31/2022 11:12:59	Rural	63	57	62	60.66666667	61	0	0	0		Yes	Australian National University	6.1	61																			FALSE
+8/31/2022 11:15:34	Non-Rural	61	69	63	64.33333333	64	2	0	0		No				The University of Wollongong	5.5	64	The University of Notre Dame Sydney	6.85	64.33333333	The University of Queensland	6.76	64.33333333	Deakin University	6.89	64	The University of Notre Dame Fremantle	6.85	64.33333333	Australian National University	6.85	64	
+8/31/2022 11:15:35	Non-Rural	59	68	77	68	70.25	0	0	0		No				Griffith University	6.619	70.25																
+8/31/2022 11:18:43	Non-Rural	62	68	82	70.66666667	73.5	2	2	0		Yes	Australian National University	6.854	73.5	The University of Melbourne	6.555	70.66666667																FALSE
+8/31/2022 11:19:03	Non-Rural	65	69	57	63.66666667	62	2	2	0	Above average portfolio	No				Australian National University	6.792	62	The University of Notre Dame Sydney	6.792	63.66666667	Griffith University	6.73	62	Deakin University	6.615	62	The University of Notre Dame Fremantle	6.792	63.66666667				
+8/31/2022 11:19:56	Non-Rural	69	63	75	69	70.5	4	0	0		No				The University of Melbourne	6.413	69	Deakin University	6.427	70.5	Australian National University	6.427	70.5	Griffith University	6.396	70.5	The University of Western Australia	6.396	70.5				
+8/31/2022 11:19:58	Non-Rural	81	73	71	75	74	2	2	0		Yes	Deakin University	6.85	74																			FALSE
+8/31/2022 11:20:57	Non-Rural	61	69	76	68.66666667	70.5	0	2	0		No				The University of Queensland	6	68.66666667	Australian National University	6	70.5	Griffith University	6	70.5										
+8/31/2022 11:21:40	Non-Rural	60	70	61	63.66666667	63	0	0	0		No				The University of Notre Dame Sydney	5.912	63.66666667	The University of Wollongong	5.5	63	The University of Queensland	5.2	63.66666667	The University of Melbourne	5.5	63.66666667	Deakin University	5.6	63	The University of Notre Dame Fremantle	5.9	63.66666667	
+8/31/2022 11:23:45	Non-Rural	55	68	65	62.66666667	63.25	2	0	0	average portfolio	No				Griffith University	6.958	63.25	The University of Melbourne	6.958	62.66666667	Australian National University	6.948	63.25	Deakin University	6.948	63.25	The University of Notre Dame Sydney	6.948	62.66666667	The University of Notre Dame Fremantle	6.948	62.66666667	
+8/31/2022 11:25:43	Non-Rural	68	73	66	69	68.25	0	2	0		Yes	Australian National University	6.979	68.25																			FALSE
+8/31/2022 11:26:04	Rural	62	71	52	61.66666667	59.25	6	0	0	GAM	Yes	Griffith University	6.93	59.25																			FALSE
+8/31/2022 11:27:03	Non-Rural	65	72	76	71	72.25	0	0	0		No				The University of Melbourne	6.5	71	Deakin University	6.5	72.25	The University of Notre Dame Sydney	6.5	71	Australian National University	6.5	72.25	The University of Notre Dame Fremantle	6.5	71				
+8/31/2022 11:27:20	Non-Rural	67	74	75	72	72.75	0	0	0	portfolio strength (average)	Yes	Griffith University	6.65	72.75	The University of Wollongong	5.5	72.75	The University of Notre Dame Sydney	6.533	72	Australian National University	6.533	72.75	The University of Queensland	6.388	72	The University of Melbourne	6.533	72				FALSE
+8/31/2022 11:27:29	Non-Rural	68	75	70	71	70.75	0	0	0		Yes	Australian National University	7	70.75																			FALSE
+8/31/2022 11:28:49	Rural	67	68	53	62.66666667	60.25	0	0	0		Yes	Griffith University	6.813	60.25																			FALSE
+8/31/2022 11:28:51	Non-Rural	65	67	69	67	67.5	0	0	0	GAM, Average portfolio	No				The University of Melbourne	6.75	67																
+8/31/2022 11:29:02	Non-Rural	67	72	80	73	74.75	6	0	0		Yes	Deakin University	7	74.75																			FALSE
+8/31/2022 11:29:48	Rural	67	62	65	64.66666667	64.75	6	2	0		Yes	Griffith University	6.375	64.75																			FALSE
+8/31/2022 11:30:30	Non-Rural	67	62	91	73.33333333	77.75	0	0	0		Yes	The University of Queensland	6.813	73.33333333																			FALSE
+8/31/2022 11:31:14	Rural	66	62	63	63.66666667	63.5	2	0	0	Central Queensland-Wide bay region MMI	Yes	The University of Queensland	6.474	63.66666667																			FALSE
+8/31/2022 11:31:26	Rural	68	93	57	72.66666667	68.75	2	0	0		Yes	The University of Queensland	6.885	72.66666667																			FALSE
+8/31/2022 11:31:35	Non-Rural	55	64	69	62.66666667	64.25	2	0	0	I assumed my portfolio was good to at least get an interview offer.	No				The University of Wollongong	5.5	64.25	The University of Notre Dame Fremantle	6.626	62.66666667	The University of Notre Dame Sydney	6.626	62.66666667	Griffith University	6.533	64.25	Deakin University	6.626	64.25				
+8/31/2022 11:31:46	Non-Rural	66	73	81	73.33333333	75.25	4	2	0		Yes	Deakin University	6.46	75.25																			FALSE
+8/31/2022 11:31:55	Non-Rural	60	66	78	68	70.5	0	0	0		Yes	Griffith University	6.84	70.5	Australian National University	6.84	70.5																FALSE
+8/31/2022 11:31:56	Non-Rural	68	64	81	71	73.5	0	0	0		Yes	The University of Queensland	6.96	71																			FALSE
+8/31/2022 11:32:03	Non-Rural	65	71	65	67	66.5	0	0	0	GAM	No				The University of Melbourne	6.867	67	The University of Queensland	6.756	67	Australian National University	6.896	66.5	The University of Western Australia	6.813	66.5	Deakin University	6.889	66.5	Griffith University	6.875	66.5	
+8/31/2022 11:32:32	Non-Rural	63	69	59	63.66666667	62.5	2	0	0		No				The University of Queensland	6.5	63.66666667	Griffith University	6.4	62.5	The University of Notre Dame Fremantle	6.79	63.66666667	Deakin University	6.82	62.5	The University of Notre Dame Fremantle	6.79	63.66666667				
+8/31/2022 11:32:44	Rural	67	75	60	67.33333333	65.5	12	0	0		Yes	Deakin University	5.812	65.5																			FALSE
+8/31/2022 11:32:51	Non-Rural	69	71	73	71	71.5	2	0	0		Yes	Griffith University	6.965	71.5																			FALSE
+8/31/2022 11:32:54	Non-Rural	60	57	77	64.66666667	67.75	0	0	0		No				The University of Melbourne	6.592	64.66666667	Deakin University	6.771	67.75	The University of Western Australia	6.498	67.75	Griffith University	6.397	67.75	The University of Notre Dame Sydney	6.75	64.66666667	Macquarie University	6.591	67.75	
+8/31/2022 11:32:54	Non-Rural	67	73	59	66.33333333	64.5	0	0	0		No				The University of Melbourne	6.7	66.33333333	Deakin University	6.7	64.5													
+8/31/2022 11:34:11	Non-Rural	62	59	77	66	68.75	4	0	0	Strong portfolio (imo)	Yes	Deakin University	6.688	68.75	The University of Notre Dame Sydney	6.375	66																FALSE
+8/31/2022 11:34:20	Non-Rural	64	69	91	74.66666667	78.75	0	0	0	forgor GAM	Yes	The University of Queensland	6.42	74.66666667	The University of Melbourne	6.245	74.66666667																FALSE
+8/31/2022 11:35:01	Non-Rural	54	70	66	63.33333333	64	0	0	0		No				The University of Notre Dame Sydney	6.875	63.33333333	The University of Notre Dame Fremantle	6.875	63.33333333	Deakin University	6.896	64				Australian National University	6.875	64	The University of Melbourne	6.846	63.33333333	
+8/31/2022 11:35:51	Non-Rural	64	81	67	70.66666667	69.75	0	0	0		Yes	Griffith University	6.854	69.75																			FALSE
+8/31/2022 11:36:45	Non-Rural	64	64	68	65.33333333	66	0	0	0		No				The University of Melbourne	6.75	65.33333333	Australian National University	6.771	66	The University of Queensland	6.792	65.33333333	The University of Notre Dame Sydney	6.771	65.33333333	Griffith University	6.792	66	Deakin University	6.75	66	
+8/31/2022 11:37:48	Non-Rural	67	59	76	67.33333333	69.5	0	0	0		Yes	The University of Queensland	6.88	67.33333333	The University of Melbourne	6.88	67.33333333	Deakin University	6.88	69.5													FALSE
+8/31/2022 11:38:40	Non-Rural	71	78	65	71.33333333	69.75	2	0	0	Average portfolio	Yes	The University of Queensland	7	71.33333333	The University of Melbourne	6.58	71.33333333	Deakin University	6.79	69.75	The University of Notre Dame Sydney	6.79	71.33333333										FALSE
+8/31/2022 11:39:01	Non-Rural	60	69	73	67.33333333	68.75	0	2	0		No				The University of Western Australia	6.281	68.75	The University of Melbourne	6.44	67.33333333	Australian National University	6.49	68.75	The University of Notre Dame Sydney	6.427	67.33333333	The University of Notre Dame Fremantle	6.427	67.33333333	Macquarie University	6.315	68.75	
+8/31/2022 11:39:44	Non-Rural	75	76	72	74.33333333	73.75	0	2	0		Yes	The University of Queensland	7	74.33333333																			FALSE
+8/31/2022 11:40:42	Rural	59	54	64	59	60.25	6	0	0		Yes	Deakin University	6.365	60.25																			FALSE
+8/31/2022 11:41:04	Non-Rural	78	80	58	72	68.5	2	4	0	no idea what a strong portfolio looks like, but think it was ok?	Yes	The University of Wollongong	5.5	68.5																			FALSE
+8/31/2022 11:41:10	Non-Rural	58	76	55	63	61	0	2	0	
+Top quartile CASPER, above average-strong diverse portfolio spread over 12 years of experience.
+No				The University of Wollongong	5.5	61	The University of Melbourne	6.921	63	Australian National University	6.91	61	The University of Queensland	6.781	63	Griffith University	6.903	61				
+8/31/2022 11:41:24	Non-Rural	62	73	68	67.66666667	67.75	0	2	0		Yes	The University of Queensland	7	67.66666667	The University of Melbourne	6.313	67.66666667																FALSE
+8/31/2022 11:41:44	Non-Rural	65	71	63	66.33333333	65.5	0	0	0	Above average portfolio	Yes	The University of Notre Dame Sydney	6.755	66.33333333																			FALSE
+8/31/2022 11:41:46	Rural	74	68	51	64.33333333	61	14	0	0		Yes	Griffith University	6.688	61																			FALSE
+8/31/2022 11:41:48	Non-Rural	68	65	73	68.66666667	69.75	0	0	0		Yes	Griffith University	6.938	69.75																			FALSE
+8/31/2022 11:42:47	Non-Rural	62	74	67	67.66666667	67.5	0	0	0		Yes	The University of Notre Dame Sydney	6.659	67.66666667																			FALSE
+8/31/2022 11:42:51	Non-Rural	69	70	68	69	68.75	6	2	0		No				Deakin University	6.396	68.75	The University of Melbourne	6.35	69	The University of Queensland	6	69	Griffith University	6.33	68.75	The University of Notre Dame Fremantle	6.396	69	The University of Notre Dame Sydney	6.396	69	
+8/31/2022 11:43:13	Non-Rural	65	76	77	72.66666667	73.75	0	2	0		Yes	The University of Queensland	7	72.66666667																			FALSE
+8/31/2022 11:43:17	Non-Rural	63	64	99	75.33333333	81.25	0	0	0		Yes	The University of Queensland	6.72	75.33333333																			FALSE
+8/31/2022 11:43:57	Non-Rural	60	75	79	71.33333333	73.25	2	0	0		Yes	Griffith University	6.917	73.25																			FALSE
+8/31/2022 11:43:59	Non-Rural	67	67	74	69.33333333	70.5	0	0	0		Yes	The University of Notre Dame Sydney	6.73	69.33333333																			FALSE
+8/31/2022 11:44:18	Non-Rural	68	82	70	73.33333333	72.5	2	0	0		Yes	The University of Queensland	6.6	73.33333333	The University of Melbourne	6.5	73.33333333	Deakin University	6.5	72.5													FALSE
+8/31/2022 11:44:25	Non-Rural	73	67	77	72.33333333	73.5	0	0	0	Strong portfolio	Yes	The University of Notre Dame Sydney	6.5	72.33333333																			FALSE
+8/31/2022 11:44:31	Non-Rural	60	79	67	68.66666667	68.25	2	0	0		Yes	Macquarie University	6.688	68.25	The University of Melbourne	6.5	68.66666667	Deakin University	6.5	68.25													FALSE
+8/31/2022 11:46:18	Non-Rural	62	80	62	68	66.5	2	0	0	strong portfolio, second bottom CASPER	Yes	The University of Wollongong	5.5	66.5																			FALSE
+8/31/2022 11:47:10	Non-Rural	70	58	72	66.66666667	68	4	2	0		Yes	The University of Notre Dame Fremantle	6.89	66.66666667	Griffith University	6.84	68																FALSE
+8/31/2022 11:47:22	Rural	60	60	60	60	60	0	0	0	Very strong portfolio of running volunteer programs and publications	Yes	The University of Notre Dame Fremantle	6	60																			FALSE
+8/31/2022 11:47:29	Non-Rural	62	64	75	67	69	0	2	0	Portfolio strength should be at least above average	Yes	The University of Notre Dame Sydney	6.82	67																			FALSE
+8/31/2022 11:48:04	Rural	61	57	59	59	59	8	0	5		Yes	The University of Wollongong	5.5	59																			FALSE
+8/31/2022 11:48:11	Non-Rural	62	74	70	68.66666667	69	0	0	3		Yes	Macquarie University	6.73	69																			FALSE
+8/31/2022 11:48:42	Non-Rural	66	75	73	71.33333333	71.75	0	0	3	Above average portfolio.	Yes	The University of Notre Dame Sydney	6.87	71.33333333																			FALSE
+8/31/2022 11:48:50	Non-Rural	62	69	77	69.33333333	71.25	0	0	0		Yes	The University of Queensland	6.938	69.33333333	The University of Melbourne	6.854	69.33333333	Deakin University	6.861	71.25													FALSE
+8/31/2022 11:49:32	Non-Rural	64	81	64	69.66666667	68.25	0	2	0		Yes	The University of Queensland	7	69.66666667																			FALSE
+8/31/2022 11:49:56	Non-Rural	64	63	74	67	68.75	0	2	0	
+Student athlete, 2x state championship winner, academic scholar, captain for both sports, chair of fundraising committee, John’s Hopkins medical poster presentation, scuba diver, 1st gen immigrant, rural overseas experiences
+Yes	The University of Notre Dame Sydney	6.1	67																			FALSE
+8/31/2022 11:50:26	Non-Rural	60	62	66	62.66666667	63.5	0	2	0		No				The University of Queensland	7	62.66666667	The University of Notre Dame Sydney	6.427	62.66666667	The University of Notre Dame Fremantle	6.427	62.66666667				Griffith University	6.135	63.5	Australian National University	6.427	63.5	
+8/31/2022 11:50:37	Non-Rural	56	81	62	66.33333333	65.25	0	0	0		No				Griffith University	6.5	65.25																
+8/31/2022 11:50:46	Non-Rural	59	62	76	65.66666667	68.25	0	2	0	GAM	Yes	The University of Queensland	7	65.66666667	The University of Notre Dame Sydney	6.96	65.66666667	The University of Melbourne	6.92	65.66666667	The University of Queensland	7	65.66666667	The University of Notre Dame Fremantle	6.96	65.66666667	Australian National University	6.96	68.25	The University of Wollongong	5.5	68.25	FALSE
+8/31/2022 11:52:06	Non-Rural	55	73	74	67.33333333	69	0	0	0		Yes	Macquarie University	6.917	69	The University of Notre Dame Sydney	6.917	67.33333333	Macquarie University	6.917	69													FALSE
+8/31/2022 11:52:14	Rural	60	60	65	61.66666667	62.5	8	0	3	NSB	Yes	Griffith University	6.167	62.5																			FALSE
+8/31/2022 11:53:54	Non-Rural	64	70	76	70	71.5	2	0	0		Yes	The University of Notre Dame Sydney	6.86	70																			FALSE
+8/31/2022 11:54:07	Rural	63	70	56	63	61.25	12	0	0		Yes	Deakin University	6.5	61.25																			FALSE
+8/31/2022 11:54:52	Non-Rural	62	61	61	61.33333333	61.25	0	0	0	above average portfolio	No				The University of Notre Dame Sydney	6.4	61.33333333																
+8/31/2022 11:56:27	Non-Rural	71	62	76	69.66666667	71.25	2	0	0		No				The University of Notre Dame Sydney	6.479	69.66666667	Deakin University	6.479	71.25	Australian National University	6.479	71.25	The University of Notre Dame Fremantle	6.479	69.66666667	Griffith University	6.417	71.25	The University of Western Australia	6.354	71.25	
+8/31/2022 11:56:31	Non-Rural	69	67	73	69.66666667	70.5	0	0	0		Yes	The University of Queensland	7	69.66666667	The University of Melbourne	6.775	69.66666667	The University of Notre Dame Sydney	6.789	69.66666667													FALSE
+8/31/2022 11:57:12	Non-Rural	66	75	74	71.66666667	72.25	0	0	0		Yes	The University of Wollongong	5.5	72.25																			FALSE
+8/31/2022 11:57:17	Non-Rural	61	85	67	71	70	0	0	0	Above average/ strong portfolio (UOW gave it 4/5 last year)	Yes	The University of Notre Dame Fremantle	6.3125	71																			FALSE
+8/31/2022 11:58:08	Non-Rural	57	68	63	62.66666667	62.75	6	0	0	WA Resident, Strong Portfolio.	Yes	The University of Notre Dame Fremantle	6.481	62.66666667																			FALSE
+8/31/2022 11:58:36	Non-Rural	58	78	69	68.33333333	68.5	0	0	0		Yes	The University of Queensland	6.888	68.33333333																			FALSE
+8/31/2022 11:59:41	Non-Rural	66	70	68	68	68	2	0	0		Yes	The University of Notre Dame Sydney	6.5	68																			FALSE
+8/31/2022 11:59:45	Non-Rural	73	70	67	70	69.25	0	0	0		Yes	The University of Queensland	6.85714	70																			FALSE
+8/31/2022 12:01:37	Rural	63	67	67	65.66666667	66	0	2	0		Yes	The University of Queensland	7	65.66666667																			FALSE
+8/31/2022 12:01:56	Non-Rural	63	75	69	69	69	2	0	0		Yes	The University of Queensland	6.985	69	The University of Melbourne	6.985	69																FALSE
+8/31/2022 12:01:59	Non-Rural	69	80	65	71.33333333	69.75	0	0	0	Decent portfolio	Yes	The University of Notre Dame Sydney	6.48	71.33333333	The University of Queensland	6.5	71.33333333	Griffith University	6.3	69.75													FALSE
+8/31/2022 12:02:54	Non-Rural	59	71	61	63.66666667	63	2	0	0	very strong portfolio	Yes	The University of Notre Dame Sydney	6.757	63.66666667																			FALSE
+8/31/2022 12:03:03	Non-Rural	65	61	74	66.66666667	68.5	0	0	0		No				Macquarie University	6.437	68.5																
+8/31/2022 12:03:51	Non-Rural	60	70	59	63	62	0	0	0	-	Yes	The University of Notre Dame Sydney	6.59	63																			FALSE
+8/31/2022 12:04:04	Non-Rural	65	64	68	65.66666667	66.25	0	0	0	WA resident.	Yes	The University of Notre Dame Fremantle	6.7	65.66666667																			FALSE
+8/31/2022 12:04:27	Non-Rural	60	66	78	68	70.5	0	0	0		Yes	The University of Notre Dame Sydney	6.868	68																			FALSE
+8/31/2022 12:04:41	Non-Rural	74	74	69	72.33333333	71.5	2	2	0		Yes	The University of Queensland	7	72.33333333																			FALSE
+8/31/2022 12:05:07	Non-Rural	65	89	62	72	69.5	6	0	0		Yes	Deakin University	6.615	69.5	The University of Melbourne	6.569	72	Griffith University	6.479	69.5	The University of Queensland	6.075	72										FALSE
+8/31/2022 12:05:13	Non-Rural	64	56	71	63.66666667	65.5	6	0	0		Yes	Deakin University	6.71	65.5																			FALSE
+8/31/2022 12:05:56	Rural	72	63	81	72	74.25	4	0	0	Above average portfolio	Yes	The University of Wollongong	5.5	74.25																			FALSE
+8/31/2022 12:07:42	Non-Rural	66	84	62	70.66666667	68.5	2	2	0		Yes	Deakin University	7	68.5	The University of Melbourne	6.604	70.66666667																FALSE
+8/31/2022 12:08:23	Non-Rural	70	68	54	64	61.5	0	2	0		No				The University of Melbourne	6.575	64	Deakin University	6.583	61.5	The University of Notre Dame Sydney	6.583	64	The University of Notre Dame Fremantle	6.583	64	Australian National University	6.572	61.5				
+8/31/2022 12:08:53	Rural	71	78	57	68.66666667	65.75	0	0	0	Completing Bachelor of Occupational Therapy at UQ	Yes	The University of Queensland	5.9	68.66666667																			FALSE
+8/31/2022 12:09:58	Non-Rural	74	83	80	79	79.25	4	2	0		Yes	The University of Notre Dame Sydney	5.383	79	The University of Queensland	5.625	79	Deakin University	5.539	79.25	Griffith University	5.278	79.25	Australian National University	5.676	79.25							FALSE
+8/31/2022 12:10:27	Non-Rural	82	72	71	75	74	2	0	0		Yes	Deakin University	6.99	74																			FALSE
+8/31/2022 12:11:35	Non-Rural	60	69	67	65.33333333	65.75	0	0	0	BHMS(A) grad	Yes	Macquarie University	6.931	65.75	Australian National University	6.931	65.75	The University of Melbourne	6.917	65.33333333	Deakin University	6.931	65.75	Griffith University	6.931	65.75	The University of Western Australia	6.931	65.75				FALSE
+8/31/2022 12:11:58	Non-Rural	63	78	68	69.66666667	69.25	0	0	0		Yes	The University of Queensland	7	69.66666667																			FALSE
+8/31/2022 12:15:09	Non-Rural	63	69	74	68.66666667	70	0	2	0		Yes	The University of Queensland	6.755	68.66666667																			FALSE
+8/31/2022 12:15:27	Rural	69	79	66	71.33333333	70	10	0	0	RTS	Yes	Deakin University	5.17	70																			FALSE
+8/31/2022 12:18:06	Non-Rural	50	85	50	61.66666667	58.75	0	0	0	Strong Portfolio	Yes	The University of Notre Dame Sydney	6.771	61.66666667	The University of Wollongong	5.5	58.75	The University of Melbourne	6.77	61.66666667	The University of Notre Dame Sydney	6.771	61.66666667	The University of Notre Dame Fremantle	6.771	61.66666667	Australian National University	6.78	58.75				FALSE
+8/31/2022 12:18:10	Non-Rural	59	68	74	67	68.75	2	0	0		Yes	Deakin University	6.943	68.75	The University of Melbourne	6.932	67	The University of Queensland	6.871	67	The University of Western Australia	6.739	68.75										FALSE
+8/31/2022 12:18:17	Non-Rural	61	64	86	70.33333333	74.25	0	2	0		Yes	Australian National University	6.528	74.25																			FALSE
+8/31/2022 12:18:26	Non-Rural	55	56	82	64.33333333	68.75	2	0	0		No				Macquarie University	6.6	68.75																
+8/31/2022 12:18:26	Non-Rural	55	56	82	64.33333333	68.75	2	0	0		No				Macquarie University	6.6	68.75																
+8/31/2022 12:18:31	Non-Rural	63	61	88	70.66666667	75	0	0	0		Yes	The University of Queensland	6.75	70.66666667	The University of Melbourne	6.629	70.66666667																FALSE
+8/31/2022 12:18:41	Non-Rural	69	67	68	68	68	0	0	0		Yes	The University of Wollongong	5.5	68	Australian National University	6.3	68	The University of Notre Dame Sydney	6.3	68													FALSE
+8/31/2022 12:19:34	Non-Rural	61	79	64	68	67	4	0	0	WA resident, above average portfolio	Yes	The University of Notre Dame Sydney	6.597	68																			FALSE
+8/31/2022 12:20:18	Non-Rural	56	64	78	66	69	0	0	0	Non-WA resident	Yes	The University of Western Australia	7	69	The University of Melbourne	7	66	Deakin University	7	69	The University of Queensland	7	66	Australian National University	7	69							FALSE
+8/31/2022 12:20:25	Non-Rural	59	78	59	65.33333333	63.75	0	0	0		Yes	The University of Notre Dame Fremantle	6.98	65.33333333																			FALSE
+8/31/2022 12:21:03	Non-Rural	60	60	83	67.66666667	71.5	0	0	0		Yes	Griffith University	6.53	71.5	Australian National University	6.45	71.5	The University of Queensland	6.55	67.66666667													FALSE
+8/31/2022 12:21:19	Non-Rural	64	83	71	72.66666667	72.25	0	0	0		Yes	The University of Wollongong	5.5	72.25	The University of Notre Dame Sydney	5.56	72.66666667	The University of Wollongong	5.5	72.25													FALSE
+8/31/2022 12:21:39	Non-Rural	71	65	95	77	81.5	0	0	0		Yes	The University of Queensland	7	77																			FALSE
+8/31/2022 12:22:08	Rural	67	73	60	66.66666667	65	0	0	0	average portfolio strength	Yes	The University of Notre Dame Sydney	6.5	66.66666667																			FALSE
+8/31/2022 12:23:07	Non-Rural	62	73	69	68	68.25	4	0	0		Yes	Deakin University	6.885	68.25																			FALSE
+8/31/2022 12:23:18	Rural	63	53	51	55.66666667	54.5	0	0	0		Yes	Griffith University	6.3	54.5																			FALSE
+8/31/2022 12:23:42	Non-Rural	82	68	84	78	79.5	0	2	0		Yes	The University of Melbourne	6.586	78																			FALSE
+8/31/2022 12:24:07	Non-Rural	68	74	88	76.66666667	79.5	2	0	0		Yes	The University of Melbourne	6.917	76.66666667																			FALSE
+8/31/2022 12:25:35	Non-Rural	74	71	68	71	70.25	2	0	0		Yes	The University of Wollongong	5.5	70.25																			FALSE
+8/31/2022 12:27:16	Non-Rural	67	64	95	75.33333333	80.25	2	0	0		Yes	The University of Melbourne	6.708	75.33333333																			FALSE
+8/31/2022 12:27:34	Non-Rural	68	72	86	75.33333333	78	0	0	0		Yes	The University of Melbourne	6.495	75.33333333																			FALSE
+8/31/2022 12:27:48	Non-Rural	57	62	60	59.66666667	59.75	0	4	0	
+Strong portfolio, especially research - PhD, Postdoc Cambridge, Fulbright Fellowship Harvard
+Yes	The University of Notre Dame Sydney	6.906	59.66666667	The University of Melbourne	6.888	59.66666667																FALSE
+8/31/2022 12:27:54	Non-Rural	62	76	95	77.66666667	82	0	0	0	GPA unconfirmed	Yes	The University of Melbourne	6.8	77.66666667																			FALSE
+8/31/2022 12:28:00	Non-Rural	73	86	68	75.66666667	73.75	2	2	0		Yes	The University of Melbourne	6.913	75.66666667																			FALSE
+8/31/2022 12:28:18	Non-Rural	73	67	86	75.33333333	78	2	0	0		Yes	The University of Melbourne	6.978	75.33333333																			FALSE
+8/31/2022 12:28:23	Rural	77	71	67	71.66666667	70.5	8	0	0	Average portfolio (PhD, volunteer work)	Yes	The University of Melbourne	6.398	71.66666667																			FALSE
+8/31/2022 12:28:24	Non-Rural	71	58	95	74.66666667	79.75	0	0	0		Yes	The University of Melbourne	6.877	74.66666667																			FALSE
+8/31/2022 12:29:19	Non-Rural	69	70	78	72.33333333	73.75	0	0	0		No				The University of Queensland	6.57	72.33333333	Griffith University	6.57	73.75													
+8/31/2022 12:29:29	Non-Rural	69	77	89	78.33333333	81	0	0	0		Yes	The University of Melbourne	6.854	78.33333333																			FALSE
+8/31/2022 12:29:49	Non-Rural	69	63	79	70.33333333	72.5	6	0	0	Portfolio average.	Yes	Deakin University	6.573	72.5	The University of Notre Dame Sydney	6.313	70.33333333																FALSE
+8/31/2022 12:30:06	Non-Rural	66	75	73	71.33333333	71.75	6	0	0	None	Yes	The University of Melbourne	6.96	71.33333333																			FALSE
+8/31/2022 12:31:02	Non-Rural	65	61	76	67.33333333	69.5	0	0	0	WA resident, decent portfolio with Fraser's Portfolio Course	No				The University of Notre Dame Fremantle	6.679	67.33333333	The University of Western Australia	6.804	69.5	The University of Notre Dame Sydney	6.679	67.33333333	Deakin University	6.644	69.5	The University of Melbourne	6.653	67.33333333	Griffith University	6.644	69.5	
+8/31/2022 12:31:30	Rural	58	60	62	60	60.5	4	0	0		Yes	The University of Queensland	6.216	60																			FALSE
+8/31/2022 12:32:03	Non-Rural	62	72	82	72	74.5	0	0	0		Yes	The University of Melbourne	6.8	72																			FALSE
+8/31/2022 12:33:01	Non-Rural	65	79	62	68.66666667	67	2	0	0		Yes	The University of Melbourne	6.963	68.66666667	The University of Notre Dame Sydney	6.969	68.66666667	Australian National University	6.969	67	Griffith University	6.938	67										FALSE
+8/31/2022 12:33:27	Non-Rural	65	77	73	71.66666667	72	0	0	0		Yes	The University of Melbourne	6.8	71.66666667																			FALSE
+8/31/2022 12:34:29	Non-Rural	67	86	82	78.33333333	79.25	0	0	0		Yes	The University of Melbourne	6.32	78.33333333																			FALSE
+8/31/2022 12:34:44	Non-Rural	64	61	85	70	73.75	0	0	0		Yes	Australian National University	6.99	73.75																			FALSE
+8/31/2022 12:34:45	Non-Rural	63	80	65	69.33333333	68.25	0	0	0		Yes	The University of Melbourne	7	69.33333333																			FALSE
+8/31/2022 12:34:56	Non-Rural	63	85	71	73	72.5	0	0	0	GAM	Yes	The University of Melbourne	6.8333	73																			FALSE
+8/31/2022 12:35:04	Non-Rural	64	57	75	65.33333333	67.75	2	0	0		Yes	Griffith University	7	67.75																			FALSE
+8/31/2022 12:35:19	Non-Rural	54	66	80	66.66666667	70	0	0	0		Yes	The University of Western Australia	6.741	70	The University of Notre Dame Fremantle	6.737	66.66666667	The University of Western Australia	6.741	70	The University of Notre Dame Sydney	6.737	66.66666667	The University of Melbourne	6.688	66.66666667	Deakin University	6.656	70	Griffith University	6.741	70	FALSE
+8/31/2022 12:35:50	Non-Rural	65	74	72	70.33333333	70.75	0	0	0		Yes	The University of Melbourne	7	70.33333333																			FALSE
+8/31/2022 12:36:38	Non-Rural	66	79	70	71.66666667	71.25	0	0	0	GAM	Yes	The University of Melbourne	6.82	71.66666667																			FALSE
+8/31/2022 12:36:41	Non-Rural	79	76	76	77	76.75	0	0	0	Fairly strong portfolio (I think)	Yes	The University of Melbourne	6.11	77	The University of Western Australia	5.85	76.75	The University of Notre Dame Fremantle	5.85	77													FALSE
+8/31/2022 12:37:03	Non-Rural	56	64	77	65.66666667	68.5	0	0	0		No				Griffith University	6.913	68.5	The University of Queensland	6.913	65.66666667	The University of Wollongong	5.5	68.5	Deakin University	6.925	68.5	Australian National University	6.917	68.5	The University of Melbourne	6.921	65.66666667	
+8/31/2022 12:37:37	Rural	62	70	78	70	72	8	0	0		Yes	The University of Melbourne	7	70																			FALSE
+8/31/2022 12:38:52	Non-Rural	65	77	73	71.66666667	72	0	2	0	GAM	Yes	The University of Melbourne	6.725	71.66666667																			FALSE
+8/31/2022 12:40:13	Non-Rural	57	83	83	74.33333333	76.5	0	0	0	VIC resident	Yes	The University of Melbourne	7	74.33333333																			FALSE
+8/31/2022 12:40:24	Non-Rural	71	70	53	64.66666667	61.75	6	0	0	Strong portfolio	Yes	The University of Notre Dame Sydney	6.73	64.66666667	Deakin University	6.73	61.75																FALSE
+8/31/2022 12:41:49	Non-Rural	66	73	69	69.33333333	69.25	0	0	0		Yes	The University of Melbourne	6.9	69.33333333	Griffith University	6.767	69.25																FALSE
+8/31/2022 12:42:05	Non-Rural	67	66	89	74	77.75	0	0	0		Yes	The University of Melbourne	7	74																			FALSE
+8/31/2022 12:42:45	Rural	71	71	58	66.66666667	64.5	6	4	0	GAM, strong portfolio	Yes	The University of Melbourne	6.65	66.66666667																			FALSE
+8/31/2022 12:43:02	Non-Rural	65	82	73	73.33333333	73.25	0	0	0	average portfolio	Yes	The University of Wollongong	5.5	73.25	The University of Notre Dame Sydney	6.552	73.33333333																FALSE
+8/31/2022 12:43:45	Non-Rural	68	64	74	68.66666667	70	0	0	0	Graduate Access Melbourne applicant	Yes	The University of Melbourne	7	68.66666667																			FALSE
+8/31/2022 12:43:55	Non-Rural	68	66	66	66.66666667	66.5	0	0	0	Wide bay stream for uq	Yes	The University of Queensland	6.833333	66.66666667																			FALSE
+8/31/2022 12:44:07	Non-Rural	63	82	68	71	70.25	6	0	0		Yes	Deakin University	6.667	70.25																			FALSE
+8/31/2022 12:45:00	Non-Rural	66	74	69	69.66666667	69.5	2	2	0		Yes	The University of Wollongong	5.5	69.5																			FALSE
+8/31/2022 12:45:05	Non-Rural	68	78	68	71.33333333	70.5	0	2	0		Yes	The University of Melbourne	6.763	71.33333333																			FALSE
+8/31/2022 12:45:18	Rural	73	75	76	74.66666667	75	0	0	0		Yes	The University of Queensland	6.85	74.66666667																			FALSE
+8/31/2022 12:46:13	Non-Rural	63	75	72	70	70.5	0	2	0		Yes	The University of Melbourne	6.85	70																			FALSE
+8/31/2022 12:46:46	Non-Rural	57	59	75	63.66666667	66.5	4	0	0		Yes	Macquarie University	6.917	66.5	Griffith University	6.944	66.5	Australian National University	6.917	66.5	The University of Notre Dame Sydney	6.917	63.66666667	Deakin University	6.583	66.5							FALSE
+8/31/2022 12:46:54	Non-Rural	62	80	69	70.33333333	70	0	2	0		Yes	The University of Melbourne	6.905	70.33333333																			FALSE
+8/31/2022 12:47:14	Rural	59	51	55	55	55	8	0	0		Yes	The University of Queensland	5.85	55																			FALSE
+8/31/2022 12:48:25	Rural	79	80	74	77.66666667	76.75	0	2	0		Yes	Australian National University	6.875	76.75																			FALSE
+8/31/2022 12:49:44	Non-Rural	64	66	87	72.33333333	76	0	0	0		Yes	The University of Melbourne	7	72.33333333																			FALSE
+8/31/2022 12:50:21	Non-Rural	59	77	80	72	74	4	0	0		Yes	The University of Melbourne	6.98	72																			FALSE
+8/31/2022 12:51:00	Non-Rural	69	71	70	70	70	0	0	0		Yes	The University of Melbourne	6.984	70																			FALSE
+8/31/2022 12:51:16	Non-Rural	57	62	67	62	63.25	4	0	0		No				Deakin University	6.229	63.25																
+8/31/2022 12:51:19	Non-Rural	64	63	79	68.66666667	71.25	0	0	0	UoM Student (just an fyi)	Yes	The University of Melbourne	6.975	68.66666667																			FALSE
+8/31/2022 12:51:41	Non-Rural	67	69	69	68.33333333	68.5	0	0	0		Yes	The University of Queensland	6.875	68.33333333																			FALSE
+8/31/2022 12:52:07	Non-Rural	65	73	95	77.66666667	82	0	0	0		Yes	The University of Melbourne	7	77.66666667																			FALSE
+8/31/2022 12:52:20	Non-Rural	64	79	75	72.66666667	73.25	0	0	0		Yes	The University of Melbourne	6.937	72.66666667																			FALSE
+8/31/2022 12:52:28	Non-Rural	59	82	73	71.33333333	71.75	0	0	0		Yes	The University of Melbourne	7	71.33333333																			FALSE
+8/31/2022 12:56:08	Rural	68	80	73	73.66666667	73.5	4	0	0		Yes	The University of Melbourne	6.007	73.66666667																			FALSE
+8/31/2022 12:56:46	Rural	54	62	51	55.66666667	54.5	0	0	0	Portfolio [i believe it was] strong	Yes	The University of Wollongong	5.5	54.5																			FALSE
+8/31/2022 12:57:01	Non-Rural	79	71	67	72.33333333	71	0	0	0		No				Griffith University	6.563	71	The University of Melbourne	6.588	72.33333333	The University of Wollongong	5.5	71	Deakin University	6.573	71	Australian National University	6.573	71	The University of Western Australia	5.708	71	
+8/31/2022 12:58:55	Non-Rural	67	63	63	64.33333333	64	2	0	0		No				The University of Melbourne	6.65	64.33333333	Deakin University	6.64	64	Australian National University	6.723	64	Griffith University	6.738	64	The University of Western Australia	6.738	64				
+8/31/2022 12:58:58	Non-Rural	75	81	58	71.33333333	68	4	0	0	Gam	Yes	The University of Melbourne	6.96	71.33333333																			FALSE
+8/31/2022 13:02:42	Non-Rural	60	70	78	69.33333333	71.5	2	2	0		Yes	Australian National University	6.85	71.5																			FALSE
+8/31/2022 13:03:48	Non-Rural	76	65	82	74.33333333	76.25	6	0	0		Yes	The University of Melbourne	6.578	74.33333333																			FALSE
+8/31/2022 13:04:11	Rural	68	72	58	66	64	10	0	0		Yes	Deakin University	7	64																			FALSE
+8/31/2022 13:05:23	Non-Rural	61	69	77	69	71	0	0	0		Yes	The University of Wollongong	5.5	71																			FALSE
+8/31/2022 13:05:27	Non-Rural	56	62	78	65.33333333	68.5	0	0	0		Yes	The University of Notre Dame Sydney	7	65.33333333	Australian National University	7	68.5	The University of Queensland	6.98	65.33333333													FALSE
+8/31/2022 13:05:44	Non-Rural	67	75	90	77.33333333	80.5	0	0	0		Yes	The University of Melbourne	6.78	77.33333333																			FALSE
+8/31/2022 13:05:47	Rural	63	66	60	63	62.25	6	0	0	
+Portfolio strong because received unda interview offer in 2021 with 59, 6.3
+Yes	The University of Wollongong	5.5	62.25																			FALSE
+8/31/2022 13:06:49	Rural	69	70	70	69.66666667	69.75	0	0	0	WA resident, portfolio above average	Yes	The University of Notre Dame Fremantle	6.3	69.66666667																			FALSE
+8/31/2022 13:07:28	Non-Rural	61	72	65	66	65.75	0	0	0		No				Deakin University	6.865	65.75	The University of Melbourne	6.913	66	Griffith University	6.875	65.75	The University of Western Australia	6.875	65.75	Australian National University	6.885	65.75				
+8/31/2022 13:08:43	Non-Rural	62	67	93	74	78.75	0	0	0		Yes	The University of Melbourne	6.953	74																			FALSE
+8/31/2022 13:10:27	Rural	70	73	76	73	73.75	10	0	0	WA resident, Strong Portfolio	Yes	The University of Notre Dame Fremantle	5.708	73																			FALSE
+8/31/2022 13:11:25	Rural	61	69	64	64.66666667	64.5	0	0	0		Yes	The University of Queensland	6.619	64.66666667																			FALSE
+8/31/2022 13:12:28	Non-Rural	64	74	74	70.66666667	71.5	0	0	0		Yes	The University of Melbourne	6.844	70.66666667																			FALSE
+8/31/2022 13:13:24	Rural	70	68	66	68	67.5	14	0	0		Yes	Deakin University	6.15	67.5																			FALSE
+8/31/2022 13:13:58	Rural	63	61	68	64	65	0	0	0		Yes	The University of Queensland	6.833	64																			FALSE
+8/31/2022 13:15:48	Non-Rural	59	83	65	69	68	6	0	3	UOW portfolio - average	Yes	Macquarie University	6.573	68																			FALSE
+8/31/2022 13:15:50	Non-Rural	62	68	72	67.33333333	68.5	2	0	0		Yes	Macquarie University	6.979	68.5																			FALSE
+8/31/2022 13:16:33	Non-Rural	63	72	69	68	68.25	0	2	0		Yes	The University of Wollongong	5.5	68.25	The University of Melbourne	6.75	68	The University of Notre Dame Sydney	6.646	68													FALSE
+8/31/2022 13:17:57	Non-Rural	61	67	62	63.33333333	63	0	0	0		No				The University of Melbourne	6.042	63.33333333	Australian National University	6.508	63	The University of Queensland	6.511	63.33333333	Griffith University	6.675	63	The University of Notre Dame Sydney	6.431	63.33333333	Deakin University	6.313	63	
+8/31/2022 13:18:22	Rural	70	64	73	69	70	0	0	0		Yes	Griffith University	5.469	70	The University of Queensland	5.48	69																FALSE
+8/31/2022 13:19:18	Non-Rural	67	82	72	73.66666667	73.25	0	0	0		Yes	The University of Melbourne	6.844	73.66666667																			FALSE
+8/31/2022 13:20:10	Non-Rural	58	60	71	63	65	0	0	0	WA resident	No				The University of Notre Dame Fremantle	6.73	63	The University of Wollongong	5.5	65	The University of Notre Dame Sydney	6.73	63	The University of Western Australia	6.73	65	Griffith University	6.73	65	The University of Queensland	6.73	63	
+8/31/2022 13:22:30	Non-Rural	69	82	67	72.66666667	71.25	0	0	0		Yes	The University of Melbourne	6.728	72.66666667																			FALSE
+8/31/2022 13:28:25	Non-Rural	70	74	68	70.66666667	70	2	2	0	N/A	Yes	Australian National University	6.878	70																			FALSE
+8/31/2022 13:35:00	Non-Rural	64	59	70	64.33333333	65.75	6	2	0	thought I had a strong portfolio	No				The University of Notre Dame Sydney	6.43	64.33333333	Macquarie University	6.65	65.75	The University of Wollongong	5.5	65.75	Australian National University	6.65	65.75	Griffith University	6.43	65.75	Deakin University	6.65	65.75	
+8/31/2022 13:35:47	Non-Rural	61	61	74	65.33333333	67.5	0	0	0	portfolio above average	Yes	The University of Notre Dame Fremantle	6.979	65.33333333																			FALSE
+8/31/2022 13:36:37	Non-Rural	70	65	77	70.66666667	72.25	0	0	0		Yes	The University of Melbourne	7	70.66666667																			FALSE
+8/31/2022 13:37:30	Non-Rural	71	74	66	70.33333333	69.25	0	0	0	Strong portfolio	Yes	The University of Notre Dame Sydney	6.819	70.33333333																			FALSE
+8/31/2022 13:38:50	Rural	56	69	54	59.66666667	58.25	0	0	0		Yes	Griffith University	6.851	58.25																			FALSE
+8/31/2022 13:41:16	Non-Rural	62	83	63	69.33333333	67.75	0	0	0		No				Deakin University	6.875	67.75	The University of Melbourne	6.85	69.33333333	The University of Notre Dame Sydney	6.958	69.33333333	Australian National University	6.958	67.75				The University of Wollongong	5.5	67.75	
+8/31/2022 13:44:03	Rural	70	78	76	74.66666667	75	12	0	0	Applied GAM.	Yes	The University of Melbourne	6.38	74.66666667																			FALSE
+8/31/2022 13:44:41	Non-Rural	58	63	61	60.66666667	60.75	0	0	0		Yes	The University of Notre Dame Sydney	6.938	60.66666667																			FALSE
+8/31/2022 13:48:30	Rural	51	70	56	59	58.25	10	0	0		Yes	Deakin University	6.74	58.25																			FALSE
+8/31/2022 13:49:34	Non-Rural	65	60	71	65.33333333	66.75	0	0	0		Yes	The University of Western Australia	6.917	66.75	Deakin University	6.917	66.75	The University of Melbourne	6.925	65.33333333	The University of Wollongong	5.5	66.75										FALSE
+8/31/2022 13:51:03	Non-Rural	70	67	82	73	75.25	2	0	0		Yes	Griffith University	6.521	75.25	The University of Queensland	6.5	73																FALSE
+8/31/2022 13:51:23	Non-Rural	66	72	70	69.33333333	69.5	2	0	0		Yes	The University of Notre Dame Sydney	6.948	69.33333333																			FALSE
+8/31/2022 13:53:24	Non-Rural	64	72	87	74.33333333	77.5	0	0	0	below average portfolio	Yes	The University of Wollongong	5.5	77.5	The University of Notre Dame Sydney	6.69	74.33333333																FALSE
+8/31/2022 13:54:33	Non-Rural	75	77	68	73.33333333	72	4	2	0	GAM, strong UoW portfolio	Yes	The University of Wollongong	5.5	72	Australian National University	6.385	72	The University of Melbourne	6.263	73.33333333													FALSE
+8/31/2022 13:55:34	Non-Rural	71	72	68	70.33333333	69.75	2	4	0	GAM	Yes	The University of Melbourne	6.923	70.33333333																			FALSE
+8/31/2022 13:57:34	Non-Rural	68	72	57	65.66666667	63.5	0	2	0	above average portfolio	No				The University of Notre Dame Fremantle	6.53	65.66666667	The University of Notre Dame Sydney	6.53	65.66666667	The University of Wollongong	5.5	63.5	Australian National University	6.53	63.5	Deakin University	6.48	63.5	Macquarie University	6.53	63.5	
+8/31/2022 13:59:17	Non-Rural	52	54	78	61.33333333	65.5	4	0	0		Yes	Deakin University	6.958	65.5	The University of Melbourne	6.313	61.33333333																FALSE
+8/31/2022 13:59:20	Non-Rural	62	73	70	68.33333333	68.75	0	2	0		Yes	The University of Wollongong	5.5	68.75	Australian National University	6.661	68.75																FALSE
+8/31/2022 14:00:08	Non-Rural	64	61	73	66	67.75	0	0	0	PhD	Yes	The University of Queensland	7	66	The University of Melbourne	6.4	66																FALSE
+8/31/2022 14:00:58	Non-Rural	61	67	77	68.33333333	70.5	0	0	0		Yes	Macquarie University	6.818	70.5																			FALSE
+8/31/2022 14:01:46	Rural	65	64	77	68.66666667	70.75	14	0	0	Rural Medical Program applicant	Yes	Deakin University	6.969	70.75																			FALSE
+8/31/2022 14:02:00	Non-Rural	62	88	70	73.33333333	72.5	0	0	0		Yes	The University of Melbourne	7	73.33333333																			FALSE
+8/31/2022 14:03:43	Non-Rural	71	67	69	69	69	0	0	0		Yes	The University of Queensland	6.6	69																			FALSE
+8/31/2022 14:04:41	Non-Rural	64	81	72	72.33333333	72.25	0	0	0	Above average / potentially strong portfolio	Yes	The University of Notre Dame Sydney	7	72.33333333																			FALSE
+8/31/2022 14:07:39	Non-Rural	64	69	74	69	70.25	0	0	0		Yes	The University of Melbourne	7	69																			FALSE
+8/31/2022 14:08:08	Non-Rural	65	81	65	70.33333333	69	0	0	0		Yes	Griffith University	6.885	69																			FALSE
+8/31/2022 14:08:41	Non-Rural	59	72	86	72.33333333	75.75	0	0	0		Yes	The University of Melbourne	7	72.33333333																			FALSE
+8/31/2022 14:10:28	Non-Rural	71	75	64	70	68.5	0	0	0		Yes	The University of Queensland	6.89	70																			FALSE
+8/31/2022 14:13:29	Non-Rural	62	68	78	69.33333333	71.5	0	0	0	Average portfolio	Yes	The University of Queensland	7	69.33333333	The University of Notre Dame Sydney	6.837	69.33333333	Australian National University	6.837	71.5	The University of Melbourne	6.757	69.33333333										FALSE
+8/31/2022 14:16:25	Non-Rural	70	81	68	73	71.75	0	2	0		Yes	The University of Melbourne	6.96	73																			FALSE
+8/31/2022 14:17:13	Non-Rural	66	71	60	65.66666667	64.25	2	0	0	
+Strong portfolio - 10yrs in health, 2 Masters, publications, research experience (both academic and clinical trials), NHS experience etc.
+Yes	The University of Notre Dame Sydney	6.347	65.66666667																			FALSE
+8/31/2022 14:17:39	Non-Rural	69	80	81	76.66666667	77.75	0	0	0		Yes	The University of Melbourne	6.888	76.66666667																			FALSE
+8/31/2022 14:18:17	Non-Rural	69	90	84	81	81.75	0	0	0	
+WA resident bonus. I think strong-ish portfolio (research experience in rural/Aboriginal health, advocacy volunteering in mental health/sexual assault policy, international academic awards, and some random stuff- like making an app in high school and a random internship I did)
+Yes	The University of Notre Dame Fremantle	6.9	81																			FALSE
+8/31/2022 14:18:32	Non-Rural	61	75	100	78.66666667	84	2	0	0	GAM	Yes	The University of Melbourne	5.838	78.66666667																			FALSE
+8/31/2022 14:19:35	Non-Rural	58	62	90	70	75	2	0	0		Yes	The University of Melbourne	6.875	70																			FALSE
+8/31/2022 14:21:12	Non-Rural	69	78	72	73	72.75	0	2	0	
+i thought my portfolio was average/above average lol, plenty of volunteering over the last 2 years + 2 jobs + honours research
+Yes	Australian National University	7	72.75	The University of Notre Dame Sydney	7	73																FALSE
+8/31/2022 14:21:41	Non-Rural	64	73	85	74	76.75	0	0	0	No	Yes	The University of Melbourne	7	74																			FALSE
+8/31/2022 14:23:24	Non-Rural	76	81	60	72.33333333	69.25	0	0	0		Yes	The University of Melbourne	6.75	72.33333333	The University of Notre Dame Sydney	6.75	72.33333333	The University of Melbourne	6.75	72.33333333													FALSE
+8/31/2022 14:24:39	Rural	60	62	74	65.33333333	67.5	0	0	0		Yes	Griffith University	6	67.5																			FALSE
+8/31/2022 14:25:00	Non-Rural	56	75	82	71	73.75	0	0	0		Yes	The University of Melbourne	6.906	71																			FALSE
+8/31/2022 14:27:02	Non-Rural	57	66	57	60	59.25	0	0	0	WA resident	No				The University of Notre Dame Fremantle	6.96	60	The University of Notre Dame Sydney	6.96	60	The University of Wollongong	6.96	59.25	The University of Western Australia	6.96	59.25	Deakin University	7	59.25				
+8/31/2022 14:29:56	Non-Rural	63	72	65	66.66666667	66.25	0	0	0		Yes	The University of Notre Dame Sydney	6.699	66.66666667																			FALSE
+8/31/2022 14:30:19	Non-Rural	62	72	84	72.66666667	75.5	0	0	0		Yes	Griffith University	6.92	75.5																			FALSE
+8/31/2022 14:36:18	Non-Rural	65	73	69	69	69	0	0	0		Yes	Macquarie University	6.744	69	The University of Notre Dame Sydney	6.744	69																FALSE
+8/31/2022 14:36:26	Non-Rural	75	60	76	70.33333333	71.75	0	2	0		Yes	The University of Queensland	6.3	70.33333333	The University of Melbourne	6.3	70.33333333				The University of Queensland	6.3	70.33333333										FALSE
+8/31/2022 14:38:19	Non-Rural	65	74	65	68	67.25	0	2	0		Yes	Australian National University	6.979	67.25	Griffith University	6.2	67.25																FALSE
+8/31/2022 14:39:56	Non-Rural	65	77	68	70	69.5	0	0	0		Yes	The University of Notre Dame Sydney	6.29	70																			FALSE
+8/31/2022 14:40:01	Non-Rural	61	66	72	66.33333333	67.75	0	0	0		No				The University of Melbourne	6.863	66.33333333	Deakin University	6.875	67.75	The University of Queensland	6.875	66.33333333										
+8/31/2022 14:40:21	Rural	58	69	54	60.33333333	58.75	0	0	0		Yes	The University of Melbourne	6.2	60.33333333																			FALSE
+8/31/2022 14:43:51	Non-Rural	65	70	67	67.33333333	67.25	0	0	0	Wa resident	Yes	The University of Notre Dame Fremantle	6.18	67.33333333																			FALSE
+8/31/2022 14:47:10	Non-Rural	69	79	58	68.66666667	66	8	0	0		Yes	The University of Notre Dame Sydney	6.58	68.66666667																			FALSE
+8/31/2022 14:48:14	Non-Rural	69	68	83	73.33333333	75.75	0	0	0		Yes	The University of Melbourne	6.583	73.33333333																			FALSE
+8/31/2022 14:48:35	Rural	58	62	60	60	60	8	0	0	RTS	Yes	Deakin University	6.663	60																			FALSE
+8/31/2022 14:49:44	Rural	55	71	66	64	64.5	10	2	3	Rural, GAM, Strong portfolio	Yes	Deakin University	6.33	64.5																			FALSE
+8/31/2022 14:50:40	Non-Rural	62	62	77	67	69.5	0	0	0		Yes	The University of Western Australia	6.774	69.5																			FALSE
+8/31/2022 14:54:10	Non-Rural	68	64	92	74.66666667	79	0	0	0		Yes	The University of Melbourne	6.92	74.66666667																			FALSE
+8/31/2022 14:54:28	Non-Rural	64	83	62	69.66666667	67.75	6	2	0		Yes	The University of Queensland	7	69.66666667	The University of Notre Dame Sydney	7	69.66666667																FALSE
+8/31/2022 14:54:59	Non-Rural	70	79	62	70.33333333	68.25	0	0	0	Coursework Master completed	Yes	The University of Notre Dame Fremantle	6.75	70.33333333	Griffith University	6.75	68.25																FALSE
+8/31/2022 14:56:59	Rural	70	82	51	67.66666667	63.5	8	0	0		Yes	The University of Melbourne	6.188	67.66666667																			FALSE
+8/31/2022 15:00:42	Rural	65	65	64	64.66666667	64.5	0	0	0		Yes	Griffith University	6.55	64.5																			FALSE
+8/31/2022 15:03:00	Non-Rural	66	78	66	70	69	0	0	0		Yes	The University of Notre Dame Sydney	6.629	70																			FALSE
+8/31/2022 15:03:40	Rural	56	60	50	55.33333333	54	4	0	0		Yes	The University of Notre Dame Sydney	6.895	55.33333333																			FALSE
+8/31/2022 15:04:22	Non-Rural	58	64	79	67	70	2	0	0		Yes	Griffith University	6.979	70																			FALSE
+8/31/2022 15:09:42	Rural	57	69	58	61.33333333	60.5	8	0	0	
+WA resident, above average/strong portfolio with diverse experiences and indigenous/rural experiences
+Yes	The University of Wollongong	5.5	60.5																			FALSE
+8/31/2022 15:11:43	Non-Rural	65	63	68	65.33333333	66	2	0	0		No				The University of Notre Dame Sydney	6.99	65.33333333	The University of Wollongong	5.5	66	Australian National University	6.99	66	Griffith University	6.979	66	The University of Melbourne	7	65.33333333	Deakin University	7	66	
+8/31/2022 15:16:29	Non-Rural	59	82	78	73	74.25	2	2	0		Yes	Australian National University	6.73	74.25																			FALSE
+8/31/2022 15:17:34	Rural	60	63	56	59.66666667	58.75	14	0	0		Yes	Deakin University	7	58.75																			FALSE
+8/31/2022 15:20:54	Non-Rural	69	71	72	70.66666667	71	0	0	0		Yes	The University of Melbourne	7	70.66666667																			FALSE
+8/31/2022 15:21:39	Non-Rural	60	76	56	64	62	4	0	0		Yes	The University of Queensland	7	64	Deakin University	6.599	62	The University of Queensland	7	64	The University of Melbourne	6.66	64	Griffith University	6.714	62	The University of Notre Dame Sydney	6.599	64	The University of Notre Dame Fremantle	6.599	64	FALSE
+8/31/2022 15:31:23	Non-Rural	72	75	77	74.66666667	75.25	0	0	0		Yes	The University of Melbourne	6.83	74.66666667																			FALSE
+8/31/2022 15:36:17	Non-Rural	68	67	77	70.66666667	72.25	0	0	0	B.Medsci	Yes	The University of Queensland	6.74	70.66666667																			FALSE
+8/31/2022 15:38:37	Non-Rural	73	83	64	73.33333333	71	0	0	0	above average portfolio	Yes	The University of Melbourne	6.64	73.33333333																			FALSE
+8/31/2022 15:39:39	Non-Rural	75	73	70	72.66666667	72	0	2	0	GAM	Yes	The University of Melbourne	6.688	72.66666667																			FALSE
+8/31/2022 15:42:09	Non-Rural	67	78	79	74.66666667	75.75	2	0	0		No				Griffith University	6.354	75.75	The University of Melbourne	6.263	74.66666667	Australian National University	6.448	75.75	Deakin University	6.421	75.75							
+8/31/2022 15:42:26	Non-Rural	68	60	70	66	67	4	0	0		Yes	Deakin University	6.826	67	The University of Melbourne	6.792	66																FALSE
+8/31/2022 15:43:22	Non-Rural	75	73	86	78	80	0	0	0		Yes	The University of Melbourne	6.759	78																			FALSE
+8/31/2022 15:47:10	Non-Rural	57	63	70	63.33333333	65	2	0	3		Yes	Macquarie University	6.833	65	The University of Notre Dame Sydney	6.833	63.33333333	The University of Wollongong	5.5	65	Griffith University	6.833	65	Deakin University	6.813	65							FALSE
+8/31/2022 15:51:07	Rural	67	69	62	66	65	10	0	0	RTS	Yes	Deakin University	6.07	65																			FALSE
+8/31/2022 15:52:09	Non-Rural	71	71	99	80.33333333	85	0	0	0	
+Studied in UK so GPA calculation is a conversion from a UK Masters degree
+No				The University of Queensland	6	80.33333333	Griffith University	6	85													
+8/31/2022 16:11:37	Non-Rural	80	80	80	80	80	2	0	0	S tier portfolio	Yes	The University of Notre Dame Fremantle	5.233	80																			FALSE
+8/31/2022 16:14:57	Non-Rural	66	81	67	71.33333333	70.25	0	0	0	WA Residency	Yes	The University of Notre Dame Fremantle	6.798	71.33333333																			FALSE
+8/31/2022 16:30:01	Non-Rural	68	68	81	72.33333333	74.5	2	0	0		No				The University of Melbourne	6.3	72.33333333	Australian National University	6.49	74.5	Deakin University	6.236	74.5	Griffith University	6.417	74.5							
+8/31/2022 16:32:19	Non-Rural	60	68	76	68	70	0	0	0	WA resident, Strong Portfolio, Also received UWA DMD interview!	Yes	The University of Notre Dame Fremantle	6.94	68																			FALSE
+8/31/2022 16:34:02	Non-Rural	59	65	69	64.33333333	65.5	0	0	0		No				The University of Notre Dame Sydney	6.8	64.33333333																
+8/31/2022 16:41:49	Non-Rural	67	60	73	66.66666667	68.25	0	0	0		Yes	The University of Queensland	7	66.66666667	Australian National University	6.318	68.25																FALSE
+8/31/2022 16:44:52	Non-Rural	86	76	77	79.66666667	79	0	2	0		Yes	Australian National University	6.65	79																			FALSE
+8/31/2022 17:04:00	Rural	61	72	64	65.66666667	65.25	6	0	3		Yes	The University of Melbourne	6.75	65.66666667																			FALSE
+8/31/2022 17:04:57	Rural	62	62	50	58	56	4	0	0	I live in one of the towns this stream is going to be held at	Yes	The University of Queensland	6.4	58																			FALSE
+8/31/2022 17:10:35	Non-Rural	74	68	80	74	75.5	0	0	0		Yes	Griffith University	6.448	75.5	The University of Queensland	6	74																FALSE
+8/31/2022 17:12:32	Non-Rural	64	64	70	66	67	0	0	0		Yes	The University of Notre Dame Sydney	6.396	66																			FALSE
+8/31/2022 17:12:46	Non-Rural	63	74	73	70	70.75	2	2	0	GAM applicant	Yes	The University of Melbourne	6.95	70																			FALSE
+8/31/2022 17:13:08	Non-Rural	75	78	92	81.66666667	84.25	0	0	0		Yes	The University of Melbourne	7	81.66666667																			FALSE
+8/31/2022 17:13:27	Rural	69	50	62	60.33333333	60.75	4	0	0		Yes	The University of Queensland	6.962	60.33333333																			FALSE
+8/31/2022 17:15:54	Rural	50	63	59	57.33333333	57.75	0	0	0	
+WA resident, strong portfolio, applied for BMP and CSP to increase my chances
+Yes	The University of Notre Dame Fremantle	5.396	57.33333333																			FALSE
+8/31/2022 17:16:29	Non-Rural	62	70	69	67	67.5	0	0	0		Yes	Macquarie University	6.76	67.5	The University of Melbourne	6.75	67	Deakin University	6.76	67.5	The University of Notre Dame Sydney	6.76	67	Australian National University	6.76	67.5							FALSE
+8/31/2022 17:18:49	Non-Rural	69	82	90	80.33333333	82.75	0	2	0		Yes	The University of Melbourne	6.988	80.33333333																			FALSE
+8/31/2022 17:21:10	Non-Rural	66	69	59	64.66666667	63.25	4	0	0		No				Griffith University	6.688	63.25	The University of Notre Dame Sydney	6.688	64.66666667	The University of Melbourne	6.488	64.66666667	The University of Notre Dame Fremantle	6.688	64.66666667	Australian National University	6.724	63.25	Deakin University	6.724	63.25	
+8/31/2022 17:21:21	Non-Rural	70	72	67	69.66666667	69	2	0	0	GAM	No				The University of Melbourne	6.3	69.66666667	Deakin University	6.292	69													
+8/31/2022 17:21:52	Non-Rural	67	75	74	72	72.5	6	0	0		Yes	Deakin University	6.385	72.5	The University of Notre Dame Sydney	6.375	72																FALSE
+8/31/2022 17:24:14	Rural	58	72	53	61	59	12	0	0		Yes	Deakin University	6.1	59																			FALSE
+8/31/2022 17:29:00	Non-Rural	65	74	73	70.66666667	71.25	0	0	0	UQ WideBay program placed as first preference	Yes	The University of Queensland	6.75	70.66666667																			FALSE
+8/31/2022 17:30:47	Non-Rural	60	66	73	66.33333333	68	0	0	0	
+WA resident, studied bachelor honours and seperate bachelor degree
+No				The University of Notre Dame Fremantle	6.233	66.33333333	The University of Western Australia	6.247	68	The University of Queensland	6.247	66.33333333										
+8/31/2022 17:32:33	Non-Rural	54	77	88	73	76.75	0	0	0		Yes	The University of Melbourne	6.938	73																			FALSE
+8/31/2022 17:43:19	Rural	63	61	91	71.66666667	76.5	4	0	0		Yes	The University of Melbourne	6.3	71.66666667																			FALSE
+8/31/2022 17:43:29	Non-Rural	64	71	64	66.33333333	65.75	2	0	0		No				The University of Melbourne	6.986	66.33333333	Deakin University	6.988	65.75	The University of Notre Dame Sydney	6.948	66.33333333	The University of Notre Dame Fremantle	6.948	66.33333333	Australian National University	6.948	65.75	Griffith University	6.938	65.75	
+8/31/2022 17:47:09	Non-Rural	67	67	80	71.33333333	73.5	0	0	0		Yes	The University of Queensland	6.8	71.33333333	The University of Melbourne	6.8	71.33333333																FALSE
+8/31/2022 17:49:44	Rural	66	78	53	65.66666667	62.5	8	0	0		Yes	The University of Melbourne	6.78	65.66666667																			FALSE
+8/31/2022 17:50:17	Rural	71	85	68	74.66666667	73	0	0	0	Rural Training Scheme applicant	Yes	Deakin University	5.6	73																			FALSE
+8/31/2022 17:51:04	Non-Rural	59	71	51	60.33333333	58	2	0	0		No				The University of Western Australia	6.83	58																
+8/31/2022 17:54:28	Non-Rural	75	66	74	71.66666667	72.25	0	0	0	average portfolio	Yes	The University of Wollongong	5.5	72.25																			FALSE
+8/31/2022 17:56:12	Non-Rural	66	69	83	72.66666667	75.25	0	0	0		Yes	The University of Melbourne	6.781	72.66666667																			FALSE
+8/31/2022 18:03:15	Rural	69	56	75	66.66666667	68.75	0	0	0		Yes	Griffith University	6.188	68.75																			FALSE
+8/31/2022 18:04:30	Rural	57	67	83	69	72.5	0	0	0		Yes	Griffith University	6.926	72.5																			FALSE
+8/31/2022 18:12:19	Non-Rural	56	66	55	59	58	0	0	0	
+Thought I had a strong portfolio. Experience as a nurse, lots of peer support work, volunteering, high level achievements in music.
+No				The University of Wollongong	5.5	58																
+8/31/2022 18:13:34	Non-Rural	67	66	82	71.66666667	74.25	0	2	0	
+above average to strong portfolio (research experience, 15+ years of church volunteering experience, 4+ years volunteering in healthcare, medals in international math comps)
+Yes	The University of Notre Dame Sydney	6.97	71.66666667																			FALSE
+8/31/2022 18:16:09	Non-Rural	58	66	58	60.66666667	60	4	0	0	WA resident; good portfolio	Yes	The University of Notre Dame Fremantle	6.5	60.66666667																			FALSE
+8/31/2022 18:32:25	Non-Rural	75	67	75	72.33333333	73	0	0	0		Yes	The University of Wollongong	5.5	73																			FALSE
+8/31/2022 18:34:19	Non-Rural	71	66	67	68	67.75	0	0	0	Strong portfolio	Yes	The University of Notre Dame Sydney	6.634	68																			FALSE
+8/31/2022 18:40:28	Rural	61	71	65	65.66666667	65.5	2	0	0	Portolio - Strong	Yes	The University of Notre Dame Sydney	6.5	65.66666667																			FALSE
+8/31/2022 18:38:38	Rural	66	66	60	64	63	0	0	0	No idea strength of portfolio	Yes	The University of Melbourne	5.95	64																			FALSE
+8/31/2022 18:41:43	Rural	60	74	68	67.33333333	67.5	10	0	3		Yes	The University of Queensland	6.2	67.33333333																			FALSE
+8/31/2022 18:48:50	Non-Rural	65	75	77	72.33333333	73.5	0	0	0		Yes	Australian National University	6.948	73.5																			FALSE
+8/31/2022 18:49:26	Non-Rural	67	71	65	67.66666667	67	0	0	0	Thought I had a good portfolio but guess not?	No				The University of Notre Dame Sydney	6.875	67.66666667	The University of Wollongong	5.5	67	Australian National University	6.927	67	The University of Melbourne	6.927	67.66666667	The University of Queensland	6.927	67.66666667	Griffith University	6.927	67	
+8/31/2022 18:51:49	Non-Rural	63	68	61	64	63.25	6	2	0		Yes	Deakin University	6.906	63.25	Australian National University	6.698	63.25	The University of Wollongong	5.5	63.25													FALSE
+8/31/2022 18:54:25	Non-Rural	62	51	100	71	78.25	2	0	0		Yes	The University of Melbourne	7	71																			FALSE
+8/31/2022 18:58:53	Non-Rural	72	77	75	74.66666667	74.75	0	2	0		Yes	The University of Melbourne	6.951	74.66666667																			FALSE
+8/31/2022 19:08:13	Non-Rural	68	64	70	67.33333333	68	0	0	0	RMP	Yes	The University of Queensland	6.942	67.33333333	The University of Melbourne	6.95	67.33333333																FALSE
+8/31/2022 19:17:09	Non-Rural	64	75	65	68	67.25	0	0	0	Hospital Pharmacist, nil interviews	No				Macquarie University	6.681	67.25	The University of Notre Dame Sydney	6.681	68													
+8/31/2022 19:32:41	Non-Rural	54	84	61	66.33333333	65	0	0	0	Strength of portfolio was improved from last year.	Yes	The University of Notre Dame Sydney	6.781	66.33333333																			FALSE
+8/31/2022 19:50:27	Non-Rural	59	62	70	63.66666667	65.25	2	0	0	Strong portfolio	Yes	The University of Notre Dame Sydney	6.236	63.66666667	The University of Melbourne	6.183	63.66666667																FALSE
+8/31/2022 19:51:56	Non-Rural	64	82	64	70	68.5	0	0	0	Forgot to submit Notre Dame portfolio lol	No				Griffith University	6.75	68.5	The University of Queensland	6.5	70	The University of Melbourne	6.6678	70	The University of Notre Dame Fremantle	6.6979	70	Deakin University	6.6979	68.5				
+8/31/2022 19:53:52	Rural	64	77	58	66.33333333	64.25	0	0	0		Yes	Griffith University	6.922	64.25																			FALSE
+8/31/2022 20:01:19	Non-Rural	71	62	79	70.66666667	72.75	0	0	0		Yes	The University of Wollongong	5.5	72.75	The University of Notre Dame Sydney	6.375	70.66666667																FALSE
+8/31/2022 20:04:04	Non-Rural	72	62	72	68.66666667	69.5	0	0	0	First class Honours	Yes	The University of Queensland	7	68.66666667																			FALSE
+8/31/2022 20:04:59	Non-Rural	64	72	91	75.66666667	79.5	0	0	0		Yes	Australian National University	6.823	79.5	The University of Notre Dame Sydney	6.823	75.66666667																FALSE
+8/31/2022 20:36:28	Rural	52	56	64	57.33333333	59	0	0	0	Strong portfolio	Yes	The University of Wollongong	5.5	59																			FALSE
+8/31/2022 20:36:34	Non-Rural	67	65	63	65	64.5	4	0	0		Yes	The University of Wollongong	5.5	64.5	Griffith University	6.396	64.5	The University of Queensland	6	65													FALSE
+8/31/2022 20:40:41	Non-Rural	59	68	57	61.33333333	60.25	0	0	0	Strong portfolio	Yes	The University of Notre Dame Sydney	6.87	61.33333333																			FALSE
+8/31/2022 20:42:05	Non-Rural	63	65	65	64.33333333	64.5	0	2	0		Yes	The University of Queensland	7	64.33333333																			FALSE
+8/31/2022 20:51:23	Non-Rural	65	81	55	67	64	0	0	0		Yes	The University of Notre Dame Sydney	6.234	67	The University of Wollongong	5.5	64	The University of Notre Dame Sydney	6.234	67	The University of Notre Dame Fremantle	6.234	67	The University of Queensland	6.125	67	Griffith University	6.125	64	Australian National University	6.125	64	FALSE
+8/31/2022 21:09:25	Non-Rural	60	71	75	68.66666667	70.25	0	0	0		Yes	The University of Queensland	6.94	68.66666667	Deakin University	6.8	70.25							The University of Queensland	6.94	68.66666667							FALSE
+8/31/2022 21:09:34	Non-Rural	63	72	69	68	68.25	0	2	0	
+Not WA resident, i would say portfolio was maybe slightly above average (idk?)
+Yes	The University of Notre Dame Fremantle	6.99	68	The University of Melbourne	6.75	68	The University of Wollongong	5.5	68.25													FALSE
+8/31/2022 21:15:28	Non-Rural	66	61	58	61.66666667	60.75	2	0	0		Yes	The University of Notre Dame Sydney	6.781	61.66666667	The University of Wollongong	5.5	60.75																FALSE
+8/31/2022 21:26:54	Non-Rural	60	72	77	69.66666667	71.5	2	0	0		Yes	Griffith University	6.868	71.5	The University of Melbourne	6.802	69.66666667																FALSE
+8/31/2022 21:29:00	Non-Rural	59	71	73	67.66666667	69	0	0	0		Yes	The University of Wollongong	5.5	69																			FALSE
+8/31/2022 21:31:37	Non-Rural	56	72	80	69.33333333	72	0	0	0		Yes	Griffith University	6.65	72	The University of Melbourne	6.61	69.33333333	Deakin University	6.65	72													FALSE
+8/31/2022 21:45:17	Non-Rural	56	67	68	63.66666667	64.75	4	2	0		Yes	The University of Queensland	7	63.66666667	The University of Notre Dame Sydney	6.728	63.66666667																FALSE
+8/31/2022 21:48:25	Non-Rural	68	72	63	67.66666667	66.5	0	0	0		Yes	The University of Notre Dame Sydney	6.875	67.66666667	The University of Melbourne	6.875	67.66666667																FALSE
+8/31/2022 21:59:01	Non-Rural	70	72	70	70.66666667	70.5	0	0	0		No				The University of Melbourne	6.667	70.66666667	Deakin University	6.708	70.5	Griffith University	6.646	70.5	The University of Western Australia	6.646	70.5	Australian National University	6.719	70.5				
+8/31/2022 22:05:12	Non-Rural	61	64	63	62.66666667	62.75	0	0	0		No				The University of Melbourne	6.1	62.66666667																
+8/31/2022 22:18:42	Non-Rural	64	73	87	74.66666667	77.75	2	0	0	Tier 3 applicant UQ RMP	Yes	The University of Queensland	6.862	74.66666667																			FALSE
+8/31/2022 22:26:42	Non-Rural	71	75	75	73.66666667	74	0	0	0	Masters by Research (7 GPA at UQ)	Yes	The University of Queensland	7	73.66666667	The University of Melbourne	5.8	73.66666667																FALSE
+8/31/2022 22:46:15	Non-Rural	60	72	66	66	66	0	0	0	Average	No				The University of Wollongong	5.5	66																
+8/31/2022 22:52:44	Rural	57	72	67	65.33333333	65.75	8	0	0		Yes	The University of Melbourne	5.8	65.33333333																			FALSE
+8/31/2022 22:57:02	Non-Rural	64	80	84	76	78	0	0	0	RMP Applicant	Yes	The University of Queensland	6.54	76	The University of Notre Dame Sydney	6.06	76	Australian National University	6.44	78													FALSE
+8/31/2022 23:03:59	Non-Rural	62	64	65	63.66666667	64	0	4	0		Yes	The University of Queensland	7	63.66666667	Griffith University	7	64																FALSE
+8/31/2022 23:17:42	Non-Rural	70	69	65	68	67.25	0	2	0		Yes	The University of Notre Dame Sydney	6.688	68	The University of Wollongong	5.5	67.25																FALSE
+8/31/2022 23:27:14	Non-Rural	60	77	65	67.33333333	66.75	2	0	0		Yes	The University of Wollongong	5.5	66.75	The University of Notre Dame Fremantle	6.524	67.33333333	The University of Western Australia	6.535	66.75	The University of Notre Dame Sydney	6.524	67.33333333	Deakin University	6.664	66.75	Australian National University	6.532	66.75				FALSE
+9/1/2022 0:05:56	Non-Rural	65	77	56	66	63.5	0	0	0	fairly strong portfolio	Yes	The University of Notre Dame Sydney	6.9	66																			FALSE
+9/1/2022 1:00:27	Non-Rural	68	88	61	72.33333333	69.5	0	0	0		Yes	The University of Melbourne	6.938	72.33333333																			FALSE
+9/1/2022 1:34:17	Non-Rural	63	60	77	66.66666667	69.25	0	0	0		Yes	Macquarie University	7	69.25	The University of Melbourne	7	66.66666667																FALSE
+9/1/2022 2:00:22	Non-Rural	58	86	71	71.66666667	71.5	0	0	0		Yes	Deakin University	6.94	71.5	The University of Melbourne	6.36	71.66666667																FALSE
+9/1/2022 2:28:51	Non-Rural	71	68	70	69.66666667	69.75	0	2	0		Yes	The University of Queensland	6.5	69.66666667	The University of Melbourne	6.4	69.66666667																FALSE
+9/1/2022 7:17:22	Non-Rural	62	68	65	65	65	0	2	0	Portfolio-average, Rural Medical Program Applicant	Yes	The University of Queensland	7	65																			FALSE
+9/1/2022 7:39:13	Non-Rural	60	69	68	65.66666667	66.25	0	0	0	strong portfolio	Yes	The University of Notre Dame Sydney	6.635	65.66666667	Griffith University	6.57	66.25																FALSE
+9/1/2022 8:16:15	Non-Rural	59	79	57	65	63	0	2	3	average portfolio	No				The University of Notre Dame Sydney	6.771	65	Macquarie University	6.942	63	The University of Notre Dame Fremantle	6.771	65	Australian National University	6.771	63	The University of Wollongong	5.5	63	The University of Queensland	7	65	
+9/1/2022 8:27:48	Rural	72	86	66	74.66666667	72.5	8	0	0	Non UQ RMP	Yes	Griffith University	5.5625	72.5	The University of Queensland	5.36719	74.66666667																FALSE
+9/1/2022 8:53:55	Non-Rural	65	79	93	79	82.5	0	0	0		Yes	The University of Melbourne	6.444	79																			FALSE
+9/1/2022 9:05:22	Non-Rural	63	73	72	69.33333333	70	0	0	0		Yes	The University of Melbourne	6.963	69.33333333	The University of Notre Dame Sydney	6.969	69.33333333																FALSE
+9/1/2022 9:23:12	Non-Rural	62	64	74	66.66666667	68.5	0	0	0		Yes	Griffith University	6.896	68.5																			FALSE
+9/1/2022 9:46:44	Rural	64	61	69	64.66666667	65.75	0	0	0	UQ RMP	Yes	The University of Queensland	6.478	64.66666667																			FALSE
+9/1/2022 11:01:25	Non-Rural	67	68	68	67.66666667	67.75	0	0	0	WA resident	Yes	The University of Notre Dame Fremantle	6.9	67.66666667																			FALSE
+9/1/2022 11:14:41	Non-Rural	67	59	77	67.66666667	70	0	0	0	No	Yes	Griffith University	7	70																			FALSE
+9/1/2022 11:17:27	Non-Rural	65	66	93	74.66666667	79.25	0	0	0	No	Yes	Griffith University	7	79.25																			FALSE
+9/1/2022 11:28:58	Non-Rural	60	54	69	61	63	0	0	0	GAM, below average portfolio	No				Griffith University	6.958	63	The University of Melbourne	6.964	61	The University of Notre Dame Sydney	6.969	61	Deakin University	6.988	63	The University of Western Australia	6.958	63	The University of Notre Dame Fremantle	6.696	61	
+9/1/2022 11:46:54	Non-Rural	62	73	77	70.66666667	72.25	0	2	0		Yes	The University of Notre Dame Sydney	6.82	70.66666667	Deakin University	6.917	72.25																FALSE
+9/1/2022 11:52:40	Non-Rural	66	64	77	69	71	0	0	3	I'd say it was aight	Yes	The University of Notre Dame Sydney	6.969	69																			FALSE
+9/1/2022 11:54:58	Rural	68	64	64	65.33333333	65	0	0	3	I'd say it was aight	Yes	The University of Notre Dame Sydney	6.384	65.33333333																			FALSE
+9/1/2022 12:16:30	Non-Rural	59	69	63	63.66666667	63.5	0	0	0		No				Griffith University	7	63.5	The University of Queensland	7	63.66666667													
+9/1/2022 12:18:45	Non-Rural	68	76	69	71	70.5	0	0	0		Yes	The University of Melbourne	6.793	71																			FALSE
+9/1/2022 12:22:27	Non-Rural	66	68	64	66	65.5	4	4	0	
+Strong protfolio submitted to UOW (i.e. community engagement, leadership, research contributions etc), but still no offer because GPA is based on a degree I did nearly 10 years ago.
+Yes	The University of Western Australia	7	65.5	Deakin University	6.69	65.5	The University of Melbourne	6.25	66	The University of Wollongong	6.25	65.5	Griffith University	7	65.5	Australian National University	6.25	65.5				FALSE
+9/1/2022 12:52:36	Non-Rural	68	73	64	68.33333333	67.25	6	0	0		Yes	Deakin University	6.698	67.25																			FALSE
+9/1/2022 12:54:25	Non-Rural	69	70	74	71	71.75	0	0	0	UQ RMP	Yes	The University of Queensland	6.979	71																			FALSE
+9/1/2022 12:58:22	Rural	73	75	76	74.66666667	75	0	0	0	Duplicate entry, Tier 1 RMP (Bundaberg)	Yes	The University of Queensland	6.859	74.66666667																			FALSE
+9/1/2022 13:30:17	Non-Rural	74	58	74	68.66666667	70	0	2	0	GAM 70 Portfolio Above Avergare	No				The University of Melbourne	6.163	68.66666667	The University of Notre Dame Sydney	6.302	68.66666667	Griffith University	6	70	Australian National University	6.302	70	The University of Notre Dame Fremantle	6.302	68.66666667				
+9/1/2022 13:53:42	Non-Rural	61	76	86	74.33333333	77.25	0	0	0		Yes	The University of Melbourne	6.92	74.33333333																			FALSE
+9/1/2022 14:12:38	Non-Rural	69	58	76	67.66666667	69.75	0	0	0		No				The University of Notre Dame Sydney	5.01	67.66666667	Deakin University	6.014	69.75	The University of Queensland	6.313	67.66666667	Griffith University	5.144	69.75	The University of Melbourne	5.697	67.66666667	Macquarie University	5.25	69.75	
+9/1/2022 14:19:10	Non-Rural	69	74	73	72	72.25	0	0	0		Yes	The University of Melbourne	6.916	72																			FALSE
+9/1/2022 15:04:11	Non-Rural	54	80	69	67.66666667	68	2	0	0		Yes	The University of Wollongong	5.5	68																			FALSE
+9/1/2022 15:43:30	Non-Rural	65	81	77	74.33333333	75	0	0	0		Yes	The University of Melbourne	6.9	74.33333333																			FALSE
+9/1/2022 16:23:09	Non-Rural	64	73	74	70.33333333	71.25	4	0	0	Rural Medical Program applicant (e.g. UQ Wide Bay/Bundaberg RMP,)	Yes	The University of Queensland	7	70.33333333	The University of Melbourne	5.994	70.33333333	The University of Queensland	7	70.33333333	Deakin University	6.578	71.25	Australian National University	6.776	71.25	The University of Notre Dame Sydney	6.385	70.33333333	The University of Western Australia	6.479	71.25	FALSE
+9/1/2022 16:26:15	Non-Rural	68	58	75	67	69	0	0	0		Yes	Macquarie University	6.749	69	The University of Melbourne	6.843	67	Australian National University	6.749	69	Griffith University	6.615	69										FALSE
+9/1/2022 17:05:22	Rural	64	85	52	67	63.25	0	0	0		Yes	The University of Notre Dame Sydney	6.15	67																			FALSE
+9/1/2022 17:04:55	Rural	58	66	63	62.33333333	62.5	12	0	0		Yes	Deakin University	6.719	62.5																			FALSE
+9/1/2022 19:50:27	Non-Rural	61	75	75	70.33333333	71.5	2	0	0		Yes	The University of Melbourne	6.912	70.33333333																			FALSE
+9/1/2022 20:00:17	Non-Rural	73	61	78	70.66666667	72.5	0	0	0		Yes	The University of Wollongong	5.5	72.5																			FALSE
+9/1/2022 20:21:20	Non-Rural	82	78	80	80	80	0	4	0		Yes	The University of Melbourne	6.9	80																			FALSE
+9/1/2022 20:47:02	Non-Rural	61	69	60	63.33333333	62.5	0	0	0		Yes	The University of Queensland	7	63.33333333																			FALSE
+9/1/2022 21:15:46	Rural	60	74	84	72.66666667	75.5	8	0	0		Yes	The University of Melbourne	6.675	72.66666667																			FALSE
+9/1/2022 21:36:14	Non-Rural	60	68	63	63.66666667	63.5	0	2	0	UQ Wide Bay	Yes	The University of Queensland	7	63.66666667																			FALSE
+9/1/2022 22:26:05	Non-Rural	54	80	57	63.66666667	62	0	0	0	strong portfolio, healthcare background (registered Nurse)	Yes	The University of Notre Dame Sydney	6.9	63.66666667																			FALSE
+9/1/2022 22:32:37	Non-Rural	62	61	81	68	71.25	2	2	0		Yes	Australian National University	6.698	71.25	Deakin University	6.698	71.25																FALSE
+9/2/2022 0:09:18	Non-Rural	69	62	78	69.66666667	71.75	0	0	0		Yes	The University of Melbourne	6.938	69.66666667																			FALSE
+9/2/2022 8:11:15	Rural	60	60	68	62.66666667	64	0	0	0	Received unimelb rural med interview offer	Yes	The University of Melbourne	6.875	62.66666667																			FALSE
+9/2/2022 8:41:23	Non-Rural	60	55	56	57	56.75	0	0	0	GAM	No				The University of Melbourne	6.3	57	The University of Notre Dame Sydney	6.4	57	Griffith University	6.3	56.75	The University of Notre Dame Fremantle	6.3	57	The University of Wollongong	5.5	56.75	Australian National University	6.7	56.75	
+9/2/2022 10:14:01	Non-Rural	70	76	76	74	74.5	0	0	0		Yes	The University of Melbourne	6.56	74																			FALSE
+9/2/2022 13:15:09	Non-Rural	60	78	68	68.66666667	68.5	0	0	0	Uq RMP offer	Yes	The University of Queensland	7	68.66666667																			FALSE
+9/2/2022 13:37:13	Non-Rural	79	89	89	85.66666667	86.5	0	0	0		Yes	The University of Melbourne	6.9	85.66666667																			FALSE
+9/2/2022 13:48:57	Non-Rural	58	61	64	61	61.75	0	0	3		Yes	Macquarie University	6.927	61.75	The University of Notre Dame Sydney	6.927	61	The University of Notre Dame Fremantle	6.927	61	The University of Queensland	6.875	61	Griffith University	6.917	61.75	Macquarie University	6.927	61.75	The University of Wollongong	5.5	61.75	FALSE
+9/2/2022 14:44:27	Non-Rural	77	86	65	76	73.25	0	0	0		Yes	The University of Wollongong	5.5	73.25	Griffith University	5.7	73.25																FALSE
+9/2/2022 15:47:57	Non-Rural	64	63	69	65.33333333	66.25	6	0	3	strong	No				The University of Wollongong	5.5	66.25	Macquarie University	6.1	66.25	The University of Notre Dame Sydney	5.8	65.33333333										
+9/2/2022 18:18:04	Non-Rural	65	65	81	70.33333333	73	0	0	0		Yes	Macquarie University	6.41	73	The University of Melbourne	6.47	70.33333333	Deakin University	6.48	73	Australian National University	6.41	73	The University of Queensland	5.99	70.33333333	The University of Western Australia	6.19	73				FALSE
+9/2/2022 20:20:54	Non-Rural	55	67	80	67.33333333	70.5	2	2	0	below average portfolio	Yes	Australian National University	6.923	70.5																			FALSE
+9/2/2022 21:07:42	Non-Rural	68	64	73	68.33333333	69.5	0	0	0		Yes	The University of Wollongong	5.5	69.5	The University of Notre Dame Sydney	6.146	68.33333333	The University of Queensland	5.781	68.33333333													FALSE
+9/2/2022 21:53:08	Non-Rural	67	63	69	66.33333333	67	0	0	0		Yes	Griffith University	7	67																			FALSE
+9/2/2022 23:06:42	Non-Rural	63	75	84	74	76.5	0	0	0		Yes	The University of Melbourne	6.8	74																			FALSE
+9/3/2022 8:06:40	Non-Rural	73	69	81	74.33333333	76	4	4	0		Yes	The University of Melbourne	6.953	74.33333333																			FALSE
+9/3/2022 11:15:04	Non-Rural	62	73	69	68	68.25	6	0	0		Yes	Deakin University	6.76	68.25	The University of Queensland	6.85	68																FALSE
+9/3/2022 13:52:12	Non-Rural	75	77	77	76.33333333	76.5	0	0	0		Yes	Griffith University	6.953	76.5																			FALSE
+9/3/2022 14:38:42	Rural	70	67	68	68.33333333	68.25	12	0	3	Deakin RTS	Yes	Deakin University	6.375	68.25																			FALSE
+9/3/2022 17:46:19	Non-Rural	54	82	68	68	68	0	2	0	UQ Wide Bay/Bundaberg RMP	Yes	The University of Queensland	7	68	Australian National University	6.743	68																FALSE
+9/3/2022 18:05:36	Rural	51	73	54	59.33333333	58	4	0	0	RMP	Yes	The University of Queensland	5.9	59.33333333																			FALSE
+9/3/2022 18:42:54	Non-Rural	74	67	62	67.66666667	66.25	4	4	0	UQ RMP	Yes	The University of Queensland	7	67.66666667																			FALSE
+9/3/2022 21:26:28	Non-Rural	55	69	61	61.66666667	61.5	0	0	0		Yes	The University of Notre Dame Sydney	6.969	61.66666667																			FALSE
+9/3/2022 22:52:22	Rural	62	71	61	64.66666667	63.75	8	0	0		Yes	Deakin University	6.84	63.75																			FALSE
+9/4/2022 8:52:49	Rural	62	65	74	67	68.75	0	0	0		Yes	Griffith University	6.375	68.75																			FALSE
+9/4/2022 11:47:50	Non-Rural	73	79	78	76.66666667	77	0	0	0		Yes	The University of Melbourne	6.48	76.66666667																			FALSE
+9/4/2022 12:01:18	Non-Rural	59	74	65	66	65.75	2	0	0		No				The University of Notre Dame Sydney	6.33	66	The University of Melbourne	6	66	The University of Notre Dame Fremantle	6.33	66	Deakin University	6	65.75	The University of Wollongong	5.5	65.75	Griffith University	6	65.75	
+9/4/2022 13:09:25	Non-Rural	74	72	73	73	73	0	0	0		Yes	Griffith University	6.612	73	The University of Notre Dame Sydney	6.6	73	Australian National University	6.6	73	The University of Melbourne	6.6	73										FALSE
+9/4/2022 20:08:31	Rural	53	55	56	54.66666667	55	0	0	0	GAM	Yes	The University of Melbourne	6.67	54.66666667																			FALSE
+9/4/2022 21:56:47	Rural	59	73	57	63	61.5	0	0	0		Yes	The University of Queensland	7	63																			FALSE
+9/4/2022 22:22:35	Rural	59	64	71	64.66666667	66.25	0	0	0	WA resident	Yes	The University of Notre Dame Fremantle	6.97	64.66666667																			FALSE
+9/5/2022 0:53:19	Non-Rural	73	58	84	71.66666667	74.75	0	0	0	
+Not sure GPA is correct. Study pattern was a left so only GEMSAS knows what they gave me.
+Yes	Australian National University	6.604	74.75	The University of Melbourne	6.371	71.66666667																FALSE
+9/5/2022 11:45:49	Rural	58	70	53	60.33333333	58.5	0	0	0	Above average	Yes	The University of Notre Dame Sydney	6.2	60.33333333																			FALSE
+9/5/2022 12:24:19	Non-Rural	71	73	74	72.66666667	73	0	0	0		Yes	The University of Melbourne	6.73	72.66666667																			FALSE
+9/5/2022 12:57:50	Non-Rural	58	71	77	68.66666667	70.75	0	0	0		Yes	Griffith University	6.57	70.75	The University of Melbourne	6.57	68.66666667	Australian National University	6.54	70.75	Deakin University	6.54	70.75	The University of Queensland	6.54	68.66666667							FALSE
+9/5/2022 15:43:14	Non-Rural	59	86	70	71.66666667	71.25	0	0	0		Yes	The University of Melbourne	6.83	71.66666667																			FALSE
+9/5/2022 16:40:35	Non-Rural	65	80	62	69	67.25	2	0	0		No				Deakin University	6.4	67.25	The University of Melbourne	6.4	69													
+9/6/2022 9:13:02	Non-Rural	68	71	65	68	67.25	0	0	0	Below average portfolio	No				The University of Notre Dame Sydney	6.612	68	Macquarie University	6.612	67.25	Australian National University	6.612	67.25	The University of Wollongong	6.612	67.25	The University of Western Australia	6.612	67.25	The University of Notre Dame Fremantle	6.612	68	
+9/6/2022 14:48:05	Non-Rural	68	64	100	77.33333333	83	0	0	0		Yes	The University of Melbourne	6.45	77.33333333																			FALSE
+9/6/2022 15:43:30	Non-Rural	61	69	75	68.33333333	70	0	2	0		Yes	The University of Notre Dame Sydney	6.979	68.33333333																			FALSE
+9/6/2022 17:11:52	Rural	79	71	79	76.33333333	77	4	0	3		Yes	The University of Melbourne	6.79	76.33333333																			FALSE
+9/7/2022 11:48:27	Non-Rural	54	71	60	61.66666667	61.25	0	0	0		Yes	The University of Wollongong	5.5	61.25																			FALSE
+9/8/2022 12:09:43	Non-Rural	67	64	86	72.33333333	75.75	0	2	0		Yes	Australian National University	6.14	75.75	The University of Melbourne	6.15	72.33333333	Deakin University	6.2	75.75	The University of Queensland	6.02	72.33333333	Griffith University	6.272	75.75	The University of Western Australia	6.02	75.75				FALSE
+9/8/2022 13:00:25	Non-Rural	64	61	80	68.33333333	71.25	0	0	0		Yes	Macquarie University	6.62	71.25																			FALSE
+9/8/2022 13:58:04	Non-Rural	66	82	61	69.66666667	67.5	0	0	0	GAM	Yes	Macquarie University	6.813	67.5	The University of Melbourne	6.794	69.66666667																FALSE
+9/8/2022 19:24:51	Rural	58	64	57	59.66666667	59	8	0	0		Yes	The University of Wollongong	5.5	59																			FALSE
+9/8/2022 21:45:52	Rural	56	59	56	57	56.75	0	0	0	RMP	Yes	The University of Queensland	6.26	57																			FALSE
+9/9/2022 2:57:13	Rural	63	64	69	65.33333333	66.25	14	0	0		Yes	Griffith University	5.649	66.25	The University of Queensland	5.528	65.33333333																FALSE
+9/9/2022 9:48:22	Non-Rural	76	79	63	72.66666667	70.25	0	0	0		Yes	The University of Queensland	7	72.66666667																			FALSE
+9/9/2022 12:31:21	Non-Rural	64	76	74	71.33333333	72	0	0	0		Yes	The University of Notre Dame Fremantle	6.28	71.33333333																			FALSE
+9/11/2022 0:12:05	Rural	64	55	57	58.66666667	58.25	8	0	0		Yes	Deakin University	6.396824167	58.25																			FALSE
+9/11/2022 21:18:08	Non-Rural	65	75	92	77.33333333	81	0	0	0		Yes	The University of Melbourne	6.92	77.33333333																			FALSE
+9/19/2022 2:50:26	Rural	57	61	56	58	57.5	0	0	0	WA Resident & Rural applicant	Yes	The University of Notre Dame Fremantle	6.48	58																			FALSE
+9/25/2022 15:28:09	Rural	59	66	61	62	61.75	2	0	0	Above average (Rural Health Care experience + upbringing)	Yes	The University of Wollongong	5.5	61.75																			FALSE
+9/27/2022 19:42:44	Rural	60	66	69	65	66	0	0	0		Yes	The University of Queensland	6.344	65																			FALSE
+9/30/2022 16:44:40	Non-Rural	70	74	73	72.33333333	72.5	0	0	0	Weak portfolio	Yes	The University of Melbourne	6.71	72.33333333	The University of Notre Dame Sydney	6.75	72.33333333																FALSE
+10/3/2022 10:02:31	Non-Rural	64	77	67	69.33333333	68.75	0	0	0		Yes	The University of Melbourne	6.93	69.33333333	The University of Notre Dame Sydney	6.3	69.33333333	Griffith University	6.3	68.75	The University of Wollongong	6.3	68.75										FALSE
+10/9/2022 22:41:02	Rural	51	54	56	53.66666667	54.25	8	0	3	
+Rural experience and various long standing experiences- ?above average
+Yes	The University of Notre Dame Fremantle	6.3	53.66666667																			FALSE
+10/15/2022 16:26:49	Non-Rural	63	82	57	67.33333333	64.75	0	0	0	Wa resident, above average portfolio	Yes	The University of Notre Dame Fremantle	6.708	67.33333333																			FALSE
+10/27/2022 15:53:57	Non-Rural	63	71	64	66	65.5	0	0	0		Yes	The University of Notre Dame Fremantle	6.68	66																			FALSE
+12/12/2022 15:40:16	Non-Rural	66	71	80	72.33333333	74.25	0	0	0	No	Yes	The University of Melbourne	6.93	72.33333333																			FALSE
+1/23/2023 14:32:26	Non-Rural	57	64	68	63	64.25	0	0	0		No				The University of Notre Dame Fremantle	6.6	63	The University of Notre Dame Sydney	6.6	63													
+9/17/2023 7:45:32	Non-Rural	74	64	73	70.33333333	71	2	0	0	RMP	Yes	The University of Queensland	6.647	70.33333333																			FALSE
+10/9/2023 12:04:20	Non-Rural	68	69	73	70	70.75	0	0	0		Yes	The University of Queensland	7	70																			FALSE
+10/14/2023 17:41:32	Non-Rural	81	80	78	79.66666667	79.25	0	0	0		Yes	The University of Western Australia	6.8	79.25																			FALSE
+12/26/2023 21:14:55	Non-Rural	70	82	70	74	73	0	0	0		Yes	Australian National University	6.8	73																			FALSE

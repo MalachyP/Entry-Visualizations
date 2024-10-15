@@ -1,0 +1,530 @@
+Timestamp	Rurality	S1	S2	S3	UW GAMSAT	W GAMSAT	Outlier	Interviewing Uni	GPA	GAMSAT	1st Preference Uni	GPA	GAMSAT	2nd Preference Uni	GPA	GAMSAT	3rd Preference Uni	GPA	GAMSAT	4th Preference Uni	GPA	GAMSAT	5th Preference Uni	GPA	GAMSAT	6th Preference Uni	GPA	GAMSAT	CASPer Quartile	ANU Bonuses	Deakin Bonus	MQ Bonus	Deakin RTS Tier	Unimelb GAM	UNDF Bonuses	UNDS Bonuses	UQ MP/RMP Tier + Location	UoW Bonuses	Notes
+30/08/2024 11:25:31	Non-Rural	58	75	93	75.33	79.75					The University of Melbourne	6.143	75.33	The University of Queensland (Greater Brisbane)	6	75.33													N/A	0	0	0		No					0	
+30/08/2024 11:25:55	Non-Rural	71	79	57	69	66		The University of Notre Dame Sydney	6.635	69																			4th	0	0	0				None			0	
+30/08/2024 11:26:07	Non-Rural	66	72	71	69.67	70		Griffith University	6.741	70	The University of Melbourne	6.557	69.67																3rd	0	0	0		Yes					0	
+30/08/2024 11:26:21	Non-Rural	60	60	84	68	72		Griffith University	6.906	72																			N/A	0	0	0							0	
+30/08/2024 11:26:32	Non-Rural	57	74	64	65	64.75		Macquarie University	7	64.75																			3rd	0	0	0							0	
+30/08/2024 11:26:57	Non-Rural	58	64	59	60.33	60					The University of Notre Dame Sydney	6.35	60.33	The University of Melbourne	6.3	60.33	Deakin University	6.35	60	The University of Notre Dame Fremantle	6.35	60.33							2nd	0	4	0	Did not apply	Yes	None	None			0	
+30/08/2024 11:27:01	Non-Rural	66	81	63	70	68.25		Griffith University	6.99	68.25																			N/A	0	0	0							0	thanks for the help r/gamsat! (no worries! -Luke)
+30/08/2024 11:27:35	Non-Rural	59	68	81	69.33	72.25		The University of Notre Dame Sydney	6.854	69.33																			3rd	0	0	0				None			0	
+30/08/2024 11:27:35	Non-Rural	60	68	84	70.67	74		Deakin University	6.5	74																			2nd	0	4	0	Did not apply						0	
+30/08/2024 11:28:02	Non-Rural	60	64	77	67	69.5		The University of Queensland (RMP/DDMP)	7	67																			1st	0	0	0					Tier 3	Toowoomba	0	
+30/08/2024 11:28:05	Non-Rural	69	63	87	73	76.5		The University of Notre Dame Sydney	6.618	73																			2nd	0	0	0				None			0	
+30/08/2024 11:28:31	Non-Rural	70	78	96	81.33	85		Griffith University	6.655	85																			N/A	0	0	0							0	
+30/08/2024 11:28:41	Non-Rural	62	62	75	66.33	68.5		The University of Queensland (RMP/DDMP)	6.92	66.33																			N/A	0	0	0					Tier 3	Toowoomba	0	
+30/08/2024 11:28:42	Non-Rural	70	63	57	63.33	61.75					The University of Queensland (Greater Brisbane)	6.54	63.33																N/A	0	0	0							0	
+30/08/2024 11:28:45	Non-Rural	57	68	55	60	58.75					The University of Wollongong	6.2	58.75																4th	0	0	0							1	N/A
+30/08/2024 11:28:51	Non-Rural	55	73	75	67.67	69.5		The University of Notre Dame Sydney	6.8	67.67																			3rd	0	0	0				None			0	
+30/08/2024 11:28:53	Non-Rural	65	59	73	65.67	67.5					The University of Melbourne	6.538	65.67	Griffith University	6.567	67.5	The University of Queensland (RMP/DDMP)	6.525	65.67	The University of Wollongong	6.582	67.5	The University of Notre Dame Sydney	6.582	65.67	The University of Notre Dame Fremantle	6.582	65.67	3rd	0	0	0		No	None	None	Tier 3	Toowoomba	0	
+30/08/2024 11:30:14	Non-Rural	57	68	68	64.33	65.25		Macquarie University	7	65.25	The University of Notre Dame Sydney	7	64.33																3rd	0	0	0				None			0	
+30/08/2024 11:30:18	Non-Rural	56	63	63	60.67	61.25		The University of Notre Dame Fremantle	6.948	60.67	The University of Wollongong	6.948	61.25																4th	0	0	0			None				1	
+30/08/2024 11:30:20	Non-Rural	61	77	64	67.33	66.5		The University of Notre Dame Sydney	6.677	67.33																			4th	0	0	0				None			0	
+30/08/2024 11:30:45	Non-Rural	68	68	70	68.67	69		Macquarie University	6.67	69	The University of Wollongong	6.67	69	The University of Notre Dame Sydney	6.67	68.67													3rd	0	0	0				None			2	
+30/08/2024 11:30:46	Non-Rural	71	78	73	74	73.75		The University of Notre Dame Sydney	6.91	74																			4th	0	0	0				None			0	
+30/08/2024 11:30:54	Non-Rural	65	69	68	67.33	67.5		The University of Queensland (RMP/DDMP)	7	67.33																			4th	0	0	0					Tier 3	Bundaberg	0	
+30/08/2024 11:30:54	Non-Rural	58	72	66	65.33	65.5		Griffith University	6.927	65.5																			N/A	0	0	0							0	
+30/08/2024 11:30:56	Non-Rural	69	63	75	69	70.5		Deakin University	6.573	70.5	The University of Melbourne	6.413	69																N/A	0	8	0	Did not apply	No					0	
+30/08/2024 11:31:01	Rural	57	71	60	62.67	62		Griffith University	5.361	62																			N/A	0	0	0							0	
+30/08/2024 11:31:10	Non-Rural	63	68	65	65.33	65.25		The University of Notre Dame Fremantle	6.56	65.33	The University of Notre Dame Sydney	6.56	65.33	The University of Melbourne	6.5	65.33	The University of Wollongong	6.5	65.25	Deakin University	6.5	65.25							4th	0	0	0	Did not apply	No	None	None			0	
+30/08/2024 11:31:38	Non-Rural	62	63	62	62.33	62.25					The University of Wollongong	6.49	62.25	The University of Queensland (RMP/DDMP)	7	62.33	The University of Melbourne	6.68	62.33	Griffith University	6.708	62.25	Deakin University	6.781	62.25	Macquarie University	6.594	62.25	1st	0	2	0	Did not apply	Yes			Tier 3	Rockhampton	1	
+30/08/2024 11:32:04	Non-Rural	80	81	71	77.33	75.75		Australian National University	7	75.75																			N/A	0	0	0							0	
+30/08/2024 11:32:50	Non-Rural	58	73	71	67.33	68.25		Griffith University	6.911	68.25																			3rd	0	0	0							0	
+30/08/2024 11:33:02	Rural	52	59	54	55	54.75		The University of Wollongong	6.396	54.75																			1st	0	0	0							5	
+30/08/2024 11:33:43	Non-Rural	61	77	89	75.67	79		The University of Notre Dame Sydney	5.948	75.67																			3rd	0	0	0				None			0	
+30/08/2024 11:34:00	Rural	68	60	57	61.67	60.5		The University of Queensland (Greater Brisbane)	7	61.67																			3rd	0	0	0							0	
+30/08/2024 11:34:03	Non-Rural	61	69	71	67	68		The University of Notre Dame Sydney	6.646	67																			4th	0	0	0				None			0	
+30/08/2024 11:34:35	Non-Rural	62	75	69	68.67	68.75		The University of Notre Dame Fremantle	6.59	68.67	The University of Melbourne	6.54	68.67	Deakin University	6.59	68.75													4th	0	0	0	Did not apply	No	WA Res				0	
+30/08/2024 11:34:55	Non-Rural	60	71	75	68.67	70.25		Griffith University	6.979	70.25																			N/A	0	0	0							0	
+30/08/2024 11:36:29	Non-Rural	59	68	63	63.33	63.25		The University of Wollongong	6.729	63.25																			4th	0	0	0							2	
+30/08/2024 11:36:42	Rural	54	63	55	57.33	56.75		The University of Wollongong	5.87	56.75																			4th	0	0	0							4	
+30/08/2024 11:37:11	Non-Rural	57	77	75	69.67	71		Macquarie University	6.625	71																			1st	0	0	0							0	
+30/08/2024 11:37:29	Non-Rural	69	85	57	70.33	67		The University of Notre Dame Sydney	6.757	70.33																			4th	0	0	0				None			0	
+30/08/2024 11:37:36	Non-Rural	75	75	77	75.67	76		The University of Queensland (Greater Brisbane)	6.813	75.67																			N/A	0	0	0							0	
+30/08/2024 11:37:36	Non-Rural	59	82	52	64.33	61.25		The University of Notre Dame Fremantle	6.4	64.33																			4th	0	0	0			WA Res				0	mature age student and career scientist/research
+30/08/2024 11:38:24	Rural	50	62	51	54.33	53.5		Griffith University	6.74	53.5																			N/A	0	0	0							0	
+30/08/2024 11:39:55	Non-Rural	68	73	94	78.33	82.25		The University of Notre Dame Fremantle	5.486	78.33	The University of Wollongong	5.3	82.25	The University of Notre Dame Sydney	5.486	78.33	The University of Queensland (Greater Brisbane)	5.625	78.33	Australian National University	5.486	82.25	Deakin University	5.549	82.25				4th	2	4	0	Did not apply		None	None			4	
+30/08/2024 11:39:57	Non-Rural	62	86	68	72	71		The University of Notre Dame Sydney	6.948	72																			4th	0	0	0				None			0	
+30/08/2024 11:40:16	Non-Rural	58	65	63	62	62.25		Deakin University	6.66	62.25	The University of Wollongong	6.455	62.25	The University of Queensland (Greater Brisbane)	6.565	62	Griffith University	6.507	62.25										3rd	0	10	0	Did not apply						2	
+30/08/2024 11:40:28	Non-Rural	56	69	55		58.75					Deakin University	6.83	58.75																4th	0	4	0	Did not apply						0	
+30/08/2024 11:40:39	Non-Rural	57	79	59	65	63.5		The University of Notre Dame Sydney	6.979	65	The University of Melbourne	6.975	65	Deakin University	6.979	63.5													4th	0	0	0	Did not apply	No		None			0	
+30/08/2024 11:41:17	Non-Rural	67	79	71	72.33	72		The University of Notre Dame Sydney	6.304	72.33	The University of Melbourne	6.308	72.33	Deakin University	6.308	72													4th	0	0	0	Did not apply	Yes		None			0	I'm sad :(
+30/08/2024 11:41:52	Non-Rural	72	73	54	66.33	63.25		The University of Wollongong	6.007	63.25																			4th	0	0	0							4	
+30/08/2024 11:42:01	Non-Rural	55	56	66	59	60.75		The University of Wollongong	6.292	60.75																			4th	0	0	0							1	
+30/08/2024 11:42:51	Non-Rural	67	64	75	68.67	70.25		The University of Notre Dame Fremantle	6.6	68.67	The University of Wollongong	6.6	70.25	Deakin University	6.395	70.25	Griffith University	6.6	70.25	The University of Queensland (Greater Brisbane)	6.6	68.67	The University of Notre Dame Sydney	6.6	68.67				3rd	0	2	0	Did not apply		None	None			1	
+30/08/2024 11:42:57	Non-Rural	59	59	59	59	59					Deakin University	5.813	59	Griffith University	6.913	59	The University of Wollongong	5.813	59	The University of Queensland (Greater Brisbane)	7	59	The University of Melbourne	6.033	59	Macquarie University	6.624	59	2nd	0	2	0	Did not apply	Yes					1	
+30/08/2024 11:45:02	Non-Rural	57	74	72	67.67	68.75		The University of Queensland (RMP/DDMP)	6.825	67.67	The University of Melbourne	6.793	67.67																4th	0	0	0		No			Tier 3	Toowoomba	0	
+30/08/2024 11:46:01	Non-Rural	72	77	83	77.33	78.75		The University of Queensland (Greater Brisbane)	6.938	77.33																			N/A	0	0	0							0	
+30/08/2024 11:46:21	Non-Rural	62	59	70	63.67	65.25					The University of Wollongong	6.736	65.25	The University of Melbourne	6.83	63.67	Deakin University	6.81	65.25	The University of Notre Dame Sydney	6.73	63.67	Macquarie University	6.73	65.25	The University of Western Australia	6.66	65.25	2nd	0	4	0	Did not apply	No		None			2	
+30/08/2024 11:46:30	Non-Rural	67	66	82	71.67	74.25		Griffith University	6.49	74.25																			N/A	0	0	0							0	
+30/08/2024 11:46:37	Non-Rural	68	71	76	71.67	72.75		Griffith University	6.625	72.75																			4th	0	0	0							0	
+30/08/2024 11:47:30	Non-Rural	62	72	74	69.33	70.5		The University of Wollongong	5.5	70.5																			4th	0	0	0							2	
+30/08/2024 11:48:26	Non-Rural	58	66	70	64.67	66		The University of Queensland (RMP/DDMP)	6.99	64.67																			4th	0	0	0					Tier 3	Toowoomba	0	
+30/08/2024 11:48:53	Rural	75	75	53	67.67	64		Australian National University	6.948	64																			4th	0	0	0							0	
+30/08/2024 11:49:46	Non-Rural	56	65	81	67.33	70.75		Deakin University	6.93	70.75	The University of Melbourne	6.91	67.33																4th	0	2	0	Did not apply	No					0	Nope
+30/08/2024 11:51:25	Rural	72	61	59	64	62.75		The University of Notre Dame Fremantle	6.27	64																			4th	0	0	0			WA Res				0	
+30/08/2024 11:52:47	Non-Rural	67	74	57	66	63.75		The University of Wollongong	6.948	63.75																			4th	0	0	0							2	
+30/08/2024 11:54:45	Non-Rural	62	64	65	63.67	64		The University of Notre Dame Sydney	6.75	63.67	The University of Wollongong	6.75	64	The University of Queensland (Greater Brisbane)	6.786	63.67	Griffith University	6.778	64										4th	0	0	0				None			1	
+30/08/2024 11:55:35	Non-Rural	65	59	71	65	66.5		The University of Notre Dame Fremantle	6.893	65	Deakin University	6.983	66.5	The University of Notre Dame Sydney	6.983	65	The University of Queensland (RMP/DDMP)	6.869	65	Griffith University	6.869	66.5	The University of Wollongong	6.893	66.5				3rd	0	0	0	Did not apply		None	None	Tier 3	Toowoomba	0	
+30/08/2024 11:56:40	Rural	61	62	54	59	57.75		The University of Queensland (RMP/DDMP)	6.397	59																			3rd	0	0	0					Tier 2	Toowoomba	0	
+30/08/2024 11:56:41	Non-Rural	67	72	73	70.67	71.25		The University of Notre Dame Sydney	6.575	70.67																			3rd	0	0	0				None			0	
+30/08/2024 11:57:51	Rural	54	56	52	54	53.5		Griffith University	6.885	53.5																			4th	0	0	0							0	
+30/08/2024 11:58:00	Non-Rural	68	66	63	65.67	65		The University of Notre Dame Sydney	6.69	65.67																			4th	0	0	0				None			0	
+30/08/2024 11:58:09	Non-Rural	59	68	71	66	67.25		Deakin University	6.906	67.25																			2nd	0	4	0	Did not apply						0	
+30/08/2024 11:59:30	Non-Rural	73	72	62	69	67.25		The University of Queensland (Greater Brisbane)	7	69																			4th	0	0	0							0	
+30/08/2024 12:00:25	Non-Rural	57	66	77	66.67	69.25		Australian National University	6.778	69.25	The University of Notre Dame Sydney	6.653	66.67																1st	2	0	0				None			0	
+30/08/2024 12:00:36	Non-Rural	59	80	62	67	65.75		Griffith University	6.938	65.75	The University of Melbourne	6.938	67	Deakin University	6.927	65.75	Australian National University	6.927	65.75										N/A	0	2	0	Did not apply	Yes					0	GAM (financial disadvantage + personal difficulties)
+30/08/2024 12:01:23	Non-Rural	65	54	70	63	64.75		The University of Notre Dame Fremantle	6.792	63	The University of Wollongong	6.792	64.75	The University of Queensland (Greater Brisbane)	6.75	63	The University of Melbourne	6.75	63										4th	0	0	0		Yes	None				1	
+30/08/2024 12:02:22	Non-Rural	70	65	58	64.33	62.75		The University of Queensland (Greater Brisbane)	7	64.33																			3rd	0	0	0							0	
+30/08/2024 12:03:16	Non-Rural	63	63	67	64.33	65		Macquarie University	6.901	65																			3rd	0	0	0							0	
+30/08/2024 12:04:25	Rural	51	62	54	55.67	55.25		The University of Queensland (Greater Brisbane)	6.4	55.67																			N/A	0	0	0							0	
+30/08/2024 12:05:35	Non-Rural	60	86	64	70	68.5		The University of Notre Dame Fremantle	6.438	70	The University of Wollongong	6.438	68.5																3rd	0	0	0			None				1	
+30/08/2024 12:06:11	Non-Rural	62	65	84	70.33	73.75		The University of Queensland (RMP/DDMP)	6.75	70.33																			4th	0	0	0					Tier 3	Rockhampton	0	
+30/08/2024 12:06:39	Non-Rural	73	60	96	76.33	81.25		The University of Queensland (Greater Brisbane)	6.2	76.33																			N/A	0	0	0							0	
+30/08/2024 12:06:59	Non-Rural	70	71	59	66.67	64.75		The University of Wollongong	6.895	64.75																			4th	0	0	0							4	
+30/08/2024 12:07:21	Non-Rural	71	67	89	75.67	79		Deakin University	5.963	79	The University of Notre Dame Sydney	5.986	75.67	The University of Wollongong	5.986	79	The University of Melbourne	5.984	75.67										3rd	0	4	0	Did not apply	No		None			0	
+30/08/2024 12:07:31	Non-Rural	65	68	64	65.67	65.25					The University of Wollongong	5.813	65.25	Australian National University	5.813	65.25	The University of Queensland (RMP/DDMP)	5.864	65.67	The University of Notre Dame Sydney	5.813	65.67	Griffith University	5.917	65.25	The University of Notre Dame Fremantle	5.813	65.67	3rd	0	0	0			None	None	Tier 3	Toowoomba	1	
+30/08/2024 12:07:35	Non-Rural	63	73	79	71.67	73.5		The University of Notre Dame Sydney	7	71.67																			4th	0	0	0				None			0	
+30/08/2024 12:08:31	Non-Rural	63	58	68	63	64.25		The University of Queensland (Greater Brisbane)	7	63	The University of Wollongong	6.427	64.25	The University of Notre Dame Sydney	6.427	63													1st	0	0	0				None			2	Applied RMP- recieved GB interview -Luke
+30/08/2024 12:08:44	Non-Rural	63	61	76	66.67	69		Griffith University	6.771	69	The University of Melbourne	6.85	66.67	Deakin University	6.854	69	Australian National University	6.833	69	The University of Queensland (Greater Brisbane)	6.594	66.67							N/A	0	2	0	Did not apply	No					0	
+30/08/2024 12:09:59	Non-Rural	61	76	65	67.33	66.75		The University of Notre Dame Sydney	6.655	67.33	Griffith University	6.569	66.75	The University of Queensland (Greater Brisbane)	6.655	67.33	Australian National University	6.655	66.75	Macquarie University	6.655	66.75							4th	0	0	0				None			0	
+30/08/2024 12:10:03	Non-Rural	58	72	67	65.67	66		The University of Queensland (Greater Brisbane)	7	65.67	The University of Melbourne	7	65.67																N/A	0	0	0		No					0	
+30/08/2024 12:10:06	Non-Rural	68	55	66	63	63.75		The University of Queensland (Greater Brisbane)	7	63																			N/A	0	0	0							0	
+30/08/2024 12:10:07	Non-Rural	68	82	52	67.33	63.5		The University of Notre Dame Sydney	6.333	67.33	The University of Wollongong	6.33	63.5	The University of Queensland (Greater Brisbane)	6.375	67.33													4th	0	0	0				None			1	
+30/08/2024 12:11:00	Non-Rural	67	72	55	64.67	62.25					The University of Melbourne	6.2	64.67	Griffith University	6.15	62.25													N/A	0	0	0		Yes					0	
+30/08/2024 12:11:19	Rural	60	79	72	70.33	70.75		Deakin University	6.77	70.75																			2nd	0	10	0	Tier 2						0	
+30/08/2024 12:11:19	Non-Rural	63	69	60	64	63		The University of Notre Dame Fremantle	6.917	64	The University of Queensland (RMP/DDMP)	6.9	64	The University of Wollongong	6.917	63	Griffith University	6.917	63										4th	0	0	0			None		Tier 3	Toowoomba	0	
+30/08/2024 12:12:13	Rural	58	50	55	54.33	54.5		The University of Queensland (RMP/DDMP)	6.948	54.33																			3rd	0	0	0					Tier 1 (CQ/WB)	Rockhampton	0	
+30/08/2024 12:12:24	Non-Rural	64	76	69	69.67	69.5		The University of Notre Dame Fremantle	6.604	69.67																			3rd	0	0	0			None				0	
+30/08/2024 12:14:37	Non-Rural	65	65	77	69	71		The University of Wollongong	6.99	71																			4th	0	0	0							3	
+30/08/2024 12:15:06	Rural	70	59	68	65.67	66.25		The University of Wollongong	6.2	66.25																			3rd	0	0	0							3	
+30/08/2024 12:16:31	Non-Rural	62	78	68	69.33	69		The University of Queensland (RMP/DDMP)	6.844	69.33																			4th	0	0	0					Tier 3	Toowoomba	0	
+30/08/2024 12:16:41	Rural	58	71	58	62.33	61.25		The University of Wollongong	6.44	61.25																			3rd	0	0	0							5	
+30/08/2024 12:17:15	Rural	60	64	60	61.33	61		Griffith University	6.82	61																			2nd	0	0	0							0	
+30/08/2024 12:17:23	Non-Rural	52	61	72	61.67	64.25					The University of Wollongong	6.771	64.25	The University of Notre Dame Sydney	6.771	61.67	The University of Notre Dame Fremantle	6.771	61.67	Griffith University	6.729	64.25	The University of Western Australia	6.604	64.25	The University of Melbourne	6.775	61.67	3rd	0	0	0		No	None	None			1	
+30/08/2024 12:17:26	Non-Rural	59	69	61	63	62.5		The University of Queensland (Greater Brisbane)	7	63	The University of Melbourne	6.675	63	Deakin University	6.708	62.5													2nd	0	0	0	Did not apply	No					0	
+30/08/2024 12:18:49	Non-Rural	65	71	70	68.67	69		The University of Notre Dame Sydney	6.75	68.67	The University of Wollongong	6.75	69	The University of Melbourne	6.73	68.67	Australian National University	6.75	69										4th	0	0	0		No		None			1	
+30/08/2024 12:19:25	Non-Rural	55	81	70	68.67	69		The University of Notre Dame Sydney	6.6	68.67																			4th	0	0	0				None			0	
+30/08/2024 12:19:35	Rural	66	71	56	64.33	62.25		The University of Notre Dame Sydney	6.719	64.33																			3rd	0	0	0				None			0	
+30/08/2024 12:20:40	Non-Rural	62	66	76	68	70		The University of Wollongong	6.333	70																			4th	0	0	0							1	
+30/08/2024 12:21:28	Non-Rural	63	59	66	62.67	63.5		The University of Notre Dame Fremantle	6.677	62.67																			4th	0	0	0			WA Res				0	
+30/08/2024 12:21:30	Rural	67	54	52	57.67	56.25		Deakin University	6.792	56.25																			N/A	0	12	0	Did not apply						0	
+30/08/2024 12:21:41	Non-Rural	65	74	63	67.33	66.25		Deakin University	6.667	66.25																			N/A	0	8	0	Did not apply						0	
+30/08/2024 12:22:08	Non-Rural	63	69	64	65.33	65		The University of Queensland (RMP/DDMP)	6.89	65.33																			1st	0	0	0					Tier 3	Toowoomba	0	
+30/08/2024 12:25:54	Non-Rural	53	63	86	67.33	72		Griffith University	6.9	72																			4th	0	0	0							0	
+30/08/2024 12:26:40	Non-Rural	60	72	65	65.67	65.5		The University of Western Australia	6.875	65.5																			3rd	0	0	0							0	
+30/08/2024 12:26:47	Non-Rural	66	72	70	69.33	69.5		The University of Notre Dame Sydney	6.458	69.33	Deakin University	6.458	69.5																4th	0	0	0	Did not apply			None			0	
+30/08/2024 12:28:22	Non-Rural	67	72	54	64.33	61.75					The University of Wollongong	5.9	61.75	The University of Notre Dame Sydney	6.1	64.33	Macquarie University	6.1	61.75										2nd	0	0	0				None			3	
+30/08/2024 12:29:04	Non-Rural	70	67	68	68.33	68.25		The University of Queensland (RMP/DDMP)	7	68.33																			3rd	0	0	0					Tier 3	Toowoomba	0	
+30/08/2024 12:29:57	Non-Rural	67	81	67	71.67	70.5		The University of Notre Dame Sydney	6.5	71.67	Australian National University	6.607	70.5																4th	2	0	0				None			0	
+30/08/2024 12:31:40	Rural	66	70	61	65.67	64.5		Griffith University	6.625	64.5																			N/A	0	0	0							0	
+30/08/2024 12:31:53	Rural	60	58	55	57.67	57		Deakin University	5.885	57																			N/A	0	10	0	Tier 1						0	
+30/08/2024 12:32:13	Non-Rural	60	68	65	64.33	64.5		The University of Notre Dame Fremantle	6.9	64.33																			4th	0	0	0			WA Res				0	
+30/08/2024 12:32:21	Non-Rural	68	62	70	66.67	67.5		Deakin University	6.917	67.5																			N/A	0	6	0	Did not apply						0	
+30/08/2024 12:33:10	Non-Rural	59	68	51	59.33	57.25					The University of Wollongong	6.1	57.25	The University of Melbourne	6.1	59.33	The University of Notre Dame Fremantle	6.1	59.33	Deakin University	6.1	57.25							4th	0	2	0	Did not apply	Yes	WA Res				2	
+30/08/2024 12:33:27	Non-Rural	63	63	84	70	73.5		The University of Notre Dame Sydney	6.607	70	The University of Melbourne	6.579	70	Deakin University	6.607	73.5													3rd	0	0	0	Did not apply	Yes		None			0	
+30/08/2024 12:33:40	Non-Rural	57	57	70	61.33	63.5					Deakin University	6.5	63.5	The University of Wollongong	6.5	63.5	Australian National University	6.5	63.5	Griffith University	6.5	63.5	The University of Notre Dame Sydney	6.5	61.33	The University of Wollongong	6.5	63.5	1st	0	0	0	Did not apply			None			0	
+30/08/2024 12:34:06	Non-Rural	58	68	61	62.33	62					Deakin University	6.854	62	The University of Wollongong	6.854	62	Griffith University	6.729	62	The University of Notre Dame Sydney	6.854	62.33	Australian National University	6.854	62	The University of Notre Dame Fremantle	6.854	62.33	4th	2	0	0	Did not apply		None	None			0	My GPA is really hard to calculate so not sure
+30/08/2024 12:34:30	Non-Rural	66	75	98	79.67	84.25		Australian National University	6.2	84.25	The University of Melbourne	6.063	79.67																N/A	0	0	0		Yes					0	
+30/08/2024 12:36:39	Non-Rural	66	52	78	65.33	68.5		Australian National University	6.903	68.5																			2nd	2	0	0							0	N/A
+30/08/2024 12:37:35	Non-Rural	68	80	73	73.67	73.5		The University of Notre Dame Sydney	6.802	73.67	The University of Wollongong	6.802	73.5																4th	0	0	0				None			1	
+30/08/2024 12:39:01	Rural	59	60	74	64.33	66.75		The University of Western Australia	6.7	66.75																			N/A	0	0	0							0	
+30/08/2024 12:39:24	Non-Rural	77	75	71	74.33	73.5		The University of Melbourne	6.895	74.33																			N/A	0	0	0		No					0	
+30/08/2024 12:39:52	Non-Rural	69	63	86	72.67	76		The University of Melbourne	6.955	72.67																			N/A	0	0	0		No					0	
+30/08/2024 12:40:00	Non-Rural	56	73	74	67.67	69.25		The University of Western Australia	6.958	69.25																			4th	0	0	0							0	
+30/08/2024 12:40:23	Non-Rural	70	65	69	68	68.25		The University of Notre Dame Fremantle	6.371	68																			4th	0	0	0			WA Res				0	
+30/08/2024 12:41:09	Rural	64	71	63	66	65.25		The University of Melbourne	5.85	66																			N/A	0	0	0		Yes					0	
+30/08/2024 12:41:10	Rural	57	72	55	61.33	59.75		The University of Queensland (RMP/DDMP)	5.85	61.33																			N/A	0	0	0					Tier 2	Toowoomba	0	Rural Applicant. Current healthcare worker.
+30/08/2024 12:42:40	Rural	65	64	65	64.67	64.75		The University of Notre Dame Sydney	6.01	64.67																			2nd	0	0	0				None			0	
+30/08/2024 12:43:24	Non-Rural	65	79	62	68.67	67		The University of Melbourne	6.963	68.67																			4th	0	0	0		No					0	
+30/08/2024 12:43:35	Non-Rural	69	78	78	75	75.75					The University of Melbourne	6.6	75	Deakin University	6.3	75.75													N/A	0	0	0	Did not apply	Yes					0	
+30/08/2024 12:43:42	Non-Rural	56	71	81	69.33	72.25		The University of Melbourne	6.925	69.33																			N/A	0	0	0		No					0	
+30/08/2024 12:43:44	Non-Rural	61	70	78	69.67	71.75		The University of Melbourne	6.925	69.67																			2nd	0	0	0		No					0	
+30/08/2024 12:44:17	Non-Rural	65	64	63	64	63.75		The University of Western Australia	7	63.75																			3rd	0	0	0							0	
+30/08/2024 12:44:47	Rural	67	66	84	72.33	75.25		The University of Melbourne	6.946	72.33																			3rd	0	0	0		No					0	
+30/08/2024 12:44:57	Non-Rural	73	85	95	84.33	87		The University of Melbourne	6.713	84.33																			N/A	0	0	0		No					0	
+30/08/2024 12:46:42	Non-Rural	58	70	75	67.67	69.5		The University of Notre Dame Sydney	6.25	67.67																			4th	0	0	0				None			0	Pre-med
+30/08/2024 12:47:02	Non-Rural	65	63	71	66.33	67.5		The University of Western Australia	6.83	67.5	The University of Wollongong	6.83	67.5	The University of Notre Dame Sydney	6.83	66.33	The University of Notre Dame Fremantle	6.83	66.33										2nd	0	0	0			None	None			1	
+30/08/2024 12:47:23	Non-Rural	68	65	71	68	68.75		The University of Melbourne	7	68																			3rd	0	0	0		No					0	
+30/08/2024 12:47:50	Rural	64	80	63	69	67.5		Griffith University	6.685	67.5																			N/A	0	0	0							0	
+30/08/2024 12:48:14	Non-Rural	61	61	68	63.33	64.5		The University of Wollongong	6.55	64.5																			4th	0	0	0							4	
+30/08/2024 12:48:16	Non-Rural	60	77	60	65.67	64.25		Deakin University	6.7	64.25	The University of Melbourne	6.7	65.67																3rd	0	8	0	Did not apply	Yes					0	
+30/08/2024 12:48:22	Non-Rural	68	73	73	71.33	71.75		The University of Melbourne	6.667	71.33	The University of Queensland (Greater Brisbane)	6.264	71.33																N/A	0	0	0		No					0	
+30/08/2024 12:49:39	Non-Rural	68	71	74	71	71.75		The University of Melbourne	6.986	71																			3rd	0	0	0		Yes					0	
+30/08/2024 12:49:42	Non-Rural	69	72	78	73	74.25		The University of Melbourne	7	73																			N/A	0	0	0		No					0	
+30/08/2024 12:50:07	Non-Rural	77	76	73	75.33	74.75		The University of Notre Dame Sydney	6.852	75.33																			3rd	0	0	0				None			0	
+30/08/2024 12:51:04	Non-Rural	61	72	78	70.33	72.25		The University of Notre Dame Sydney	6.906	70.33																			3rd	0	0	0				None			0	
+30/08/2024 12:51:23	Non-Rural	62	78	68	69.33	69		The University of Melbourne	6.811	69.33																			4th	0	0	0		No					0	
+30/08/2024 12:52:07	Rural	63	57	59	59.67	59.5		The University of Western Australia	5.57	59.5																			N/A	0	0	0							0	Rural MM5
+30/08/2024 12:52:52	Rural	61	84	76	73.67	74.25		The University of Melbourne	6.9	73.67																			4th	0	0	0		No					0	
+30/08/2024 12:53:51	Non-Rural	70	65	71	68.67	69.25		The University of Queensland (Greater Brisbane)	7	68.67																			N/A	0	0	0							0	
+30/08/2024 12:55:16	Non-Rural	65	55	68	62.67	64		The University of Wollongong	6.64	64																			3rd	0	0	0							4	
+30/08/2024 12:55:56	Non-Rural	63	61	76	66.67	69		Deakin University	6.75	69	The University of Queensland (RMP/DDMP)	6.648	66.67	Griffith University	6.65	69	The University of Melbourne	6.733	66.67										N/A	0	4	0	Did not apply	No			Tier 3	Toowoomba	0	
+30/08/2024 12:55:56	Non-Rural	83	67	66	72	70.5		The University of Melbourne	6.762	72																			N/A	0	0	0		Yes					0	n/a
+30/08/2024 12:55:59	Non-Rural	65	71	90	75.33	79		The University of Melbourne	6.746	75.33																			4th	0	0	0		No					0	
+30/08/2024 12:58:32	Non-Rural	63	81	79	74.33	75.5		The University of Melbourne	7	74.33																			N/A	0	0	0		No					0	
+30/08/2024 12:58:55	Non-Rural	59	69	65	64.33	64.5		The University of Queensland (RMP/DDMP)	7	64.33																			3rd	0	0	0					Tier 3	Toowoomba	0	MSc (research)
+30/08/2024 13:00:24	Non-Rural	57	67	66	63.33	64		Deakin University	6.833	64																			4th	0	8	0	Did not apply						0	
+30/08/2024 13:00:50	Rural	55	71	64	63.33	63.5		Griffith University	6.72	63.5																			N/A	0	0	0							0	
+30/08/2024 13:00:58	Non-Rural	57	51	75	61	64.5		The University of Western Australia	6.979	64.5	Australian National University	6.99	64.5	The University of Queensland (RMP/DDMP)	6.979	61	Griffith University	6.979	64.5										N/A	0	0	0					Tier 3	Rockhampton	0	no
+30/08/2024 13:01:59	Non-Rural	60	67	79	68.67	71.25		Macquarie University	6.115	71.25																			N/A	0	0	3							0	
+30/08/2024 13:02:31	Non-Rural	53	67	72	64	66		The University of Queensland (Greater Brisbane)	7	64	The University of Melbourne	7	64																N/A	0	0	0		No					0	
+30/08/2024 13:03:31	Non-Rural	66	63	83	70.67	73.75		The University of Western Australia	6.542	73.75	The University of Notre Dame Sydney	6.51	70.67	Australian National University	6.51	73.75													3rd	0	0	0				None			0	
+30/08/2024 13:03:36	Non-Rural	62	73	94	76.33	80.75		The University of Melbourne	6.604	76.33																			N/A	0	0	0		Yes					0	
+30/08/2024 13:03:52	Non-Rural	51	55	76	60.67	64.5					The University of Melbourne	6.8	60.67																1st	0	0	0		Yes					0	
+30/08/2024 13:04:17	Non-Rural	61	68	78	69	71.25		The University of Melbourne	6.886	69																			N/A	0	0	0		No					0	
+30/08/2024 13:04:21	Rural	61	55	51	55.67	54.5		Australian National University	6.134	54.5																			N/A	0	0	0							0	
+30/08/2024 13:04:28	Non-Rural	69	72	77	72.67	73.75		The University of Western Australia	6.5	73.75																			3rd	0	0	0							0	
+30/08/2024 13:05:33	Non-Rural	64	74	60	66	64.5		The University of Queensland (Greater Brisbane)	7	66																			4th	0	0	0							0	
+30/08/2024 13:05:57	Rural	59	60	84	67.67	71.75		The University of Melbourne	6.55	67.67																			4th	0	0	0		No					0	
+30/08/2024 13:07:01	Non-Rural	65	71	64	66.67	66		The University of Wollongong	6.698	66																			4th	0	0	0							2	
+30/08/2024 13:07:41	Non-Rural	58	69	83	70	73.25		The University of Melbourne	6.9	70																			N/A	0	0	0		No					0	
+30/08/2024 13:09:02	Non-Rural	56	78	70	68	68.5		The University of Notre Dame Sydney	6.33	68																			4th	0	0	0				None			0	Did very well in CASPer IMO
+30/08/2024 13:09:15	Non-Rural	63	80	56	66.33	63.75		The University of Notre Dame Fremantle	6.6	66.33																			3rd	0	0	0			WA Res				0	
+30/08/2024 13:09:16	Non-Rural	67	72	77	72	73.25		The University of Western Australia	6.521	73.25																			4th	0	0	0							0	
+30/08/2024 13:09:25	Non-Rural	63	62	70	65	66.25		The University of Queensland (RMP/DDMP)	7	65	The University of Wollongong	6.631	66.25	The University of Notre Dame Fremantle	6.631	65													2nd	0	0	0			None		Tier 3	Bundaberg	1	First-class standalone honours
+30/08/2024 13:11:33	Non-Rural	60	60	83	67.67	71.5		The University of Notre Dame Sydney	6.501	67.67																			4th	0	0	0				None			0	
+30/08/2024 13:11:53	Non-Rural	63	86	71	73.33	72.75		The University of Melbourne	6.95	73.33																			N/A	0	0	0		No					0	
+30/08/2024 13:15:41	Non-Rural	57	71	64	64	64		The University of Queensland (Greater Brisbane)	7	64																			N/A	0	0	0							0	Received an email from Melbourne asking for information about my PhD so I could be considered for interview re-ranking.
+30/08/2024 13:16:11	Non-Rural	60	60	66	62	63					The University of Wollongong	6.208	63	The University of Notre Dame Sydney	6.208	62	The University of Queensland (RMP/DDMP)	7	62	Australian National University	6.208	63	Deakin University	6.198	63	Macquarie University	6.177	63	4th	2	2	0	Did not apply			None	Tier 3	Rockhampton	1	
+30/08/2024 13:17:55	Non-Rural	73	78	69	73.33	72.25		The University of Melbourne	6.886	73.33																			N/A	0	0	0		Yes					0	
+30/08/2024 13:18:49	Non-Rural	60	72	57	63	61.5					The University of Wollongong	6.881	61.5	Macquarie University	6.881	61.5	The University of Notre Dame Sydney	6.881	63	Australian National University	6.881	61.5							4th	0	0	0				None			1	
+30/08/2024 13:20:28	Non-Rural	78	69	84	77	78.75		Australian National University	6.885	78.75																			N/A	0	0	0							0	
+30/08/2024 13:21:05	Non-Rural	65	63	63	63.67	63.5		The University of Queensland (RMP/DDMP)	7	63.67																			4th	0	0	0					Tier 3	Toowoomba	0	
+30/08/2024 13:21:21	Rural	62	73	58	64.33	62.75		Australian National University	5.676	62.75																			4th	0	0	0							0	
+30/08/2024 13:22:17	Non-Rural	63	72	81	72	74.25		The University of Melbourne	6.858	72																			N/A	0	0	0		No					0	
+30/08/2024 13:22:40	Non-Rural	61	64	87	70.67	74.75		The University of Melbourne	6.9	70.67																			N/A	0	0	0		Yes					0	No
+30/08/2024 13:22:49	Non-Rural	71	70	68	69.67	69.25		The University of Queensland (Greater Brisbane)	6.589	69.67																			4th	0	0	0							0	
+30/08/2024 13:23:30	Non-Rural	61	78	64	67.67	66.75					The University of Notre Dame Sydney	6.58	67.67	Australian National University	6.58	66.75	The University of Wollongong	6.58	66.75	The University of Melbourne	6.525	67.67							2nd	0	0	0		No		None			0	
+30/08/2024 13:25:03	Rural	61	71	62	64.67	64		The University of Melbourne	5.867	64.67																			N/A	0	0	0		No					0	
+30/08/2024 13:26:40	Non-Rural	70	62	74	68.67	70		The University of Western Australia	6.896	70																			3rd	0	0	0							0	
+30/08/2024 13:27:48	Non-Rural	73	79	74	75.33	75		The University of Melbourne	6.4	75.33																			4th	0	0	0		No					0	
+30/08/2024 13:28:09	Non-Rural	63	75	73	70.33	71		Deakin University	6.735	71	The University of Melbourne	6.682	70.33																4th	0	2	0	Did not apply	No					0	
+30/08/2024 13:28:11	Non-Rural	60	65	67	64	64.75		The University of Western Australia	6.818	64.75	The University of Notre Dame Sydney	6.74	64	Australian National University	6.74	64.75	The University of Notre Dame Fremantle	6.74	64	Griffith University	6.74	64.75	Macquarie University	6.74	64.75				2nd	0	0	0			None	None			0	
+30/08/2024 13:28:42	Non-Rural	61	54	74	63	65.75					The University of Melbourne	6.9	63																2nd	0	0	0		Yes					0	
+30/08/2024 13:29:10	Non-Rural	56	79	80	71.67	73.75		The University of Melbourne	6.921	71.67																			N/A	0	0	0		No					0	
+30/08/2024 13:31:26	Non-Rural	71	80	92	81	83.75		The University of Queensland (Greater Brisbane)	6.975	81																			N/A	0	0	0							0	
+30/08/2024 13:33:11	Non-Rural	59	66	84	69.67	73.25		The University of Melbourne	7	69.67																			3rd	0	0	0		No					0	
+30/08/2024 13:36:13	Non-Rural	54	79	65	66	65.75					The University of Melbourne	6.771	66	Deakin University	6.958	65.75	The University of Notre Dame Sydney	6.917	66	The University of Queensland (Greater Brisbane)	6.6	66	Griffith University	6.542	65.75	Australian National University	6.917	65.75	2nd	2	0	0	Did not apply	Yes		None			0	
+30/08/2024 13:38:11	Non-Rural	63	63	70	65.33	66.5		The University of Western Australia	7	66.5																			3rd	0	0	0							0	
+30/08/2024 13:40:21	Non-Rural	59	83	76	72.67	73.5		The University of Western Australia	6.708	73.5																			4th	0	0	0							0	Non WA resident
+30/08/2024 13:41:06	Non-Rural	63	70	72	68.33	69.25		Macquarie University	6.45	69.25	The University of Wollongong	6.45	69.25	The University of Notre Dame Fremantle	6.45	68.33	The University of Notre Dame Sydney	6.45	68.33	Australian National University	6.45	69.25	Griffith University	6.45	69.25				2nd	0	0	0			None	None			1	
+30/08/2024 13:50:10	Non-Rural	61	76	68	68.33	68.25					The University of Melbourne	6.443	68.33	Australian National University	6.625	68.25	Deakin University	6.813	68.25	The University of Western Australia	6.556	68.25	The University of Queensland (Greater Brisbane)	6.474	68.33	Griffith University	6.375	68.25	N/A	2	0	0	Did not apply	No					0	
+30/08/2024 13:50:29	Non-Rural	62	61	82	68.33	71.75		The University of Queensland (Greater Brisbane)	6.938	68.33																			N/A	0	0	0							0	
+30/08/2024 13:50:35	Non-Rural	68	76	59	67.67	65.5		The University of Queensland (RMP/DDMP)	7	67.67	The University of Wollongong	6.594	65.5																4th	0	0	0					Tier 3	Toowoomba	1	
+30/08/2024 13:53:19	Non-Rural	62	63	77	67.33	69.75		The University of Queensland (RMP/DDMP)	6.789	67.33	The University of Melbourne	6.746	67.33	The University of Notre Dame Sydney	6.774	67.33													2nd	0	0	0		No		None	Tier 3	Toowoomba	0	
+30/08/2024 13:55:18	Rural	67	78	57	67.33	64.75		The University of Notre Dame Sydney	5.29	67.33																			3rd	0	0	0				None			0	
+30/08/2024 13:55:20	Non-Rural	67	70	67	68	67.75		The University of Notre Dame Sydney	6.8	68	The University of Melbourne	6.799	68																3rd	0	0	0		No		None			0	
+30/08/2024 13:55:24	Non-Rural	68	71	68	69	68.75		The University of Melbourne	7	69																			4th	0	0	0		Yes					0	
+30/08/2024 13:56:21	Non-Rural	80	65	59	68	65.75					The University of Wollongong	6.313	65.75	Deakin University	6.313	65.75	The University of Notre Dame Sydney	6.313	68										4th	0	4	0	Did not apply			None			2	
+30/08/2024 13:56:33	Non-Rural	71	69	76	72	73		The University of Queensland (Greater Brisbane)	7	72																			N/A	0	0	0							0	
+30/08/2024 13:57:17	Non-Rural	68	73	54	65	62.25		The University of Notre Dame Fremantle	6.677	65																			3rd	0	0	0			WA Res				0	
+30/08/2024 13:58:28	Non-Rural	60	68	66	64.67	65					The University of Queensland (Greater Brisbane)	6.789	64.67	The University of Melbourne	6.804	64.67	Griffith University	6.799	65	The University of Notre Dame Sydney	6.799	64.67	Deakin University	6.799	65	The University of Wollongong	6.799	65	2nd	0	2	0	Did not apply	Yes		None			0	
+30/08/2024 13:59:40	Rural	60	55	66	60.33	61.75		The University of Melbourne	7	60.33																			4th	0	0	0		No					0	
+30/08/2024 14:00:06	Non-Rural	70	72	70	70.67	70.5		The University of Melbourne	6.775	70.67																			4th	0	0	0		No					0	
+30/08/2024 14:01:54	Non-Rural	63	78	76	72.33	73.25		The University of Melbourne	6.938	72.33																			N/A	0	0	0		Yes					0	
+30/08/2024 14:02:09	Non-Rural	55	68	74	65.67	67.75		The University of Queensland (RMP/DDMP)	7	65.67																			N/A	0	0	0					Tier 3	Toowoomba	0	
+30/08/2024 14:02:17	Non-Rural	65	66	70	67	67.75		The University of Notre Dame Fremantle	6.443	67																			4th	0	0	0			WA Res				0	
+30/08/2024 14:02:25	Non-Rural	68	77	66	70.33	69.25		The University of Melbourne	6.9	70.33																			N/A	0	0	0		No					0	
+30/08/2024 14:06:54	Non-Rural	57	56	65	59.33	60.75		The University of Melbourne	6.021	59.33																			N/A	0	0	0		Yes					0	i am just as surprised as you are. if accepted, it will likely be FFP
+30/08/2024 14:07:01	Non-Rural	63	80	65	69.33	68.25		The University of Queensland (Greater Brisbane)	7	69.33	The University of Notre Dame Sydney	6.257	69.33				The University of Wollongong	6.257	68.25	Deakin University	6.628	68.25	The University of Notre Dame Fremantle	6.257	69.33	The University of Western Australia	6.365	68.25	4th	0	4	0	Did not apply		None	None			1	
+30/08/2024 14:08:45	Non-Rural	77	68	84	76.33	78.25		Griffith University	6.23	78.25																			N/A	0	0	0							0	
+30/08/2024 14:11:11	Rural	59	58	69	62	63.75		The University of Notre Dame Sydney	6.219	62																			3rd	0	0	0				None			0	
+30/08/2024 14:12:59	Rural	60	70	63	64.33	64		The University of Queensland (Greater Brisbane)	6.8	64.33																			4th	0	0	0							0	
+30/08/2024 14:14:26	Non-Rural	60	65	63	62.67	62.75		The University of Wollongong	6.69	62.75																			4th	0	0	0							2	
+30/08/2024 14:15:16	Non-Rural	68	61	74	67.67	69.25					The University of Queensland (Greater Brisbane)	6.3	67.67	Griffith University	6.3	69.25	The University of Melbourne	6.3	67.67	Deakin University	6.3	69.25	The University of Western Australia	6.3	69.25	Australian National University	6.3	69.25	N/A	2	0	0	Did not apply	No					0	
+30/08/2024 14:16:17	Non-Rural	60	65	64	63	63.25		The University of Queensland (Greater Brisbane)	7	63	Deakin University	6.656	63.25																3rd	0	8	0	Did not apply						0	First Class Honours, 2% ANU bonus
+30/08/2024 14:20:03	Non-Rural	64	78	69	70.33	70		The University of Melbourne	6.88	70.33																			N/A	0	0	0		No					0	
+30/08/2024 14:22:33	Non-Rural	62	70	90	74	78		The University of Melbourne	6.73	74																			N/A	0	0	0		No					0	
+30/08/2024 14:22:57	Rural	67	73	62	67.33	66		Griffith University	7	66																			N/A	0	0	0							0	
+30/08/2024 14:23:49	Non-Rural	59	76	52	62.33	59.75		The University of Notre Dame Sydney	6.854	62.33																			2nd	0	0	0				None			0	I did the UND Graduate Diploma of Health and Medical Sciences. (Received 6HDs, 2Ds)
+30/08/2024 14:24:00	Non-Rural	60	73	67	66.67	66.75		The University of Melbourne	7	66.67																			4th	0	0	0		No					0	
+30/08/2024 14:29:45	Non-Rural	61	67	80	69.33	72		The University of Melbourne	6.808	69.33																			4th	0	0	0		No					0	
+30/08/2024 14:30:24	Non-Rural	66	81	62	69.67	67.75		The University of Notre Dame Sydney	6.71	69.67																			1st	0	0	0				None			0	
+30/08/2024 14:32:06	Non-Rural	65	67	73	68.33	69.5		The University of Notre Dame Sydney	6.84	68.33																			1st	0	0	0				None			0	
+30/08/2024 14:32:39	Non-Rural	65	74	79	72.67	74.25		The University of Queensland (Greater Brisbane)	7	72.67																			4th	0	0	0							0	
+30/08/2024 14:34:51	Non-Rural	65	67	75	69	70.5		Deakin University	6.979	70.5																			N/A	0	0	0	Did not apply						0	
+30/08/2024 14:39:50	Non-Rural	66	67	70	67.67	68.25		The University of Western Australia	7	68.25																			1st	0	0	0							0	PhD
+30/08/2024 14:43:58	Non-Rural	64	69	62	65	64.25		The University of Western Australia	6.927	64.25	Australian National University	6.932	64.25	Griffith University	6.927	64.25													N/A	0	0	0							0	
+30/08/2024 14:46:01	Non-Rural	59	57	65	60.33	61.5					The University of Wollongong	6.4	61.5	The University of Notre Dame Sydney	6.4	60.33	Australian National University	6.4	61.5	Macquarie University	6.4	61.5	Deakin University	6.5	61.5				4th	0	0	0	Did not apply			None			2	
+30/08/2024 14:52:03	Non-Rural	65	56	86	69	73.25		The University of Notre Dame Sydney	6.9	69																			4th	0	0	0				None			0	
+30/08/2024 14:57:49	Rural	63	68	78	69.67	71.75		The University of Melbourne	5.85	69.67																			N/A	0	0	0		Yes					0	MM7 Rural
+30/08/2024 15:00:30	Non-Rural	73	72	74	73	73.25		The University of Melbourne	6.79	73																			N/A	0	0	0		No					0	
+30/08/2024 15:06:26	Non-Rural	59	60	53	57.33	56.25		The University of Notre Dame Sydney	6.3	57.33																			2nd	0	0	0				None			0	I did the Graduate Diploma in Health and Medical Science and made deen's list with gives you an interview.
+30/08/2024 15:10:08	Non-Rural	71	81	100	84	88		The University of Melbourne	6.3	84																			N/A	0	0	0		No					0	
+30/08/2024 15:10:13	Rural	58	58	60	58.67	59		The University of Queensland (RMP/DDMP)	6.719	58.67																			N/A	0	0	0					Tier 1 (CQ/WB)	Rockhampton	0	
+30/08/2024 15:13:48	Non-Rural	61	79	69	69.67	69.5		The University of Western Australia	6.979	69.5																			3rd	0	0	0							0	
+30/08/2024 15:16:38	Non-Rural	62	78	86	75.33	78		The University of Melbourne	6.83	75.33																			N/A	0	0	0		No					0	
+30/08/2024 15:19:15	Non-Rural	55	50	91	65.33	71.75		Australian National University	6.97	71.75	The University of Melbourne	6.97	65.33																N/A	0	0	0		No					0	
+30/08/2024 15:22:26	Non-Rural	61	66	62	63	62.75		The University of Notre Dame Sydney	7	63	The University of Wollongong	7	62.75																4th	0	0	0				None			1	
+30/08/2024 15:28:21	Non-Rural	57	56	58	57	57.25					The University of Notre Dame Fremantle	6.92	57	The University of Western Australia	6.89	57.25													3rd	0	0	0			WA Res				0	
+30/08/2024 15:31:06	Non-Rural	71	90	77	79.33	78.75		The University of Melbourne	6.84	79.33																			N/A	0	0	0		No					0	
+30/08/2024 15:33:21	Non-Rural	60	74	72	68.67	69.5		The University of Melbourne	6.97	68.67																			4th	0	0	0		No					0	
+30/08/2024 15:35:11	Non-Rural	64	71	77	70.67	72.25		The University of Melbourne	6.854	70.67																			N/A	0	0	0		No					0	
+30/08/2024 15:35:13	Non-Rural	64	67	58	63	61.75					The University of Wollongong	6.54	61.75	The University of Notre Dame Sydney	6.5	63													2nd	0	0	0				None			3	no
+30/08/2024 15:35:27	Non-Rural	67	65	81	71	73.5		The University of Queensland (RMP/DDMP)	7	71																			1st	0	0	0					Tier 3	Toowoomba	0	1st class honours
+30/08/2024 15:39:14	Non-Rural	70	55	68	64.33	65.25					The University of Queensland (Greater Brisbane)	7	64.33	Griffith University	6.4	65.25													N/A	0	0	0							0	
+30/08/2024 15:39:42	Non-Rural	63	72	71	68.67	69.25		The University of Western Australia	6.83	69.25																			N/A	0	0	0							0	
+30/08/2024 15:40:25	Non-Rural	64	64	69	65.67	66.5		The University of Notre Dame Sydney	6.823	65.67	The University of Melbourne	6.788	65.67	Deakin University	6.823	66.5													4th	0	0	0	Did not apply	No		None			0	N/A
+30/08/2024 15:42:10	Non-Rural	61	75	69	68.33	68.5		The University of Queensland (Greater Brisbane)	6.868	68.33	The University of Notre Dame Sydney	6.948	68.33																2nd	0	0	0				None			0	
+30/08/2024 15:44:13	Non-Rural	58	65	66	63	63.75		The University of Notre Dame Fremantle	6.97	63	The University of Wollongong	6.97	63.75	The University of Notre Dame Sydney	6.97	63													3rd	0	0	0			None	None			1	
+30/08/2024 15:45:31	Non-Rural	59	77	66	67.33	67		The University of Notre Dame Sydney	6.76	67.33																			4th	0	0	0				None			0	
+30/08/2024 15:47:58	Non-Rural	69	69	65	67.67	67					The University of Melbourne	6.55	67.67	Deakin University	6.823	67	The University of Queensland (RMP/DDMP)	6.323	67.67	Griffith University	6.438	67	Australian National University	6.771	67	The University of Wollongong	6.771	67	4th	0	0	0	Did not apply	Yes			Tier 3	Rockhampton	0	GAM, Centrelink, family circumstances first year, currently completing honours
+30/08/2024 15:49:08	Non-Rural	53	78	69	66.67	67.25					The University of Wollongong	6.542	67.25	The University of Notre Dame Sydney	6.542	66.67	Griffith University	6.646	67.25	The University of Melbourne	6.575	66.67	The University of Queensland (Greater Brisbane)	6.738	66.67	Macquarie University	6.542	67.25	4th	0	0	0		No		None			1	
+30/08/2024 15:52:27	Non-Rural	61	68	63	64	63.75		The University of Notre Dame Sydney	6.902	64	The University of Melbourne	6.882	64	The University of Queensland (Greater Brisbane)	6.78	64	Deakin University	6.902	63.75										4th	0	0	0	Did not apply	No		None			0	
+30/08/2024 15:55:05	Non-Rural	72	71	59	67.33	65.25		The University of Notre Dame Fremantle	6.724	67.33	The University of Wollongong	6.903	65.25																3rd	0	0	0			None				2	
+30/08/2024 15:55:07	Non-Rural	57	60	80	65.67	69.25		The University of Western Australia	6.904	69.25																			4th	0	0	0							0	
+30/08/2024 16:05:36	Non-Rural	64	78	81	74.33	76		The University of Notre Dame Sydney	6.188	74.33																			3rd	0	0	0				None			0	
+30/08/2024 16:07:56	Rural	63	64	56	61	59.75		The University of Melbourne	6.775	61																			N/A	0	0	0		Yes					0	Strong GAM. First GEMSAS application
+30/08/2024 16:07:56	Non-Rural	68	75	63	68.67	67.25					The University of Wollongong	6.108	67.25	Griffith University	6.108	67.25	The University of Notre Dame Fremantle	6.108	68.67	The University of Notre Dame Sydney	6.108	68.67	The University of Melbourne	6.108	68.67	Deakin University	6.108	67.25	3rd	0	2	0	Did not apply	No	HDR	HDR			2	
+30/08/2024 16:16:25	Rural	69	72	64	68.33	67.25		The University of Melbourne	6.281	68.33																			N/A	0	0	0		Yes					0	
+30/08/2024 16:24:04	Non-Rural	51	53	54	52.67	53					The University of Wollongong	6.515	53	The University of Notre Dame Sydney	6.515	52.67	Australian National University	6.515	53	The University of Queensland (Greater Brisbane)	6.293	52.67	Griffith University	6.339	53	The University of Melbourne	6.45	52.67	3rd	0	0	0		No		None			2	
+30/08/2024 16:24:24	Rural	54	51	63	56	57.75		The University of Melbourne	5.342	56	Deakin University	6.046	57.75																1st	0	12	0	Tier 3	No					0	
+30/08/2024 16:24:45	Rural	66	72	65	67.67	67		The University of Melbourne	6.573	67.67																			N/A	0	0	0		No					0	
+30/08/2024 16:25:58	Non-Rural	61	65	68	64.67	65.5		Deakin University	6.8	65.5																			N/A	0	8	0	Did not apply						0	
+30/08/2024 16:27:39	Non-Rural	55	64	88	69	73.75		The University of Melbourne	7	69																			N/A	0	0	0		No					0	
+30/08/2024 16:29:14	Non-Rural	73	58	84	71.67	74.75		The University of Western Australia	6.833	74.75																			4th	0	0	0							0	
+30/08/2024 16:32:58	Non-Rural	62	83	69	71.33	70.75		The University of Queensland (Greater Brisbane)	6.65	71.33	The University of Melbourne	6.62	71.33	Deakin University	6.65	70.75													4th	0	0	0	Did not apply	No					0	
+30/08/2024 16:35:27	Rural	61	63	62	62	62		The University of Western Australia	6.3	62																			1st	0	0	0							0	MMM5
+30/08/2024 16:35:31	Non-Rural	61	76	64	67	66.25		The University of Queensland (Greater Brisbane)	6.9	67	The University of Melbourne	6.63	67	Deakin University	6.7	66.25	The University of Notre Dame Sydney	6.7	67										3rd	0	0	0	Did not apply	Yes		None			0	
+30/08/2024 16:36:51	Non-Rural	64	76	53	64.33	61.5		The University of Wollongong	6.073	61.5																			4th	0	0	0							3	
+30/08/2024 16:37:39	Non-Rural	57	71	65	64.33	64.5		Macquarie University	6.8	64.5	The University of Wollongong	6.8	64.5																2nd	0	0	0							1	
+30/08/2024 16:39:28	Rural	59	61	68	62.67	64		The University of Notre Dame Fremantle	6.357	62.67																			4th	0	0	0			WA Res				0	Rural MM5, WA Bonus
+30/08/2024 16:41:29	Non-Rural	54	70	60	61.33	61		The University of Notre Dame Fremantle	6.61	61.33																			4th	0	0	0			WA Res				0	
+30/08/2024 16:47:39	Non-Rural	70	73	75	72.67	73.25		The University of Western Australia	7	73.25																			3rd	0	0	0							0	
+30/08/2024 16:48:41	Rural	60	64	62	62	62		The University of Queensland (RMP/DDMP)	6.45	62																			N/A	0	0	0					Tier 1 (CQ/WB)	Rockhampton	0	
+30/08/2024 16:51:05	Non-Rural	62	84	69	71.67	71		Australian National University	6.917	71																			4th	2	0	0							0	
+30/08/2024 16:51:44	Non-Rural	64	81	71	72	71.75		Australian National University	6.885	71.75																			4th	0	0	0							0	
+30/08/2024 16:51:58	Non-Rural	74	71	80	75	76.25		The University of Melbourne	6.425	75																			4th	0	0	0		Yes					0	
+30/08/2024 16:53:24	Rural	63	65	58	62	61		The University of Queensland (RMP/DDMP)	5.29	62																			N/A	0	0	0					Tier 1 (CQ/WB)	Bundaberg	0	
+30/08/2024 16:53:56	Non-Rural	66	78	94	79.33	83		The University of Queensland (Greater Brisbane)	7	79.33																			N/A	0	0	0							0	
+30/08/2024 16:58:09	Non-Rural	62	69	74	68.33	69.75		The University of Notre Dame Sydney	6.82	68.33																			4th	0	0	0				None			0	
+30/08/2024 17:01:46	Non-Rural	57	61	77	65	68		Deakin University	6.85	68	The University of Melbourne	6.85	65	Australian National University	6.85	68	The University of Notre Dame Sydney	6.85	65										3rd	0	6	0	Did not apply	No		None			0	
+30/08/2024 17:07:33	Non-Rural	66	59	71	65.33	66.75		The University of Notre Dame Sydney	7	65.33	The University of Melbourne	7	65.33	Deakin University	7	66.75													3rd	0	0	0	Did not apply	Yes		None			0	
+30/08/2024 17:16:47	Non-Rural	70	85	78	77.67	77.75		The University of Melbourne	6.81	77.67																			N/A	0	0	0		No					0	
+30/08/2024 17:19:19	Non-Rural	65	72	65	67.33	66.75		The University of Notre Dame Fremantle	6.385	67.33	The University of Wollongong	6.385	66.75																4th	0	0	0			WA Res				2	
+30/08/2024 17:27:35	Non-Rural	61	69	58	62.67	61.5		The University of Notre Dame Fremantle	6.906	62.67																			4th	0	0	0			WA Res				0	
+30/08/2024 17:33:57	Non-Rural	58	82	51	63.67	60.5		Deakin University	6.979	60.5																			4th	0	6	0	Did not apply						0	
+30/08/2024 17:36:35	Non-Rural	60	64	82	68.67	72		Deakin University	6.824	72	The University of Melbourne	6.688	68.67																N/A	0	2	0	Did not apply	No					0	
+30/08/2024 17:37:35	Non-Rural	77	65	73	71.67	72		The University of Queensland (Greater Brisbane)	6.958	71.67																			N/A	0	0	0							0	
+30/08/2024 17:39:10	Rural	60	63	53	58.67	57.25		The University of Melbourne	5	58.67																			N/A	0	0	0		No					0	Technically I believe I have under the required GPA? Floating around a 4.8 ish
+30/08/2024 17:39:15	Non-Rural	63	72	58	64.33	62.75		The University of Wollongong	6.33	62.75																			4th	0	0	0							4	
+30/08/2024 17:41:43	Non-Rural	67	62	100	76.33	82.25		The University of Melbourne	7	76.33																			N/A	0	0	0		No					0	
+30/08/2024 17:54:36	Non-Rural	59	68	71	66	67.25		The University of Western Australia	6.699	67.25																			4th	0	0	0							0	Have WA bonus for UNDF
+30/08/2024 17:55:38	Non-Rural	67	67	88	74	77.5		The University of Melbourne	6.629	74																			N/A	0	0	0		Yes					0	
+30/08/2024 17:58:41	Non-Rural	66	56	95	72.33	78		The University of Melbourne	6.632	72.33																			N/A	0	0	0		No					0	
+30/08/2024 18:01:14	Non-Rural	53	71	77	67	69.5		The University of Queensland (Greater Brisbane)	6.917	67																			N/A	0	0	0							0	
+30/08/2024 18:11:10	Non-Rural	65	64	75	68	69.75					The University of Wollongong	6.238	69.75	The University of Queensland (RMP/DDMP)	6.238	68	Griffith University	6.238	69.75	The University of Notre Dame Sydney	6.238	68	The University of Melbourne	6.238	68	Deakin University	5.875	69.75	3rd	0	0	0	Did not apply	No		None	Tier 3	Rockhampton	2	
+30/08/2024 18:17:29	Non-Rural	63	70	67	66.67	66.75		The University of Notre Dame Fremantle	6.695	66.67	The University of Queensland (Greater Brisbane)	6.619	66.67	Griffith University	6.643	66.75	The University of Notre Dame Sydney	6.695	66.67	The University of Melbourne	6.651	66.67							3rd	0	0	0		No	None	None			0	
+30/08/2024 18:19:25	Non-Rural	59	73	69	67	67.5		The University of Notre Dame Sydney	6.979	67																			4th	0	0	0				None			0	
+30/08/2024 18:19:29	Non-Rural	53	55	70	59.33	62					The University of Wollongong	6.67	62																2nd	0	0	0							2	
+30/08/2024 18:31:26	Non-Rural	62	70	67	66.33	66.5		The University of Notre Dame Fremantle	7	66.33																			3rd	0	0	0			WA Res				0	
+30/08/2024 18:37:44	Non-Rural	65	72	61	66	64.75		Deakin University	6.76	64.75																			3rd	0	6	0	Did not apply						0	
+30/08/2024 18:48:00	Non-Rural	56	64	68	62.67	64		The University of Western Australia	6.9	64	The University of Wollongong	6.9	64	The University of Notre Dame Fremantle	6.9	62.67				The University of Notre Dame Sydney	6.9	62.67	Australian National University	6.9	64	The University of Queensland (Greater Brisbane)	6.9	62.67	3rd	0	0	0			None	None			1	
+30/08/2024 18:48:58	Rural	50	50	50	50	50		Deakin University	6.917	50																			N/A	0	10	0	Tier 1						0	Did not sit the GAMSAT
+30/08/2024 18:52:38	Rural	60	65	81	68.67	71.75		The University of Melbourne	6.7	68.67																			N/A	0	0	0		No					0	
+30/08/2024 18:52:45	Non-Rural	72	73	74	73	73.25		Deakin University	6.583	73.25																			N/A	0	6	0	Did not apply						0	
+30/08/2024 19:00:17	Non-Rural	69	67	70	68.67	69		The University of Notre Dame Sydney	6.889	68.67																			3rd	0	0	0				None			0	
+30/08/2024 19:01:21	Non-Rural	62	63	70	65	66.25		The University of Queensland (Greater Brisbane)	6.86	65	Deakin University	6.85	66.25	Griffith University	6.85	66.25	Australian National University	6.6	66.25										N/A	0	0	0	Did not apply						0	
+30/08/2024 19:04:37	Non-Rural	65	52	59	58.67	58.75					The University of Queensland (Greater Brisbane)	6.74	58.67	Australian National University	6.74	58.75	Deakin University	6.74	58.75										1st	0	6	0	Did not apply						0	
+30/08/2024 19:09:11	Non-Rural	59	78	59	65.33	63.75		The University of Notre Dame Sydney	6.958	65.33	The University of Wollongong	6.958	63.75																4th	0	0	0				None			2	
+30/08/2024 19:12:51	Non-Rural	56	70	68	64.67	65.5		Macquarie University	6.887	65.5																			2nd	0	0	0							0	
+30/08/2024 19:16:50	Non-Rural	57	87	58	67.33	65		The University of Notre Dame Sydney	6.594	67.33																			4th	0	0	0				None			0	
+30/08/2024 19:22:06	Non-Rural	55	64	67	62	63.25		The University of Notre Dame Fremantle	6.808	62	The University of Queensland (Greater Brisbane)	6.979	62	Griffith University	6.647	63.25	The University of Notre Dame Sydney	6.808	62	Deakin University	6.799	63.25							4th	0	2	0	Did not apply		None	None			0	
+30/08/2024 20:06:02	Non-Rural	62	61	63	62	62.25		Deakin University	6.837	62.25																			4th	0	8	0	Did not apply						0	
+30/08/2024 20:16:44	Non-Rural	70	68	76	71.33	72.5		Griffith University	6.656	72.5	The University of Queensland (Greater Brisbane)	6.3	71.33																4th	0	0	0							0	
+30/08/2024 20:27:17	Non-Rural	53	69	69	63.67	65		The University of Notre Dame Sydney	6.885	63.67	The University of Wollongong	6.885	65	Australian National University	6.885	65	Griffith University	6.906	65										4th	0	0	0				None			1	
+30/08/2024 20:30:16	Non-Rural	69	59	68	65.33	66		The University of Wollongong	6.88	66																			1st	0	0	0							5	
+30/08/2024 20:31:01	Non-Rural	54	60	51	55	54		The University of Wollongong	6.6	54																			4th	0	0	0							3	
+30/08/2024 20:42:21	Non-Rural	54	60	65	59.67	61		Deakin University	6.802	61																			3rd	0	8	0	Did not apply						0	
+30/08/2024 20:51:38	Non-Rural	70	68	80	72.67	74.5		Australian National University	6.906	74.5	The University of Wollongong	6.906	74.5	The University of Notre Dame Sydney	6.906	72.67													1st	0	0	0				None			3	
+30/08/2024 20:55:51	Non-Rural	59	72	68	66.33	66.75		The University of Queensland (Greater Brisbane)	6.8	66.33	The University of Wollongong	6.8	66.75	The University of Notre Dame Sydney	6.8	66.33													2nd	0	0	0				None			1	
+30/08/2024 21:12:20	Non-Rural	57	69	60	62	61.5		The University of Notre Dame Fremantle	6.712	62																			4th	0	0	0			WA Res				0	
+30/08/2024 21:22:28	Rural	56	54	64	58	59.5					The University of Wollongong	5.635	59.5	Macquarie University	5.635	59.5	The University of Notre Dame Sydney	5.635	58				The University of Western Australia	5.521	59.5	The University of Queensland (Greater Brisbane)	5.5	58	4th	0	0	3			None	None			1	Added the 3% Rural bonus to MQ. If this was an error & you're non-rural, let me know and I'll edit your submission -Luke
+30/08/2024 21:28:39	Non-Rural	60	87	63	70	68.25		The University of Queensland (RMP/DDMP)	6.93	70																			N/A	0	0	0					Tier 3	Toowoomba	0	
+30/08/2024 21:49:07	Non-Rural	63	62	78	67.67	70.25		The University of Queensland (Greater Brisbane)	7	67.67																			2nd	0	0	0							0	
+30/08/2024 21:50:19	Non-Rural	69	79	63	70.33	68.5		The University of Notre Dame Sydney	6.636	70.33																			3rd	0	0	0				None			0	
+30/08/2024 21:56:26	Non-Rural	65	64	80	69.67	72.25		The University of Queensland (Greater Brisbane)	6.865	69.67																			N/A	0	0	0							0	
+30/08/2024 22:01:25	Non-Rural	59	65	66	63.33	64		The University of Wollongong	6.9	64																			3rd	0	0	0							3	
+30/08/2024 22:08:20	Non-Rural	61	66	66	64.33	64.75		The University of Queensland (Greater Brisbane)	7	64.33	The University of Notre Dame Sydney	6.54	64.33																3rd	0	0	0				None			0	
+30/08/2024 22:10:18	Non-Rural	68	70	69	69	69		The University of Queensland (Greater Brisbane)	6.87	69	Australian National University	6.87	69	The University of Melbourne	6.87	69													2nd	0	0	0		No					0	
+30/08/2024 22:30:34	Non-Rural	65	77	63	68.33	67		The University of Notre Dame Fremantle	6.885	68.33																			4th	0	0	0			WA Res				0	
+30/08/2024 22:45:16	Non-Rural	70	69	86	75	77.75		The University of Melbourne	6.9	75																			N/A	0	0	0		No					0	
+30/08/2024 22:45:55	Non-Rural	64	79	67	70	69.25		The University of Melbourne	6.85	70																			4th	0	0	0		No					0	
+30/08/2024 22:57:22	Non-Rural	66	64	85	71.67	75		The University of Melbourne	6.895	71.67																			4th	0	0	0		Yes					0	
+30/08/2024 23:00:46	Non-Rural	68	78	71	72.33	72		The University of Wollongong	6.4	72																			4th	0	0	0							2	
+30/08/2024 23:04:17	Non-Rural	70	72	81	74.33	76		The University of Melbourne	7	74.33																			N/A	0	0	0		No					0	
+30/08/2024 23:16:59	Non-Rural	61	77	63	67	66		The University of Queensland (RMP/DDMP)	6.96	67	Griffith University	6.85	66																4th	0	0	0					Tier 3	Toowoomba	0	
+30/08/2024 23:28:22	Non-Rural	54	70	68	64	65		Griffith University	7	65																			N/A	0	0	0							0	
+30/08/2024 23:35:46	Non-Rural	60	72	78	70	72		The University of Melbourne	6.94	70																			N/A	0	0	0		No					0	
+30/08/2024 23:52:02	Non-Rural	71	63	73	69	70		The University of Notre Dame Sydney	6.7	69	The University of Wollongong	6.7	70																3rd	0	0	0				None			3	
+30/08/2024 23:55:30	Non-Rural	62	72	80	71.33	73.5		The University of Notre Dame Sydney	6.837	71.33																			4th	0	0	0				None			0	
+31/08/2024 00:19:46	Non-Rural	68	62	78	69.33	71.5		The University of Western Australia	6.65	71.5	The University of Melbourne	6.55	69.33																N/A	0	0	0		No					0	
+31/08/2024 00:30:18	Non-Rural	70	77	75	74	74.25		The University of Notre Dame Sydney	7	74																			4th	0	0	0				None			0	
+31/08/2024 00:30:27	Non-Rural	72	76	98	82	86		The University of Melbourne	6.8	82																			N/A	0	0	0		No					0	
+31/08/2024 00:41:32	Rural	55	61	64	60	61		The University of Melbourne	6.25	60																			N/A	0	0	0		No					0	
+31/08/2024 01:09:16	Non-Rural	65	73	70	69.33	69.5		The University of Melbourne	7	69.33																			4th	0	0	0		No					0	
+31/08/2024 01:36:33	Non-Rural	59	59	72	63.33	65.5		Deakin University	6.925	65.5	The University of Wollongong	6.865	65.5				The University of Notre Dame Sydney	6.865	63.33										2nd	0	4	0	Did not apply			None			2	
+31/08/2024 01:39:37	Non-Rural	60	71	59	63.33	62.25		The University of Notre Dame Sydney	6.84	63.33																			4th	0	0	0				None			0	
+31/08/2024 01:44:10	Rural	50	62	70	60.67	63		The University of Wollongong	6.2	63																			3rd	0	0	0							4	
+31/08/2024 02:34:19	Non-Rural	75	68	61	68	66.25		Deakin University	6.792	66.25	The University of Melbourne	6.792	68																3rd	0	6	0	Did not apply	Yes					0	
+31/08/2024 03:42:41	Rural	65	67	58	63.33	62		Griffith University	7	62																			4th	0	0	0							0	
+31/08/2024 04:13:35	Non-Rural	68	89	73	76.67	75.75		The University of Melbourne	6.641	76.67																			N/A	0	0	0		No					0	
+31/08/2024 04:13:57	Non-Rural	60	75	70	68.33	68.75		The University of Melbourne	6.905	68.33																			2nd	0	0	0		No					0	
+31/08/2024 07:39:04	Rural	66	62	77	68.33	70.5		Griffith University	6.54	70.5																			2nd	0	0	0							0	
+31/08/2024 07:55:22	Non-Rural	65	68	98	77	82.25		Australian National University	7	82.25																			4th	0	0	0							0	
+31/08/2024 08:01:16	Non-Rural	74	78	70	74	73		The University of Melbourne	6.814	74																			N/A	0	0	0		No					0	
+31/08/2024 08:24:49	Rural	54	62	62	59.33	60		The University of Notre Dame Sydney	6.563	59.33																			3rd	0	0	0				HDR			0	
+31/08/2024 08:40:49	Non-Rural	64	76	62	67.33	66		The University of Notre Dame Sydney	6.984	67.33																			4th	0	0	0				None			0	
+31/08/2024 08:53:27	Non-Rural	68	63	71	67.33	68.25		The University of Western Australia	6.741	68.25	The University of Wollongong	6.793	68.25																4th	0	0	0							1	
+31/08/2024 09:00:35	Rural	52	50	52	51.33	51.5		The University of Wollongong	5.95	51.5																			3rd	0	0	0							3	
+31/08/2024 09:49:39	Non-Rural	57	75	73	68.33	69.5		The University of Notre Dame Sydney	6.607	68.33	The University of Melbourne	6.588	68.33																4th	0	0	0		No		None			0	
+31/08/2024 10:05:20	Non-Rural	65	69	100	78	83.5		The University of Melbourne	7	78																			N/A	0	0	0		No					0	
+31/08/2024 10:18:53	Non-Rural	75	72	73	73.33	73.25		The University of Queensland (Greater Brisbane)	6.68	73.33																			N/A	0	0	0							0	
+31/08/2024 10:32:09	Non-Rural	65	65	70	66.67	67.5		Deakin University	6.583	67.5	The University of Notre Dame Sydney	6.656	66.67	The University of Wollongong	6.656	67.5													1st	0	10	0	Did not apply			None			0	
+31/08/2024 10:33:49	Non-Rural	59	78	65	67.33	66.75		Griffith University	6.89	66.75																			N/A	0	0	0							0	
+31/08/2024 10:38:01	Non-Rural	59	73	67	66.33	66.5		Griffith University	6.979	66.5																			3rd	0	0	0							0	
+31/08/2024 10:41:36	Non-Rural	75	73	52	66.67	63		The University of Notre Dame Fremantle	6.969	66.67																			2nd	0	0	0			WA Res				0	
+31/08/2024 10:46:30	Non-Rural	61	55	70	62	64		The University of Western Australia	7	64	The University of Melbourne	7	62	Deakin University	7	64	Griffith University	7	64	Australian National University	7	64							N/A	0	0	0	Did not apply	No					0	
+31/08/2024 11:02:49	Rural	63	53	63	59.67	60.5		The University of Wollongong	6.83	60.5																			2nd	0	0	0							3	
+31/08/2024 11:05:01	Non-Rural	71	72	65	69.33	68.25		The University of Notre Dame Sydney	6.438	69.33																			4th	0	0	0				None			0	
+31/08/2024 11:05:42	Rural	74	70	54	66	63		Deakin University	6.745	63																			N/A	0	14	0	Tier 2						0	
+31/08/2024 11:16:39	Non-Rural	60	61	63	61.33	61.75					The University of Wollongong	6.819	61.75																3rd	0	0	0							1	
+31/08/2024 11:34:24	Non-Rural	65	63	58	62	61		The University of Wollongong	6.615	61																			3rd	0	0	0							3	
+31/08/2024 11:40:34	Non-Rural	70	71	82	74.33	76.25		The University of Notre Dame Sydney	6.38	74.33																			2nd	0	0	0				None			0	No
+31/08/2024 11:53:30	Non-Rural	65	86	73	74.67	74.25		The University of Melbourne	6.786	74.67																			N/A	0	0	0		Yes					0	
+31/08/2024 12:48:14	Non-Rural	65	70	58	64.33	62.75		The University of Notre Dame Fremantle	6.73	64.33	The University of Melbourne	6.68	64.33	Deakin University	6.73	62.75	The University of Notre Dame Sydney	6.73	64.33										4th	0	4	0	Did not apply	No	None	None			0	No
+31/08/2024 13:24:35	Non-Rural	60	60	70	63.33	65		The University of Wollongong	6.7	65																			4th	0	0	0							4	
+31/08/2024 13:47:40	Non-Rural	65	69	59	64.33	63		The University of Wollongong	6.6	63																			4th	0	0	0							2	
+31/08/2024 13:59:55	Non-Rural	74	70	63	69	67.5		The University of Queensland (RMP/DDMP)	7	69	The University of Wollongong	6.373	67.5																3rd	0	0	0					Tier 3	Rockhampton	2	
+31/08/2024 14:01:00	Non-Rural	76	69	91	78.67	81.75		Australian National University	6.995	81.75																			2nd	0	0	0							0	
+31/08/2024 14:27:25	Non-Rural	54	54	79	62.33	66.5		Macquarie University	6.87	66.5																			N/A	0	0	3							0	
+31/08/2024 14:39:08	Non-Rural	64	60	69	64.33	65.5		Deakin University	6.95	65.5	The University of Wollongong	6.906	65.5																3rd	0	4	0	Did not apply						2	
+31/08/2024 14:42:45	Non-Rural	62	59	69	63.33	64.75		The University of Wollongong	6.8	64.75																			4th	0	0	0							3	
+31/08/2024 14:51:42	Non-Rural	61	75	59	65	63.5		The University of Notre Dame Fremantle	6.875	65																			4th	0	0	0			WA Res				0	
+31/08/2024 14:56:53	Non-Rural	65	77	76	72.67	73.5		The University of Notre Dame Sydney	6.75	72.67																			4th	0	0	0				None			0	
+31/08/2024 15:09:33	Non-Rural	68	80	60	69.33	67		The University of Notre Dame Sydney	6.7	69.33	The University of Wollongong	6.75	67																3rd	0	0	0				None			1	
+31/08/2024 15:51:41	Non-Rural	63	64	71	66	67.25		The University of Queensland (Greater Brisbane)	7	66																			N/A	0	0	0							0	
+31/08/2024 16:13:39	Non-Rural	64	62	61	62.33	62		The University of Notre Dame Fremantle	6.81	62.33	The University of Melbourne	6.825	62.33																4th	0	0	0		No	None				0	
+31/08/2024 16:59:40	Non-Rural	63	70	76	69.67	71.25		The University of Queensland (Greater Brisbane)	7	69.67																			N/A	0	0	0							0	
+31/08/2024 17:47:50	Non-Rural	59	64	71	64.67	66.25		Macquarie University	6.813	66.25	The University of Queensland (Greater Brisbane)	6.74	64.67	The University of Notre Dame Sydney	6.813	64.67	Griffith University	6.813	66.25	Deakin University	6.813	66.25	The University of Notre Dame Fremantle	6.813	64.67				3rd	0	2	0	Did not apply		None	None			0	
+31/08/2024 18:06:15	Non-Rural	61	73	66	66.67	66.5		The University of Western Australia	6.953	66.5																			N/A	0	0	0							0	
+31/08/2024 18:17:40	Non-Rural	63	75	70	69.33	69.5		Deakin University	6.792	69.5																			N/A	0	6	0	Did not apply						0	
+31/08/2024 18:49:35	Non-Rural	50	66	70	62	64		The University of Western Australia	6.948	64	The University of Wollongong	6.948	64																2nd	0	0	0							1	
+31/08/2024 19:16:06	Non-Rural	78	77	61	72	69.25		The University of Queensland (Greater Brisbane)	6.6	72																			N/A	0	0	0							0	
+31/08/2024 20:28:26	Non-Rural	52	66	66	61.33	62.5		The University of Notre Dame Fremantle	7	61.33	Griffith University	7	62.5																4th	0	0	0			None				0	
+31/08/2024 20:41:47	Non-Rural	61	79	75	71.67	72.5		The University of Melbourne	6.704	71.67																			N/A	0	0	0		Yes					0	
+31/08/2024 20:47:50	Non-Rural	70	63	80	71	73.25		The University of Western Australia	6.42	73.25	The University of Melbourne	6.38	71	Deakin University	6.36	73.25	The University of Notre Dame Sydney	6.36	71	The University of Wollongong	6.36	73.25	The University of Notre Dame Fremantle	6.36	71				2nd	0	0	0	Did not apply	No	None	None			0	
+31/08/2024 21:37:14	Rural	52	66	57	58.33	58		Deakin University	6.57	58																			3rd	0	14	0	Tier 3						0	
+31/08/2024 22:12:21	Non-Rural	71	85	79	78.33	78.5		The University of Melbourne	6.677	78.33																			4th	0	0	0		No					0	
+31/08/2024 22:26:13	Non-Rural	62	65	73	66.67	68.25		The University of Western Australia	6.99	68.25																			N/A	0	0	0							0	I applied to UWA only, CSP and BMP. The GPA I submitted is the weighted GEMSAS calculated GPA
+31/08/2024 22:27:16	Rural	55	57	61	57.67	58.5		The University of Wollongong	6.91	58.5																			3rd	0	0	0							5	
+31/08/2024 22:35:05	Rural	62	64	71	65.67	67		The University of Melbourne	6.6	65.67																			4th	0	0	0		Yes					0	
+31/08/2024 22:52:00	Non-Rural	67	62	65	64.67	64.75		The University of Notre Dame Fremantle	6.59	64.67																			4th	0	0	0			WA Res				0	
+31/08/2024 22:53:53	Non-Rural	64	78	64	68.67	67.5		The University of Queensland (Greater Brisbane)	6.69	68.67																			4th	0	0	0							0	
+01/09/2024 01:10:44	Non-Rural	63	76	59	66	64.25		The University of Wollongong	6.424	64.25																			2nd	0	0	0							4	
+01/09/2024 06:13:36	Non-Rural	66	66	59	63.67	62.5		The University of Notre Dame Sydney	6.927	63.67	Griffith University	7	62.5																4th	0	0	0				HDR			0	
+01/09/2024 09:09:04	Non-Rural	59	61	55	58.33	57.5		The University of Wollongong	6.55	57.5																			4th	0	0	0							5	
+01/09/2024 09:56:08	Non-Rural	62	66	71	66.33	67.5		Macquarie University	6.65	67.5	The University of Melbourne	6.65	66.33																3rd	0	0	0		No					0	
+01/09/2024 10:28:59	Non-Rural	66	77	69	70.67	70.25		The University of Western Australia	6.802	70.25																			4th	0	0	0							0	
+01/09/2024 10:45:14	Non-Rural	64	82	72	72.67	72.5		The University of Queensland (Greater Brisbane)	6.345	72.67	Griffith University	6.377	72.5																3rd	0	0	0							0	
+01/09/2024 11:18:37	Non-Rural	66	68	78	70.67	72.5		The University of Notre Dame Fremantle	6.625	70.67																			4th	0	0	0			WA Res				0	
+01/09/2024 11:25:20	Non-Rural	69	69	75	71	72		The University of Notre Dame Fremantle	6.15	71	The University of Wollongong	6.15	72	The University of Queensland (RMP/DDMP)	6.15	71	Griffith University	6.15	72										1st	0	0	0			None		Tier 3	Toowoomba	2	I got a rejection from UOW, but the other universities haven't said anything to me.
+01/09/2024 12:13:49	Non-Rural	66	70	68	68	68		The University of Notre Dame Sydney	6.67	68																			4th	0	0	0				None			0	
+01/09/2024 12:19:32	Non-Rural	63	67	65	65	65		The University of Notre Dame Sydney	6.729	65	The University of Melbourne	6.725	65	Deakin University	6.729	65													4th	0	0	0	Did not apply	No		None			0	
+01/09/2024 12:38:54	Non-Rural	79	64	75	72.67	73.25		The University of Queensland (Greater Brisbane)	6.569	72.67	The University of Notre Dame Sydney	6.596	72.67																2nd	0	0	0				None			0	
+01/09/2024 13:27:44	Non-Rural	61	81	65	69	68		The University of Melbourne	6.9	69																			4th	0	0	0		No					0	
+01/09/2024 14:44:30	Non-Rural	51	69	81	67	70.5		Australian National University	6.869	70.5																			N/A	2	0	0							0	
+01/09/2024 15:07:29	Non-Rural	65	80	56	67	64.25		The University of Notre Dame Sydney	6.77	67																			4th	0	0	0				None			0	
+01/09/2024 15:47:36	Non-Rural	69	66	74	69.67	70.75		The University of Queensland (Greater Brisbane)	6.685	69.67	The University of Melbourne	6.579	69.67																3rd	0	0	0		No					0	
+01/09/2024 15:54:52	Non-Rural	66	83	68	72.33	71.25		The University of Melbourne	6.875	72.33																			N/A	0	0	0		No					0	
+01/09/2024 16:26:11	Non-Rural	58	74	65	65.67	65.5		The University of Notre Dame Sydney	6.99	65.67	The University of Wollongong	6.99	65.5																4th	0	0	0				None			1	
+01/09/2024 16:30:49	Non-Rural	58	63	74	65	67.25		The University of Notre Dame Sydney	6.814	65																			4th	0	0	0				None			0	
+01/09/2024 17:29:57	Non-Rural	59	61	72	64	66		The University of Western Australia	6.9	66	Griffith University	6.9	66	The University of Queensland (Greater Brisbane)	6.9	64	The University of Wollongong	6.9	66										3rd	0	0	0							0	No
+01/09/2024 19:13:31	Non-Rural	75	66	71	70.67	70.75		The University of Melbourne	6.975	70.67																			4th	0	0	0		Yes					0	2nd application, interviewed last yr at unimelb
+01/09/2024 20:07:57	Rural	50	50	50	50	50		Deakin University	5.625	50																			N/A	0	14	0	Tier 1						0	My GAMSAT scores are n/a as I didn’t sit it since I am applying for a rural position
+01/09/2024 20:10:06	Non-Rural	61	57	71	63	65		The University of Wollongong	6	65	The University of Notre Dame Sydney	6.2	63																4th	0	0	0				None			3	
+01/09/2024 20:38:48	Non-Rural	62	80	86	76	78.5		The University of Melbourne	6.875	76																			4th	0	0	0		No					0	
+01/09/2024 21:54:19	Non-Rural	70	78	63	70.33	68.5		Deakin University	6.929	68.5	The University of Melbourne	6.61	70.33																4th	0	4	0	Did not apply	No					0	
+01/09/2024 23:57:49	Non-Rural	61	72	57	63.33	61.75		The University of Notre Dame Fremantle	6.896	63.33																			4th	0	0	0			None				0	
+02/09/2024 00:05:04	Rural	60	61	54	58.33	57.25		The University of Wollongong	6.7	57.25																			1st	0	0	0							5	
+02/09/2024 00:31:48	Non-Rural	70	74	86	76.67	79		The University of Melbourne	6.31	76.67	Australian National University	6.31	79																N/A	0	0	0		No					0	
+02/09/2024 01:23:45	Non-Rural	62	66	100	76	82		The University of Western Australia	6.917	82																			3rd	0	0	0							0	
+02/09/2024 06:56:26	Rural	58	57	53	56	55.25		The University of Queensland (RMP/DDMP)	6.023	56																			N/A	0	0	0					Tier 1 (DD)	Toowoomba	0	
+02/09/2024 08:38:31	Non-Rural	67	59	80	68.67	71.5		The University of Queensland (RMP/DDMP)	6.75	68.67	Griffith University	6.51	71.5																3rd	0	0	0					Tier 3	Toowoomba	0	
+02/09/2024 08:56:52	Non-Rural	65	81	59	68.33	66		The University of Wollongong	5.8	66	The University of Notre Dame Sydney	5.8	68.33																4th	0	0	0				None			4	
+02/09/2024 10:02:38	Non-Rural	68	68	84	73.33	76		The University of Melbourne	7	73.33																			N/A	0	0	0		No					0	
+02/09/2024 10:42:22	Rural	66	77	60	67.67	65.75		The University of Western Australia	6.449	65.75																			3rd	0	0	0							0	
+02/09/2024 11:16:13	Non-Rural	66	78	71	71.67	71.5		The University of Notre Dame Sydney	6.99	71.67																			4th	0	0	0				None			0	
+02/09/2024 11:38:49	Non-Rural	60	60	73	64.33	66.5		The University of Western Australia	7	66.5																			N/A	0	0	0							0	
+02/09/2024 12:48:48	Non-Rural	70	73	59	67.33	65.25					The University of Notre Dame Sydney	6.25	67.33	The University of Wollongong	6.25	65.25	Australian National University	6.25	65.25	The University of Melbourne	6.25	67.33	Deakin University	6.25	65.25	Griffith University	6.25	65.25	2nd	0	4	0	Did not apply	No		None			3	
+02/09/2024 14:01:18	Rural	60	60	51	57	55.5		The University of Wollongong	6	55.5	Deakin University	6	55.5																4th	0	4	0	Did not apply						2	
+02/09/2024 14:29:13	Non-Rural	72	73	72	72.33	72.25		Deakin University	6.972	72.25																			4th	0	6	0	Did not apply						0	
+02/09/2024 15:07:02	Non-Rural	65	73	75	71	72		The University of Melbourne	6.95	71																			N/A	0	0	0		No					0	
+02/09/2024 15:11:56	Non-Rural	77	67	71	71.67	71.5		The University of Western Australia	6.8	71.5																			N/A	0	0	0							0	
+02/09/2024 15:17:11	Non-Rural	60	82	62	68	66.5		The University of Queensland (RMP/DDMP)	6.7	68	The University of Melbourne	6.67	68	Deakin University	6.7	66.5													N/A	0	0	0	Did not apply	No			Tier 3	Toowoomba	0	
+02/09/2024 17:24:36	Non-Rural	61	84	60	68.33	66.25		The University of Notre Dame Sydney	6.712	68.33	Macquarie University	6.712	66.25																4th	0	0	0				None			0	
+02/09/2024 23:40:56	Non-Rural	67	65	74	68.67	70		Deakin University	6.771	70																			N/A	0	4	0	Did not apply						0	
+03/09/2024 09:34:59	Non-Rural	59	81	56	65.33	63		Deakin University	6.667	63																			4th	0	8	0	Did not apply						0	
+03/09/2024 10:20:31	Non-Rural	62	67	69	66	66.75		Deakin University	6.708	66.75																			N/A	0	12	0	Did not apply						0	
+03/09/2024 10:26:50	Non-Rural	74	69	84	75.67	77.75		The University of Melbourne	6.988	75.67																			4th	0	0	0		No					0	
+03/09/2024 10:34:59	Non-Rural	63	68	61	64	63.25		The University of Queensland (RMP/DDMP)	7	64	The University of Wollongong	6.573	63.25																2nd	0	0	0					Tier 3	Toowoomba	1	
+03/09/2024 12:36:57	Non-Rural	64	73	64	67	66.25		Macquarie University	6.719	66.25																			4th	0	0	0							0	
+03/09/2024 12:42:40	Non-Rural	66	72	68	68.67	68.5		Griffith University	6.77	68.5	The University of Melbourne	6.77	68.67	Deakin University	6.77	68.5													4th	0	4	0	Did not apply	No					0	
+03/09/2024 14:23:56	Non-Rural	56	61	51	56	54.75		The University of Wollongong	6.104	54.75																			4th	0	0	0							3	
+03/09/2024 14:44:58	Non-Rural	61	82	62	68.33	66.75		The University of Notre Dame Sydney	6.3	68.33																			4th	0	0	0				None			0	4th qrt Casper
+03/09/2024 16:16:29	Non-Rural	62	70	67	66.33	66.5		The University of Queensland (RMP/DDMP)	6.844	66.33																			3rd	0	0	0					Tier 3	Rockhampton	0	
+03/09/2024 19:51:04	Rural	67	79	64	70	68.5		The University of Wollongong	5.5	68.5																			4th	0	0	0							5	
+03/09/2024 21:36:43	Non-Rural	64	74	66	68	67.5					The University of Notre Dame Sydney	6.3	68	The University of Notre Dame Fremantle	6.3	68													4th	0	0	0			None	None			0	
+03/09/2024 21:54:00	Non-Rural	60	70	71	67	68		The University of Melbourne	6.98	67																			4th	0	0	0		No					0	
+04/09/2024 08:21:55	Non-Rural	75	80	58	71	67.75		The University of Melbourne	6.809	71																			4th	0	0	0		No					0	
+04/09/2024 11:53:17	Non-Rural	72	69	96	79	83.25		The University of Melbourne	6.94	79																			N/A	0	0	0		No					0	
+04/09/2024 13:48:02	Non-Rural	66	69	67	67.33	67.25		The University of Western Australia	6.677	67.25	The University of Melbourne	6.675	67.33	Deakin University	6.677	67.25													3rd	0	0	0	Did not apply	No					0	
+04/09/2024 13:59:45	Non-Rural	68	88	83	79.67	80.5		The University of Notre Dame Sydney	6.979	79.67																			4th	0	0	0				None			0	
+04/09/2024 14:47:33	Rural	55	66	52	57.67	56.25		The University of Wollongong	5.958	56.25																			4th	0	0	0							1	
+04/09/2024 16:14:14	Non-Rural	67	58	100	75	81.25		Macquarie University	6.87	81.25																			N/A	0	0	0							0	
+04/09/2024 21:21:15	Non-Rural	77	66	71	71.33	71.25		Australian National University	6.66	71.25																			1st	2	0	0							0	
+04/09/2024 23:00:46	Non-Rural	69	76	61	68.67	66.75		The University of Queensland (RMP/DDMP)	7	68.67																			N/A	0	0	0					Tier 3	Bundaberg	0	
+04/09/2024 23:08:04	Rural	53	77	53	61	59		The University of Wollongong	5.822	59																			4th	0	0	0							5	
+05/09/2024 08:59:01	Non-Rural	62	59	79	66.67	69.75		Griffith University	6.688	69.75	Deakin University	6.521	69.75																4th	0	0	0	Did not apply						0	
+05/09/2024 13:38:56	Rural	66	63	73	67.33	68.75		The University of Western Australia	6.3	68.75																			1st	0	0	0							0	Did not get official GPA calculation from GEMSAS
+05/09/2024 15:13:42	Non-Rural	65	62	94	73.67	78.75		Griffith University	6.756	78.75	The University of Queensland (Greater Brisbane)	6	73.67																N/A	0	0	0							0	
+05/09/2024 15:56:33	Non-Rural	67	76	73	72	72.25		The University of Notre Dame Fremantle	6.67	72																			4th	0	0	0			WA Res				0	
+05/09/2024 16:01:04	Non-Rural	67	75	73	71.67	72		The University of Notre Dame Fremantle	6.691	71.67																			2nd	0	0	0			None				0	
+05/09/2024 18:14:53	Non-Rural	68	70	71	69.67	70		Griffith University	6.86	70																			4th	0	0	0							0	
+05/09/2024 21:57:44	Non-Rural	72	72	69	71	70.5		The University of Melbourne	6.95	71																			N/A	0	0	0		Yes					0	
+05/09/2024 23:45:21	Non-Rural	73	70	78	73.67	74.75		The University of Notre Dame Sydney	6.78	73.67																			4th	0	0	0				None			0	
+06/09/2024 10:03:08	Non-Rural	67	61	67	65	65.5		The University of Queensland (RMP/DDMP)	7	65	The University of Wollongong	7	65.5	The University of Melbourne	7	65													4th	0	0	0		Yes			Tier 3	Toowoomba	1	
+06/09/2024 13:05:24	Rural	64	66	66	65.33	65.5		Australian National University	6.67	65.5																			4th	0	0	0							0	
+06/09/2024 20:27:04	Rural	66	73	54	64.33	61.75		The University of Melbourne	6.181	64.33																			N/A	0	0	0		No					0	
+07/09/2024 12:55:25	Non-Rural	67	68	72	69	69.75		The University of Queensland (RMP/DDMP)	7	69																			2nd	0	0	0					Tier 3	Toowoomba	0	
+07/09/2024 17:06:59	Non-Rural	67	84	66	72.33	70.75		The University of Notre Dame Sydney	6.844	72.33																			4th	0	0	0				None			0	unweighted gpa was 6.760, weighted 6.844
+08/09/2024 11:31:03	Non-Rural	61	66	66	64.33	64.75					The University of Queensland (Greater Brisbane)	6.5	64.33																N/A	0	0	0							0	
+08/09/2024 19:46:32	Rural	50	58	60	56	57		Australian National University	6.37	57																			2nd	0	0	0							0	
+09/09/2024 18:19:12	Non-Rural	63	61	74	66	68		Griffith University	6.95	68	The University of Melbourne	6.93	66	Deakin University	6.95	68	Australian National University	6.95	68										1st	0	0	0	Did not apply	No					0	
+10/09/2024 17:53:07	Non-Rural	67	66	69	67.33	67.75		The University of Notre Dame Fremantle	6.665	67.33	The University of Notre Dame Sydney	6.665	67.33																3rd	0	0	0			None	None			0	
+11/09/2024 20:40:36	Non-Rural	56	71	55	60.67	59.25		The University of Wollongong	6.583	59.25																			4th	0	0	0							4	
+12/09/2024 08:32:46	Non-Rural	63	76	57	65.33	63.25		The University of Notre Dame Sydney	6.743	65.33																			4th	0	0	0				None			0	
+15/09/2024 12:10:16	Non-Rural	54	64	75	64.33	67		The University of Western Australia	6.9	67	Deakin University	6.9	67	The University of Notre Dame Sydney	6.9	64.33													2nd	0	2	0	Did not apply			None			0	
+17/09/2024 17:37:48	Non-Rural	69	66	67	67.33	67.25		The University of Notre Dame Sydney	6.87	67.33	The University of Wollongong	6.87	67.25																4th	0	0	0				None			1	
+17/09/2024 19:17:45	Rural	61	58	51	56.67	55.25		Deakin University	7	55.25																			N/A	0	8	0	Tier 2						0	
+17/09/2024 23:01:51	Non-Rural	62	68	86	72	75.5		The University of Western Australia	6.5	75.5																			N/A	0	0	0							0	
+17/09/2024 23:05:16	Non-Rural	59	67	68	64.67	65.5		The University of Notre Dame Fremantle	6.582	64.67	The University of Notre Dame Sydney	6.582	64.67	Australian National University	6.582	65.5	The University of Queensland (Greater Brisbane)	6.455	64.67	Griffith University	6.455	65.5							4th	0	0	0			None	None			0	
+18/09/2024 18:46:29	Rural	64	61	52	59	57.25		Griffith University	6.69	57.25																			N/A	0	0	0							0	
+19/09/2024 01:47:15	Non-Rural	65	64	76	68.33	70.25		The University of Western Australia	6.735	70.25	The University of Melbourne	6.757	68.33	Deakin University	6.735	70.25	Australian National University	6.735	70.25										2nd	0	2	0	Did not apply	No					0	
+19/09/2024 21:55:02	Non-Rural	59	71	67	65.67	66		The University of Notre Dame Sydney	6.917	65.67																			4th	0	0	0				None			0	
+20/09/2024 10:59:40	Non-Rural	60	66	74	66.67	68.5		The University of Notre Dame Fremantle	6.648	66.67	The University of Melbourne	6.622	66.67	The University of Western Australia	6.648	68.5													4th	0	0	0		No	None				0	
+20/09/2024 23:18:59	Non-Rural	63	59	67	63	64		The University of Western Australia	6.979	64																			4th	0	0	0							0	
+23/09/2024 11:05:41	Non-Rural	59	67	76	67.33	69.5		The University of Queensland (RMP/DDMP)	6.77	67.33																			N/A	0	0	0					Tier 3	Rockhampton	0	
+23/09/2024 16:30:16	Non-Rural	61	60	63	61.33	61.75					The University of Melbourne	6.967	61.33	Deakin University	6.972	61.75	Griffith University	6.944	61.75	The University of Western Australia	6.944	61.75	Australian National University	6.972	61.75				N/A	0	6	0	Did not apply	No					0	
+23/09/2024 19:09:01	Rural	57	56	64	59	60.25		Australian National University	6.9	60.25																			1st	0	0	0							0	
+24/09/2024 11:39:48	Non-Rural	80	71	82	77.67	78.75		The University of Melbourne	7	77.67																			N/A	0	0	0		No					0	
+26/09/2024 11:15:11	Non-Rural	62	78	63	67.67	66.5		The University of Melbourne	7	67.67																			N/A	0	0	0		No					0	
+26/09/2024 11:18:15	Non-Rural	64	70	71	68.33	69		The University of Notre Dame Sydney	6.85	68.33																			4th	0	0	0				None			0	
+26/09/2024 22:51:27	Non-Rural	66	64	78	69.33	71.5		The University of Western Australia	6.75	71.5																			2nd	0	0	0							0	
+28/09/2024 19:45:51	Non-Rural	68	70	80	72.67	74.5		The University of Melbourne	6.83	72.67																			3rd	0	0	0		No					0	
+29/09/2024 12:45:59	Rural	64	73	66	67.67	67.25		The University of Melbourne	6.45	67.67																			4th	0	0	0		Yes					0	
+02/10/2024 11:35:28	Non-Rural	68	61	73	67.33	68.75		The University of Queensland (RMP/DDMP)	7	67.33																			N/A	0	0	0					Tier 3	Toowoomba	0	
+02/10/2024 22:24:02	Rural	100	100	100	100	100		The University of Melbourne	6.2	100																			N/A	0	0	0		Yes					0	questions before only allowed a number 50-100 but I received an interview offer with no GAMSAT
+04/10/2024 16:17:36	Non-Rural	53	59	54	55.33	55					The University of Melbourne	6.5	55.33																N/A	0	0	0		No					0	
+05/10/2024 14:54:12	Non-Rural	67	60	93	73.33	78.25		The University of Melbourne	6.906	73.33																			N/A	0	0	0		Yes					0	
+07/10/2024 19:30:45	Non-Rural	59	61	75	65	67.5		The University of Notre Dame Fremantle	6.51	65																			4th	0	0	0			WA Res				0	
