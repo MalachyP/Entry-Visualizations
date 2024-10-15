@@ -36,3 +36,21 @@ Still unclear about
 - The distribution of interview scores (like is it a bell curve or what?)
 - How this fits in with anecdotal evidence
 - IDK how preferences work / influence results
+
+Things to filter by
+- rurality
+- marker
+- deakin bonus
+- anu bonus
+- casper quartile
+- uq rmp tier
+- year
+
+Marker types
+- marker
+
+Things to color
+- casper quartile
+- Didn't get in or not
+- interview opinion discrete
+- interview prep hours discrete
