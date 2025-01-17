@@ -1,0 +1,77 @@
+# creates a new dynamic filter and reduces the options elsewhere
+def register_adjust_new_filters(app, data_dictionaries):
+    @app.callback(
+        Output('filter-dynamic-container', 'children', allow_duplicate=True),   # output the new 
+        Output('add-filter-dropdown', 'options', allow_duplicate=True),         # remove the option from the container
+        Input('add-filter-dropdown', 'value'),                                  # input is the dropdown menu
+        State('type-dropdown', 'value'),                                        # get the current dataset mean used
+        State('filter-dynamic-container', 'children'),                          # get the current children
+        State('add-filter-dropdown', 'options'),                                # get the current filter options
+        prevent_initial_call=True,
+        suppress_callback_exceptions=True
+    )
+    def adjust_data(new_filter, data_type, old_children, old_new_filter_options):
+        # Use callback_context to determine the triggering input
+        ctx = callback_context
+        if not ctx.triggered:
+            raise PreventUpdate
+
+        triggered_input = ctx.triggered[0]['prop_id'].split('.')[0]
+
+        # Handle updates based on the triggering input
+        if triggered_input == 'add-filter-dropdown':
+            # Prevent unnecessary updates
+            if not new_filter:
+                raise PreventUpdate
+
+            # Create the new filter component
+            new_filter_options = data_dictionaries[FILTER_TO_OPTIONS][data_type][new_filter]
+            new_filter_component = create_dynamic_filter(new_filter, new_filter_options)
+
+            # Update the children, prepending the new filter
+            new_children = old_children + [new_filter_component]
+
+            # Update the options for the dropdown
+            new_new_filter_options = sorted([x for x in old_new_filter_options if x != new_filter])
+
+            return new_children, new_new_filter_options
+
+        # Default return to prevent unnecessary updates
+        raise PreventUpdate
+
+
+
+# delete the filter
+def register_delete_filter(app):
+    @app.callback(
+        Output('filter-dynamic-container', 'children', allow_duplicate=True),               # output the new 
+        Output('add-filter-dropdown', 'options', allow_duplicate=True),                     # remove the option from the container
+        Input({'class': 'filters', 'filter': ALL, 'role': 'delete-button'}, 'n_clicks'),    # trigger is the delete button click
+        State('filter-dynamic-container', 'children'),                                      # get the current children
+        State('add-filter-dropdown', 'options'),                                            # get the current filter options
+        prevent_initial_call=True
+    )
+    def delete_filter(n_clicks, old_children, old_new_filter_options):
+        # check to see if the button has actually been clicked (note that all([]) is true)
+        if (all([n_click is None for n_click in n_clicks])):
+            raise PreventUpdate
+
+        # figure out which ID it was
+        ctx = callback_context
+        triggered_id = ast.literal_eval(ctx.triggered[0]['prop_id'].split('.')[0])
+
+        # get the deleted filter
+        deleted_filter = triggered_id["filter"]
+
+        # get the column filter
+        column_id = triggered_id.copy()
+        column_id['role'] = 'column'
+        column_id['type'] = 'dynamic'
+
+        # delete from the children
+        new_children = [child for child in old_children if child['props'].get('id') != column_id]
+
+        # delete from the options
+        new_new_filter_options = sorted(old_new_filter_options + [deleted_filter])
+
+        return new_children, new_new_filter_options

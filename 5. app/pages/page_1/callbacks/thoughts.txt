@@ -1,0 +1,9 @@
+For graph can have
+- input can use the ALL values option
+- can you the context triggered to ensure it wasn't triggered by adding a filter button
+- Output will obviously be the graph
+
+Will need
+- Function for filtering
+- Callback for filtering
+- Graphing function
