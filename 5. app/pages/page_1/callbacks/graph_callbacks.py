@@ -186,7 +186,7 @@ def register_change_graph(app, data_dictionaries):
         # convert the other data type to a string for readability
         if (data_type == 'offer'):
             filtered_frame['places selected'] = filtered_frame['places selected'].apply(
-                lambda x: " ,".join(x) if isinstance(x, list) else x
+                lambda x: ", ".join(x) if isinstance(x, list) else x
             )
 
         # graph the dataframe

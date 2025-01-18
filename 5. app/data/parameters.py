@@ -2,12 +2,13 @@
 # for the creation of FILTER_TYPES
 STANDARD_FILTERS = {
     'interview': ['university', 'year', 'rurality', 'success'],
-    'offer': ['university', 'year', 'rurality', 'offer uni place type', 
-              'places selected (include all)', 'places selected (exclude all)', 'success']
+    'offer': ['university', 'year', 'rurality', 'offer uni place type', 'success']
 }
 ADDITIONAL_FILTERS = {
-    'interview': ['preference', 'casper quartile', 'deakin bonus', 'deakin tier', 'anu bonus', 'mq bonus', 'unimelb gam', 'undf bonuses', 'unds bonuses', 'uow bonuses'],
-    'offer': ['preference', 'interviewed?', 'interview opinion', 'interview prep hours', 'casper quartile', 'deakin bonus', 'anu bonus', 'mq bonus', 'uq rmp tier']
+    'interview': ['preference', 'casper quartile', 'deakin bonus', 'deakin tier', 'anu bonus', 'mq bonus', 'unimelb gam', 
+                  'undf bonuses', 'unds bonuses', 'uow bonuses'],
+    'offer': ['preference', 'interviewed?', 'interview opinion', 'interview prep hours', 'casper quartile', 'deakin bonus', 
+              'anu bonus', 'mq bonus', 'uq rmp tier', 'places selected (include all)', 'places selected (exclude all)']
 }
 FILTER_TYPES = {
     data_type: {

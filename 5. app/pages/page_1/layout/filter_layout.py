@@ -2,6 +2,7 @@ from dash import dcc, html
 import dash_bootstrap_components as dbc
 
 import json
+from pprint import pprint
 
 from . import layout_parameters
 
@@ -9,9 +10,6 @@ from . import layout_parameters
 FILTER_TO_OPTIONS = "filter_to_options"
 FILTER_TYPES = "filter_types"
 DEFAULT_JSON = "default_json"
-
-# used for changing the display name of a filter
-filter_to_title = {}
 
 # ---------------------------- HELPER FUNCTIONS ---------------------------------------------
 
@@ -22,13 +20,17 @@ def is_multiselect(filter):
 
 def get_filter_name(filter_name):
     # look up in dictionary first
-    if (not filter_to_title.get(filter_name) is None):
-        return filter_to_title[filter_name]
+    if (filter_name in layout_parameters.filter_to_title):
+        return layout_parameters.filter_to_title[filter_name]
     
-    # covert every first word to upper case
+    # covert every first word to upper case (space in front)
     filter_words = filter_name.split(" ")
     new_filter_words = [filter_word[0].upper() + filter_word[1:] for filter_word in filter_words]
     new_filter_name = " ".join(new_filter_words)
+
+    filter_words = filter_name.split("(")
+    new_filter_words = [filter_word[0].upper() + filter_word[1:] for filter_word in filter_words]
+    new_filter_name = "(".join(new_filter_words)
 
     return new_filter_name
 
@@ -126,7 +128,6 @@ def create_select_new_filter(filter_settings):
 
 # ------------------------------- CREATING FILTERS CONTENT -----------------------------------
 
-from pprint import pprint
 
 def settings_to_filters(filter_settings, data_dictionaries, static=False):
     # get the data type in use
@@ -190,7 +191,6 @@ def settings_to_additional_filters_layout(filter_settings, data_dictionaries):
 
 # ------------------------------- CREATING DEFAULT VALUES -------------------------------------
 
-from pprint import pprint
 
 def create_default_json(filter_to_options, filter_types):
     # get most of the default options
