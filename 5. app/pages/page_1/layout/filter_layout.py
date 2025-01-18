@@ -117,7 +117,7 @@ def create_select_new_filter(filter_settings):
 # ------------------------------- CREATING FILTERS CONTENT -----------------------------------
 
 
-def settings_to_additional_filters(filter_settings, static=False):
+def settings_to_filters(filter_settings, static=False):
     # get the data type in use
     data_type = filter_settings['data type']
 
@@ -148,14 +148,19 @@ def settings_to_additional_filters(filter_settings, static=False):
     return filter_components
 
 
-def create_additional_filters_layout(filter_settings, data_dictionaries):
+def settings_to_additional_filters_layout(filter_settings):
+    # check if disabled
+    if (filter_settings['additional filters'] == False):
+        return []
+
+    # this is the case where they are enabled
     return [
         html.H3('Additional Filters'),
 
         # filter container basically
         dbc.Container(
             dbc.Row(
-                settings_to_additional_filters(filter_settings, static=False),
+                settings_to_filters(filter_settings, static=False),
                 id='filter-additional-container',
                 justify='start'
             ),
@@ -199,7 +204,7 @@ def create_default_json(filter_to_options, filter_types):
 
     # add extra information
     default_dict = default_dict | {
-        'trigger': None,
+        'actions': [],
         'additional filters': False,
         'data type': 'interview'
     }
