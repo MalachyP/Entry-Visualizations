@@ -1,15 +1,16 @@
 # main components for callbacks
-from dash import ALL, no_update
+from dash import ALL, MATCH, no_update
 from dash.dependencies import Input, Output, State
 from dash.exceptions import PreventUpdate
 from dash import callback_context
 
 import ast
 import json
+from pprint import pprint
 
 # personal functions
-from ..layout.filter_layout import create_static_filter, create_additional_filter, \
-                                   settings_to_additional_filters_layout, settings_to_filters
+from ..layout.filter_layout import settings_to_additional_filters_layout, settings_to_filters, get_default_value
+from ..layout import layout_parameters
 
 # names of dictionary data functions
 FILTER_TO_OPTIONS = "filter_to_options"
@@ -27,10 +28,18 @@ ADDITIONAL_ACTION = 'additional'
 # 1. enable extra filters page
 
 
+# ------------------------------ HELPER FUNCTIONS -------------------------------
+
+
+
+
+
 ##############################################################################
 ############################ REGISTERS  ######################################
 ##############################################################################
 
+
+# ------------------------- Creation / deletion -----------------------------------------
 
 # creates a new additional filter and reduces the options elsewhere
 def register_adjust_new_filters(app):
@@ -79,19 +88,24 @@ def register_delete_filter(app, data_dictionaries):
         # figure out which filter is was
         ctx = callback_context
         triggered_id = ast.literal_eval(ctx.triggered[0]['prop_id'].split('.')[0])
-        deleted_filter = triggered_id["filter"]
+        deleted_filter = triggered_id['filter']
 
         # update filter settings: remove deleted filter as an active filter
         filter_settings[data_type]['active'] = [active_filter for active_filter in filter_settings[data_type]['active']
                                                 if active_filter != deleted_filter]     # remove from active filters
         
-        # update filter settings: reset the filter options
-        filter_settings[data_type]['additional value'][deleted_filter] = data_dictionaries[FILTER_TO_OPTIONS][data_type][deleted_filter]
+        # reset the filter options
+        deleted_filter_options = data_dictionaries[FILTER_TO_OPTIONS][data_type][deleted_filter]
+        deleted_filter_value = get_default_value(deleted_filter, deleted_filter_options)
+        filter_settings[data_type]['additional value'][deleted_filter] = deleted_filter_value
 
         # make sure additional filters changed only
         filter_settings['actions'] = [ADDITIONAL_ACTION]
 
         return json.dumps(filter_settings)
+
+
+# -------------------------------- Additional stuff -------------------------
 
 
 # toggling additional filters
@@ -116,7 +130,74 @@ def register_toggle_additional_filters(app):
         return json.dumps(filter_settings)
 
 
-def register_settings_to_filters(app):
+# for changing settings each time a filter is changed
+# Unforunately, it'll just have to trigger twice with the actual creation of a callback. 
+# No issue I suppose as everything will still run co-currently (won't hamper anything)
+def register_alter_settings(app):
+    @app.callback(
+        Output('filter-settings', 'data', allow_duplicate=True),
+        Input({'class': 'filters', 'filter': ALL, 'role': 'dropdown', 'type': ALL}, 'value'),
+        State('filter-settings', 'data'),
+        prevent_initial_call=True
+    )
+    def alter_settings(_, filter_settings_json):
+        # read in the settings
+        filter_settings = json.loads(filter_settings_json)
+        data_type = filter_settings["data type"]
+
+        # figure out which ID caused the trigger
+        ctx = callback_context
+
+        print("ctx triggered_id: \n", ctx.triggered_id)
+        print("ctx.triggered_id is None: ", ctx.triggered_id is None)
+
+        # check to see it's not triggered by a deletion
+        if (ctx.triggered_id is None):
+            raise PreventUpdate
+        
+        # get the filter that changed
+        triggered_id = ast.literal_eval(ctx.triggered[0]['prop_id'].split('.')[0])
+        triggered_filter_name = triggered_id['filter']
+
+        # get the new value
+        triggered_filter_value = ctx.triggered[0]['value']
+
+        # update the dictionary (check if current filter in static value (same as keys))
+        if (triggered_filter_name in filter_settings[data_type]['static value']):
+            filter_settings[data_type]['static value'][triggered_filter_name] = triggered_filter_value
+        else:
+            filter_settings[data_type]['additional value'][triggered_filter_name] = triggered_filter_value
+
+        return json.dumps(filter_settings)
+
+
+# ------------------------------- for changing the environment -------------------------------------
+
+
+def register_change_dataset(app):
+    @app.callback(
+        Output('filter-settings', 'data', allow_duplicate=True),
+        Input('type-dropdown', 'value'),
+        State('filter-settings', 'data'),
+        prevent_initial_call=True
+    )
+    def change_dataset(new_data_type, filter_settings_json):
+        # load the data
+        filter_settings = json.loads(filter_settings_json)
+
+        # update the value
+        filter_settings['data type'] = new_data_type
+
+        # update the actions
+        filter_settings['actions'] = [STATIC_ACTION, ADDITIONAL_ACTION]
+
+        return json.dumps(filter_settings)
+
+
+# ------------------------------- Actually creating the filters -----------------------------
+
+
+def register_settings_to_all_filters(app, data_dictionaries):
     @app.callback(
         Output('filter-static-container', 'children', allow_duplicate=True),
         Output('filter-additional-content', 'children', allow_duplicate=True),
@@ -135,14 +216,14 @@ def register_settings_to_filters(app):
 
         # deal with static content
         static_return = (
-            settings_to_filters(filter_settings, static=True) 
+            settings_to_filters(filter_settings, data_dictionaries, static=True) 
             if (STATIC_ACTION in actions)
             else no_update
         )
 
         # deal with the additional content
         additional_return = (
-            settings_to_additional_filters_layout(filter_settings) 
+            settings_to_additional_filters_layout(filter_settings, data_dictionaries) 
             if (ADDITIONAL_ACTION in actions)
             else no_update
         )
@@ -154,117 +235,20 @@ def register_settings_to_filters(app):
         return static_return, additional_return, json.dumps(filter_settings)
 
 
-# ------------------------------- for changing the environment -------------------------------------
-
-from pprint import pprint
-
-# store for each child option store the options (either way)
-# for each id,
-def get_new_filter_settings(old_data_type, old_filter_settings, children_ids, children_values, data_dictionaries):
-    # get the new filter settings creator
-    new_filter_settings = old_filter_settings.copy()
-
-    # unpack values from the children_ids
-    active_filters = [child_id['filter'] for child_id in children_ids]
-    active_filter_types = [child_id['type'] for child_id in children_ids]
-
-    # reset the active filters
-    new_filter_settings[old_data_type]['active'] = []
-
-    # change each value in the dictionary
-    for active_filter, active_filter_type, filter_value in zip(active_filters, active_filter_types, children_values):
-        # change the options
-        new_filter_settings[old_data_type]['value'][active_filter] = filter_value
-
-        # save as active if additional
-        if (active_filter_type == 'additional'):
-            new_filter_settings[old_data_type]['active'].append(active_filter)
-    
-    # return the json as a string
-    return json.dumps(new_filter_settings)
-
-
-# return all the components
-def get_new_additional_fitler_components(new_data_type, filter_settings, old_filter_components, data_dictionaries):
-    # STATIC FILTERS
-    # get the static filters involved
-    static_filters = data_dictionaries[FILTER_TYPES][new_data_type]['static']
-
-    # create the new components
-    new_static_filters = []
-    for static_filter in static_filters:
-        static_filter_options = data_dictionaries[FILTER_TO_OPTIONS][new_data_type][static_filter]
-        static_filter_value = filter_settings[new_data_type]['value'][static_filter]
-        new_static_filters.append(
-            create_static_filter(static_filter, static_filter_options, value=static_filter_value)
-        )
-
-    # additional FILTERS
-    # find the active elements
-    active_additional_filters = filter_settings[new_data_type]['active']
-
-    # get the new filter components
-    new_additional_filter = [old_filter_components[0]]      # this gets the dropdown for add_filter
-    for active_filter in active_additional_filters:
-        active_filter_options = data_dictionaries[FILTER_TO_OPTIONS][new_data_type][active_filter]
-        active_filter_value = filter_settings[new_data_type]['value'][active_filter]
-        new_additional_filter.append(
-            create_additional_filter(active_filter, active_filter_options, value=active_filter_value)
-        )
-    
-    # RETURN
-    return new_static_filters, new_additional_filter
-
-
-# get the new options for the available additional filters
-def get_new_new_filter_options(new_data_type, filter_settings, data_dictionaries):
-    additional_filters = data_dictionaries[FILTER_TYPES][new_data_type]['additional']
-    return sorted(list(
-        set(additional_filters) - set(filter_settings[new_data_type]['active'])
-    ))
-
-
-def register_change_dataset(app, data_dictionaries):
-    @app.callback(
-        Output('filter-static-container', 'children'),      # need to reload the BOTH the children
-        Output('filter-additional-container', 'children'),     # "                                  "
-        Output('add-filter-dropdown', 'options'),           # need to change the options as well
-        Output('filter-settings', 'data', allow_duplicate=True),                  # make sure to change the filter settings
-        Input('type-dropdown', 'value'),                    # get the type that's been changed
-        State('filter-settings', 'data'),                   # get the current filter settings
-        State({'class': 'filters', 'filter': ALL, 'role': 'column', 'type': ALL}, 'id'),        # will read in all the 'ids' of both types of filters
-        State({'class': 'filters', 'filter': ALL, 'role': 'dropdown', 'type': ALL}, 'value'),   # will read in all options of both types of filters
-        State('filter-additional-container', 'children'),      # need the first element for add-filter-dropdown
-        prevent_initial_call=True
-    )
-    def change_dataset(new_data_type, old_filter_settings_json, children_ids, children_values, old_filter_components):
-        old_data_type = list(set(['interview', 'offer']) - set([new_data_type]))[0]
-        old_filter_settings = json.loads(old_filter_settings_json)
-
-        # get all the new components
-        new_filter_settings = get_new_filter_settings(
-            old_data_type, old_filter_settings, children_ids, children_values, data_dictionaries
-        )
-        new_static_filters, new_additional_filters = get_new_additional_fitler_components(
-            new_data_type, old_filter_settings, old_filter_components, data_dictionaries
-        )
-        new_new_filter_options = get_new_new_filter_options(
-            new_data_type, old_filter_settings, data_dictionaries
-        )
-
-        # return everything, changing the python object to a json string
-        return new_static_filters, new_additional_filters, new_new_filter_options, json.dumps(new_filter_settings)
-
+# ------------------------------- Final Step --------------------------------------
 
 def register_callbacks(app, data_dictionaries):
-    # adding filters and what not
+    # for adding and removing filters
     register_adjust_new_filters(app)
     register_delete_filter(app, data_dictionaries)
-    register_toggle_additional_filters(app)
 
-    # big changer
-    register_settings_to_filters(app)
+    # other ways of updating settings
+    register_toggle_additional_filters(app)
+    register_alter_settings(app)
+
+    # for actually creating changes
+    register_settings_to_all_filters(app, data_dictionaries)
 
     # switching settings
-    register_change_dataset(app, data_dictionaries)
+    register_change_dataset(app)
 

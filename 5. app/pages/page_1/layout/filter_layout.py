@@ -3,21 +3,20 @@ import dash_bootstrap_components as dbc
 
 import json
 
+from . import layout_parameters
+
 # names of dictionary data functions
 FILTER_TO_OPTIONS = "filter_to_options"
 FILTER_TYPES = "filter_types"
 DEFAULT_JSON = "default_json"
 
-# display variables
-PLACEHOLDER = "select"
-SINGLE_OPTION_FILTERS = ['university', 'year']
-START_BLANK = ['places selected (include all)', 'places selected (exclude all)']
-
-def is_multiselect(filter):
-    return not filter in SINGLE_OPTION_FILTERS
-
 # used for changing the display name of a filter
 filter_to_title = {}
+
+# ---------------------------- HELPER FUNCTIONS ---------------------------------------------
+
+def is_multiselect(filter):
+    return not filter in layout_parameters.SINGLE_OPTION_FILTERS
 
 # ----------------------------- CREATING FILTER COMPONENTS -------------------------------------
 
@@ -34,17 +33,27 @@ def get_filter_name(filter_name):
     return new_filter_name
 
 
+def get_default_value(filter_name, options):
+    if (filter_name in layout_parameters.START_BLANK):
+        return []
+    elif (is_multiselect(filter_name)):
+        return options
+    else:
+        return options[0]
+
+
 def create_static_filter(new_filter, options, value='__default__'):
+    # deal with the default value
     if (value == '__default__'):
-        value = options if is_multiselect(new_filter) else options[0]
-    
+        value = get_default_value(new_filter, options)
+            
     return dbc.Col(
         dbc.Stack([
                 html.B(get_filter_name(new_filter)),
                 dcc.Dropdown(
                     id={'class': 'filters', 'filter': new_filter, 'role': 'dropdown', 'type': 'static'},
                     options=options,
-                    placeholder=PLACEHOLDER,
+                    placeholder=layout_parameters.PLACEHOLDER,
                     multi=is_multiselect(new_filter),
                     value=value,
                     style={'width': '100%'}
@@ -58,8 +67,9 @@ def create_static_filter(new_filter, options, value='__default__'):
 
 
 def create_additional_filter(new_filter, options, value='__default__'):
+    # deal with the default value
     if (value == '__default__'):
-        value = options if is_multiselect(new_filter) else options[0]
+        value = get_default_value(new_filter, options)
 
     return dbc.Col(
         dbc.Stack([
@@ -68,7 +78,7 @@ def create_additional_filter(new_filter, options, value='__default__'):
                         dcc.Dropdown(
                             id={'class': 'filters', 'filter': new_filter, 'role': 'dropdown', 'type': 'additional'},
                             options=options,
-                            placeholder=PLACEHOLDER,
+                            placeholder=layout_parameters.PLACEHOLDER,
                             multi=is_multiselect(new_filter),
                             value=value,
                             style={'width': '100%'}
@@ -116,8 +126,9 @@ def create_select_new_filter(filter_settings):
 
 # ------------------------------- CREATING FILTERS CONTENT -----------------------------------
 
+from pprint import pprint
 
-def settings_to_filters(filter_settings, static=False):
+def settings_to_filters(filter_settings, data_dictionaries, static=False):
     # get the data type in use
     data_type = filter_settings['data type']
 
@@ -131,16 +142,22 @@ def settings_to_filters(filter_settings, static=False):
         # get the main filters
         for active_filter in filter_settings[data_type]['active']:
             # get the active filter component
-            active_filter_options = filter_settings[data_type]['additional value'][active_filter]
-            active_filter_component = create_additional_filter(active_filter, active_filter_options)
+            active_filter_options = data_dictionaries[FILTER_TO_OPTIONS][data_type][active_filter]
+            active_filter_value = filter_settings[data_type]['additional value'][active_filter]
+            active_filter_component = create_additional_filter(
+                active_filter, active_filter_options, value=active_filter_value
+            )
 
             # append to the list
             filter_components.append(active_filter_component)
 
     else:
-        for static_filter, static_filter_options in filter_settings[data_type]['static value'].items():
+        for static_filter, static_filter_value in filter_settings[data_type]['static value'].items():        
             # get the new static filter
-            static_filter_component = create_additional_filter(static_filter, static_filter_options)
+            active_filter_options = data_dictionaries[FILTER_TO_OPTIONS][data_type][static_filter]
+            static_filter_component = create_static_filter(
+                static_filter, active_filter_options, value=static_filter_value
+            )
 
             # append to the list
             filter_components.append(static_filter_component)
@@ -148,7 +165,7 @@ def settings_to_filters(filter_settings, static=False):
     return filter_components
 
 
-def settings_to_additional_filters_layout(filter_settings):
+def settings_to_additional_filters_layout(filter_settings, data_dictionaries):
     # check if disabled
     if (filter_settings['additional filters'] == False):
         return []
@@ -160,7 +177,7 @@ def settings_to_additional_filters_layout(filter_settings):
         # filter container basically
         dbc.Container(
             dbc.Row(
-                settings_to_filters(filter_settings, static=False),
+                settings_to_filters(filter_settings, data_dictionaries, static=False),
                 id='filter-additional-container',
                 justify='start'
             ),
@@ -210,7 +227,7 @@ def create_default_json(filter_to_options, filter_types):
     }
 
     # for starting blank options, start blank (only for multiselect)
-    for start_blank_filter in START_BLANK:
+    for start_blank_filter in layout_parameters.START_BLANK:
         # iterate each data type
         for data_type in ['interview', 'offer']:
             # if not already existing, continue
