@@ -91,11 +91,7 @@ def create_filters_layout(data_dictionaries):
 def create_graph_layout():
     return [
         # graph container
-        dbc.Row(
-            graph_layout.create_default_graph(),
-            id='graph-container', 
-            justify='center'
-        ),
+        html.Div(id='graph-container'),
 
         # displayed information
         html.H1("Display DataFrame in Dash"),

@@ -7,9 +7,13 @@ from dash import callback_context
 # for the filtering
 import pandas as pd
 import numpy as np
+import json
 
 # for graphing
 import plotly.express as px
+
+# own libraries
+from ..layout.graph_layout import create_graph_layout
 
 # key words
 DATA_VIEW = "data_views"
@@ -42,6 +46,9 @@ PLACES_SELECTED_NAME = 'places selected'
 ALL_UNIQUE_FILTERS = [OFFER_PLACE_FILTER, PLACES_SELECTED_INCLUDE, PLACES_SELECTED_EXCLUDE]
 
 
+# ------------------------------ FILTERING LOWER LEVEL --------------------------------------
+
+
 # will convert a values object, and can all str instances of 'None' to np.nan
 def convert_values_for_na(object):
     if (isinstance(object, str) and object == NONE):
@@ -71,18 +78,11 @@ def condition_all(list_value, filter_value, exclude=False):
         return set(list_value) & set(filter_value) == set()
 
 
-# used to filter the data frame including with the university option
-# - should include the data dictionary
-def filter_dataset(filter_values, filters_ids, data_type, data_dictionaries):
-    # get the filter names
-    filter_names = [filter_id['filter'] for filter_id in filters_ids]
-
-    # get the selected university filter
-    university_index = filter_names.index(UNIVERSITY)
-    university_selected = filter_values[university_index]
-
-    # get the unfiltered unviersity dataset
-    filtered_dataset = data_dictionaries[DATA_VIEW][data_type][university_selected]
+# this is a really good function, exactly what I want
+# - will filter the dataset based on the filter names and values
+# - useful as doesn't require it to be in the interivew / offer format
+def filter_dataset(uni_dataset, filter_names, filter_values): 
+    filtered_dataset = uni_dataset.copy()
 
     # for each argument
     for filter_name, filter_value in zip(filter_names, filter_values):
@@ -127,6 +127,58 @@ def filter_dataset(filter_values, filters_ids, data_type, data_dictionaries):
     return filtered_dataset
 
 
+
+# ------------------------------ FILTERING HIGHER LEVEL --------------------------------------
+
+
+# used to filter the data frame including with the university option
+# - should include the data dictionary
+def get_filtered_datasets(filter_settings, data_type, add_additional, data_dictionaries):
+    # get the filter names and values (includes university). Returns
+    # 1. data type
+    # 2. list of filter names
+    # 3. list of corresponding filter values
+    def get_settings_info(filter_settings, additional=True):
+        # get data type
+        data_type = filter_settings['data type']
+
+        # start with the static filters
+        filter_names = list(filter_settings[data_type]['static value'].keys())
+        filter_values = list(filter_settings[data_type]['static value'].values())
+
+        if (not additional):
+            return filter_names, filter_values
+        else:
+            for active_filter in filter_settings[data_type]['active']:
+                filter_names.append(active_filter)
+                filter_values.append(filter_settings[data_type]['additional value'][active_filter])
+
+            return filter_names, filter_values
+
+    # create a container for the filtered datasets
+    filtered_datasets = []
+
+    # get the unfiltered unviersity dataset
+    selected_university = filter_settings[data_type]['static value'][UNIVERSITY]
+    uni_dataset = data_dictionaries[DATA_VIEW][data_type][selected_university]
+
+    # get the filter names for static values
+    static_filter_names, static_filter_values = get_settings_info(filter_settings, additional=False)
+    static_filtered_dataset = filter_dataset(uni_dataset, static_filter_names, static_filter_values)
+    filtered_datasets.append(static_filtered_dataset)
+
+    # check if also need additional values
+    if (add_additional):
+        additional_filter_names, additional_filter_values = get_settings_info(filter_settings, additional=True)
+        additional_filtered_dataset = filter_dataset(uni_dataset, additional_filter_names, additional_filter_values)
+        filtered_datasets.append(additional_filtered_dataset)
+    
+    return filtered_datasets
+
+
+# ------------------------------ GRAPH --------------------------------------
+
+
 # graph the dataframe with all the given options. Should include
 # - adjusting the heading as well (TO DO)
 def graph_dataframe(dataframe):
@@ -168,33 +220,70 @@ def graph_dataframe(dataframe):
     )  
 
     return fig
+
+
+# graph a list of dataframes
+# - depends on their being two datasets in order to do
+def graph_dataframes(dataframes):
+    figs = []
+    for dataframe in dataframes:
+        fig = graph_dataframe(dataframe)
+        figs.append(fig)
     
+    return figs
+
+
+# ------------------------------ DATASETS --------------------------------------
+
+
+def dataframe_to_data(dataframe, data_type):
+    # convert the other data type to a string for readability
+    if (data_type == 'offer'):
+        dataframe['places selected'] = dataframe['places selected'].apply(
+            lambda x: ", ".join(x) if isinstance(x, list) else x
+        )
+
+    return dataframe.to_json(orient="records")
+
+
+# ------------------------------ CALLBACKS --------------------------------------
+
 
 def register_change_graph(app, data_dictionaries):
-    # function will use the data dictionary to filter the options
     @app.callback(
-        Output('scatter-plot-simple', 'figure'),       # output the graph
-        Output('graph-frame', 'data'),   # save the filtered frame
-        Input({'class': 'filters', 'filter': ALL, 'role': 'dropdown', 'type': ALL}, 'value'),   # get the values
-        State({'class': 'filters', 'filter': ALL, 'role': 'dropdown', 'type': ALL}, 'id'),      # get the ids
-        State('type-dropdown', 'value')         # get the dataset type
+        Output('graph-container', 'children'),
+        Output('graph-frame', 'data'),
+        Input('filter-settings', 'data'),
     )
-    def change_graph(filter_values, filters_ids, data_type):
-        # use a filtering function
-        filtered_frame = filter_dataset(filter_values, filters_ids, data_type, data_dictionaries)
+    def change_graph(filter_settings_json):
+        # load the data
+        filter_settings = json.loads(filter_settings_json)
+        data_type = filter_settings['data type']
+        add_additional = filter_settings['additional filters']
 
-        # convert the other data type to a string for readability
-        if (data_type == 'offer'):
-            filtered_frame['places selected'] = filtered_frame['places selected'].apply(
-                lambda x: ", ".join(x) if isinstance(x, list) else x
-            )
+        # use a filtering function
+        filtered_frames = get_filtered_datasets(filter_settings, data_type, add_additional, data_dictionaries)
 
         # graph the dataframe
-        fig = graph_dataframe(filtered_frame)
+        figs = graph_dataframes(filtered_frames)
 
-        return fig, filtered_frame.to_json(orient="records")
+        # create the component
+        layout = create_graph_layout(figs)
 
-import json
+        # just need to save the first frame
+        saved_frame = dataframe_to_data(filtered_frames[0], data_type)
+
+        return layout, saved_frame
+
+
+def register_bad(app):
+    @app.callback(
+        Output('alskja', 'children'),
+        Input('filter-settings', 'data')
+    )
+    def bad(filter_settings_json):
+        return "a"
+
 
 def register_click_data(app, data_dictionaries):
     @app.callback(
@@ -229,3 +318,4 @@ def register_click_data(app, data_dictionaries):
 def register_callbacks(app, data_dictionaries):
     register_change_graph(app, data_dictionaries)
     register_click_data(app, data_dictionaries)
+    register_bad(app)

@@ -147,10 +147,7 @@ def register_alter_settings(app):
 
         # figure out which ID caused the trigger
         ctx = callback_context
-
-        print("ctx triggered_id: \n", ctx.triggered_id)
-        print("ctx.triggered_id is None: ", ctx.triggered_id is None)
-
+        
         # check to see it's not triggered by a deletion
         if (ctx.triggered_id is None):
             raise PreventUpdate

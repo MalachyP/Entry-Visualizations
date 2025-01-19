@@ -15,7 +15,7 @@ DEFAULT_LEGEND_OPTION = 'success'
 # - graph_type: whether it's the simple or the advanced
 # - width: how wide the graph element is (6 for 2 and 8 for 1 I believe)
 # - options: the options for the custom legend
-def create_graph_component(graph_type, width, legend_options, id_overide=False):
+def create_graph_component(graph_type, width, legend_options, figure=None, id_overide=False):
     if (not id_overide):
         graph_id = {'class': 'graph', 'type': graph_type, 'role': 'graph'}
     else:
@@ -26,7 +26,7 @@ def create_graph_component(graph_type, width, legend_options, id_overide=False):
         dbc.Stack(
             [
                 # the graph component
-                dcc.Graph(id=graph_id),
+                dcc.Graph(id=graph_id, figure=figure),
 
                 # the stack for reset button, download button, save to image carousel
                 html.Div(
@@ -69,7 +69,26 @@ def create_graph_component(graph_type, width, legend_options, id_overide=False):
     )
 
 
+# ------------------------------- LAYOUT FUNCTIONS -------------------------------------
+
+
+# will supply a list of datasets, to create a graph layout essentially
+def create_graph_layout(figs):
+    if (len(figs) == 1):
+        return dbc.Row(
+            [create_graph_component('simple', 8, ['Yes', 'No'], figure=figs[0])],
+            id='graph-container',
+            justify='center'
+        )
+    else:
+        return dbc.Row(
+            [create_graph_component('simple', 6, ['Yes', 'No'], figure=fig) for fig in figs],
+            id='graph-container',
+            justify='center'
+        )
+
 # ------------------------------- CREATING DEFAULT VALUES -------------------------------------
+
 
 def create_default_graph():
     return [
