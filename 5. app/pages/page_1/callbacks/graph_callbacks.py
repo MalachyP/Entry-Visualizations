@@ -7,9 +7,13 @@ from dash import callback_context
 # for the filtering
 import pandas as pd
 import numpy as np
+import json
 
 # for graphing
 import plotly.express as px
+
+# personal functions
+from .graph_paramters import *
 
 # key words
 DATA_VIEW = "data_views"
@@ -20,19 +24,6 @@ NONE = "None"
 GAMSAT = 'gamsat'
 GPA = 'gpa'
 SUCCESS = 'success'
-
-GAMSAT_LIM = [55, 85]
-GPA_LIM = [5.2, 7.2]
-
-# for the legend aspect
-COLOUR_DISCRETE_MAP = {
-    'Yes': 'blue',
-    'No': 'red'
-}
-CATEGORY_ORDERS = {
-    SUCCESS: ['Yes', 'No']
-}
-OPACITY = 0.7
 
 # the name for filter values
 OFFER_PLACE_FILTER = 'offer uni place type'
@@ -194,7 +185,6 @@ def register_change_graph(app, data_dictionaries):
 
         return fig, filtered_frame.to_json(orient="records")
 
-import json
 
 def register_click_data(app, data_dictionaries):
     @app.callback(
