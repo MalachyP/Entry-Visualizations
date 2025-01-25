@@ -5,6 +5,7 @@ import json
 from pprint import pprint
 
 from . import layout_parameters
+from ..callbacks.callback_header import *
 
 # names of dictionary data functions
 FILTER_TO_OPTIONS = "filter_to_options"
@@ -221,7 +222,7 @@ def create_default_json(filter_to_options, filter_types):
 
     # add extra information
     default_dict = default_dict | {
-        'actions': [],
+        'actions': [GRAPH_ACTION, GRAPH_DATA_ACTION],
         'additional filters': False,
         'data type': 'interview'
     }

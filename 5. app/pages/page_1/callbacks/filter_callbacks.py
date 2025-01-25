@@ -11,13 +11,11 @@ from pprint import pprint
 # personal functions
 from ..layout.filter_layout import settings_to_additional_filters_layout, settings_to_filters, get_default_value
 from ..layout import layout_parameters
+from .callback_header import *
 
 # names of dictionary data functions
 FILTER_TO_OPTIONS = "filter_to_options"
 FILTER_TYPES = "filter_types"
-
-STATIC_ACTION = 'static'
-ADDITIONAL_ACTION = 'additional'
 
 # Functions in this page
 # 1. register_adjust_new_filters:    for when the user selects a new filter
@@ -44,7 +42,7 @@ ADDITIONAL_ACTION = 'additional'
 # creates a new additional filter and reduces the options elsewhere
 def register_adjust_new_filters(app):
     @app.callback(
-        Output('filter-settings', 'data'),
+        Output('filter-settings', 'data', allow_duplicate=True),
         Input('add-filter-dropdown', 'value'),                                  # input is the dropdown menu
         State('filter-settings', 'data'),                                       # get the current data
         prevent_initial_call=True,
@@ -100,7 +98,7 @@ def register_delete_filter(app, data_dictionaries):
         filter_settings[data_type]['additional value'][deleted_filter] = deleted_filter_value
 
         # make sure additional filters changed only
-        filter_settings['actions'] = [ADDITIONAL_ACTION]
+        filter_settings['actions'] = [ADDITIONAL_ACTION, GRAPH_ACTION]
 
         return json.dumps(filter_settings)
 
@@ -124,7 +122,7 @@ def register_toggle_additional_filters(app):
         filter_settings['additional filters'] = True if additional_filter_enablor != [] else False
 
         # make sure additional filters changed only
-        filter_settings['actions'] = [ADDITIONAL_ACTION]
+        filter_settings['actions'] = [ADDITIONAL_ACTION, GRAPH_ACTION]
 
         # return the filter layout
         return json.dumps(filter_settings)
@@ -133,6 +131,9 @@ def register_toggle_additional_filters(app):
 # for changing settings each time a filter is changed
 # Unforunately, it'll just have to trigger twice with the actual creation of a callback. 
 # No issue I suppose as everything will still run co-currently (won't hamper anything)
+# - I mean I guess this works if I'm taking the first callback context and it hasn't changed, because that 
+#   means either a change in dataset happened or something, so need to change (notice ctx.triggered could be a list
+#   but only taking the first value)
 def register_alter_settings(app):
     @app.callback(
         Output('filter-settings', 'data', allow_duplicate=True),
@@ -148,9 +149,6 @@ def register_alter_settings(app):
         # figure out which ID caused the trigger
         ctx = callback_context
 
-        print("ctx triggered_id: \n", ctx.triggered_id)
-        print("ctx.triggered_id is None: ", ctx.triggered_id is None)
-
         # check to see it's not triggered by a deletion
         if (ctx.triggered_id is None):
             raise PreventUpdate
@@ -164,9 +162,23 @@ def register_alter_settings(app):
 
         # update the dictionary (check if current filter in static value (same as keys))
         if (triggered_filter_name in filter_settings[data_type]['static value']):
-            filter_settings[data_type]['static value'][triggered_filter_name] = triggered_filter_value
+            value_type = "static value"
         else:
-            filter_settings[data_type]['additional value'][triggered_filter_name] = triggered_filter_value
+            value_type = "additional value"
+        
+        # check to see if no update is needed
+        if (filter_settings[data_type][value_type][triggered_filter_name] == triggered_filter_value):
+            raise PreventUpdate
+        
+        # if not change the value
+        filter_settings[data_type][value_type][triggered_filter_name] = triggered_filter_value
+
+        # make sure it triggers the graph
+        filter_settings['actions'] = [GRAPH_ACTION]
+
+        # check if need to change the data
+        if (triggered_filter_name == UNIVERSITY):
+            filter_settings['actions'].append(GRAPH_DATA_ACTION)
 
         return json.dumps(filter_settings)
 
@@ -189,7 +201,7 @@ def register_change_dataset(app):
         filter_settings['data type'] = new_data_type
 
         # update the actions
-        filter_settings['actions'] = [STATIC_ACTION, ADDITIONAL_ACTION]
+        filter_settings['actions'] = [STATIC_ACTION, ADDITIONAL_ACTION, GRAPH_ACTION, GRAPH_DATA_ACTION]
 
         return json.dumps(filter_settings)
 
@@ -197,11 +209,11 @@ def register_change_dataset(app):
 # ------------------------------- Actually creating the filters -----------------------------
 
 
+# Note: this will even update for the graph callback as well
 def register_settings_to_all_filters(app, data_dictionaries):
     @app.callback(
         Output('filter-static-container', 'children', allow_duplicate=True),
         Output('filter-additional-content', 'children', allow_duplicate=True),
-        Output('filter-settings', 'data', allow_duplicate=True),
         Input('filter-settings', 'data'),
         prevent_initial_call=True
     )
@@ -211,7 +223,7 @@ def register_settings_to_all_filters(app, data_dictionaries):
         actions = filter_settings['actions']    # determine the actions to do
 
         # check if no update needed
-        if (actions == []):
+        if (set(actions) & set([STATIC_ACTION, ADDITIONAL_ACTION]) == set()):
             raise PreventUpdate
 
         # deal with static content
@@ -228,11 +240,8 @@ def register_settings_to_all_filters(app, data_dictionaries):
             else no_update
         )
 
-        # make sure no more actions to do
-        filter_settings['actions'] = []
-
         # return all the info
-        return static_return, additional_return, json.dumps(filter_settings)
+        return static_return, additional_return
 
 
 # ------------------------------- Final Step --------------------------------------

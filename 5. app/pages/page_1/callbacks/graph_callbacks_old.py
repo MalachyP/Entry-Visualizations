@@ -2,21 +2,18 @@
 from dash import ALL, MATCH
 from dash.dependencies import Input, Output, State
 from dash.exceptions import PreventUpdate
-from dash import callback_context, no_update
+from dash import callback_context
 
 # for the filtering
 import pandas as pd
 import numpy as np
 import json
-import time
-from pprint import pprint
 
 # for graphing
 import plotly.express as px
 
-# personal functions
-from .graph_paramters import *
-from .callback_header import *
+# own libraries
+from ..layout.graph_layout import create_graph_layout
 
 # key words
 DATA_VIEW = "data_views"
@@ -27,6 +24,19 @@ NONE = "None"
 GAMSAT = 'gamsat'
 GPA = 'gpa'
 SUCCESS = 'success'
+
+GAMSAT_LIM = [55, 85]
+GPA_LIM = [5.2, 7.2]
+
+# for the legend aspect
+COLOUR_DISCRETE_MAP = {
+    'Yes': 'blue',
+    'No': 'red'
+}
+CATEGORY_ORDERS = {
+    SUCCESS: ['Yes', 'No']
+}
+OPACITY = 0.7
 
 # the name for filter values
 OFFER_PLACE_FILTER = 'offer uni place type'
@@ -117,12 +127,15 @@ def filter_dataset(uni_dataset, filter_names, filter_values):
     return filtered_dataset
 
 
+
 # ------------------------------ FILTERING HIGHER LEVEL --------------------------------------
+
 
 # used to filter the data frame including with the university option
 # - should include the data dictionary
-def get_filtered_dataset(filter_settings, data_dictionaries):
+def get_filtered_datasets(filter_settings, data_type, add_additional, data_dictionaries):
     # get the filter names and values (includes university). Returns
+    # 1. data type
     # 2. list of filter names
     # 3. list of corresponding filter values
     def get_settings_info(filter_settings, additional=True):
@@ -142,19 +155,25 @@ def get_filtered_dataset(filter_settings, data_dictionaries):
 
             return filter_names, filter_values
 
-    # get values from the settings
-    data_type = filter_settings['data type']
-    add_additional = filter_settings['additional filters']
+    # create a container for the filtered datasets
+    filtered_datasets = []
 
     # get the unfiltered unviersity dataset
     selected_university = filter_settings[data_type]['static value'][UNIVERSITY]
     uni_dataset = data_dictionaries[DATA_VIEW][data_type][selected_university]
 
     # get the filter names for static values
-    filter_names, filter_values = get_settings_info(filter_settings, additional=add_additional)
-    filtered_dataset = filter_dataset(uni_dataset, filter_names, filter_values)
+    static_filter_names, static_filter_values = get_settings_info(filter_settings, additional=False)
+    static_filtered_dataset = filter_dataset(uni_dataset, static_filter_names, static_filter_values)
+    filtered_datasets.append(static_filtered_dataset)
+
+    # check if also need additional values
+    if (add_additional):
+        additional_filter_names, additional_filter_values = get_settings_info(filter_settings, additional=True)
+        additional_filtered_dataset = filter_dataset(uni_dataset, additional_filter_names, additional_filter_values)
+        filtered_datasets.append(additional_filtered_dataset)
     
-    return filtered_dataset
+    return filtered_datasets
 
 
 # ------------------------------ GRAPH --------------------------------------
@@ -201,7 +220,18 @@ def graph_dataframe(dataframe):
     )  
 
     return fig
+
+
+# graph a list of dataframes
+# - depends on their being two datasets in order to do
+def graph_dataframes(dataframes):
+    figs = []
+    for dataframe in dataframes:
+        fig = graph_dataframe(dataframe)
+        figs.append(fig)
     
+    return figs
+
 
 # ------------------------------ DATASETS --------------------------------------
 
@@ -219,58 +249,40 @@ def dataframe_to_data(dataframe, data_type):
 # ------------------------------ CALLBACKS --------------------------------------
 
 
-def register_change_graph_data(app, data_dictionaries):
+def register_change_graph(app, data_dictionaries):
     @app.callback(
+        Output('graph-container', 'children'),
         Output('graph-frame', 'data'),
         Input('filter-settings', 'data')
-    )
-    def change_graph_data(filter_settings_json):
-        print("triggering change graph data")
-
-        # load the data
-        filter_settings = json.loads(filter_settings_json)
-
-        # check if need to update
-        if (set(filter_settings['actions']) & set([GRAPH_DATA_ACTION]) == set()):
-            print("no update")
-            raise PreventUpdate
-        else:
-            print("updating")
-
-        # get the dataset settings
-        data_type = filter_settings['data type']
-        selected_university = filter_settings[data_type]['static value'][UNIVERSITY]
-        
-        # get the new dataset then
-        uni_dataset = data_dictionaries[DATA_VIEW][data_type][selected_university]
-
-        # save the data
-        saved_dataset = dataframe_to_data(uni_dataset, data_type)
-
-        return saved_dataset
-
-
-def register_change_graph(app, data_dictionaries):
-    # function will use the data dictionary to filter the options
-    @app.callback(
-        Output('scatter-plot-simple', 'figure'),
-        Input('filter-settings', 'data')     # get the dataset type
     )
     def change_graph(filter_settings_json):
         # load the data
         filter_settings = json.loads(filter_settings_json)
-
-        # check if need to update
-        if (set(filter_settings['actions']) & set([GRAPH_ACTION]) == set()):
-            raise PreventUpdate
+        data_type = filter_settings['data type']
+        add_additional = filter_settings['additional filters']
 
         # use a filtering function
-        filtered_frame = get_filtered_dataset(filter_settings, data_dictionaries)
+        filtered_frames = get_filtered_datasets(filter_settings, data_type, add_additional, data_dictionaries)
 
         # graph the dataframe
-        fig = graph_dataframe(filtered_frame)
+        figs = graph_dataframes(filtered_frames)
 
-        return fig
+        # create the component
+        layout = create_graph_layout(figs)
+
+        # just need to save the first frame
+        saved_frame = dataframe_to_data(filtered_frames[0], data_type)
+
+        return layout, saved_frame
+
+
+def register_bad(app):
+    @app.callback(
+        Output('alskja', 'children'),
+        Input('filter-settings', 'data')
+    )
+    def bad(filter_settings_json):
+        return "a"
 
 
 def register_click_data(app, data_dictionaries):
@@ -306,4 +318,4 @@ def register_click_data(app, data_dictionaries):
 def register_callbacks(app, data_dictionaries):
     register_change_graph(app, data_dictionaries)
     register_click_data(app, data_dictionaries)
-    register_change_graph_data(app, data_dictionaries)
+    register_bad(app)
