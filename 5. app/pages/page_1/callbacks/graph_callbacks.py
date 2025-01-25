@@ -11,22 +11,17 @@ import json
 import time
 from pprint import pprint
 
-# for graphing
-import plotly.express as px
-
 # personal functions
 from .graph_paramters import *
 from .callback_header import *
+from ..layout.graph_layout import graph_dataframe
+from ..layout.layout_parameters import SUCCESS
 
 # key words
 DATA_VIEW = "data_views"
 DISPLAY_INFO = "display_info"
 UNIVERSITY = "university"
 NONE = "None"
-
-GAMSAT = 'gamsat'
-GPA = 'gpa'
-SUCCESS = 'success'
 
 # the name for filter values
 OFFER_PLACE_FILTER = 'offer uni place type'
@@ -157,52 +152,6 @@ def get_filtered_dataset(filter_settings, data_dictionaries):
     return filtered_dataset
 
 
-# ------------------------------ GRAPH --------------------------------------
-
-
-# graph the dataframe with all the given options. Should include
-# - adjusting the heading as well (TO DO)
-def graph_dataframe(dataframe):
-    # Create the plot based on selected variables for X and Y axes
-    fig = px.scatter(
-        # data input
-        dataframe,
-        x=GAMSAT,
-        y=GPA,
-        color=SUCCESS,
-        custom_data='index',
-
-        # formatting
-        category_orders=CATEGORY_ORDERS,
-        color_discrete_map=COLOUR_DISCRETE_MAP,
-        opacity=OPACITY,
-    )
-
-    # Fix axis limits
-    fig.update_layout(
-        xaxis=dict(range=GAMSAT_LIM),   # Set x-axis limits
-        yaxis=dict(range=GPA_LIM),      # Set y-axis limits
-        clickmode='event+select'
-    ),
-
-    # Customize layout
-    fig.update_layout(
-        title={
-            "text": "GAMSAT vs GPA",  # Title text
-            "x": 0.5,                 # Center the title
-            "xanchor": "center"       # Anchor text to the center
-        },
-        margin=dict(l=20, r=20, t=40, b=20),  # Reduce whitespace (left, right, top, bottom)
-    ),
-
-    # Increase marker size by setting 'marker_size' in update_traces
-    fig.update_traces(
-        marker=dict(size=10)    # Adjust size as needed
-    )  
-
-    return fig
-    
-
 # ------------------------------ DATASETS --------------------------------------
 
 
@@ -216,44 +165,18 @@ def dataframe_to_data(dataframe, data_type):
     return dataframe.to_json(orient="records")
 
 
+# ------------------------------------------------------------------------------
 # ------------------------------ CALLBACKS --------------------------------------
+# -------------------------------------------------------------------------------
 
 
-def register_change_graph_data(app, data_dictionaries):
-    @app.callback(
-        Output('graph-frame', 'data'),
-        Input('filter-settings', 'data')
-    )
-    def change_graph_data(filter_settings_json):
-        print("triggering change graph data")
-
-        # load the data
-        filter_settings = json.loads(filter_settings_json)
-
-        # check if need to update
-        if (set(filter_settings['actions']) & set([GRAPH_DATA_ACTION]) == set()):
-            print("no update")
-            raise PreventUpdate
-        else:
-            print("updating")
-
-        # get the dataset settings
-        data_type = filter_settings['data type']
-        selected_university = filter_settings[data_type]['static value'][UNIVERSITY]
-        
-        # get the new dataset then
-        uni_dataset = data_dictionaries[DATA_VIEW][data_type][selected_university]
-
-        # save the data
-        saved_dataset = dataframe_to_data(uni_dataset, data_type)
-
-        return saved_dataset
+# ------------------------------ GRAPH DATA --------------------------------------
 
 
 def register_change_graph(app, data_dictionaries):
     # function will use the data dictionary to filter the options
     @app.callback(
-        Output('scatter-plot-simple', 'figure'),
+        Output('graph', 'figure'),
         Input('filter-settings', 'data')     # get the dataset type
     )
     def change_graph(filter_settings_json):
@@ -268,7 +191,7 @@ def register_change_graph(app, data_dictionaries):
         filtered_frame = get_filtered_dataset(filter_settings, data_dictionaries)
 
         # graph the dataframe
-        fig = graph_dataframe(filtered_frame)
+        fig = graph_dataframe(filtered_frame, filter_settings)
 
         return fig
 
@@ -277,7 +200,7 @@ def register_click_data(app, data_dictionaries):
     @app.callback(
         Output('graph-info', 'columns'),
         Output('graph-info', 'data'),
-        Input('scatter-plot-simple', 'selectedData'),
+        Input('graph', 'selectedData'),
         State('graph-frame', 'data'),
         State('type-dropdown', 'value'),
         prevent_initial_call=True
@@ -301,6 +224,36 @@ def register_click_data(app, data_dictionaries):
 
         # return the json
         return display_column_names, selected_df[display_columns].to_dict('records')
+
+
+# ------------------------------ FUNCTION CALLS -------------------------------------
+
+
+def register_change_graph_data(app, data_dictionaries):
+    @app.callback(
+        Output('graph-frame', 'data'),
+        Input('filter-settings', 'data')
+    )
+    def change_graph_data(filter_settings_json):
+        # load the data
+        filter_settings = json.loads(filter_settings_json)
+
+        # check if need to update
+        if (set(filter_settings['actions']) & set([GRAPH_DATA_ACTION]) == set()):
+            raise PreventUpdate
+
+        # get the dataset settings
+        data_type = filter_settings['data type']
+        selected_university = filter_settings[data_type]['static value'][UNIVERSITY]
+        
+        # get the new dataset then
+        uni_dataset = data_dictionaries[DATA_VIEW][data_type][selected_university]
+
+        # save the data
+        saved_dataset = dataframe_to_data(uni_dataset, data_type)
+
+        return saved_dataset
+
 
 
 def register_callbacks(app, data_dictionaries):

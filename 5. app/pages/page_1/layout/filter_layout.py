@@ -215,8 +215,7 @@ def create_default_json(filter_to_options, filter_types):
                 filter_name: filter_options[0] 
                 for filter_name, filter_options in filter_to_options[data_type].items()
                 if not is_multiselect(filter_name) and filter_name in filter_types[data_type]['additional'] # this will return a dictionary of filters to options
-            }
-        }
+            }        }
         for data_type in ['interview', 'offer']
     }
 
@@ -224,7 +223,8 @@ def create_default_json(filter_to_options, filter_types):
     default_dict = default_dict | {
         'actions': [GRAPH_ACTION, GRAPH_DATA_ACTION],
         'additional filters': False,
-        'data type': 'interview'
+        'data type': 'interview',
+        'graph type': 'scatter'
     }
 
     # for starting blank options, start blank (only for multiselect)
