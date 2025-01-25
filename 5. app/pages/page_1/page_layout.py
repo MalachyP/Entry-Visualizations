@@ -116,6 +116,34 @@ def create_graph_layout():
 
     ]
 
+
+def create_carousel():
+    return [
+        html.H3("Carousel"),
+        dbc.Row(
+            [
+                dbc.Col(
+                    dbc.Carousel(
+                        items=[], # will be filled in by the callback
+                        id='carousel',
+                        indicators=True,
+                        controls=True,
+                        className="carousel-fade",
+                        style={"backgroundColor": "#333"}
+                        #slide=False
+                    ),
+                    width=6
+                )
+            ],
+            justify='center'
+        ),
+        dcc.Store(
+            data=json.dumps({"number of items": 0}),
+            id='carousel-storage'
+        )
+    ]
+
+
 # ----------------------- LAYOUT FUNCTION -------------------------------------------------
 
 def create_layout(data_dictionaries):
@@ -124,5 +152,6 @@ def create_layout(data_dictionaries):
         *create_head_layout(),
         *create_dataset_layout(),
         *create_filters_layout(data_dictionaries),
-        *create_graph_layout()
+        *create_graph_layout(),
+        *create_carousel()
         ])

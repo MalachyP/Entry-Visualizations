@@ -8,8 +8,11 @@ from dash.exceptions import PreventUpdate
 import pandas as pd
 import numpy as np
 import json
-import time
 from pprint import pprint
+
+# for images
+import io
+import base64
 
 import plotly.graph_objects as go
 
@@ -167,6 +170,25 @@ def dataframe_to_data(dataframe, data_type):
     return dataframe.to_json(orient="records")
 
 
+# ------------------------------- IMAGE CREATION -------------------------------
+
+
+def create_image_src(figure_dict):
+    # load in the figure
+    figure = go.Figure(figure_dict)
+
+    # get the image into the buffer
+    buf = io.BytesIO()
+    figure.write_image(buf, format="png")
+    buf.seek(0)
+
+    # get the new image and src
+    new_image = base64.b64encode(buf.read()).decode("utf-8")
+    new_src = f"data:image/png;base64,{new_image}"
+
+    return new_src
+
+
 # ------------------------------------------------------------------------------
 # ------------------------------ CALLBACKS --------------------------------------
 # -------------------------------------------------------------------------------
@@ -227,7 +249,6 @@ def register_download_graph(app):
         prevent_initial_call=True
     )
     def download_graph(n_clicks, figure_dict):
-        #pprint(figure)
         # load the image
         figure = go.Figure(figure_dict)
 
@@ -266,6 +287,34 @@ def register_graph_title(app):
         )
 
         return figure
+
+
+def register_add_image_carousel(app):
+    @app.callback(
+        Output('carousel', 'items'),
+        Input({'class': 'graph', 'role': 'save-image'}, 'n_clicks'),    # when the graph is initially saved
+        State('graph', 'figure'),                                       # want to save the new graph
+        State('carousel', 'items'),                         # want to get the former children
+        State('carousel-storage', 'data'),                              # will come in handy in future
+        prevent_initial_call=True
+    )
+    def add_image_carousel(n_clicks, figure_dict, carousel_items, carousel_settings_json):
+        print("triggered add image")
+
+        # load in the data
+        carousel_settings = json.loads(carousel_settings_json)
+        carousel_settings['number of items'] += 1
+
+        # create a new image
+        new_src = create_image_src(figure_dict)
+
+        # get the new item
+        new_item = {"key": carousel_settings['number of items'], "src": new_src}
+
+        # append to the list
+        carousel_items = carousel_items + [new_item]
+
+        return carousel_items
 
 
 # ------------------------------ GRAPH DATA --------------------------------------
@@ -360,6 +409,7 @@ def register_callbacks(app, data_dictionaries):
     register_reset_graph(app)
     register_download_graph(app)
     register_graph_title(app)
+    register_add_image_carousel(app)
 
     # more important callbacks
     register_change_graph(app, data_dictionaries)
