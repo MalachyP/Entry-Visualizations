@@ -3,6 +3,7 @@ import dash_bootstrap_components as dbc
 
 # for graphing
 import plotly.express as px
+import plotly.graph_objects as go
 
 # my own functions
 from .layout_parameters import *
@@ -13,12 +14,13 @@ HOVER_SAVE = 'save the graph to image carousel'
 HOVER_DOWNLOAD = 'download image as jpg'
 
 # create the default option
-DEFAULT_LEGEND_OPTION = 'success'
+DEFAULT_LEGEND_OPTION = 'enter alternative legend' #'success'
 
 # Don't change (for axes)
 GAMSAT = 'gamsat'
 GPA = 'gpa'
 SUCCESS = 'success'
+COMBO = 'combo'
 
 
 # ------------------------------ GRAPHING -----------------------------------------------------
@@ -67,21 +69,29 @@ def graph_scatter(dataframe):
     return fig
 
 
+# can't do anything until I add the combo score unfortunately
 def graph_histogram(dataframe):
-    # Create the plot based on selected variables for X and Y axes
+    # create the figure
     fig = px.histogram(
-        # data input
-        dataframe,
-        x=GAMSAT,
-        y=GPA,
+        dataframe, 
+        x=COMBO,
         color=SUCCESS,
-        custom_data='index',
+#        custom_data='index',
+        barmode='group',
 
         # formatting
         category_orders=CATEGORY_ORDERS,
         color_discrete_map=COLOUR_DISCRETE_MAP,
-        opacity=OPACITY,
     )
+
+    fig.update_layout(
+        title='Histogram with Separate Lines for Groups',
+        xaxis_title=COMBO,
+        yaxis_title='Count',
+        legend_title=SUCCESS
+    )
+
+    return fig
 
 
 # chooses which figure to create
@@ -117,12 +127,9 @@ def create_graph_component(width, legend_options, graph_id=None):
                     [
                         # the legend option (in div to grow)
                         html.Div(
-                            dcc.Dropdown(
-                                options=legend_options,
-                                value=DEFAULT_LEGEND_OPTION,
-                                placeholder=DEFAULT_LEGEND_OPTION,
-                                id={'class': 'graph', 'role': 'legend-dropdown'}
-                            ),
+                            [
+                                dbc.Input(placeholder="Enter graph title", type="text")
+                            ],
                             className='flex-grow-1'
                         ),
 
@@ -146,6 +153,30 @@ def create_graph_component(width, legend_options, graph_id=None):
                     className='d-flex gap-2 justify-content-end align-items-center',
                     style={'flex-wrap': 'nowrap'}
                 ),
+
+                html.Div(
+                    [
+                        html.Div(
+                            dcc.Dropdown(
+                                options=legend_options,
+                                value=DEFAULT_LEGEND_OPTION,
+                                placeholder=DEFAULT_LEGEND_OPTION,
+                                id={'class': 'graph', 'role': 'legend-dropdown'}
+                            ),
+                            className='flex-grow-1'
+                        ),
+
+                        dbc.Switch(
+                            label="histogram",
+                            value=False,
+                            id={'class': 'graph', 'role': 'graph-type-toggle'},
+                            class_name="mt-2"
+                        ),
+                    ],
+                    className='d-flex gap-2 justify-content-end align-items-start',
+                    style={'flex-wrap': 'nowrap'}
+                )
+
             ],
             gap=1
         ),

@@ -224,7 +224,7 @@ def create_default_json(filter_to_options, filter_types):
         'actions': [GRAPH_ACTION, GRAPH_DATA_ACTION],
         'additional filters': False,
         'data type': 'interview',
-        'graph type': 'scatter'
+        'graph type': 'histogram'       # come back to
     }
 
     # for starting blank options, start blank (only for multiselect)
