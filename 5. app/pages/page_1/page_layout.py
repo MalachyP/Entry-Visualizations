@@ -51,6 +51,7 @@ def create_dataset_layout():
                     switch=True,
                     id='toggle-additional-filters'
                 ),
+                class_name="mt-2",
                 width="auto"
             )
         ])
@@ -98,12 +99,15 @@ def create_graph_layout():
         ),
 
         # displayed information
-        html.H1("Display DataFrame in Dash"),
-        dash_table.DataTable(
-            id='graph-info',
-            style_table={'overflowX': 'auto'},  # Make table scrollable if too wide
-            style_header={'backgroundColor': 'rgb(230, 230, 230)', 'fontWeight': 'bold'},
-            style_cell={'textAlign': 'left'}
+        html.H3("Current Graph Data"),
+        html.Div(
+            dash_table.DataTable(
+                id='graph-info',
+                style_table={'overflowX': 'auto'},  # Make table scrollable if too wide
+                style_header={'backgroundColor': 'rgb(230, 230, 230)', 'fontWeight': 'bold'},
+                style_cell={'textAlign': 'left'}
+            ),
+            style={"height": "30vh", "overflow-y": "auto"}
         ),
 
         # the stored data frame

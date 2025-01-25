@@ -187,8 +187,6 @@ def register_toggle_graph_type(app):
         # load in the settings
         filter_settings = json.loads(filter_settings_json)
 
-        print("changing graph type")
-
         # check which type to switch to
         if (is_histogram):
             filter_settings['graph']['type'] = 'histogram'

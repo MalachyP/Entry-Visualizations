@@ -112,7 +112,6 @@ def graph_dataframe(dataframe, filter_settings):
     if (graph_type == 'scatter'):
         return graph_scatter(dataframe, title)
     elif (graph_type == 'histogram'):
-        print("graphing new histogram")
         return graph_histogram(dataframe, title)
     else:
         return None
