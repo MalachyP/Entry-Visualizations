@@ -1,8 +1,8 @@
 # main components for callbacks
-from dash import ALL, MATCH
+from dash import dcc
 from dash.dependencies import Input, Output, State
-from dash.exceptions import PreventUpdate
 from dash import callback_context, no_update
+from dash.exceptions import PreventUpdate
 
 # for the filtering
 import pandas as pd
@@ -10,6 +10,8 @@ import numpy as np
 import json
 import time
 from pprint import pprint
+
+import plotly.graph_objects as go
 
 # personal functions
 from .graph_paramters import *
@@ -170,30 +172,98 @@ def dataframe_to_data(dataframe, data_type):
 # -------------------------------------------------------------------------------
 
 
+# ------------------------------ BUTTONS --------------------------------------
+
+
+# switches between graph types
+def register_toggle_graph_type(app):
+    @app.callback(
+        Output('filter-settings', 'data', allow_duplicate=True),
+        Input({'class': 'graph', 'role': 'graph-type-toggle'}, 'value'),
+        State('filter-settings', 'data'),
+        prevent_initial_call=True
+    )
+    def toggle_graph_type(is_histogram, filter_settings_json):
+        # load in the settings
+        filter_settings = json.loads(filter_settings_json)
+
+        # check which type to switch to
+        if (is_histogram):
+            filter_settings['graph type'] = 'histogram'
+        else:
+            filter_settings['graph type'] = 'scatter'
+        
+        # only need to change the graph not data
+        filter_settings['actions'] = [GRAPH_ACTION]
+
+        return json.dumps(filter_settings)
+
+
+# reset
+def register_reset_graph(app):
+    @app.callback(
+        Output('filter-settings', 'data'),
+        Input({'class': 'graph', 'role': 'reset-button'}, 'n_clicks'),
+        State('filter-settings', 'data'),
+        prevent_initial_call=True
+    )
+    def reset_graph(n_clicks, filter_settings_json):
+        # load in the settings
+        filter_settings = json.loads(filter_settings_json)
+
+        # make sure to reload the graph only
+        filter_settings['actions'] = [GRAPH_ACTION]
+
+        # return the default settings
+        return json.dumps(filter_settings)
+
+
+# download
+def register_download_graph(app):
+    @app.callback(
+        Output('graph-download', 'data'),
+        Input({'class': 'graph', 'role': 'download-button'}, 'n_clicks'),
+        State('graph', 'figure'),
+        prevent_initial_call=True
+    )
+    def download_graph(n_clicks, figure_dict):
+        #pprint(figure)
+        # load the image
+        figure = go.Figure(figure_dict)
+
+        # save the image
+        img_bytes = figure.to_image(format="png")
+
+        return dcc.send_bytes(img_bytes, "plot.png")
+
+
 # ------------------------------ GRAPH DATA --------------------------------------
 
 
-def register_change_graph(app, data_dictionaries):
-    # function will use the data dictionary to filter the options
+def register_change_graph_data(app, data_dictionaries):
     @app.callback(
-        Output('graph', 'figure'),
-        Input('filter-settings', 'data')     # get the dataset type
+        Output('graph-frame', 'data'),
+        Input('filter-settings', 'data')
     )
-    def change_graph(filter_settings_json):
+    def change_graph_data(filter_settings_json):
         # load the data
         filter_settings = json.loads(filter_settings_json)
 
         # check if need to update
-        if (set(filter_settings['actions']) & set([GRAPH_ACTION]) == set()):
+        if (set(filter_settings['actions']) & set([GRAPH_DATA_ACTION]) == set()):
             raise PreventUpdate
 
-        # use a filtering function
-        filtered_frame = get_filtered_dataset(filter_settings, data_dictionaries)
+        # get the dataset settings
+        data_type = filter_settings['data type']
+        selected_university = filter_settings[data_type]['static value'][UNIVERSITY]
+        
+        # get the new dataset then
+        uni_dataset = data_dictionaries[DATA_VIEW][data_type][selected_university]
 
-        # graph the dataframe
-        fig = graph_dataframe(filtered_frame, filter_settings)
+        # save the data
+        saved_dataset = dataframe_to_data(uni_dataset, data_type)
 
-        return fig
+        return saved_dataset
 
 
 def register_click_data(app, data_dictionaries):
@@ -229,34 +299,37 @@ def register_click_data(app, data_dictionaries):
 # ------------------------------ FUNCTION CALLS -------------------------------------
 
 
-def register_change_graph_data(app, data_dictionaries):
+def register_change_graph(app, data_dictionaries):
+    # function will use the data dictionary to filter the options
     @app.callback(
-        Output('graph-frame', 'data'),
-        Input('filter-settings', 'data')
+        Output('graph', 'figure'),
+        Input('filter-settings', 'data')     # get the dataset type
     )
-    def change_graph_data(filter_settings_json):
+    def change_graph(filter_settings_json):
         # load the data
         filter_settings = json.loads(filter_settings_json)
 
         # check if need to update
-        if (set(filter_settings['actions']) & set([GRAPH_DATA_ACTION]) == set()):
+        if (set(filter_settings['actions']) & set([GRAPH_ACTION]) == set()):
             raise PreventUpdate
 
-        # get the dataset settings
-        data_type = filter_settings['data type']
-        selected_university = filter_settings[data_type]['static value'][UNIVERSITY]
-        
-        # get the new dataset then
-        uni_dataset = data_dictionaries[DATA_VIEW][data_type][selected_university]
+        # use a filtering function
+        filtered_frame = get_filtered_dataset(filter_settings, data_dictionaries)
 
-        # save the data
-        saved_dataset = dataframe_to_data(uni_dataset, data_type)
+        # graph the dataframe
+        fig = graph_dataframe(filtered_frame, filter_settings)
 
-        return saved_dataset
+        return fig
 
 
 
 def register_callbacks(app, data_dictionaries):
+    # button callbacks
+    register_toggle_graph_type(app)
+    register_reset_graph(app)
+    register_download_graph(app)
+
+    # more important callbacks
     register_change_graph(app, data_dictionaries)
     register_click_data(app, data_dictionaries)
     register_change_graph_data(app, data_dictionaries)

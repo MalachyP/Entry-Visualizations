@@ -147,7 +147,7 @@ def create_graph_component(width, legend_options, graph_id=None):
                         dbc.Button(
                             html.I(className="bi bi-download"),
                             title=HOVER_DOWNLOAD,
-                            id={'class': 'graph', 'role': 'download'}
+                            id={'class': 'graph', 'role': 'download-button'}
                         )
                     ],
                     className='d-flex gap-2 justify-content-end align-items-center',

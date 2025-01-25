@@ -107,7 +107,9 @@ def create_graph_layout():
         ),
 
         # the stored data frame
-        dcc.Store(id='graph-frame', data=None)  # need to initialize with None as use state initially
+        dcc.Store(id='graph-frame', data=None), # need to initialize with None as use state initially
+        dcc.Download(id="graph-download")       # download the graph here    
+
     ]
 
 # ----------------------- LAYOUT FUNCTION -------------------------------------------------
