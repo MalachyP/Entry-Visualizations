@@ -89,6 +89,12 @@ def filter_uni_interview(df, uni_name):
         )
     )
 
+    # sanity check below (ALL GOOD)
+    #print(((df_filtered[["gamsat", "gpa"]].isna().any(axis=1)) & (df_filtered[["gamsat", "gpa"]].notna().any(axis=1))).sum())
+
+    # add the combo score
+    df_filtered.loc[:, 'combo'] = (df_filtered['gamsat'] / 100) + (df_filtered['gpa'] / 7)
+
     # convert the values
     df_filtered.index.name = 'index'
 
@@ -138,6 +144,12 @@ def filter_uni_offer(df, uni_name):
         df_filtered['interview uni'],
         df_filtered['offer uni']
     )
+
+    # sanity check below (ALL GOOD)
+    #print(((df_filtered[["gamsat", "gpa"]].isna().any(axis=1)) & (df_filtered[["gamsat", "gpa"]].notna().any(axis=1))).sum())
+
+    # add the combo score
+    df_filtered.loc[:, 'combo'] = (df_filtered['gamsat'] / 100) + (df_filtered['gpa'] / 7)
 
     df_filtered.index.name = 'index'
 
