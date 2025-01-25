@@ -17,7 +17,7 @@ import plotly.graph_objects as go
 from .graph_paramters import *
 from .callback_header import *
 from ..layout.graph_layout import graph_dataframe
-from ..layout.layout_parameters import SUCCESS
+from ..layout.layout_parameters import SUCCESS, DEFAULT_TITLES
 
 # key words
 DATA_VIEW = "data_views"
@@ -187,11 +187,13 @@ def register_toggle_graph_type(app):
         # load in the settings
         filter_settings = json.loads(filter_settings_json)
 
+        print("changing graph type")
+
         # check which type to switch to
         if (is_histogram):
-            filter_settings['graph type'] = 'histogram'
+            filter_settings['graph']['type'] = 'histogram'
         else:
-            filter_settings['graph type'] = 'scatter'
+            filter_settings['graph']['type'] = 'scatter'
         
         # only need to change the graph not data
         filter_settings['actions'] = [GRAPH_ACTION]
@@ -235,6 +237,37 @@ def register_download_graph(app):
         img_bytes = figure.to_image(format="png")
 
         return dcc.send_bytes(img_bytes, "plot.png")
+
+
+# will have two inputs where either one will work
+def register_graph_title(app):
+    @app.callback(
+        Output('graph', 'figure', allow_duplicate=True),
+        Input({'class': 'graph', 'role': 'graph-title'}, 'n_blur'),     # is basically clicking away
+        Input({'class': 'graph', 'role': 'graph-title'}, 'n_submit'),   # is basically pressing the enter button
+        State({'class': 'graph', 'role': 'graph-title'}, 'value'),      # basically getting what's written
+        State('graph', 'figure'),
+        State({'class': 'graph', 'role': 'graph-type-toggle'}, 'value'),    # for deciding default title
+        prevent_initial_call=True
+    )
+    def change_graph_title(n_blur, n_submit, new_graph_title, figure_dict, is_histogram):
+        # load in the settings
+        figure = go.Figure(figure_dict)
+
+        if (not new_graph_title):
+            graph_type = 'histogram' if is_histogram else 'scatter'
+            new_graph_title = DEFAULT_TITLES[graph_type]
+
+        # change the title
+        figure.update_layout(
+            title = {
+                "text": new_graph_title,
+                "x": 0.5,                 # Center the title
+                "xanchor": "center"       # Anchor text to the center
+            }
+        )
+
+        return figure
 
 
 # ------------------------------ GRAPH DATA --------------------------------------
@@ -328,6 +361,7 @@ def register_callbacks(app, data_dictionaries):
     register_toggle_graph_type(app)
     register_reset_graph(app)
     register_download_graph(app)
+    register_graph_title(app)
 
     # more important callbacks
     register_change_graph(app, data_dictionaries)

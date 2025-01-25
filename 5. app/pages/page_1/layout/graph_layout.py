@@ -28,7 +28,7 @@ COMBO = 'combo'
 
 # graph the dataframe with all the given options. Should include
 # - adjusting the heading as well (TO DO)
-def graph_scatter(dataframe):
+def graph_scatter(dataframe, title):
     # Create the plot based on selected variables for X and Y axes
     fig = px.scatter(
         # data input
@@ -54,7 +54,7 @@ def graph_scatter(dataframe):
     # Customize layout
     fig.update_layout(
         title={
-            "text": "GAMSAT vs GPA",  # Title text
+            "text": title,  # Title text
             "x": 0.5,                 # Center the title
             "xanchor": "center"       # Anchor text to the center
         },
@@ -70,7 +70,7 @@ def graph_scatter(dataframe):
 
 
 # can't do anything until I add the combo score unfortunately
-def graph_histogram(dataframe):
+def graph_histogram(dataframe, title):
     # create the figure
     fig = px.histogram(
         dataframe, 
@@ -85,7 +85,11 @@ def graph_histogram(dataframe):
     )
 
     fig.update_layout(
-        title='Histogram with Separate Lines for Groups',
+        title={
+            "text": title,  # Title text
+            "x": 0.5,                 # Center the title
+            "xanchor": "center"       # Anchor text to the center
+        },
         xaxis_title=COMBO,
         yaxis_title='Count',
         legend_title=SUCCESS
@@ -96,11 +100,20 @@ def graph_histogram(dataframe):
 
 # chooses which figure to create
 def graph_dataframe(dataframe, filter_settings):
+    # get the graph type
+    graph_type = filter_settings['graph']['type']
+
+    # get the default tile
+    title = filter_settings['graph']['title']
+    if (filter_settings['graph']['title'] is None):
+        title = DEFAULT_TITLES[graph_type]
+
     # check which kind of graph to create
-    if (filter_settings['graph type'] == 'scatter'):
-        return graph_scatter(dataframe)
-    elif (filter_settings['graph type'] == 'histogram'):
-        return graph_histogram(dataframe)
+    if (graph_type == 'scatter'):
+        return graph_scatter(dataframe, title)
+    elif (graph_type == 'histogram'):
+        print("graphing new histogram")
+        return graph_histogram(dataframe, title)
     else:
         return None
 
@@ -128,7 +141,11 @@ def create_graph_component(width, legend_options, graph_id=None):
                         # the legend option (in div to grow)
                         html.Div(
                             [
-                                dbc.Input(placeholder="Enter graph title", type="text")
+                                dbc.Input(
+                                    placeholder="Enter graph title", 
+                                    type="text",
+                                    id={'class': 'graph', 'role': 'graph-title'}
+                                )
                             ],
                             className='flex-grow-1'
                         ),

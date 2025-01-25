@@ -10,6 +10,11 @@ filter_to_title = {}
 
 # ----------------------------- GRAPHING ----------------------------------------------------
 
+DEFAULT_TITLES = {
+    'scatter': 'GAMSAT vs GPA',
+    'histogram': 'Combo Score Frequency'
+}
+
 SUCCESS = 'success'
 
 GAMSAT_LIM = [55, 85]

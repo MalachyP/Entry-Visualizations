@@ -219,12 +219,19 @@ def create_default_json(filter_to_options, filter_types):
         for data_type in ['interview', 'offer']
     }
 
+    # add information about the graph
+    default_dict = default_dict | {
+        'graph': {
+            'type': 'scatter',
+            'title': None
+        }
+    }
+
     # add extra information
     default_dict = default_dict | {
         'actions': [GRAPH_ACTION, GRAPH_DATA_ACTION],
         'additional filters': False,
-        'data type': 'interview',
-        'graph type': 'histogram'       # come back to
+        'data type': 'interview'
     }
 
     # for starting blank options, start blank (only for multiselect)
