@@ -291,30 +291,30 @@ def register_graph_title(app):
 
 def register_add_image_carousel(app):
     @app.callback(
-        Output('carousel', 'items'),
+        Output('carousel-settings', 'data'),
         Input({'class': 'graph', 'role': 'save-image'}, 'n_clicks'),    # when the graph is initially saved
         State('graph', 'figure'),                                       # want to save the new graph
-        State('carousel', 'items'),                         # want to get the former children
-        State('carousel-storage', 'data'),                              # will come in handy in future
+        State('carousel-settings', 'data'),                         # want to get the former children
         prevent_initial_call=True
     )
-    def add_image_carousel(n_clicks, figure_dict, carousel_items, carousel_settings_json):
-        print("triggered add image")
-
+    def add_image_carousel(n_clicks, figure_dict, carousel_settings_json):
         # load in the data
         carousel_settings = json.loads(carousel_settings_json)
-        carousel_settings['number of items'] += 1
 
         # create a new image
         new_src = create_image_src(figure_dict)
 
         # get the new item
-        new_item = {"key": carousel_settings['number of items'], "src": new_src}
+        new_key = len(carousel_settings['items']) + 1
+        new_item = {"key": new_key, "src": new_src}
 
         # append to the list
-        carousel_items = carousel_items + [new_item]
+        carousel_settings['items'].append(new_item)
 
-        return carousel_items
+        # make sure to change the action
+        carousel_settings['actions'] = [CAROUSEL_ACTION]
+
+        return json.dumps(carousel_settings)
 
 
 # ------------------------------ GRAPH DATA --------------------------------------

@@ -9,7 +9,7 @@ FILTER_TO_OPTIONS = "filter_to_options"
 FILTER_TYPES = "filter_types"
 DEFAULT_JSON = "default_json"
 
-from .layout import filter_layout, graph_layout
+from .layout import filter_layout, graph_layout, carousel_layout
 
 # ---------------------------- HEADER --------------------------------------------------------------
 
@@ -122,24 +122,14 @@ def create_carousel():
         html.H3("Carousel"),
         dbc.Row(
             [
-                dbc.Col(
-                    dbc.Carousel(
-                        items=[], # will be filled in by the callback
-                        id='carousel',
-                        indicators=True,
-                        controls=True,
-                        className="carousel-fade",
-                        style={"backgroundColor": "#333"}
-                        #slide=False
-                    ),
-                    width=6
-                )
+                carousel_layout.create_carousel_slides(),
+                carousel_layout.create_carousel_gif()
             ],
             justify='center'
         ),
         dcc.Store(
-            data=json.dumps({"number of items": 0}),
-            id='carousel-storage'
+            data=carousel_layout.create_carousel_settings(),
+            id='carousel-settings'
         )
     ]
 
