@@ -83,6 +83,9 @@ def register_create_gif_callback(app):
         # load in the data
         carousel_settings = json.loads(carousel_settings_json)
 
+        # register the gif as active
+        carousel_settings['gif active'] = True
+
         # change the actions
         carousel_settings['actions'] = [GIF_ACTION]
 
@@ -116,30 +119,46 @@ def register_update_interval(app):
 # ------------------------------------ CALLBACKS IMPORTANT -------------------------------
 
 
+# This will be a weird callback as they use different methods
+# - carousel-slides: will save the images from settings, and if blank decide what to do
+#                    in other words, have the images and src saved in settings
+# - carousel-gif   : will have no intermediate value apart from a true of false indictating
+#                    whether this component is active or not, to determine whether to create
+#                    a new gif or not
 def register_carousel_settings_to_layout(app):
     @app.callback(
         Output('carousel-slides', 'items'),
         Output('carousel-gif-display', 'src'),
         Input('carousel-settings', 'data'),
-        prevent_initial_call=True
     )
     def carousel_settings_to_layout(carousel_settings_json):
         # load in the data
         carousel_settings = json.loads(carousel_settings_json)
 
         # check slide action
-        carousel_slides_return = (
-            carousel_settings['items']
-            if CAROUSEL_ACTION in carousel_settings['actions']
-            else no_update
-        )
+        if (not CAROUSEL_ACTION in carousel_settings['actions']):
+            # check to see if not meant to update
+            carousel_slides_return = no_update
 
-        # check the gif action if any
-        carousel_gif_return = (
-            generate_gif_src(carousel_settings)
-            if GIF_ACTION in carousel_settings['actions']
-            else no_update
-        )
+        elif (len(carousel_settings['items']) == 0):
+            # check to see if should set to default because no slides
+            carousel_slides_return = DEFAULT_CAROUSEL_SLIDES
+
+        else:
+            # return the true items
+            carousel_slides_return = carousel_settings['items']
+
+        if (not GIF_ACTION in carousel_settings['actions']):
+            # check if no update needed
+            carousel_gif_return = no_update
+        
+        elif (carousel_settings['gif active'] == False):
+            # check if the gif is not meant to be active
+            carousel_gif_return = DEFAULT_CAROUSEL_GIF
+
+        else:
+            # return the proper gif
+            carousel_gif_return = generate_gif_src(carousel_settings)
 
         # check the other actions
         return carousel_slides_return, carousel_gif_return

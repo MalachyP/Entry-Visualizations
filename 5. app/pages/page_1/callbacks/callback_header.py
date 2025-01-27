@@ -9,3 +9,8 @@ CAROUSEL_ACTION = 'carousel'
 GIF_ACTION = 'gif'
 
 UNIVERSITY = "university"
+
+# ------------------------ CAROUSEL --------------------------------
+
+DEFAULT_CAROUSEL_SLIDES = [{"key": 1, "src": "/assets/carousel slides default.png"}]
+DEFAULT_CAROUSEL_GIF = "/assets/carousel gif default.png"
