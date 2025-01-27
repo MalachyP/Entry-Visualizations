@@ -14,3 +14,6 @@ UNIVERSITY = "university"
 
 DEFAULT_CAROUSEL_SLIDES = [{"key": 1, "src": "/assets/carousel slides default.png"}]
 DEFAULT_CAROUSEL_GIF = "/assets/carousel gif default.png"
+
+DEFAULT_IMG_DOWNLOAD = "plot.png"
+DEFAULT_GIF_DOWNLOAD = "plot.gif"

@@ -243,7 +243,7 @@ def register_reset_graph(app):
 # download
 def register_download_graph(app):
     @app.callback(
-        Output('graph-download', 'data'),
+        Output('download', 'data', allow_duplicate=True),
         Input({'class': 'graph', 'role': 'download-button'}, 'n_clicks'),
         State('graph', 'figure'),
         prevent_initial_call=True
@@ -305,11 +305,11 @@ def register_add_image_carousel(app):
         new_src = create_image_src(figure_dict)
 
         # get the new item
-        new_key = len(carousel_settings['items']) + 1
+        new_key = len(carousel_settings['slide items']) + 1
         new_item = {"key": new_key, "src": new_src}
 
         # append to the list
-        carousel_settings['items'].append(new_item)
+        carousel_settings['slide items'].append(new_item)
 
         # make sure to change the action
         carousel_settings['actions'] = [CAROUSEL_ACTION]

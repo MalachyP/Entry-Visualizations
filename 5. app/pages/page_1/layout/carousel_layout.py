@@ -13,9 +13,15 @@ GIF_ACTION = 'gif'
 
 def create_carousel_settings():
     return json.dumps({
-        "items": [],
-        "gif active": False,
+        # for the slides
+        "slide items": [],
+        "active index": 0,      # will always be up to date
+
+        # for the gif
+        "gif items": [],
         "interval": 1.5,
+
+        # actions of course
         "actions": [CAROUSEL_ACTION, GIF_ACTION]
     })
 
@@ -25,8 +31,12 @@ def create_carousel_slides():
         dbc.Stack(
             [
                 dbc.Carousel(
+                    # the important stuff initialization
                     items=[], # will be filled in by the callback
                     id='carousel-slides',
+                    active_index=0,
+
+                    # how it looks
                     indicators=True,
                     controls=True,
                     className="carousel-fade",
@@ -39,12 +49,12 @@ def create_carousel_slides():
                             [
                                 dbc.Button(
                                     html.I(className='bi bi-arrow-left-square'),
-                                    id='carousel-slides-move-forward',
+                                    id='carousel-slides-move-backwards',
                                     className='m-1'
                                 ),
                                 dbc.Button(
                                     html.I(className='bi bi-arrow-right-square'),
-                                    id='carousel-slides-move-backwards',
+                                    id='carousel-slides-move-forwards',
                                     className='me-1'
                                 ),
                                 dbc.Button(
