@@ -16,6 +16,7 @@ from .callback_header import *
 # names of dictionary data functions
 FILTER_TO_OPTIONS = "filter_to_options"
 FILTER_TYPES = "filter_types"
+LEGEND_OPTIONS = "legend_options"
 
 # Functions in this page
 # 1. register_adjust_new_filters:    for when the user selects a new filter

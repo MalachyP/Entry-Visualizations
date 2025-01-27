@@ -36,7 +36,8 @@ data_dictionaries = {
     # dictionaries to determine the types of data
     "filter_to_options": data.options.create_filter_to_options(interview_df, offer_df), 
     "filter_types": data.parameters.FILTER_TYPES,
-    "display_info": data.parameters.DISPLAY_INFO,                          
+    "display_info": data.parameters.DISPLAY_INFO,
+    "legend_options": data.parameters.LEGEND_OPTIONS,
 
     # precomputed views of the frame and the originals 
     "data_views": data.filtering.create_filters(interview_df, offer_df),

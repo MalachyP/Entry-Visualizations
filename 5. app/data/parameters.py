@@ -63,3 +63,28 @@ DISPLAY_INFO = {
         'anu bonus', 'casper quartile', 'deakin bonus'#, #'mq bonus', 'uq rmp tier'
     ]
 }
+
+# for legend options
+LEGEND_OPTIONS = {
+    "interview": [
+        # normal options
+        "success",      # 'year', 'rural' potentially as well
+
+        # non uni specific
+        "preference", 
+        
+        # uni specific
+        "casper quartile", "deakin bonus", "anu bonus", "mq bonus", 'unimelb gam', 
+        'undf bonuses', 'unds bonuses', 'uow bonuses'
+    ],
+    "offer": [
+        # normal options
+        "success", 'offer uni place type',     # 'year', 'rural' potentially as well
+
+        # non specifc unis stuff
+        "preference", 'interviewed?', 'interview opinion', 'interview prep hours', 'places selected',
+        
+        # more uni specific
+        'casper quartile', 'deakin bonus', 'anu bonus', 'mq bonus', 'uq rmp tier'
+    ]
+}
