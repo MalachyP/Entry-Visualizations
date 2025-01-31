@@ -36,9 +36,9 @@ COMBO = 'combo'
 # graph the dataframe with all the given options. Should include
 # - adjusting the heading as well (TO DO)
 def graph_scatter(dataframe, title, legend_option, data_type, data_dictionaries):
-#    print(data_dictionaries[LEGEND_GRADIENTS][data_type][legend_option][CATEGORY_ORDER])
-#    print(data_dictionaries[LEGEND_GRADIENTS][data_type][legend_option][COLOUR_DISCRETE_MAP])
-#    print(list(dataframe[legend_option].unique()))
+    #print(data_dictionaries[LEGEND_GRADIENTS][data_type][legend_option][CATEGORY_ORDER])
+    #print(data_dictionaries[LEGEND_GRADIENTS][data_type][legend_option][COLOUR_DISCRETE_MAP])
+    #print(list(dataframe[legend_option].unique()))
 
     # Create the plot based on selected variables for X and Y axes
     fig = px.scatter(
@@ -134,6 +134,23 @@ def graph_dataframe(dataframe, filter_settings, data_dictionaries):
 
 # ------------------------- COMPONENT FUNCTIONS -----------------------------------------------
 
+
+# don't need a place-holder anymore, because doesn't make sense after first called
+def create_legend_dropdown_component(filter_settings, data_dictionaries):
+    # load in settings
+    data_type = filter_settings['data type']
+    legend_value = filter_settings[data_type]['legend']
+
+    # get the legend options
+    legend_options = data_dictionaries[LEGEND_OPTIONS][data_type]
+
+    return dcc.Dropdown(
+        options=legend_options,
+        value=legend_value,  # start at success of course
+        id={'class': 'graph', 'role': 'legend-dropdown'}
+    )
+
+
 # will output a column containing a graph
 # - graph_type: whether it's the simple or the advanced
 # - width: how wide the graph element is (6 for 2 and 8 for 1 I believe)
@@ -203,7 +220,8 @@ def create_graph_component(width, legend_options, graph_id=None):
                                 placeholder=DEFAULT_LEGEND_OPTION,
                                 id={'class': 'graph', 'role': 'legend-dropdown'}
                             ),
-                            className='flex-grow-1'
+                            className='flex-grow-1',
+                            id={'class': 'graph', 'role': 'legend-dropdown-container'}
                         ),
 
                         dbc.Switch(
@@ -228,7 +246,7 @@ def create_graph_component(width, legend_options, graph_id=None):
 
 
 def create_default_graph(data_dictionaries):
-    default_legend_options = data_dictionaries[LEGEND_OPTIONS]['offer']
+    default_legend_options = data_dictionaries[LEGEND_OPTIONS]['interview']
 
     return [
         # create the single column

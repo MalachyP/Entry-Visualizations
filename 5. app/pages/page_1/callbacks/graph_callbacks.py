@@ -18,7 +18,7 @@ import plotly.graph_objects as go
 
 # personal functions
 from .callback_header import *
-from ..layout.graph_layout import graph_dataframe
+from ..layout.graph_layout import graph_dataframe, create_legend_dropdown_component
 from ..layout.layout_parameters import SUCCESS, DEFAULT_TITLES
 
 # key words
@@ -404,7 +404,7 @@ def register_click_data(app, data_dictionaries):
         State('type-dropdown', 'value'),
         prevent_initial_call=True
     )
-    def click_data_change(_, selected_data, filtered_frame_json, data_type):
+    def click_data_change(selected_data, filtered_frame_json, data_type):
         # don't update if reset or at the start
         if (selected_data is None):
             return [], []
@@ -434,29 +434,34 @@ def register_settings_to_graph(app, data_dictionaries):
         Output('graph', 'figure'),
         Output('graph-info', 'columns'),
         Output('graph-info', 'data'),
+        Output({'class': 'graph', 'role': 'legend-dropdown-container'}, 'children'),
         Input('filter-settings', 'data')     # get the dataset type
     )
-    def change_graph(filter_settings_json):
+    def settings_to_graph(filter_settings_json):
         # load the data
         filter_settings = json.loads(filter_settings_json)
+        actions = filter_settings['actions']
+
+        # create the default values
+        fig_return, column_return, data_return, legend_return = no_update, no_update, no_update, no_update
 
         # FIGURE UPDATE
-        if (GRAPH_ACTION in filter_settings['actions']):
+        if (GRAPH_ACTION in actions):
             # use a filtering function
             filtered_frame = get_filtered_dataset(filter_settings, data_dictionaries)
 
             # graph the dataframe
             fig_return = graph_dataframe(filtered_frame, filter_settings, data_dictionaries)
-        else:
-            fig_return = no_update
 
         # CLICK DATA UPDATE
-        if (GRAPH_CLICK_DATA_ACTION in filter_settings['actions']):
+        if (GRAPH_CLICK_DATA_ACTION in actions):
             column_return, data_return = [], []
-        else:
-            column_return, data_return = no_update, no_update
+        
+        # LEGEND UPDATE
+        if (DATASET_CHANGE_ACTION in actions):
+            legend_return = create_legend_dropdown_component(filter_settings, data_dictionaries)
 
-        return fig_return, column_return, data_return
+        return fig_return, column_return, data_return, legend_return
 
 
 

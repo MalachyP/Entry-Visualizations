@@ -1,5 +1,5 @@
 # filtering graph actions
-STATIC_ACTION = 'static'
+DATASET_CHANGE_ACTION = 'dataset change'
 ADDITIONAL_ACTION = 'additional'
 GRAPH_ACTION = 'graph'
 GRAPH_DATA_ACTION = 'graph data'

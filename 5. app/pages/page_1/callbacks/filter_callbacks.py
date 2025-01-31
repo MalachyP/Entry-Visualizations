@@ -196,7 +196,7 @@ def register_change_dataset(app):
         filter_settings['data type'] = new_data_type
 
         # update the actions
-        filter_settings['actions'] = [STATIC_ACTION, ADDITIONAL_ACTION, GRAPH_ACTION, GRAPH_DATA_ACTION, GRAPH_CLICK_DATA_ACTION]
+        filter_settings['actions'] = [DATASET_CHANGE_ACTION, ADDITIONAL_ACTION, GRAPH_ACTION, GRAPH_DATA_ACTION, GRAPH_CLICK_DATA_ACTION]
 
         return json.dumps(filter_settings)
 
@@ -218,22 +218,19 @@ def register_settings_to_all_filters(app, data_dictionaries):
         actions = filter_settings['actions']    # determine the actions to do
 
         # check if no update needed
-        if (set(actions) & set([STATIC_ACTION, ADDITIONAL_ACTION]) == set()):
+        if (set(actions) & set([DATASET_CHANGE_ACTION, ADDITIONAL_ACTION]) == set()):
             raise PreventUpdate
 
+        # create the default values
+        static_return, additional_return = no_update, no_update
+
         # deal with static content
-        static_return = (
-            settings_to_filters(filter_settings, data_dictionaries, static=True) 
-            if (STATIC_ACTION in actions)
-            else no_update
-        )
+        if (DATASET_CHANGE_ACTION in actions):
+            static_return = settings_to_filters(filter_settings, data_dictionaries, static=True)
 
         # deal with the additional content
-        additional_return = (
-            settings_to_additional_filters_layout(filter_settings, data_dictionaries) 
-            if (ADDITIONAL_ACTION in actions)
-            else no_update
-        )
+        if (ADDITIONAL_ACTION in actions):
+            additional_return = settings_to_additional_filters_layout(filter_settings, data_dictionaries) 
 
         # return all the info
         return static_return, additional_return

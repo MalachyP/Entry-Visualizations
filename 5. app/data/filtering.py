@@ -152,6 +152,11 @@ def filter_uni_offer(df, uni_name):
 
     # sanity check below (ALL GOOD)
     #print(((df_filtered[["gamsat", "gpa"]].isna().any(axis=1)) & (df_filtered[["gamsat", "gpa"]].notna().any(axis=1))).sum())
+    df_filtered['interviewed?'] = np.where(
+        df_filtered['success'] == 'Yes',
+        df_filtered['interviewed?'],
+        'None'
+    )
 
     # add the combo score
     df_filtered.loc[:, 'combo'] = (df_filtered['gamsat'] / 100) + (df_filtered['gpa'] / 7)
