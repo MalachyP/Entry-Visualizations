@@ -6,7 +6,11 @@ from .filtering import create_options
 from . import parameters
 
 THRESHOLD = 8
-SPLIT_START = 6
+SPLIT_START = 4
+
+START_COLOUR = "#636EFA" # plotly blue
+END_COLOUR = "#EF553B"   # plotly red
+NONE_COLOUR = "#d3d3d3"  # plotly light grey
 
 # --------------------------------- FILTER TO OPTIONS ----------------------------------------
 
@@ -102,7 +106,15 @@ def create_filter_to_options(interview_df, offer_df):
 
 
 def get_weightings(n_options):
-    # Generate the gradient
+    # make sure 1 or above
+    if (n_options <= 0):
+        raise ValueError(n_options)
+
+    # account for the singleton
+    if (n_options == 1):
+        return [1]
+
+    # Generate the conventionally
     if (n_options < THRESHOLD):
         return [i/(n_options-1) for i in range(n_options)]
 
@@ -142,12 +154,8 @@ def generate_gradient(n_options):
         c2=np.array(mcolors.to_rgb(c2))
         return mcolors.to_hex((1-mix)*c1 + mix*c2)
 
-    # Plotly colors
-    plotly_blue = "#636EFA"
-    plotly_red = "#EF553B"
-
     # get the gradient
-    gradient = [colorFader(weight) for weight in get_weightings(n_options)]        
+    gradient = [colorFader(START_COLOUR, END_COLOUR, weight) for weight in get_weightings(n_options)]        
 
     return gradient
 
@@ -168,8 +176,12 @@ def create_legend_options(filter_to_options):
                 else filter_to_options[data_type][legend_option]
             )
 
-            # assign the value
-            legend_option_gradients = generate_gradient(len(legend_option_options))
+            # (hoping it's already at the end of the pack if exists)
+            if ('None' in legend_option_options):
+                legend_option_gradients = generate_gradient(len(legend_option_options) - 1)
+                legend_option_gradients.append(NONE_COLOUR)
+            else:
+                legend_option_gradients = generate_gradient(len(legend_option_options))
 
             # assign the ordering and mapping
             out[data_type][legend_option] = {
