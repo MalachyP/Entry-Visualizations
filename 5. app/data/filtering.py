@@ -6,6 +6,9 @@ from . import parameters
 # ------------------------- Filtering Functions -----------------------------------------
 
 
+# na values should be:
+# - preference of unis
+# - That's it
 def filter_uni_interview(df, uni_name):
     # Filter for rows where the university appears in interview or preferences columns
     df_filtered = df[
@@ -34,7 +37,7 @@ def filter_uni_interview(df, uni_name):
                 df_filtered['pref 5 uni'] == uni_name,
                 df_filtered['pref 6 uni'] == uni_name
             ],
-            [1, 2, 3, 4, 5, 6],
+            ['1', '2', '3', '4', '5', '6'],
             default=np.nan
         )
     )
@@ -101,6 +104,8 @@ def filter_uni_interview(df, uni_name):
     return df_filtered
 
 
+# note: this function will search for where the uni name is equal to the uni name provided, nothing else
+  # but it will also use notna() function for both the 'offer uni place type' and 'interview uni'
 def filter_uni_offer(df, uni_name):
     # Filter for rows where the university appears in either offer or interview columns
     df_filtered = df[
