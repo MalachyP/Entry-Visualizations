@@ -3,25 +3,25 @@
 ",2022,,,CSP
 1,Non-Rural,57,66,99,74.0,80.25,Deakin University,6.56,80.25,CSP,1.0,Yes,,,,,None,0,0,0,None,Tier 3,Yes,Unsure,"
 ",2022,,,CSP
-2,Non-Rural,74,83,80,79.0,79.25,,,,,None,,The University of Notre Dame Sydney,5.383,79.0,"['CSP', 'BMP', 'FFP']",5.0,2,2,0,None,None,,Well,"
+2,Non-Rural,74,83,80,79.0,79.25,,,,,None,None,The University of Notre Dame Sydney,5.383,79.0,"['CSP', 'BMP', 'FFP']",5.0,2,2,0,None,None,,Well,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
-3,Non-Rural,62,68,74,68.0,69.5,,,,,None,,Australian National University,6.85,69.5,"['CSP', 'BMP']",1.0,2,2,0,None,None,,Poorly,"
+3,Non-Rural,62,68,74,68.0,69.5,,,,,None,None,Australian National University,6.85,69.5,"['CSP', 'BMP']",1.0,2,2,0,None,None,,Poorly,"
 ",2022,,,"['CSP', 'BMP']"
-4,Non-Rural,79,76,76,77.0,76.75,,,,,None,,The University of Melbourne,6.1,77.0,"['CSP', 'BMP']",5.0,0,0,0,None,None,,Well,"
+4,Non-Rural,79,76,76,77.0,76.75,,,,,None,None,The University of Melbourne,6.1,77.0,"['CSP', 'BMP']",5.0,0,0,0,None,None,,Well,"
 ",2022,,,"['CSP', 'BMP']"
-5,Non-Rural,74,74,69,72.33333333,71.5,,,,,None,,The University of Queensland (Metro),7.0,72.33333333,"['CSP', 'BMP']",1.0,0,2,0,None,None,,Unsure,"
+5,Non-Rural,74,74,69,72.33333333,71.5,,,,,None,None,The University of Queensland (Metro),7.0,72.33333333,"['CSP', 'BMP']",1.0,0,2,0,None,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP']"
-6,Non-Rural,64,69,91,74.66666667,78.75,,,,,None,,The University of Queensland (Metro),6.42,74.66666667,['CSP'],2.0,0,0,0,None,None,,Unsure,"
+6,Non-Rural,64,69,91,74.66666667,78.75,,,,,None,None,The University of Queensland (Metro),6.42,74.66666667,['CSP'],2.0,0,0,0,None,None,,Unsure,"
 ",2022,,,['CSP']
 7,Non-Rural,67,75,74,72.0,72.5,Deakin University,6.385,72.5,CSP,2.0,Yes,,,,,None,6,0,0,None,None,No,Well,"
 ",2022,,,CSP
-8,Non-Rural,82,72,71,75.0,74.0,,,,,None,,Deakin University,6.99,74.0,"['CSP', 'BMP']",1.0,2,2,0,None,None,,Unsure,"
+8,Non-Rural,82,72,71,75.0,74.0,,,,,None,None,Deakin University,6.99,74.0,"['CSP', 'BMP']",1.0,2,2,0,None,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP']"
-9,Non-Rural,64,81,72,72.33333333,72.25,,,,,None,,The University of Notre Dame Sydney,7.0,72.33333333,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Well,"felt like i had a good portfolio
+9,Non-Rural,64,81,72,72.33333333,72.25,,,,,None,None,The University of Notre Dame Sydney,7.0,72.33333333,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Well,"felt like i had a good portfolio
 ",2022,,,"['CSP', 'BMP']"
-10,Non-Rural,64,66,65,65.0,65.0,,,,,None,,Griffith University,6.743,65.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Unsure,"
+10,Non-Rural,64,66,65,65.0,65.0,,,,,None,None,Griffith University,6.743,65.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
-11,Non-Rural,65,79,62,68.66666667,67.0,,,,,None,,The University of Melbourne,6.963,68.66666667,"['CSP', 'BMP']",4.0,0,0,0,None,None,,Well,"
+11,Non-Rural,65,79,62,68.66666667,67.0,,,,,None,None,The University of Melbourne,6.963,68.66666667,"['CSP', 'BMP']",4.0,0,0,0,None,None,,Well,"
 ",2022,,,"['CSP', 'BMP']"
 12,Rural,72,64,63,66.33333333,65.5,Deakin University,6.92,65.5,CSP,1.0,Yes,,,,,None,8,0,0,None,None,No,Well,"
 ",2022,,,CSP
@@ -31,7 +31,7 @@
 ",2022,,,BMP
 15,Non-Rural,65,81,65,70.33333333,69.0,Griffith University,6.885,69.0,CSP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Well,"
 ",2022,,,CSP
-16,Non-Rural,60,67,70,65.66666667,66.75,,,,,None,,The University of Western Australia,7.0,66.75,['CSP'],4.0,0,0,0,None,None,,Well,"
+16,Non-Rural,60,67,70,65.66666667,66.75,,,,,None,None,The University of Western Australia,7.0,66.75,['CSP'],4.0,0,0,0,None,None,,Well,"
 ",2022,,,['CSP']
 17,Non-Rural,60,74,72,68.66666667,69.5,Deakin University,6.917,69.5,CSP,4.0,Yes,,,,,None,2,0,0,None,None,Unsure,Well,"
 ",2022,,,CSP
@@ -43,31 +43,31 @@
 ",2022,,,BMP
 21,Non-Rural,58,71,77,68.66666667,70.75,Griffith University,6.57,70.75,CSP,5.0,Yes,,,,,None,0,0,0,None,None,Yes,Very well,"
 ",2022,,,CSP
-22,Non-Rural,64,73,85,74.0,76.75,,,,,None,,The University of Melbourne,7.0,74.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Unsure,"
+22,Non-Rural,64,73,85,74.0,76.75,,,,,None,None,The University of Melbourne,7.0,74.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
-23,Non-Rural,63,82,58,67.66666667,65.25,,,,,None,,The University of Notre Dame Fremantle,6.708,67.66666667,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Well,"strong portfolio, wa resident, health professional
+23,Non-Rural,63,82,58,67.66666667,65.25,,,,,None,None,The University of Notre Dame Fremantle,6.708,67.66666667,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Well,"strong portfolio, wa resident, health professional
 ",2022,,,"['CSP', 'BMP', 'FFP']"
-24,Non-Rural,60,72,77,69.66666667,71.5,,,,,None,,Griffith University,6.864,71.5,"['CSP', 'BMP']",2.0,2,0,0,None,None,,Unsure,"
+24,Non-Rural,60,72,77,69.66666667,71.5,,,,,None,None,Griffith University,6.864,71.5,"['CSP', 'BMP']",2.0,2,0,0,None,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP']"
-25,Non-Rural,54,63,100,72.33333333,79.25,,,,,None,,The University of Melbourne,6.78,72.33333333,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Unsure,"
+25,Non-Rural,54,63,100,72.33333333,79.25,,,,,None,None,The University of Melbourne,6.78,72.33333333,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
-26,Non-Rural,62,70,66,66.0,66.0,,,,,None,,The University of Notre Dame Sydney,6.75,66.0,"['CSP', 'BMP', 'FFP']",1.0,2,2,0,None,Tier 3,,Unsure,"
+26,Non-Rural,62,70,66,66.0,66.0,,,,,None,None,The University of Notre Dame Sydney,6.75,66.0,"['CSP', 'BMP', 'FFP']",1.0,2,2,0,None,Tier 3,,Unsure,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
-27,Non-Rural,66,79,70,71.66666667,71.25,,,,,None,,The University of Melbourne,6.85,71.66666667,"['CSP', 'BMP']",1.0,0,0,0,1st,None,,Well,"gam
+27,Non-Rural,66,79,70,71.66666667,71.25,,,,,None,None,The University of Melbourne,6.85,71.66666667,"['CSP', 'BMP']",1.0,0,0,0,1st,None,,Well,"gam
 ",2022,,,"['CSP', 'BMP']"
 28,Non-Rural,66,73,81,73.33333333,75.25,Deakin University,6.46,75.25,CSP,1.0,Yes,,,,,None,4,2,0,None,None,Yes,Unsure,"moderately strong portfolio
 ",2022,,,CSP
-29,Rural,59,62,53,58.0,56.75,,,,,None,,Griffith University,6.1,56.75,"['CSP', 'BMP', 'FFP']",1.0,2,0,0,None,None,,Unsure,"
+29,Rural,59,62,53,58.0,56.75,,,,,None,None,Griffith University,6.1,56.75,"['CSP', 'BMP', 'FFP']",1.0,2,0,0,None,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
-30,Non-Rural,67,72,76,71.66666667,72.75,,,,,None,,The University of Western Australia,6.54,72.75,"['CSP', 'BMP']",4.0,2,0,0,None,None,,Unsure,"gam
+30,Non-Rural,67,72,76,71.66666667,72.75,,,,,None,None,The University of Western Australia,6.54,72.75,"['CSP', 'BMP']",4.0,2,0,0,None,None,,Unsure,"gam
 ",2022,,,"['CSP', 'BMP']"
-31,Rural,54,67,73,64.66666667,66.75,,,,,None,,The University of Queensland (Metro),7.0,64.66666667,"['CSP', 'BMP']",1.0,0,2,0,1st,Tier 2,,Unsure,"not sure what rmp tier but i was interviewed for rmp and greater brisbane pathway (edit- as rural, likely t2 -luke)
+31,Rural,54,67,73,64.66666667,66.75,,,,,None,None,The University of Queensland (Metro),7.0,64.66666667,"['CSP', 'BMP']",1.0,0,2,0,1st,Tier 2,,Unsure,"not sure what rmp tier but i was interviewed for rmp and greater brisbane pathway (edit- as rural, likely t2 -luke)
 ",2022,,,"['CSP', 'BMP']"
 32,Non-Rural,71,78,66,71.66666667,70.25,Griffith University,6.79,70.25,CSP,5.0,No,The University of Queensland (Metro),7.0,71.66666667,['CSP'],4.0,2,2,0,4th,Tier 3,Unsure,Unsure,"
 ",2022,,,CSP
 33,Non-Rural,65,76,77,72.66666667,73.75,Griffith University,6.75,73.75,CSP,2.0,No,The University of Queensland (Metro),7.0,72.66666667,"['CSP', 'BMP']",1.0,0,2,0,None,None,Yes,Well,"
 ",2022,,,CSP
-34,Non-Rural,73,70,67,70.0,69.25,,,,,None,,The University of Queensland (Metro),6.857,70.0,['CSP'],1.0,0,0,0,None,None,,Very well,"only applied to metro
+34,Non-Rural,73,70,67,70.0,69.25,,,,,None,None,The University of Queensland (Metro),6.857,70.0,['CSP'],1.0,0,0,0,None,None,,Very well,"only applied to metro
 ",2022,,,['CSP']
 35,Rural,63,66,60,63.0,62.25,The University of Wollongong,5.5,62.25,CSP,1.0,Yes,,,,,None,0,0,0,3rd,None,Unsure,Well,"
 ",2022,,,CSP
@@ -75,41 +75,41 @@
 ",2022,,,CSP
 37,Rural,60,66,61,62.33333333,62.0,Deakin University,6.28,62.0,BMP,1.0,Yes,,,,,None,10,0,0,None,None,No,Well,"
 ",2022,,,BMP
-38,Non-Rural,68,75,84,75.66666667,77.75,,,,,None,,Australian National University,6.35,77.75,"['CSP', 'BMP', 'FFP']",2.0,0,2,0,None,None,,Well,"
+38,Non-Rural,68,75,84,75.66666667,77.75,,,,,None,None,Australian National University,6.35,77.75,"['CSP', 'BMP', 'FFP']",2.0,0,2,0,None,None,,Well,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
-39,Non-Rural,67,63,91,73.66666667,78.0,,,,,None,,The University of Queensland (Metro),6.83,73.66666667,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Unsure,"
+39,Non-Rural,67,63,91,73.66666667,78.0,,,,,None,None,The University of Queensland (Metro),6.83,73.66666667,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 40,Rural,71,78,57,68.66666667,65.75,The University of Queensland (RMP),5.9,68.66666667,CSP,1.0,Yes,,,,,None,0,0,0,2nd,Tier 2,Unsure,Very well,"
 ",2022,,,CSP
 41,Rural,62,72,61,65.0,64.0,Deakin University,6.84,64.0,CSP,1.0,Yes,,,,,None,8,0,0,None,None,Yes,Well,"
 ",2022,,,CSP
-42,Non-Rural,68,70,73,70.33333333,71.0,,,,,None,,The University of Melbourne,6.9,70.33333333,"['CSP', 'BMP', 'FFP']",1.0,0,2,0,None,None,,Well,"90 wam from unsw, 1st class hons
+42,Non-Rural,68,70,73,70.33333333,71.0,,,,,None,None,The University of Melbourne,6.9,70.33333333,"['CSP', 'BMP', 'FFP']",1.0,0,2,0,None,None,,Well,"90 wam from unsw, 1st class hons
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 43,Non-Rural,66,75,73,71.33333333,71.75,The University of Notre Dame Sydney,6.87,71.33333333,FFP,1.0,Yes,,,,,None,0,0,3,3rd,None,Yes,Unsure,"average/above average portfolio.
 ",2022,,,FFP
 44,Non-Rural,59,59,75,64.33333333,67.0,Griffith University,7.0,67.0,CSP,4.0,No,The University of Queensland (Metro),7.0,64.33333333,"['CSP', 'BMP']",3.0,0,0,0,None,Tier 3,Unsure,Poorly,"
 ",2022,,,CSP
-45,Non-Rural,60,66,71,65.66666667,67.0,,,,,None,,The University of Notre Dame Sydney,6.65,65.66666667,['CSP'],5.0,0,0,0,None,None,,Very well,"thought i had a strong portfolio, and personal statement, with relevant and good experience in all categories
+45,Non-Rural,60,66,71,65.66666667,67.0,,,,,None,None,The University of Notre Dame Sydney,6.65,65.66666667,['CSP'],5.0,0,0,0,None,None,,Very well,"thought i had a strong portfolio, and personal statement, with relevant and good experience in all categories
 ",2022,,,['CSP']
-46,Non-Rural,69,61,65,65.0,65.0,,,,,None,,The University of Notre Dame Sydney,5.9,65.0,"['CSP', 'BMP', 'FFP']",5.0,0,0,0,None,None,,Unsure,"
+46,Non-Rural,69,61,65,65.0,65.0,,,,,None,None,The University of Notre Dame Sydney,5.9,65.0,"['CSP', 'BMP', 'FFP']",5.0,0,0,0,None,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
-47,Non-Rural,70,69,87,75.33333333,78.25,,,,,None,,The University of Melbourne,6.9,75.33333333,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Poorly,"
+47,Non-Rural,70,69,87,75.33333333,78.25,,,,,None,None,The University of Melbourne,6.9,75.33333333,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Poorly,"
 ",2022,,,"['CSP', 'BMP']"
-48,Non-Rural,64,60,92,72.0,77.0,,,,,None,,The University of Queensland (Metro),6.583,72.0,"['CSP', 'BMP']",2.0,0,0,0,None,Tier 3,,Unsure,"
+48,Non-Rural,64,60,92,72.0,77.0,,,,,None,None,The University of Queensland (Metro),6.583,72.0,"['CSP', 'BMP']",2.0,0,0,0,None,Tier 3,,Unsure,"
 ",2022,,,"['CSP', 'BMP']"
 49,Rural,60,62,74,65.33333333,67.5,Griffith University,6.0,67.5,BMP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Well,"
 ",2022,,,BMP
-50,Non-Rural,56,67,68,63.66666667,64.75,,,,,None,,The University of Queensland (Metro),7.0,63.66666667,"['CSP', 'BMP', 'FFP']",2.0,4,2,0,1st,Tier 3,,Well,"
+50,Non-Rural,56,67,68,63.66666667,64.75,,,,,None,None,The University of Queensland (Metro),7.0,63.66666667,"['CSP', 'BMP', 'FFP']",2.0,4,2,0,1st,Tier 3,,Well,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
-51,Non-Rural,65,70,63,66.0,65.25,,,,,None,,The University of Notre Dame Sydney,6.8,66.0,['CSP'],1.0,0,0,0,1st,Tier 3,,Unsure,"
+51,Non-Rural,65,70,63,66.0,65.25,,,,,None,None,The University of Notre Dame Sydney,6.8,66.0,['CSP'],1.0,0,0,0,1st,Tier 3,,Unsure,"
 ",2022,,,['CSP']
-52,Non-Rural,71,71,71,71.0,71.0,,,,,None,,The University of Notre Dame Sydney,6.87,71.0,"['CSP', 'BMP']",1.0,0,0,0,2nd,None,,Unsure,"
+52,Non-Rural,71,71,71,71.0,71.0,,,,,None,None,The University of Notre Dame Sydney,6.87,71.0,"['CSP', 'BMP']",1.0,0,0,0,2nd,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP']"
 53,Rural,67,73,60,66.66666667,65.0,The University of Notre Dame Sydney,6.766,66.66666667,BMP,1.0,Yes,,,,,None,0,0,0,2nd,None,Yes,Unsure,"
 ",2022,,,BMP
 54,Rural,56,58,62,58.66666667,59.5,Griffith University,6.313,59.5,CSP,1.0,Yes,,,,,None,10,0,0,1st,None,Yes,Well,"
 ",2022,,,CSP
-55,Non-Rural,66,72,69,69.0,69.0,,,,,None,,The University of Queensland (Metro),7.0,69.0,['CSP'],1.0,0,0,0,None,None,,Very well,"
+55,Non-Rural,66,72,69,69.0,69.0,,,,,None,None,The University of Queensland (Metro),7.0,69.0,['CSP'],1.0,0,0,0,None,None,,Very well,"
 ",2022,,,['CSP']
 56,Non-Rural,60,70,59,63.0,62.0,The University of Notre Dame Sydney,6.59,63.0,FFP,1.0,Yes,,,,,None,0,0,0,1st,None,No,Poorly,"relatively strong portfolio ?
 ",2022,,,FFP
@@ -119,7 +119,7 @@
 ",2022,,,CSP
 59,Rural,58,70,60,62.66666667,62.0,Deakin University,6.45,62.0,CSP,1.0,Yes,,,,,None,14,0,0,None,None,Yes,Unsure,"rural stream deakin tier 1
 ",2022,,,CSP
-60,Non-Rural,62,76,95,77.66666667,82.0,,,,,None,,The University of Melbourne,6.8,77.66666667,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Poorly,"
+60,Non-Rural,62,76,95,77.66666667,82.0,,,,,None,None,The University of Melbourne,6.8,77.66666667,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Poorly,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 61,Rural,55,56,57,56.0,56.25,Deakin University,6.9,56.25,CSP,1.0,Yes,,,,,None,8,0,3,None,None,Yes,Very well,"
 ",2022,,,CSP
@@ -131,29 +131,29 @@
 ",2022,,,FFP
 65,Non-Rural,62,74,67,67.66666667,67.5,The University of Notre Dame Sydney,6.64,67.66666667,FFP,1.0,Yes,,,,,None,0,0,0,1st,None,Yes,Unsure,"
 ",2022,,,FFP
-66,Non-Rural,50,63,80,64.33333333,68.25,,,,,None,,The University of Western Australia,6.96,68.25,['CSP'],3.0,0,0,0,None,None,,Very poorly,"
+66,Non-Rural,50,63,80,64.33333333,68.25,,,,,None,None,The University of Western Australia,6.96,68.25,['CSP'],3.0,0,0,0,None,None,,Very poorly,"
 ",2022,,,['CSP']
-67,Non-Rural,64,63,74,67.0,68.75,,,,,None,,The University of Notre Dame Sydney,6.1,67.0,"['CSP', 'BMP', 'FFP']",1.0,0,2,0,4th,None,,Well,"strong port
+67,Non-Rural,64,63,74,67.0,68.75,,,,,None,None,The University of Notre Dame Sydney,6.1,67.0,"['CSP', 'BMP', 'FFP']",1.0,0,2,0,4th,None,,Well,"strong port
 ",2022,,,"['CSP', 'BMP', 'FFP']"
-68,Non-Rural,64,76,69,69.66666667,69.5,,,,,None,,The University of Melbourne,7.0,69.66666667,['CSP'],1.0,0,0,0,None,None,,Unsure,"
+68,Non-Rural,64,76,69,69.66666667,69.5,,,,,None,None,The University of Melbourne,7.0,69.66666667,['CSP'],1.0,0,0,0,None,None,,Unsure,"
 ",2022,,,['CSP']
-69,Non-Rural,60,68,76,68.0,70.0,,,,,None,,The University of Notre Dame Fremantle,6.94,68.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Unsure,"thought i had a strong portfolio
+69,Non-Rural,60,68,76,68.0,70.0,,,,,None,None,The University of Notre Dame Fremantle,6.94,68.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Unsure,"thought i had a strong portfolio
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 70,Non-Rural,75,76,72,74.33333333,73.75,Griffith University,6.781,73.75,CSP,2.0,No,The University of Queensland (Metro),7.0,74.33333333,"['CSP', 'BMP']",1.0,0,2,0,None,None,Unsure,Unsure,"
 ",2022,,,CSP
 71,Non-Rural,69,90,84,81.0,81.75,The University of Notre Dame Fremantle,6.98,81.0,CSP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Well,"wa resident, i think quite strong- variety + long commitment to various activities.
 ",2022,,,CSP
-72,Non-Rural,60,77,65,67.33333333,66.75,,,,,None,,The University of Wollongong,5.5,66.75,"['CSP', 'BMP', 'FFP']",6.0,2,0,0,2nd,None,,Poorly,"diverse experiences in portfolio so maybe relatively strong?
+72,Non-Rural,60,77,65,67.33333333,66.75,,,,,None,None,The University of Wollongong,5.5,66.75,"['CSP', 'BMP', 'FFP']",6.0,2,0,0,2nd,None,,Poorly,"diverse experiences in portfolio so maybe relatively strong?
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 73,Rural,57,69,58,61.33333333,60.5,The University of Wollongong,5.5,60.5,CSP,1.0,Yes,,,,,None,8,0,0,3rd,None,Yes,Well,"strong portfolio, rich rural experiences
 ",2022,,,CSP
-74,Non-Rural,65,67,59,63.66666667,62.5,,,,,None,,The University of Notre Dame Fremantle,6.875,63.66666667,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Well,"wa resident
+74,Non-Rural,65,67,59,63.66666667,62.5,,,,,None,None,The University of Notre Dame Fremantle,6.875,63.66666667,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Well,"wa resident
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 75,Non-Rural,74,71,68,71.0,70.25,The University of Notre Dame Sydney,5.875,71.0,CSP,2.0,No,The University of Wollongong,5.5,70.25,"['CSP', 'BMP', 'FFP']",1.0,2,0,0,3rd,None,Yes,Well,"strong portfolio
 ",2022,,,CSP
-76,Non-Rural,66,75,73,71.33333333,71.75,,,,,None,,The University of Melbourne,6.96,71.33333333,"['CSP', 'BMP']",1.0,6,0,0,None,None,,Unsure,"
+76,Non-Rural,66,75,73,71.33333333,71.75,,,,,None,None,The University of Melbourne,6.96,71.33333333,"['CSP', 'BMP']",1.0,6,0,0,None,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP']"
-77,Non-Rural,60,63,78,67.0,69.75,,,,,None,,The University of Wollongong,5.5,69.75,"['CSP', 'BMP']",5.0,0,0,0,3rd,None,,Unsure,"
+77,Non-Rural,60,63,78,67.0,69.75,,,,,None,None,The University of Wollongong,5.5,69.75,"['CSP', 'BMP']",5.0,0,0,0,3rd,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP']"
 78,Non-Rural,62,84,53,66.33333333,63.0,The University of Wollongong,5.5,63.0,CSP,2.0,No,The University of Notre Dame Sydney,6.781,66.33333333,"['CSP', 'BMP']",1.0,0,0,0,1st,None,Yes,Well,"strong portfolio
 ",2022,,,CSP
@@ -161,7 +161,7 @@
 ",2022,,,CSP
 80,Rural,59,66,69,64.66666667,65.75,Deakin University,6.18,65.75,CSP,1.0,Yes,,,,,None,12,0,3,None,None,Yes,Well,"
 ",2022,,,CSP
-81,Non-Rural,74,72,86,77.33333333,79.5,,,,,None,,The University of Queensland (Metro),7.0,77.33333333,"['CSP', 'BMP']",1.0,2,0,0,None,None,,Very well,"
+81,Non-Rural,74,72,86,77.33333333,79.5,,,,,None,None,The University of Queensland (Metro),7.0,77.33333333,"['CSP', 'BMP']",1.0,2,0,0,None,None,,Very well,"
 ",2022,,,"['CSP', 'BMP']"
 82,Rural,63,62,64,63.0,63.25,Deakin University,7.0,63.25,CSP,1.0,Yes,,,,,None,8,0,0,None,None,Yes,Well,"
 ",2022,,,CSP
@@ -169,23 +169,23 @@
 ",2022,,,BMP
 84,Rural,64,58,53,58.33333333,57.0,The University of Wollongong,5.5,57.0,CSP,2.0,No,Australian National University,6.05,57.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,2nd,None,Yes,Poorly,"strength of portfolio (average)
 ",2022,,,CSP
-85,Non-Rural,64,70,76,70.0,71.5,,,,,None,,The University of Notre Dame Sydney,6.86,70.0,"['CSP', 'BMP']",1.0,2,0,0,1st,None,,Well,"
+85,Non-Rural,64,70,76,70.0,71.5,,,,,None,None,The University of Notre Dame Sydney,6.86,70.0,"['CSP', 'BMP']",1.0,2,0,0,1st,None,,Well,"
 ",2022,,,"['CSP', 'BMP']"
-86,Non-Rural,76,79,63,72.66666667,70.25,,,,,None,,The University of Queensland (Metro),7.0,72.66666667,['CSP'],1.0,0,0,0,None,None,,Very well,"
+86,Non-Rural,76,79,63,72.66666667,70.25,,,,,None,None,The University of Queensland (Metro),7.0,72.66666667,['CSP'],1.0,0,0,0,None,None,,Very well,"
 ",2022,,,['CSP']
-87,Non-Rural,64,76,62,67.33333333,66.0,,,,,None,,The University of Wollongong,5.5,66.0,"['CSP', 'BMP', 'FFP']",1.0,2,0,0,4th,None,,Unsure,"
+87,Non-Rural,64,76,62,67.33333333,66.0,,,,,None,None,The University of Wollongong,5.5,66.0,"['CSP', 'BMP', 'FFP']",1.0,2,0,0,4th,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 88,Non-Rural,64,74,72,70.0,70.5,The University of Melbourne,7.0,70.0,BMP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Unsure,"
 ",2022,,,BMP
 89,Non-Rural,55,73,74,67.33333333,69.0,Macquarie University,6.91,69.0,FFP,2.0,Yes,,,,,None,0,0,0,None,None,Yes,Unsure,"
 ",2022,,,FFP
-90,Non-Rural,75,66,74,71.66666667,72.25,,,,,None,,The University of Wollongong,5.5,72.25,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,3rd,None,,Poorly,"average portfolio
+90,Non-Rural,75,66,74,71.66666667,72.25,,,,,None,None,The University of Wollongong,5.5,72.25,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,3rd,None,,Poorly,"average portfolio
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 91,Non-Rural,64,66,87,72.33333333,76.0,The University of Melbourne,7.0,72.33333333,CSP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Poorly,"
 ",2022,,,CSP
-92,Non-Rural,73,73,74,73.33333333,73.5,,,,,None,,The University of Melbourne,6.7,73.33333333,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Well,"
+92,Non-Rural,73,73,74,73.33333333,73.5,,,,,None,None,The University of Melbourne,6.7,73.33333333,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Well,"
 ",2022,,,"['CSP', 'BMP']"
-93,Non-Rural,59,82,78,73.0,74.25,,,,,None,,Australian National University,6.78,74.25,"['CSP', 'BMP']",1.0,0,2,0,None,None,,Poorly,"
+93,Non-Rural,59,82,78,73.0,74.25,,,,,None,None,Australian National University,6.78,74.25,"['CSP', 'BMP']",1.0,0,2,0,None,None,,Poorly,"
 ",2022,,,"['CSP', 'BMP']"
 94,Rural,77,71,67,71.66666667,70.5,The University of Melbourne,6.434,71.66666667,BMP,1.0,Yes,,,,,None,4,0,0,1st,None,Yes,Well,"
 ",2022,,,BMP
@@ -193,13 +193,13 @@
 ",2022,,,CSP
 96,Non-Rural,68,73,66,69.0,68.25,Australian National University,6.979,68.25,CSP,1.0,Yes,,,,,None,0,2,0,None,None,Yes,Unsure,"
 ",2022,,,CSP
-97,Non-Rural,58,63,61,60.66666667,60.75,,,,,None,,The University of Notre Dame Sydney,6.94,60.66666667,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,3rd,None,,Unsure,"strong portfolio
+97,Non-Rural,58,63,61,60.66666667,60.75,,,,,None,None,The University of Notre Dame Sydney,6.94,60.66666667,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,3rd,None,,Unsure,"strong portfolio
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 98,Non-Rural,70,65,77,70.66666667,72.25,The University of Melbourne,7.0,70.66666667,CSP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Well,"
 ",2022,,,CSP
 99,Rural,79,80,74,77.66666667,76.75,Australian National University,6.875,76.75,CSP,1.0,Yes,,,,,None,0,2,0,None,None,Yes,Unsure,"
 ",2022,,,CSP
-100,Non-Rural,70,71,53,64.66666667,61.75,,,,,None,,The University of Notre Dame Sydney,6.74,64.66666667,"['CSP', 'BMP', 'FFP']",2.0,6,0,0,3rd,None,,Well,"
+100,Non-Rural,70,71,53,64.66666667,61.75,,,,,None,None,The University of Notre Dame Sydney,6.74,64.66666667,"['CSP', 'BMP', 'FFP']",2.0,6,0,0,3rd,None,,Well,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 101,Rural,68,80,72,73.33333333,73.0,The University of Melbourne,6.007,73.33333333,CSP,1.0,Yes,,,,,None,4,0,0,None,None,No,Well,"
 ",2022,,,CSP
@@ -207,13 +207,13 @@
 ",2022,,,CSP
 103,Rural,69,56,75,66.66666667,68.75,Griffith University,6.188,68.75,BMP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Well,"
 ",2022,,,BMP
-104,Non-Rural,58,72,70,66.66666667,67.5,,,,,None,,The University of Queensland (Metro),7.0,66.66666667,"['CSP', 'BMP']",1.0,0,0,0,1st,None,,Unsure,"
+104,Non-Rural,58,72,70,66.66666667,67.5,,,,,None,None,The University of Queensland (Metro),7.0,66.66666667,"['CSP', 'BMP']",1.0,0,0,0,1st,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP']"
 105,Rural,79,71,79,76.33333333,77.0,The University of Melbourne,6.89,76.33333333,BMP,1.0,Yes,,,,,None,0,0,0,None,None,No,Well,"
 ",2022,,,BMP
 106,Rural,61,69,64,64.66666667,64.5,The University of Queensland (RMP),6.619,64.66666667,CSP,1.0,Yes,,,,,None,0,0,0,None,Tier 1,Yes,Well,"
 ",2022,,,CSP
-107,Non-Rural,59,83,61,67.66666667,66.0,,,,,None,,The University of Queensland (Metro),7.0,67.66666667,"['CSP', 'BMP']",2.0,0,2,0,3rd,Tier 3,,Unsure,"
+107,Non-Rural,59,83,61,67.66666667,66.0,,,,,None,None,The University of Queensland (Metro),7.0,67.66666667,"['CSP', 'BMP']",2.0,0,2,0,3rd,Tier 3,,Unsure,"
 ",2022,,,"['CSP', 'BMP']"
 108,Non-Rural,66,81,63,70.0,68.25,The University of Notre Dame Sydney,6.23,70.0,FFP,1.0,Yes,,,,,None,4,0,0,None,None,Unsure,Unsure,"average portfolio
 ",2022,,,FFP
@@ -223,7 +223,7 @@
 ",2022,,,FFP
 111,Non-Rural,71,65,95,77.0,81.5,The University of Melbourne,6.693,77.0,CSP,2.0,No,The University of Queensland (Metro),7.0,77.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,Yes,Very well,"
 ",2022,,,CSP
-112,Rural,70,64,73,69.0,70.0,,,,,None,,Griffith University,5.469,70.0,"['CSP', 'BMP', 'FFP']",2.0,0,0,0,None,None,,Well,"
+112,Rural,70,64,73,69.0,70.0,,,,,None,None,Griffith University,5.469,70.0,"['CSP', 'BMP', 'FFP']",2.0,0,0,0,None,None,,Well,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 113,Rural,72,63,81,72.0,74.25,The University of Wollongong,5.5,74.25,CSP,1.0,Yes,,,,,None,10,0,3,2nd,None,Yes,Well,"above average portfolio
 ",2022,,,CSP
@@ -243,7 +243,7 @@
 ",2022,,,CSP
 121,Non-Rural,76,81,60,72.33333333,69.25,The University of Melbourne,6.73,72.33333333,FFP,2.0,Yes,,,,,None,0,2,0,None,None,No,Well,"
 ",2022,,,FFP
-122,Non-Rural,60,60,83,67.66666667,71.5,,,,,None,,Griffith University,6.61,71.5,"['CSP', 'BMP', 'FFP']",3.0,0,0,0,None,None,,Unsure,"
+122,Non-Rural,60,60,83,67.66666667,71.5,,,,,None,None,Griffith University,6.61,71.5,"['CSP', 'BMP', 'FFP']",3.0,0,0,0,None,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 123,Non-Rural,73,61,78,70.66666667,72.5,The University of Wollongong,5.5,72.5,CSP,1.0,Yes,,,,,None,0,0,0,4th,None,Yes,Unsure,"
 ",2022,,,CSP
@@ -251,19 +251,19 @@
 ",2022,,,BMP
 125,Rural,67,61,61,63.0,62.5,The University of Wollongong,5.5,62.5,CSP,1.0,Yes,,,,,None,12,0,0,1st,None,Unsure,Poorly,"wa resident
 ",2022,,,CSP
-126,Non-Rural,60,75,79,71.33333333,73.25,,,,,None,,Griffith University,6.96,73.25,"['CSP', 'BMP', 'FFP']",1.0,2,0,0,None,None,,Well,"
+126,Non-Rural,60,75,79,71.33333333,73.25,,,,,None,None,Griffith University,6.96,73.25,"['CSP', 'BMP', 'FFP']",1.0,2,0,0,None,None,,Well,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 127,Non-Rural,68,72,76,72.0,73.0,The University of Melbourne,6.52,72.0,CSP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Poorly,"said ""fuck "" mid interview after a bad answer
 ",2022,,,CSP
-128,Non-Rural,59,64,78,67.0,69.75,,,,,None,,The University of Queensland (Metro),7.0,67.0,"['CSP', 'BMP']",2.0,2,0,0,None,Tier 3,,Very poorly,"
+128,Non-Rural,59,64,78,67.0,69.75,,,,,None,None,The University of Queensland (Metro),7.0,67.0,"['CSP', 'BMP']",2.0,2,0,0,None,Tier 3,,Very poorly,"
 ",2022,,,"['CSP', 'BMP']"
 129,Rural,69,79,66,71.33333333,70.0,Deakin University,5.17,70.0,BMP,1.0,Yes,,,,,None,10,0,0,None,None,Unsure,Well,"
 ",2022,,,BMP
-130,Non-Rural,68,73,64,68.33333333,67.25,,,,,None,,Deakin University,6.689,67.25,"['CSP', 'BMP', 'FFP']",1.0,6,0,0,None,None,,Well,"
+130,Non-Rural,68,73,64,68.33333333,67.25,,,,,None,None,Deakin University,6.689,67.25,"['CSP', 'BMP', 'FFP']",1.0,6,0,0,None,None,,Well,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
-131,Rural,51,70,56,59.0,58.25,,,,,None,,Deakin University,6.74,58.25,"['CSP', 'BMP', 'FFP']",1.0,10,0,0,None,None,,Very poorly,"average
+131,Rural,51,70,56,59.0,58.25,,,,,None,None,Deakin University,6.74,58.25,"['CSP', 'BMP', 'FFP']",1.0,10,0,0,None,None,,Very poorly,"average
 ",2022,,,"['CSP', 'BMP', 'FFP']"
-132,Non-Rural,66,78,66,70.0,69.0,,,,,None,,The University of Notre Dame Sydney,6.629,70.0,"['CSP', 'BMP']",1.0,0,0,0,4th,None,,Very well,"average portfolio
+132,Non-Rural,66,78,66,70.0,69.0,,,,,None,None,The University of Notre Dame Sydney,6.629,70.0,"['CSP', 'BMP']",1.0,0,0,0,4th,None,,Very well,"average portfolio
 ",2022,,,"['CSP', 'BMP']"
 133,Non-Rural,58,68,82,69.33333333,72.5,Deakin University,6.99,72.5,BMP,2.0,No,The University of Melbourne,6.979,69.33333333,"['CSP', 'BMP']",1.0,0,0,0,None,None,Yes,Well,"
 ",2022,,,BMP
@@ -273,11 +273,11 @@
 ",2022,,,CSP
 136,Non-Rural,76,65,82,74.33333333,76.25,The University of Melbourne,6.589,74.33333333,CSP,1.0,Yes,,,,,None,6,0,0,2nd,None,Yes,Unsure,"
 ",2022,,,CSP
-137,Non-Rural,69,58,71,66.0,67.25,,,,,None,,The University of Queensland (Metro),6.8533,66.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,Tier 3,,Very well,"rmp applicant- tier 3
+137,Non-Rural,69,58,71,66.0,67.25,,,,,None,None,The University of Queensland (Metro),6.8533,66.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,Tier 3,,Very well,"rmp applicant- tier 3
 ",2022,,,"['CSP', 'BMP', 'FFP']"
-138,Non-Rural,60,72,70,67.33333333,68.0,,,,,None,,The University of Melbourne,7.0,67.33333333,"['CSP', 'BMP']",1.0,2,0,0,None,None,,Unsure,"
+138,Non-Rural,60,72,70,67.33333333,68.0,,,,,None,None,The University of Melbourne,7.0,67.33333333,"['CSP', 'BMP']",1.0,2,0,0,None,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP']"
-139,Rural,61,57,59,59.0,59.0,,,,,None,,The University of Wollongong,5.5,59.0,"['CSP', 'BMP', 'FFP']",1.0,8,0,5,1st,None,,Unsure,"portfolio average
+139,Rural,61,57,59,59.0,59.0,,,,,None,None,The University of Wollongong,5.5,59.0,"['CSP', 'BMP', 'FFP']",1.0,8,0,5,1st,None,,Unsure,"portfolio average
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 140,Non-Rural,59,82,73,71.33333333,71.75,The University of Melbourne,7.0,71.33333333,CSP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Poorly,"
 ",2022,,,CSP
@@ -303,7 +303,7 @@
 ",2022,,,CSP
 151,Non-Rural,71,81,75,75.66666667,75.5,Deakin University,6.885,75.5,BMP,1.0,Yes,,,,,None,6,0,0,None,None,Yes,Poorly,"
 ",2022,,,BMP
-152,Non-Rural,70,72,68,70.0,69.5,,,,,None,,The University of Queensland (Metro),7.0,70.0,['CSP'],1.0,0,0,0,None,None,,Very well,"
+152,Non-Rural,70,72,68,70.0,69.5,,,,,None,None,The University of Queensland (Metro),7.0,70.0,['CSP'],1.0,0,0,0,None,None,,Very well,"
 ",2022,,,['CSP']
 153,Non-Rural,65,65,67,65.66666667,66.0,The University of Wollongong,5.5,66.0,CSP,2.0,Yes,,,,,None,0,0,0,4th,None,Yes,Unsure,"above average portfolio
 ",2022,,,CSP
@@ -311,11 +311,11 @@
 ",2022,,,FFP
 155,Rural,70,68,66,68.0,67.5,Deakin University,6.12,67.5,CSP,1.0,Yes,,,,,None,14,0,0,None,None,Unsure,Well,"rural training stream
 ",2022,,,CSP
-156,Non-Rural,70,66,70,68.66666667,69.0,,,,,None,,Macquarie University,6.5,69.0,"['CSP', 'BMP', 'FFP']",6.0,0,0,0,None,None,,Unsure,"
+156,Non-Rural,70,66,70,68.66666667,69.0,,,,,None,None,Macquarie University,6.5,69.0,"['CSP', 'BMP', 'FFP']",6.0,0,0,0,None,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 157,Non-Rural,75,81,58,71.33333333,68.0,The University of Melbourne,6.96,71.33333333,CSP,1.0,Yes,,,,,None,4,0,0,None,None,Unsure,Unsure,"
 ",2022,,,CSP
-158,Rural,63,64,69,65.33333333,66.25,,,,,None,,Griffith University,6.16,66.25,"['CSP', 'BMP', 'FFP']",2.0,12,0,0,None,Tier 1,,Well,"
+158,Rural,63,64,69,65.33333333,66.25,,,,,None,None,Griffith University,6.16,66.25,"['CSP', 'BMP', 'FFP']",2.0,12,0,0,None,Tier 1,,Well,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 159,Non-Rural,78,80,58,72.0,68.5,The University of Wollongong,5.5,68.5,CSP,1.0,Yes,,,,,None,0,0,0,1st,None,Unsure,Unsure,"
 ",2022,,,CSP
@@ -331,13 +331,13 @@
 ",2022,,,BMP
 165,Non-Rural,67,66,89,74.0,77.75,The University of Melbourne,7.0,74.0,CSP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Poorly,"
 ",2022,,,CSP
-166,Non-Rural,70,74,59,67.66666667,65.5,,,,,None,,The University of Queensland (Metro),7.0,67.66666667,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Poorly,"
+166,Non-Rural,70,74,59,67.66666667,65.5,,,,,None,None,The University of Queensland (Metro),7.0,67.66666667,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Poorly,"
 ",2022,,,"['CSP', 'BMP']"
 167,Rural,65,64,77,68.66666667,70.75,Deakin University,6.953,70.75,CSP,1.0,Yes,,,,,None,14,0,0,None,None,Yes,Very poorly,"rural training stream applicant
 ",2022,,,CSP
 168,Non-Rural,68,61,77,68.66666667,70.75,The University of Melbourne,6.565,68.66666667,CSP,3.0,No,The University of Wollongong,5.5,70.75,"['CSP', 'BMP', 'FFP']",2.0,0,2,0,3rd,None,Yes,Unsure,"
 ",2022,,,CSP
-169,Non-Rural,66,62,73,67.0,68.5,,,,,None,,The University of Queensland (Metro),7.0,67.0,"['CSP', 'BMP', 'FFP']",2.0,0,4,0,None,Tier 3,,Unsure,"
+169,Non-Rural,66,62,73,67.0,68.5,,,,,None,None,The University of Queensland (Metro),7.0,67.0,"['CSP', 'BMP', 'FFP']",2.0,0,4,0,None,Tier 3,,Unsure,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 170,Non-Rural,65,70,67,67.33333333,67.25,The University of Notre Dame Fremantle,6.18,67.33333333,CSP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Unsure,"wa resident, portfolio strongish for my age, personal statement and portfolio written well in my opinion. not stacked with volunteering etc, more just personal experiences that i could apply to being a doctor.
 ",2022,,,CSP
@@ -365,11 +365,11 @@
 ",2022,,,CSP
 182,Rural,68,93,57,72.66666667,68.75,The University of Queensland (Metro),6.885,72.66666667,CSP,1.0,Yes,,,,,None,2,0,0,None,None,Yes,Unsure,"
 ",2022,,,CSP
-183,Non-Rural,60,59,73,64.0,66.25,,,,,None,,The University of Western Australia,7.0,66.25,['CSP'],5.0,0,0,0,None,None,,Unsure,"
+183,Non-Rural,60,59,73,64.0,66.25,,,,,None,None,The University of Western Australia,7.0,66.25,['CSP'],5.0,0,0,0,None,None,,Unsure,"
 ",2022,,,['CSP']
 184,Non-Rural,67,77,78,74.0,75.0,The University of Western Australia,6.583,75.0,CSP,2.0,Yes,,,,,None,2,0,0,None,None,Yes,Unsure,"
 ",2022,,,CSP
-185,Rural,66,70,68,68.0,68.0,,,,,None,,The University of Notre Dame Sydney,6.5,68.0,"['CSP', 'BMP', 'FFP']",1.0,2,0,0,None,None,,Unsure,"strong portfolio
+185,Rural,66,70,68,68.0,68.0,,,,,None,None,The University of Notre Dame Sydney,6.5,68.0,"['CSP', 'BMP', 'FFP']",1.0,2,0,0,None,None,,Unsure,"strong portfolio
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 186,Non-Rural,69,60,78,69.0,71.25,The University of Western Australia,7.0,71.25,CSP,1.0,Yes,,,,,None,0,4,0,None,None,Yes,Well,"
 ",2022,,,CSP
@@ -381,7 +381,7 @@
 ",2022,,,CSP
 190,Non-Rural,69,79,58,68.66666667,66.0,The University of Notre Dame Sydney,6.5,68.66666667,CSP,1.0,Yes,,,,,None,8,0,0,1st,None,Yes,Unsure,"strong portfolio
 ",2022,,,CSP
-191,Rural,69,64,61,64.66666667,63.75,,,,,None,,Griffith University,7.0,63.75,"['CSP', 'BMP', 'FFP']",3.0,0,0,0,4th,None,,Poorly,"strong portfolio. interview let me down
+191,Rural,69,64,61,64.66666667,63.75,,,,,None,None,Griffith University,7.0,63.75,"['CSP', 'BMP', 'FFP']",3.0,0,0,0,4th,None,,Poorly,"strong portfolio. interview let me down
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 192,Non-Rural,57,63,70,63.33333333,65.0,Macquarie University,6.8333,65.0,FFP,5.0,Yes,,,,,None,2,0,3,2nd,None,Yes,Well,"
 ",2022,,,FFP
@@ -393,11 +393,11 @@
 ",2022,,,CSP
 196,Non-Rural,75,78,92,81.66666667,84.25,The University of Melbourne,7.0,81.66666667,CSP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Unsure,"
 ",2022,,,CSP
-197,Non-Rural,67,69,82,72.66666667,75.0,,,,,None,,Australian National University,6.719,75.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Unsure,"
+197,Non-Rural,67,69,82,72.66666667,75.0,,,,,None,None,Australian National University,6.719,75.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 198,Non-Rural,53,76,84,71.0,74.25,The University of Western Australia,6.95,74.25,CSP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Well,"
 ",2022,,,CSP
-199,Non-Rural,62,64,75,67.0,69.0,,,,,None,,The University of Notre Dame Sydney,6.8,67.0,"['CSP', 'BMP', 'FFP']",1.0,0,2,0,1st,None,,Very well,"good portfolio strength
+199,Non-Rural,62,64,75,67.0,69.0,,,,,None,None,The University of Notre Dame Sydney,6.8,67.0,"['CSP', 'BMP', 'FFP']",1.0,0,2,0,1st,None,,Very well,"good portfolio strength
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 200,Non-Rural,58,56,92,68.66666667,74.5,The University of Western Australia,6.976,74.5,CSP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Well,"
 ",2022,,,CSP
@@ -409,9 +409,9 @@
 ",2022,,,FFP
 204,Rural,69,50,62,60.33333333,60.75,Griffith University,6.75,60.75,CSP,2.0,No,The University of Queensland (Metro),6.962,60.33333333,"['CSP', 'BMP', 'FFP']",1.0,4,0,0,None,None,Yes,Well,"non-rmp rural student
 ",2022,,,CSP
-205,Non-Rural,68,64,70,67.33333333,68.0,,,,,None,,The University of Queensland (Metro),6.942,67.33333333,['CSP'],2.0,0,0,0,None,Tier 3,,Unsure,"
+205,Non-Rural,68,64,70,67.33333333,68.0,,,,,None,None,The University of Queensland (Metro),6.942,67.33333333,['CSP'],2.0,0,0,0,None,Tier 3,,Unsure,"
 ",2022,,,['CSP']
-206,Non-Rural,66,77,70,71.0,70.75,,,,,None,,The University of Notre Dame Sydney,6.94,71.0,"['CSP', 'BMP']",1.0,0,0,0,4th,None,,Very well,"
+206,Non-Rural,66,77,70,71.0,70.75,,,,,None,None,The University of Notre Dame Sydney,6.94,71.0,"['CSP', 'BMP']",1.0,0,0,0,4th,None,,Very well,"
 ",2022,,,"['CSP', 'BMP']"
 207,Non-Rural,58,62,90,70.0,75.0,The University of Melbourne,6.875,70.0,FFP,1.0,Yes,,,,,None,2,0,0,None,None,Yes,Unsure,"none
 ",2022,,,FFP
@@ -419,11 +419,11 @@
 ",2022,,,CSP
 209,Non-Rural,65,77,73,71.66666667,72.0,The University of Melbourne,6.725,71.66666667,CSP,1.0,Yes,,,,,None,0,2,0,None,None,Yes,Very well,"gam
 ",2022,,,CSP
-210,Non-Rural,64,69,65,66.0,65.75,,,,,None,,The University of Notre Dame Fremantle,6.453,66.0,['CSP'],1.0,0,0,0,None,None,,Very well,"strong portfolio; non-rural; no wa residency bonus
+210,Non-Rural,64,69,65,66.0,65.75,,,,,None,None,The University of Notre Dame Fremantle,6.453,66.0,['CSP'],1.0,0,0,0,None,None,,Very well,"strong portfolio; non-rural; no wa residency bonus
 ",2022,,,['CSP']
 211,Non-Rural,65,75,80,73.33333333,75.0,Griffith University,6.5,75.0,CSP,1.0,Yes,,,,,None,0,2,0,None,Tier 3,Yes,Very well,"
 ",2022,,,CSP
-212,Non-Rural,62,51,100,71.0,78.25,,,,,None,,The University of Melbourne,7.0,71.0,"['CSP', 'BMP']",1.0,2,0,0,None,None,,Unsure,"
+212,Non-Rural,62,51,100,71.0,78.25,,,,,None,None,The University of Melbourne,7.0,71.0,"['CSP', 'BMP']",1.0,2,0,0,None,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP']"
 213,Non-Rural,75,68,76,73.0,73.75,The University of Western Australia,6.826,73.75,CSP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Unsure,"
 ",2022,,,CSP
@@ -439,7 +439,7 @@
 ",2022,,,CSP
 219,Non-Rural,62,69,77,69.33333333,71.25,The University of Queensland (Metro),6.9375,69.33333333,CSP,3.0,Yes,,,,,None,0,0,0,None,None,Yes,Well,"
 ",2022,,,CSP
-220,Non-Rural,72,69,63,68.0,66.75,,,,,None,,The University of Queensland (Metro),7.0,68.0,"['CSP', 'BMP']",2.0,0,0,0,2nd,None,,Well,"
+220,Non-Rural,72,69,63,68.0,66.75,,,,,None,None,The University of Queensland (Metro),7.0,68.0,"['CSP', 'BMP']",2.0,0,0,0,2nd,None,,Well,"
 ",2022,,,"['CSP', 'BMP']"
 221,Non-Rural,72,70,99,80.33333333,85.0,The University of Melbourne,7.0,80.33333333,CSP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Very well,"
 ",2022,,,CSP
@@ -449,15 +449,15 @@
 ",2022,,,CSP
 224,Non-Rural,66,61,83,70.0,73.25,The University of Western Australia,7.0,73.25,CSP,2.0,No,The University of Melbourne,7.0,70.0,"['CSP', 'BMP']",1.0,0,0,0,None,None,Yes,Unsure,"
 ",2022,,,CSP
-225,Non-Rural,64,69,68,67.0,67.25,,,,,None,,The University of Queensland (Metro),6.742,67.0,"['CSP', 'BMP', 'FFP']",3.0,2,0,0,None,Tier 3,,Well,"
+225,Non-Rural,64,69,68,67.0,67.25,,,,,None,None,The University of Queensland (Metro),6.742,67.0,"['CSP', 'BMP', 'FFP']",3.0,2,0,0,None,Tier 3,,Well,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 226,Non-Rural,69,82,90,80.33333333,82.75,The University of Melbourne,6.988,80.33333333,CSP,1.0,Yes,,,,,None,0,2,0,None,None,Yes,Unsure,"
 ",2022,,,CSP
-227,Non-Rural,65,78,67,70.0,69.25,,,,,None,,The University of Wollongong,5.5,69.25,"['CSP', 'BMP', 'FFP']",1.0,2,0,0,4th,None,,Very poorly,"
+227,Non-Rural,65,78,67,70.0,69.25,,,,,None,None,The University of Wollongong,5.5,69.25,"['CSP', 'BMP', 'FFP']",1.0,2,0,0,4th,None,,Very poorly,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 228,Non-Rural,69,71,61,67.0,65.5,The University of Notre Dame Sydney,6.64,67.0,FFP,1.0,Yes,,,,,None,0,2,0,4th,None,Yes,Poorly,"i think my portfolio was strong. i had previously interviewed with unds with lower scores
 ",2022,,,FFP
-229,Non-Rural,67,52,72,63.66666667,65.75,,,,,None,,The University of Western Australia,6.881,65.75,['CSP'],5.0,0,4,0,None,None,,Very poorly,"
+229,Non-Rural,67,52,72,63.66666667,65.75,,,,,None,None,The University of Western Australia,6.881,65.75,['CSP'],5.0,0,4,0,None,None,,Very poorly,"
 ",2022,,,['CSP']
 230,Rural,60,64,67,63.66666667,64.5,Deakin University,6.71,64.5,CSP,1.0,Yes,,,,,None,8,0,0,None,None,Yes,Very well,"rts
 ",2022,,,CSP
@@ -467,23 +467,23 @@
 ",2022,,,CSP
 233,Non-Rural,66,68,74,69.33333333,70.5,The University of Queensland (Metro),6.97,69.33333333,CSP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Well,"
 ",2022,,,CSP
-234,Rural,74,68,51,64.33333333,61.0,,,,,None,,Griffith University,6.68,61.0,"['CSP', 'BMP']",1.0,14,0,0,None,None,,Poorly,"
+234,Rural,74,68,51,64.33333333,61.0,,,,,None,None,Griffith University,6.68,61.0,"['CSP', 'BMP']",1.0,14,0,0,None,None,,Poorly,"
 ",2022,,,"['CSP', 'BMP']"
 235,Non-Rural,77,72,93,80.66666667,83.75,The University of Western Australia,6.2,83.75,CSP,2.0,Yes,,,,,None,0,0,0,None,None,Yes,Very well,"
 ",2022,,,CSP
 236,Rural,54,56,64,58.0,59.5,The University of Wollongong,5.5,59.5,BMP,1.0,Yes,,,,,None,0,0,0,3rd,None,Yes,Unsure,"
 ",2022,,,BMP
-237,Non-Rural,58,78,70,68.66666667,69.0,,,,,None,,The University of Queensland (Metro),7.0,68.66666667,"['CSP', 'BMP']",2.0,0,2,0,None,None,,Well,"
+237,Non-Rural,58,78,70,68.66666667,69.0,,,,,None,None,The University of Queensland (Metro),7.0,68.66666667,"['CSP', 'BMP']",2.0,0,2,0,None,None,,Well,"
 ",2022,,,"['CSP', 'BMP']"
 238,Non-Rural,66,59,76,67.0,69.25,The University of Western Australia,6.9,69.25,CSP,4.0,No,The University of Queensland (Metro),6.8,67.0,"['CSP', 'BMP']",3.0,0,0,0,None,Tier 3,Unsure,Very well,"
 ",2022,,,CSP
 239,Non-Rural,66,75,82,74.33333333,76.25,The University of Western Australia,6.76,76.25,CSP,1.0,Yes,,,,,None,0,2,0,None,None,Yes,Well,"
 ",2022,,,CSP
-240,Rural,63,67,67,65.66666667,66.0,,,,,None,,The University of Queensland (Metro),7.0,65.66666667,['CSP'],1.0,4,2,3,None,None,,Unsure,"did not apply rmp
+240,Rural,63,67,67,65.66666667,66.0,,,,,None,None,The University of Queensland (Metro),7.0,65.66666667,['CSP'],1.0,4,2,3,None,None,,Unsure,"did not apply rmp
 ",2022,,,['CSP']
-241,Non-Rural,59,83,83,75.0,77.0,,,,,None,,The University of Melbourne,7.0,75.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Well,"
+241,Non-Rural,59,83,83,75.0,77.0,,,,,None,None,The University of Melbourne,7.0,75.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Well,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
-242,Non-Rural,54,76,62,64.0,63.5,,,,,None,,The University of Queensland (Metro),7.0,64.0,"['CSP', 'BMP', 'FFP']",3.0,0,2,0,1st,Tier 3,,Unsure,"
+242,Non-Rural,54,76,62,64.0,63.5,,,,,None,None,The University of Queensland (Metro),7.0,64.0,"['CSP', 'BMP', 'FFP']",3.0,0,2,0,1st,Tier 3,,Unsure,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 243,Rural,73,75,76,74.66666667,75.0,The University of Queensland (RMP),6.86,74.66666667,CSP,1.0,Yes,,,,,None,0,0,0,None,Tier 1,Yes,Well,"
 ",2022,,,CSP
@@ -497,9 +497,9 @@
 ",2022,,,CSP
 248,Non-Rural,62,68,65,65.0,65.0,Macquarie University,6.63,65.0,FFP,5.0,No,The University of Queensland (Metro),7.0,65.0,"['CSP', 'BMP', 'FFP']",1.0,0,2,0,4th,Tier 3,Yes,Unsure,"rmp applicant
 ",2022,,,FFP
-249,Non-Rural,66,82,61,69.66666667,67.5,,,,,None,,Macquarie University,6.8,67.5,"['CSP', 'BMP', 'FFP']",6.0,0,0,0,None,None,,Well,"
+249,Non-Rural,66,82,61,69.66666667,67.5,,,,,None,None,Macquarie University,6.8,67.5,"['CSP', 'BMP', 'FFP']",6.0,0,0,0,None,None,,Well,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
-250,Non-Rural,67,65,63,65.0,64.5,,,,,None,,The University of Wollongong,5.5,64.5,"['CSP', 'BMP']",3.0,4,0,0,3rd,None,,Unsure,"
+250,Non-Rural,67,65,63,65.0,64.5,,,,,None,None,The University of Wollongong,5.5,64.5,"['CSP', 'BMP']",3.0,4,0,0,3rd,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP']"
 251,Non-Rural,59,74,65,66.0,65.75,The University of Western Australia,6.96,65.75,CSP,3.0,Yes,,,,,None,0,0,0,None,None,No,Unsure,"
 ",2022,,,CSP
@@ -507,7 +507,7 @@
 ",2022,,,CSP
 253,Non-Rural,62,60,75,65.66666667,68.0,Australian National University,6.942,68.0,CSP,2.0,No,The University of Notre Dame Sydney,6.942,65.66666667,"['CSP', 'BMP']",1.0,2,0,0,3rd,None,No,Well,"felt like slightly above average portfolio, nil rural experience
 ",2022,,,CSP
-254,Rural,74,84,79,79.0,79.0,,,,,None,,The University of Melbourne,6.4,79.0,['CSP'],1.0,0,2,0,None,None,,Unsure,"
+254,Rural,74,84,79,79.0,79.0,,,,,None,None,The University of Melbourne,6.4,79.0,['CSP'],1.0,0,2,0,None,None,,Unsure,"
 ",2022,,,['CSP']
 255,Non-Rural,65,81,55,67.0,64.0,The University of Notre Dame Sydney,6.16,67.0,CSP,2.0,Yes,,,,,None,0,0,0,4th,None,Yes,Well,"
 ",2022,,,CSP
@@ -517,19 +517,19 @@
 ",2022,,,BMP
 258,Non-Rural,62,64,74,66.66666667,68.5,Griffith University,6.89,68.5,BMP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Well,"
 ",2022,,,BMP
-259,Non-Rural,63,69,84,72.0,75.0,,,,,None,,Griffith University,6.7,75.0,"['CSP', 'BMP']",2.0,0,0,0,None,None,,Well,"
+259,Non-Rural,63,69,84,72.0,75.0,,,,,None,None,Griffith University,6.7,75.0,"['CSP', 'BMP']",2.0,0,0,0,None,None,,Well,"
 ",2022,,,"['CSP', 'BMP']"
 260,Rural,60,60,60,60.0,60.0,The University of Queensland (RMP),5.9,60.0,CSP,1.0,Yes,,,,,None,0,0,3,3rd,Tier 1,Yes,Well,"rmp tier 1 - the spot was basically reserved for me
 ",2022,,,CSP
 261,Non-Rural,68,77,84,76.33333333,78.25,Griffith University,6.6,78.25,CSP,1.0,Yes,,,,,None,0,0,0,None,None,No,Well,"
 ",2022,,,CSP
-262,Non-Rural,72,62,72,68.66666667,69.5,,,,,None,,The University of Queensland (Metro),7.0,68.66666667,"['CSP', 'BMP']",1.0,0,0,0,3rd,None,,Well,"
+262,Non-Rural,72,62,72,68.66666667,69.5,,,,,None,None,The University of Queensland (Metro),7.0,68.66666667,"['CSP', 'BMP']",1.0,0,0,0,3rd,None,,Well,"
 ",2022,,,"['CSP', 'BMP']"
 263,Non-Rural,54,66,80,66.66666667,70.0,The University of Western Australia,6.741,70.0,CSP,2.0,Yes,,,,,None,0,0,0,None,None,No,Well,"
 ",2022,,,CSP
 264,Rural,54,62,51,55.66666667,54.5,The University of Wollongong,5.5,54.5,CSP,1.0,Yes,,,,,None,0,0,0,4th,None,Yes,Well,"strong portfolio with excellent lived rural experiences
 ",2022,,,CSP
-265,Non-Rural,59,71,67,65.66666667,66.0,,,,,None,,The University of Queensland (Metro),7.0,65.66666667,"['CSP', 'BMP', 'FFP']",3.0,0,2,0,2nd,Tier 3,,Well,"average portfolio. rural ties through family although haven’t resided there to get bonus.
+265,Non-Rural,59,71,67,65.66666667,66.0,,,,,None,None,The University of Queensland (Metro),7.0,65.66666667,"['CSP', 'BMP', 'FFP']",3.0,0,2,0,2nd,Tier 3,,Well,"average portfolio. rural ties through family although haven’t resided there to get bonus.
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 266,Rural,61,60,62,61.0,61.25,The University of Notre Dame Fremantle,6.0,61.0,CSP,2.0,No,The University of Western Australia,5.9,61.25,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,Yes,Unsure,"strong portfolio, wa resident, rural experience
 ",2022,,,CSP
@@ -551,7 +551,7 @@
 ",2022,,,CSP
 275,Non-Rural,68,80,66,71.33333333,70.0,The University of Queensland (Metro),6.656,71.33333333,CSP,2.0,Yes,,,,,None,0,0,0,None,Tier 3,Yes,Well,"
 ",2022,,,CSP
-276,Rural,51,54,56,53.66666667,54.25,,,,,None,,The University of Notre Dame Fremantle,6.3,53.66666667,"['CSP', 'BMP', 'FFP']",1.0,12,2,3,None,None,,Unsure,"portfolio had good range of experiences including rural ones
+276,Rural,51,54,56,53.66666667,54.25,,,,,None,None,The University of Notre Dame Fremantle,6.3,53.66666667,"['CSP', 'BMP', 'FFP']",1.0,12,2,3,None,None,,Unsure,"portfolio had good range of experiences including rural ones
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 277,Non-Rural,68,78,68,71.33333333,70.5,The University of Melbourne,6.76,71.33333333,FFP,1.0,Yes,,,,,None,0,2,0,None,None,No,Well,"
 ",2022,,,FFP
@@ -563,7 +563,7 @@
 ",2022,,,CSP
 281,Non-Rural,65,74,65,68.0,67.25,Australian National University,6.979,67.25,CSP,3.0,Yes,,,,,None,0,2,0,None,None,Yes,Very well,"
 ",2022,,,CSP
-282,Non-Rural,67,70,74,70.33333333,71.25,,,,,None,,The University of Notre Dame Sydney,6.92,70.33333333,"['CSP', 'BMP']",4.0,0,0,0,1st,None,,Very well,"strong portfolio (i thought very strong)
+282,Non-Rural,67,70,74,70.33333333,71.25,,,,,None,None,The University of Notre Dame Sydney,6.92,70.33333333,"['CSP', 'BMP']",4.0,0,0,0,1st,None,,Very well,"strong portfolio (i thought very strong)
 ",2022,,,"['CSP', 'BMP']"
 283,Rural,71,71,69,70.33333333,70.0,The University of Notre Dame Fremantle,6.3,70.33333333,CSP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Well,"portfolio felt strong
 ",2022,,,CSP
@@ -577,9 +577,9 @@
 ",2022,,,BMP
 288,Non-Rural,59,78,59,65.33333333,63.75,The University of Notre Dame Fremantle,6.979,65.33333333,CSP,1.0,Yes,,,,,None,0,0,0,None,None,No,Well,"
 ",2022,,,CSP
-289,Non-Rural,67,64,95,75.33333333,80.25,,,,,None,,The University of Melbourne,6.708,75.33333333,"['CSP', 'BMP']",1.0,2,0,0,None,None,,Well,"
+289,Non-Rural,67,64,95,75.33333333,80.25,,,,,None,None,The University of Melbourne,6.708,75.33333333,"['CSP', 'BMP']",1.0,2,0,0,None,None,,Well,"
 ",2022,,,"['CSP', 'BMP']"
-290,Non-Rural,66,82,69,72.33333333,71.5,,,,,None,,The University of Queensland (Metro),6.65,72.33333333,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Well,"
+290,Non-Rural,66,82,69,72.33333333,71.5,,,,,None,None,The University of Queensland (Metro),6.65,72.33333333,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Well,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 291,Rural,67,84,69,73.33333333,72.25,Griffith University,7.0,72.25,BMP,2.0,No,The University of Queensland (Metro),7.0,73.33333333,"['CSP', 'BMP']",1.0,0,0,0,None,None,Yes,Well,"did not apply rmp
 ",2022,,,BMP
@@ -591,7 +591,7 @@
 ",2022,,,CSP
 295,Rural,62,70,55,62.33333333,60.5,Deakin University,6.5,60.5,BMP,1.0,Yes,,,,,None,12,0,0,4th,None,Yes,Well,"
 ",2022,,,BMP
-296,Non-Rural,63,71,63,65.66666667,65.0,,,,,None,,The University of Notre Dame Sydney,6.5,65.66666667,"['CSP', 'BMP']",3.0,2,0,0,None,None,,Very well,"
+296,Non-Rural,63,71,63,65.66666667,65.0,,,,,None,None,The University of Notre Dame Sydney,6.5,65.66666667,"['CSP', 'BMP']",3.0,2,0,0,None,None,,Very well,"
 ",2022,,,"['CSP', 'BMP']"
 297,Rural,51,62,67,60.0,61.75,The University of Queensland (RMP),7.0,60.0,CSP,1.0,Yes,,,,,None,0,0,0,None,Tier 2,Yes,Very well,"
 ",2022,,,CSP
@@ -605,7 +605,7 @@
 ",2022,,,CSP
 302,Non-Rural,63,60,77,66.66666667,69.25,Macquarie University,7.0,69.25,FFP,2.0,Yes,,,,,None,0,0,0,None,None,Unsure,Well,"
 ",2022,,,FFP
-303,Non-Rural,67,72,61,66.66666667,65.25,,,,,None,,The University of Notre Dame Sydney,6.625,66.66666667,"['CSP', 'BMP']",3.0,2,0,0,None,None,,Very well,"
+303,Non-Rural,67,72,61,66.66666667,65.25,,,,,None,None,The University of Notre Dame Sydney,6.625,66.66666667,"['CSP', 'BMP']",3.0,2,0,0,None,None,,Very well,"
 ",2022,,,"['CSP', 'BMP']"
 304,Non-Rural,70,76,76,74.0,74.5,The University of Melbourne,6.56,74.0,FFP,1.0,Yes,,,,,None,0,0,0,None,None,No,Unsure,"
 ",2022,,,FFP
@@ -617,43 +617,43 @@
 ",2022,,,CSP
 308,Non-Rural,66,75,74,71.66666667,72.25,Australian National University,6.92,72.25,CSP,2.0,No,The University of Wollongong,5.5,72.25,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,2nd,None,No,Well,"
 ",2022,,,CSP
-309,Non-Rural,61,65,77,67.66666667,70.0,,,,,None,,The University of Western Australia,6.854,70.0,"['CSP', 'BMP']",6.0,0,0,0,None,None,,Unsure,"
+309,Non-Rural,61,65,77,67.66666667,70.0,,,,,None,None,The University of Western Australia,6.854,70.0,"['CSP', 'BMP']",6.0,0,0,0,None,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP']"
 310,Non-Rural,65,79,93,79.0,82.5,The University of Melbourne,6.444,79.0,CSP,1.0,Yes,,,,,None,0,0,0,None,None,Unsure,Poorly,"
 ",2022,,,CSP
 311,Non-Rural,63,76,72,70.33333333,70.75,The University of Melbourne,6.875,70.33333333,CSP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Unsure,"
 ",2022,,,CSP
-312,Non-Rural,65,67,63,65.0,64.5,,,,,None,,The University of Notre Dame Fremantle,6.9132,65.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,2nd,None,,Unsure,"wa resident, strongish portfolio in my opinion
+312,Non-Rural,65,67,63,65.0,64.5,,,,,None,None,The University of Notre Dame Fremantle,6.9132,65.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,2nd,None,,Unsure,"wa resident, strongish portfolio in my opinion
 ",2022,,,"['CSP', 'BMP', 'FFP']"
-313,Non-Rural,63,65,65,64.33333333,64.5,,,,,None,,The University of Queensland (Metro),7.0,64.33333333,"['CSP', 'BMP']",1.0,0,2,0,None,Tier 3,,Well,"
+313,Non-Rural,63,65,65,64.33333333,64.5,,,,,None,None,The University of Queensland (Metro),7.0,64.33333333,"['CSP', 'BMP']",1.0,0,2,0,None,Tier 3,,Well,"
 ",2022,,,"['CSP', 'BMP']"
-314,Non-Rural,74,67,62,67.66666667,66.25,,,,,None,,The University of Queensland (Metro),7.0,67.66666667,"['CSP', 'BMP', 'FFP']",1.0,4,2,0,None,Tier 3,,Unsure,"
+314,Non-Rural,74,67,62,67.66666667,66.25,,,,,None,None,The University of Queensland (Metro),7.0,67.66666667,"['CSP', 'BMP', 'FFP']",1.0,4,2,0,None,Tier 3,,Unsure,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 315,Rural,60,60,68,62.66666667,64.0,The University of Melbourne,6.875,62.66666667,BMP,1.0,Yes,,,,,None,0,0,0,None,None,No,Poorly,"
 ",2022,,,BMP
-316,Non-Rural,62,80,57,66.33333333,64.0,,,,,None,,The University of Queensland (Metro),7.0,66.33333333,"['CSP', 'BMP']",1.0,0,2,0,2nd,None,,Well,"
+316,Non-Rural,62,80,57,66.33333333,64.0,,,,,None,None,The University of Queensland (Metro),7.0,66.33333333,"['CSP', 'BMP']",1.0,0,2,0,2nd,None,,Well,"
 ",2022,,,"['CSP', 'BMP']"
 317,Rural,56,68,52,58.66666667,57.0,The University of Notre Dame Fremantle,5.86,58.66666667,BMP,1.0,Yes,,,,,None,12,0,0,None,None,Yes,Well,"wa resident, strong portfolio
 ",2022,,,BMP
-318,Non-Rural,79,76,76,77.0,76.75,,,,,None,,The University of Melbourne,6.1,77.0,"['CSP', 'BMP']",5.0,0,0,0,None,None,,Well,"
+318,Non-Rural,79,76,76,77.0,76.75,,,,,None,None,The University of Melbourne,6.1,77.0,"['CSP', 'BMP']",5.0,0,0,0,None,None,,Well,"
 ",2022,,,"['CSP', 'BMP']"
 319,Rural,75,80,65,73.33333333,71.25,The University of Notre Dame Fremantle,6.7,73.33333333,CSP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Well,"slightly above average portfolio (tough to tell), wa resident bonus
 ",2022,,,CSP
-320,Non-Rural,60,61,57,59.33333333,58.75,,,,,None,,Deakin University,7.0,58.75,"['CSP', 'BMP']",1.0,10,0,0,4th,None,,Unsure,"
+320,Non-Rural,60,61,57,59.33333333,58.75,,,,,None,None,Deakin University,7.0,58.75,"['CSP', 'BMP']",1.0,10,0,0,4th,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP']"
 321,Non-Rural,62,68,90,73.33333333,77.5,The University of Melbourne,7.0,73.33333333,CSP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Poorly,"no.
 ",2022,,,CSP
-322,Non-Rural,69,77,89,78.33333333,81.0,,,,,None,,The University of Melbourne,6.854,78.33333333,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Unsure,"
+322,Non-Rural,69,77,89,78.33333333,81.0,,,,,None,None,The University of Melbourne,6.854,78.33333333,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP']"
 323,Rural,57,72,67,65.33333333,65.75,The University of Melbourne,5.9,65.33333333,BMP,1.0,Yes,,,,,None,8,0,0,None,None,Unsure,Unsure,"gam
 ",2022,,,BMP
-324,Non-Rural,71,75,75,73.66666667,74.0,,,,,None,,The University of Queensland (Metro),7.0,73.66666667,"['CSP', 'BMP', 'FFP']",2.0,0,0,0,None,None,,Well,"
+324,Non-Rural,71,75,75,73.66666667,74.0,,,,,None,None,The University of Queensland (Metro),7.0,73.66666667,"['CSP', 'BMP', 'FFP']",2.0,0,0,0,None,None,,Well,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 325,Non-Rural,55,59,61,58.33333333,59.0,The University of Notre Dame Sydney,6.969,58.33333333,CSP,1.0,Yes,,,,,None,0,0,0,None,None,No,Unsure,"
 ",2022,,,CSP
 326,Non-Rural,65,78,55,66.0,63.25,The University of Notre Dame Fremantle,6.47,66.0,CSP,1.0,Yes,,,,,None,2,0,0,None,None,Yes,Well,"above average portfolio/life experience demonstrated
 ",2022,,,CSP
-327,Non-Rural,58,61,70,63.0,64.75,,,,,None,,Macquarie University,6.83,64.75,"['CSP', 'BMP', 'FFP']",3.0,0,0,3,None,None,,Unsure,"
+327,Non-Rural,58,61,70,63.0,64.75,,,,,None,None,Macquarie University,6.83,64.75,"['CSP', 'BMP', 'FFP']",3.0,0,0,3,None,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 328,Non-Rural,73,71,70,71.33333333,71.0,The University of Melbourne,6.938,71.33333333,CSP,1.0,Yes,,,,,None,0,0,0,None,None,Unsure,Poorly,"
 ",2022,,,CSP
@@ -663,35 +663,35 @@
 ",2022,,,CSP
 331,Non-Rural,60,61,83,68.0,71.75,The University of Melbourne,6.63,68.0,CSP,5.0,No,Griffith University,7.0,71.75,"['CSP', 'BMP']",1.0,0,4,0,None,None,Yes,Poorly,"phd
 ",2022,,,CSP
-332,Non-Rural,75,66,70,70.33333333,70.25,,,,,None,,The University of Western Australia,6.62,70.25,"['CSP', 'BMP', 'FFP']",6.0,0,0,0,None,None,,Unsure,"
+332,Non-Rural,75,66,70,70.33333333,70.25,,,,,None,None,The University of Western Australia,6.62,70.25,"['CSP', 'BMP', 'FFP']",6.0,0,0,0,None,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 333,Non-Rural,57,67,58,60.66666667,60.0,The University of Notre Dame Sydney,6.92,60.66666667,FFP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Unsure,"
 ",2022,,,FFP
 334,Non-Rural,66,82,67,71.66666667,70.5,The University of Melbourne,6.863,71.66666667,CSP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Unsure,"
 ",2022,,,CSP
-335,Non-Rural,58,64,74,65.33333333,67.5,,,,,None,,The University of Queensland (Metro),6.957,65.33333333,"['CSP', 'BMP', 'FFP']",2.0,0,0,0,None,Tier 3,,Poorly,"uq central queensland-wide bay rmp applicant
+335,Non-Rural,58,64,74,65.33333333,67.5,,,,,None,None,The University of Queensland (Metro),6.957,65.33333333,"['CSP', 'BMP', 'FFP']",2.0,0,0,0,None,Tier 3,,Poorly,"uq central queensland-wide bay rmp applicant
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 336,Non-Rural,64,79,75,72.66666667,73.25,The University of Melbourne,6.937,72.66666667,CSP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Poorly,"
 ",2022,,,CSP
 337,Non-Rural,63,74,73,70.0,70.75,Australian National University,6.958,70.75,CSP,2.0,No,The University of Melbourne,6.95,70.0,"['CSP', 'BMP']",1.0,2,2,0,None,None,No,Unsure,"gam
 ",2022,,,CSP
-338,Non-Rural,64,68,82,71.33333333,74.0,,,,,None,,The University of Queensland (Metro),6.6,71.33333333,"['CSP', 'BMP', 'FFP']",2.0,0,0,0,None,Tier 3,,Well,"above average portfolio
+338,Non-Rural,64,68,82,71.33333333,74.0,,,,,None,None,The University of Queensland (Metro),6.6,71.33333333,"['CSP', 'BMP', 'FFP']",2.0,0,0,0,None,Tier 3,,Well,"above average portfolio
 ",2022,,,"['CSP', 'BMP', 'FFP']"
-339,Rural,61,57,69,62.33333333,64.0,,,,,None,,The University of Queensland (Metro),6.2,62.33333333,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Well,"interviewed for metro
+339,Rural,61,57,69,62.33333333,64.0,,,,,None,None,The University of Queensland (Metro),6.2,62.33333333,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Well,"interviewed for metro
 ",2022,,,"['CSP', 'BMP']"
 340,Non-Rural,65,89,62,72.0,69.5,Deakin University,6.615,69.5,CSP,4.0,Yes,,,,,None,6,0,0,None,None,No,Well,"
 ",2022,,,CSP
-341,Rural,60,69,77,68.66666667,70.75,,,,,None,,The University of Wollongong,5.5,70.75,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,4th,None,,Well,"pretty good portfolio
+341,Rural,60,69,77,68.66666667,70.75,,,,,None,None,The University of Wollongong,5.5,70.75,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,4th,None,,Well,"pretty good portfolio
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 342,Non-Rural,72,57,77,68.66666667,70.75,Deakin University,6.813,70.75,BMP,3.0,No,Griffith University,6.745,70.75,"['CSP', 'BMP']",2.0,6,0,0,None,None,Yes,Unsure,"
 ",2022,,,BMP
-343,Non-Rural,63,80,65,69.33333333,68.25,,,,,None,,The University of Melbourne,7.0,69.33333333,"['CSP', 'BMP']",1.0,2,0,0,None,None,,Poorly,"
+343,Non-Rural,63,80,65,69.33333333,68.25,,,,,None,None,The University of Melbourne,7.0,69.33333333,"['CSP', 'BMP']",1.0,2,0,0,None,None,,Poorly,"
 ",2022,,,"['CSP', 'BMP']"
 344,Non-Rural,69,59,92,73.33333333,78.0,The University of Melbourne,6.9,73.33333333,CSP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Well,"
 ",2022,,,CSP
 345,Non-Rural,58,63,72,64.33333333,66.25,Macquarie University,6.833,66.25,FFP,5.0,No,The University of Queensland (Metro),7.0,64.33333333,"['CSP', 'BMP', 'FFP']",2.0,2,2,0,4th,Tier 3,Yes,Unsure,"applied for gam, interviewed for uq rmp, got passed down to mq
 ",2022,,,FFP
-346,Non-Rural,74,75,61,70.0,67.75,,,,,None,,The University of Queensland (Metro),6.3,70.0,"['CSP', 'BMP', 'FFP']",1.0,2,0,0,None,Tier 3,,Unsure,"
+346,Non-Rural,74,75,61,70.0,67.75,,,,,None,None,The University of Queensland (Metro),6.3,70.0,"['CSP', 'BMP', 'FFP']",1.0,2,0,0,None,Tier 3,,Unsure,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 347,Non-Rural,59,68,57,61.33333333,60.25,The University of Notre Dame Sydney,6.979,61.33333333,CSP,3.0,Yes,,,,,None,6,0,0,3rd,None,Yes,Unsure,"above average portfolio - consistent experiences in the following: disability care, allied health roles, leadership roles, volunteering (domestic and international projects)
 ",2022,,,CSP
@@ -701,15 +701,15 @@
 ",2022,,,CSP
 350,Non-Rural,86,76,77,79.66666667,79.0,Australian National University,6.65,79.0,CSP,1.0,Yes,,,,,None,0,2,0,None,None,Yes,Unsure,"
 ",2022,,,CSP
-351,Non-Rural,60,61,83,68.0,71.75,,,,,None,,Griffith University,6.6,71.75,"['CSP', 'BMP']",2.0,0,0,0,None,None,,Unsure,"
+351,Non-Rural,60,61,83,68.0,71.75,,,,,None,None,Griffith University,6.6,71.75,"['CSP', 'BMP']",2.0,0,0,0,None,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP']"
-352,Non-Rural,67,60,73,66.66666667,68.25,,,,,None,,The University of Queensland (Metro),7.0,66.66666667,['CSP'],2.0,0,2,0,None,None,,Well,"
+352,Non-Rural,67,60,73,66.66666667,68.25,,,,,None,None,The University of Queensland (Metro),7.0,66.66666667,['CSP'],2.0,0,2,0,None,None,,Well,"
 ",2022,,,['CSP']
 353,Non-Rural,62,68,78,69.33333333,71.5,Macquarie University,6.814,71.5,FFP,1.0,Yes,,,,,None,2,0,0,4th,None,Yes,Well,"above average portfolio
 ",2022,,,FFP
 354,Non-Rural,65,66,70,67.0,67.75,Griffith University,6.8269,67.75,BMP,4.0,No,The University of Queensland (Metro),6.8296,67.0,"['CSP', 'BMP']",3.0,0,0,0,None,None,Yes,Poorly,"
 ",2022,,,BMP
-355,Non-Rural,70,69,65,68.0,67.25,,,,,None,,The University of Notre Dame Sydney,6.688,68.0,"['CSP', 'BMP', 'FFP']",2.0,0,2,0,2nd,None,,Unsure,"
+355,Non-Rural,70,69,65,68.0,67.25,,,,,None,None,The University of Notre Dame Sydney,6.688,68.0,"['CSP', 'BMP', 'FFP']",2.0,0,2,0,2nd,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 356,Non-Rural,67,66,71,68.0,68.75,Macquarie University,6.895,68.75,FFP,6.0,No,Griffith University,6.895,68.75,"['CSP', 'BMP', 'FFP']",2.0,0,0,0,None,None,Unsure,Well,"
 ",2022,,,FFP
@@ -749,7 +749,7 @@
 ",2022,,,CSP
 374,Non-Rural,60,75,72,69.0,69.75,Griffith University,6.55,69.75,BMP,1.0,Yes,,,,,None,0,2,0,None,Tier 3,Yes,Well,"
 ",2022,,,BMP
-375,Non-Rural,62,73,58,64.33333333,62.75,,,,,None,,The University of Queensland (Metro),7.0,64.33333333,"['CSP', 'BMP', 'FFP']",1.0,0,2,0,None,Tier 3,,Well,"rmp
+375,Non-Rural,62,73,58,64.33333333,62.75,,,,,None,None,The University of Queensland (Metro),7.0,64.33333333,"['CSP', 'BMP', 'FFP']",1.0,0,2,0,None,Tier 3,,Well,"rmp
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 376,Rural,55,56,57,56.0,56.25,Deakin University,6.8,56.25,BMP,1.0,Yes,,,,,None,14,0,0,None,None,Yes,Well,"my offer is for deakin rural training stream
 ",2022,,,BMP
@@ -763,9 +763,9 @@
 ",2022,,,CSP
 381,Non-Rural,65,63,71,66.33333333,67.5,Australian National University,6.59,67.5,CSP,4.0,No,The University of Queensland (Metro),7.0,66.33333333,"['CSP', 'BMP']",3.0,0,2,0,None,None,Yes,Well,"
 ",2022,,,CSP
-382,Non-Rural,60,78,68,68.66666667,68.5,,,,,None,,The University of Queensland (Metro),7.0,68.66666667,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,Tier 3,,Well,"rmp applicant
+382,Non-Rural,60,78,68,68.66666667,68.5,,,,,None,None,The University of Queensland (Metro),7.0,68.66666667,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,Tier 3,,Well,"rmp applicant
 ",2022,,,"['CSP', 'BMP', 'FFP']"
-383,Non-Rural,69,70,71,70.0,70.25,,,,,None,,The University of Melbourne,6.979,70.0,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Well,"
+383,Non-Rural,69,70,71,70.0,70.25,,,,,None,None,The University of Melbourne,6.979,70.0,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Well,"
 ",2022,,,"['CSP', 'BMP']"
 384,Rural,71,56,65,64.0,64.25,The University of Queensland (RMP),6.1,64.0,CSP,3.0,No,The University of Notre Dame Fremantle,6.1,64.0,"['CSP', 'BMP']",1.0,6,0,0,None,Tier 2,Yes,Unsure,"
 ",2022,,,CSP
@@ -773,19 +773,19 @@
 ",2022,,,BMP
 386,Non-Rural,75,63,58,65.33333333,63.5,The University of Notre Dame Sydney,6.83,65.33333333,FFP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Well,"portfolio strong - phd, work in ngo sector and volunteer role eg for st john ambulance
 ",2022,,,FFP
-387,Non-Rural,61,73,73,69.0,70.0,,,,,None,,The University of Melbourne,6.89,69.0,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Unsure,"
+387,Non-Rural,61,73,73,69.0,70.0,,,,,None,None,The University of Melbourne,6.89,69.0,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP']"
-388,Non-Rural,65,73,95,77.66666667,82.0,,,,,None,,The University of Melbourne,7.0,77.66666667,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Unsure,"
+388,Non-Rural,65,73,95,77.66666667,82.0,,,,,None,None,The University of Melbourne,7.0,77.66666667,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
-389,Non-Rural,70,74,64,69.33333333,68.0,,,,,None,,The University of Western Australia,6.89,68.0,"['CSP', 'BMP', 'FFP']",4.0,0,0,0,None,None,,Well,"
+389,Non-Rural,70,74,64,69.33333333,68.0,,,,,None,None,The University of Western Australia,6.89,68.0,"['CSP', 'BMP', 'FFP']",4.0,0,0,0,None,None,,Well,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 390,Non-Rural,58,58,69,61.66666667,63.5,The University of Notre Dame Sydney,6.708,61.66666667,CSP,1.0,Yes,,,,,None,0,0,0,2nd,None,Yes,Well,"experience as an engineer
 ",2022,,,CSP
 391,Non-Rural,60,75,74,69.66666667,70.75,Griffith University,6.51,70.75,CSP,3.0,Yes,,,,,None,0,2,0,None,Tier 3,Yes,Very well,"
 ",2022,,,CSP
-392,Non-Rural,63,75,72,70.0,70.5,,,,,None,,The University of Melbourne,6.85,70.0,"['CSP', 'BMP', 'FFP']",1.0,0,2,0,None,None,,Well,"
+392,Non-Rural,63,75,72,70.0,70.5,,,,,None,None,The University of Melbourne,6.85,70.0,"['CSP', 'BMP', 'FFP']",1.0,0,2,0,None,None,,Well,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
-393,Non-Rural,64,69,74,69.0,70.25,,,,,None,,The University of Melbourne,7.0,69.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Unsure,"
+393,Non-Rural,64,69,74,69.0,70.25,,,,,None,None,The University of Melbourne,7.0,69.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 394,Rural,53,61,52,55.33333333,54.5,Griffith University,6.3,54.5,BMP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Well,"
 ",2022,,,BMP
@@ -793,13 +793,13 @@
 ",2022,,,BMP
 396,Non-Rural,76,62,66,68.0,67.5,The University of Western Australia,7.0,67.5,CSP,2.0,Yes,,,,,None,0,0,0,None,None,No,Unsure,"
 ",2022,,,CSP
-397,Non-Rural,62,73,70,68.33333333,68.75,,,,,None,,The University of Wollongong,5.5,68.75,"['CSP', 'BMP', 'FFP']",2.0,0,2,0,3rd,None,,Poorly,"very strong portfolio
+397,Non-Rural,62,73,70,68.33333333,68.75,,,,,None,None,The University of Wollongong,5.5,68.75,"['CSP', 'BMP', 'FFP']",2.0,0,2,0,3rd,None,,Poorly,"very strong portfolio
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 398,Non-Rural,61,70,66,65.66666667,65.75,Deakin University,6.749,65.75,CSP,1.0,Yes,,,,,None,8,0,0,1st,None,Yes,Unsure,"i have applied several years. i have never had my portfolio references checked- it’s such a waste of time. the uow casper system is lacking. last year i scored in the highest quintile for casper. my interview performance was insufficient to get a place. in the interim i undertook interview tutoring to solidify communication of my skills. concurrently my casper quintile dropped to the lowest quintile. given my interview skills improved sufficiently to get me into deakin, i would assume my casper score was better or equal to last year when i was unsuccessful in my interview. either this years uow cohort is significantly more emotionally intelligent (hard to accept given 2 years of lockdown), the cohort has been up skilled through tutoring, or the casper is invalid.
 ",2022,,,CSP
-399,Non-Rural,62,78,65,68.33333333,67.5,,,,,None,,The University of Queensland (Metro),7.0,68.33333333,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Well,"
+399,Non-Rural,62,78,65,68.33333333,67.5,,,,,None,None,The University of Queensland (Metro),7.0,68.33333333,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Well,"
 ",2022,,,"['CSP', 'BMP']"
-400,Non-Rural,68,82,73,74.33333333,74.0,,,,,None,,The University of Melbourne,6.84,74.33333333,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Unsure,"
+400,Non-Rural,68,82,73,74.33333333,74.0,,,,,None,None,The University of Melbourne,6.84,74.33333333,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP']"
 401,Non-Rural,74,68,90,77.33333333,80.5,The University of Melbourne,6.83,77.33333333,CSP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Well,"
 ",2022,,,CSP
@@ -817,41 +817,41 @@
 ",2022,,,FFP
 408,Non-Rural,63,70,51,61.33333333,58.75,The University of Notre Dame Sydney,6.55,61.33333333,CSP,1.0,Yes,,,,,None,0,0,0,2nd,None,Yes,Well,"strong portfolio (diverse experiences within and outside of healthcare, non-science background)
 ",2022,,,CSP
-409,Non-Rural,72,74,74,73.33333333,73.5,,,,,None,,Griffith University,6.94,73.5,['CSP'],1.0,0,0,0,None,None,,Well,"
+409,Non-Rural,72,74,74,73.33333333,73.5,,,,,None,None,Griffith University,6.94,73.5,['CSP'],1.0,0,0,0,None,None,,Well,"
 ",2022,,,['CSP']
 410,Rural,59,54,64,59.0,60.25,Deakin University,6.36,60.25,CSP,1.0,Yes,,,,,None,6,0,0,2nd,None,Yes,Well,"
 ",2022,,,CSP
 411,Rural,58,68,63,63.0,63.0,The University of Queensland (RMP),6.58,63.0,CSP,1.0,Yes,,,,,None,0,0,5,None,Tier 1,Unsure,Very well,"
 ",2022,,,CSP
-412,Rural,65,73,60,66.0,64.5,,,,,None,,The University of Queensland (Metro),6.93,66.0,['CSP'],1.0,0,0,0,None,None,,Unsure,"
+412,Rural,65,73,60,66.0,64.5,,,,,None,None,The University of Queensland (Metro),6.93,66.0,['CSP'],1.0,0,0,0,None,None,,Unsure,"
 ",2022,,,['CSP']
-413,Non-Rural,65,61,77,67.66666667,70.0,,,,,None,,Griffith University,6.855,70.0,"['CSP', 'BMP']",5.0,0,0,0,2nd,None,,Unsure,"
+413,Non-Rural,65,61,77,67.66666667,70.0,,,,,None,None,Griffith University,6.855,70.0,"['CSP', 'BMP']",5.0,0,0,0,2nd,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP']"
-414,Non-Rural,55,58,60,57.66666667,58.25,,,,,None,,Australian National University,6.0,58.25,"['CSP', 'BMP']",2.0,0,0,0,None,None,,Very poorly,"
+414,Non-Rural,55,58,60,57.66666667,58.25,,,,,None,None,Australian National University,6.0,58.25,"['CSP', 'BMP']",2.0,0,0,0,None,None,,Very poorly,"
 ",2022,,,"['CSP', 'BMP']"
-415,Non-Rural,52,70,74,65.33333333,67.5,,,,,None,,The University of Notre Dame Sydney,6.7,65.33333333,"['CSP', 'BMP', 'FFP']",2.0,4,0,0,3rd,None,,Well,"
+415,Non-Rural,52,70,74,65.33333333,67.5,,,,,None,None,The University of Notre Dame Sydney,6.7,65.33333333,"['CSP', 'BMP', 'FFP']",2.0,4,0,0,3rd,None,,Well,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
-416,Non-Rural,72,74,74,73.33333333,73.5,,,,,None,,Griffith University,6.94,73.5,['CSP'],1.0,0,0,0,None,None,,Unsure,"
+416,Non-Rural,72,74,74,73.33333333,73.5,,,,,None,None,Griffith University,6.94,73.5,['CSP'],1.0,0,0,0,None,None,,Unsure,"
 ",2022,,,['CSP']
 417,Non-Rural,65,59,74,66.0,68.0,The University of Melbourne,6.9,66.0,FFP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Unsure,"
 ",2022,,,FFP
 418,Non-Rural,68,72,70,70.0,70.0,Griffith University,6.85,70.0,CSP,2.0,No,The University of Queensland (Metro),6.8,70.0,"['CSP', 'BMP']",1.0,0,0,0,None,None,Yes,Well,"
 ",2022,,,CSP
-419,Non-Rural,66,64,58,62.66666667,61.5,,,,,None,,The University of Queensland (Metro),6.72,62.66666667,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Unsure,"
+419,Non-Rural,66,64,58,62.66666667,61.5,,,,,None,None,The University of Queensland (Metro),6.72,62.66666667,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 420,Non-Rural,54,70,67,63.66666667,64.5,Deakin University,6.715,64.5,CSP,4.0,No,The University of Queensland (Metro),7.0,63.66666667,"['CSP', 'BMP', 'FFP']",3.0,0,0,0,None,Tier 3,Yes,Well,"
 ",2022,,,CSP
-421,Non-Rural,83,60,82,75.0,76.75,,,,,None,,The University of Melbourne,6.73,75.0,"['CSP', 'BMP']",2.0,2,0,0,None,None,,Poorly,"
+421,Non-Rural,83,60,82,75.0,76.75,,,,,None,None,The University of Melbourne,6.73,75.0,"['CSP', 'BMP']",2.0,2,0,0,None,None,,Poorly,"
 ",2022,,,"['CSP', 'BMP']"
-422,Non-Rural,55,75,68,66.0,66.5,,,,,None,,The University of Melbourne,6.26,66.0,"['CSP', 'BMP', 'FFP']",3.0,0,0,0,None,None,,Unsure,"
+422,Non-Rural,55,75,68,66.0,66.5,,,,,None,None,The University of Melbourne,6.26,66.0,"['CSP', 'BMP', 'FFP']",3.0,0,0,0,None,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 423,Rural,59,62,53,58.0,56.75,The University of Western Australia,6.207,56.75,BMP,3.0,No,Griffith University,6.17,56.75,"['CSP', 'BMP']",1.0,4,0,3,None,None,Unsure,Unsure,"
 ",2022,,,BMP
-424,Non-Rural,67,63,58,62.66666667,61.5,,,,,None,,The University of Wollongong,5.5,61.5,['CSP'],6.0,6,2,0,4th,None,,Very poorly,"r
+424,Non-Rural,67,63,58,62.66666667,61.5,,,,,None,None,The University of Wollongong,5.5,61.5,['CSP'],6.0,6,2,0,4th,None,,Very poorly,"r
 ",2022,,,['CSP']
-425,Non-Rural,73,78,68,73.0,71.75,,,,,None,,Australian National University,6.2,71.75,"['CSP', 'BMP', 'FFP']",3.0,0,2,0,None,None,,Unsure,"
+425,Non-Rural,73,78,68,73.0,71.75,,,,,None,None,Australian National University,6.2,71.75,"['CSP', 'BMP', 'FFP']",3.0,0,2,0,None,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
-426,Non-Rural,66,59,86,70.33333333,74.25,,,,,None,,The University of Notre Dame Fremantle,6.42,70.33333333,"['CSP', 'BMP', 'FFP']",1.0,6,0,0,None,None,,Unsure,"above average portfolio and wa resident
+426,Non-Rural,66,59,86,70.33333333,74.25,,,,,None,None,The University of Notre Dame Fremantle,6.42,70.33333333,"['CSP', 'BMP', 'FFP']",1.0,6,0,0,None,None,,Unsure,"above average portfolio and wa resident
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 427,Non-Rural,68,75,84,75.66666667,77.75,The University of Queensland (Metro),6.34,75.66666667,BMP,3.0,No,Australian National University,6.34,77.75,"['CSP', 'BMP', 'FFP']",2.0,0,2,0,None,None,Unsure,Unsure,"second round offer
 ",2022,,,BMP
@@ -859,81 +859,81 @@
 ",2022,,,BMP
 429,Non-Rural,69,70,78,72.33333333,73.75,The University of Melbourne,7.0,72.33333333,CSP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Well,"
 ",2022,,,CSP
-430,Non-Rural,51,51,51,51.0,51.0,,,,,None,,Griffith University,5.0,51.0,"['CSP', 'BMP', 'FFP']",4.0,0,2,0,1st,Tier 3,,Very well,"naa
+430,Non-Rural,51,51,51,51.0,51.0,,,,,None,None,Griffith University,5.0,51.0,"['CSP', 'BMP', 'FFP']",4.0,0,2,0,1st,Tier 3,,Very well,"naa
 ",2022,,,"['CSP', 'BMP', 'FFP']"
-431,Rural,55,57,63,58.33333333,59.5,,,,,None,,The University of Melbourne,6.1,58.33333333,"['CSP', 'BMP', 'FFP']",1.0,0,0,3,None,None,,Unsure,"gam, rmp unimelb applicant
+431,Rural,55,57,63,58.33333333,59.5,,,,,None,None,The University of Melbourne,6.1,58.33333333,"['CSP', 'BMP', 'FFP']",1.0,0,0,3,None,None,,Unsure,"gam, rmp unimelb applicant
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 432,Non-Rural,66,79,67,70.66666667,69.75,The University of Melbourne,6.75,70.66666667,CSP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Poorly,"
 ",2022,,,CSP
-433,Non-Rural,56,71,56,61.0,59.75,,,,,None,,The University of Wollongong,5.5,59.75,['CSP'],1.0,2,0,0,None,None,,Poorly,"
+433,Non-Rural,56,71,56,61.0,59.75,,,,,None,None,The University of Wollongong,5.5,59.75,['CSP'],1.0,2,0,0,None,None,,Poorly,"
 ",2022,,,['CSP']
-434,Non-Rural,65,65,60,63.33333333,62.5,,,,,None,,The University of Notre Dame Sydney,6.75,63.33333333,"['CSP', 'BMP']",2.0,0,0,0,1st,None,,Well,"average portfolio strength
+434,Non-Rural,65,65,60,63.33333333,62.5,,,,,None,None,The University of Notre Dame Sydney,6.75,63.33333333,"['CSP', 'BMP']",2.0,0,0,0,1st,None,,Well,"average portfolio strength
 ",2022,,,"['CSP', 'BMP']"
-435,Non-Rural,59,61,63,61.0,61.5,,,,,None,,The University of Wollongong,5.5,61.5,"['CSP', 'BMP']",4.0,0,0,0,3rd,None,,Poorly,"
+435,Non-Rural,59,61,63,61.0,61.5,,,,,None,None,The University of Wollongong,5.5,61.5,"['CSP', 'BMP']",4.0,0,0,0,3rd,None,,Poorly,"
 ",2022,,,"['CSP', 'BMP']"
 436,Non-Rural,68,75,95,79.33333333,83.25,Australian National University,7.0,83.25,CSP,6.0,Yes,,,,,None,10,2,5,None,None,Yes,Very poorly,"
 ",2022,,,CSP
-437,Non-Rural,54,64,73,63.66666667,66.0,,,,,None,,Macquarie University,6.8,66.0,['CSP'],3.0,8,2,5,None,Tier 2,,Well,"heydhd
+437,Non-Rural,54,64,73,63.66666667,66.0,,,,,None,None,Macquarie University,6.8,66.0,['CSP'],3.0,8,2,5,None,Tier 2,,Well,"heydhd
 ",2022,,,['CSP']
-438,Non-Rural,68,69,73,70.0,70.75,,,,,None,,The University of Queensland (Metro),7.0,70.0,"['CSP', 'BMP']",1.0,0,2,0,None,None,,Well,"
+438,Non-Rural,68,69,73,70.0,70.75,,,,,None,None,The University of Queensland (Metro),7.0,70.0,"['CSP', 'BMP']",1.0,0,2,0,None,None,,Well,"
 ",2022,,,"['CSP', 'BMP']"
-439,Rural,60,78,51,63.0,60.0,,,,,None,,Griffith University,6.458,60.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,4th,Tier 2,,Unsure,"
+439,Rural,60,78,51,63.0,60.0,,,,,None,None,Griffith University,6.458,60.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,4th,Tier 2,,Unsure,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
-440,Non-Rural,55,55,55,55.0,55.0,,,,,None,,The University of Notre Dame Fremantle,5.66,55.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Unsure,"
+440,Non-Rural,55,55,55,55.0,55.0,,,,,None,None,The University of Notre Dame Fremantle,5.66,55.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Unsure,"
 ",2022,,,"['CSP', 'BMP', 'FFP']"
 441,Non-Rural,65,69,75,69.66666667,71.0,The University of Wollongong,5.5,71.0,BMP,1.0,Yes,,,,,None,0,0,0,None,None,Yes,Unsure,"
 ",2022,,,BMP
-442,Non-Rural,59,81,56,65.33333333,63.0,,,,,None,,The University of Notre Dame Fremantle,6.74,65.33333333,"['CSP', 'BMP', 'FFP']",2.0,2,0,0,None,None,,Poorly,"didnt speak about rural or indiginous health in interview
+442,Non-Rural,59,81,56,65.33333333,63.0,,,,,None,None,The University of Notre Dame Fremantle,6.74,65.33333333,"['CSP', 'BMP', 'FFP']",2.0,2,0,0,None,None,,Poorly,"didnt speak about rural or indiginous health in interview
 ",2022,,,"['CSP', 'BMP', 'FFP']"
-443,Non-Rural,79,71,67,72.33,71.0,,,,,None,,Griffith University,6.79,71.0,"['CSP', 'BMP']",1.0,4,0,0,2nd,None,,Poorly,didn’t prepare as already had other offer,2023,0-5,"Deakin, UniMelb, UNDS, UoW","['CSP', 'BMP']"
-444,Non-Rural,67,69,78,71.33,73.0,,,,,None,,Macquarie University,6.43,73.0,"['CSP', 'BMP', 'FFP']",3.0,0,0,0,3rd,None,,Very well,,2023,250+,"Deakin, UWA, UoW","['CSP', 'BMP', 'FFP']"
+443,Non-Rural,79,71,67,72.33,71.0,,,,,None,None,Griffith University,6.79,71.0,"['CSP', 'BMP']",1.0,4,0,0,2nd,None,,Poorly,didn’t prepare as already had other offer,2023,0-5,"Deakin, UniMelb, UNDS, UoW","['CSP', 'BMP']"
+444,Non-Rural,67,69,78,71.33,73.0,,,,,None,None,Macquarie University,6.43,73.0,"['CSP', 'BMP', 'FFP']",3.0,0,0,0,3rd,None,,Very well,,2023,250+,"Deakin, UWA, UoW","['CSP', 'BMP', 'FFP']"
 445,Non-Rural,65,74,69,69.33,69.25,Macquarie University,6.646,69.25,FFP,3.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,0,3,None,None,Unsure,Very well,,2023,11-25,,FFP
 446,Non-Rural,65,75,70,70.0,70.0,Griffith University,7.0,70.0,CSP,2.0,No,The University of Queensland (Metro),7.0,70.0,['CSP'],1.0,0,0,0,4th,None,Unsure,Poorly,,2023,11-25,,CSP
-447,Non-Rural,56,77,56,63.0,61.25,,,,,None,,Deakin University,6.552,61.25,"['CSP', 'BMP']",1.0,12,4,0,4th,None,,Unsure,,2023,11-25,"ANU, Griffith, UniMelb, UNDF, UNDS","['CSP', 'BMP']"
-448,Non-Rural,68,68,70,68.67,69.0,,,,,None,,Macquarie University,6.99,69.0,"['BMP', 'FFP']",1.0,0,0,0,2nd,None,,Very well,,2023,51-100,"ANU, UNDF, UNDS, UQ, UoW","['BMP', 'FFP']"
-449,Rural,54,60,51,55.0,54.0,,,,,None,,The University of Melbourne,6.756,55.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Unsure,,2023,26-50,"Deakin, Griffith, MQ, UQ, UWA","['CSP', 'BMP', 'FFP']"
+447,Non-Rural,56,77,56,63.0,61.25,,,,,None,None,Deakin University,6.552,61.25,"['CSP', 'BMP']",1.0,12,4,0,4th,None,,Unsure,,2023,11-25,"ANU, Griffith, UniMelb, UNDF, UNDS","['CSP', 'BMP']"
+448,Non-Rural,68,68,70,68.67,69.0,,,,,None,None,Macquarie University,6.99,69.0,"['BMP', 'FFP']",1.0,0,0,0,2nd,None,,Very well,,2023,51-100,"ANU, UNDF, UNDS, UQ, UoW","['BMP', 'FFP']"
+449,Rural,54,60,51,55.0,54.0,,,,,None,None,The University of Melbourne,6.756,55.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Unsure,,2023,26-50,"Deakin, Griffith, MQ, UQ, UWA","['CSP', 'BMP', 'FFP']"
 450,Non-Rural,63,76,62,67.0,65.75,Macquarie University,6.917,65.75,FFP,4.0,No,The University of Notre Dame Sydney,6.667,67.0,"['CSP', 'BMP', 'FFP']",2.0,6,2,0,4th,Tier 3,Yes,Well,,2023,26-50,"ANU, MQ, UNDF, UQ",FFP
-451,Non-Rural,74,65,70,69.67,69.75,,,,,None,,The University of Melbourne,6.97,69.67,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Well,gam,2023,26-50,"ANU, Deakin","['CSP', 'BMP']"
-452,Non-Rural,63,85,70,72.67,72.0,,,,,None,,The University of Notre Dame Sydney,6.917,72.67,"['CSP', 'BMP']",1.0,0,2,0,3rd,None,,Unsure,,2023,26-50,"ANU, Deakin, UniMelb, UQ, UoW","['CSP', 'BMP']"
+451,Non-Rural,74,65,70,69.67,69.75,,,,,None,None,The University of Melbourne,6.97,69.67,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Well,gam,2023,26-50,"ANU, Deakin","['CSP', 'BMP']"
+452,Non-Rural,63,85,70,72.67,72.0,,,,,None,None,The University of Notre Dame Sydney,6.917,72.67,"['CSP', 'BMP']",1.0,0,2,0,3rd,None,,Unsure,,2023,26-50,"ANU, Deakin, UniMelb, UQ, UoW","['CSP', 'BMP']"
 453,Non-Rural,57,75,73,68.33,69.5,Deakin University,6.458,69.5,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,8,0,0,None,None,Yes,Poorly,,2023,11-25,,CSP
 454,Rural,56,62,63,60.33,61.0,Griffith University,6.9,61.0,BMP,1.0,Yes,,,,"['CSP', 'BMP']",None,10,0,0,2nd,None,Unsure,Well,,2023,26-50,,BMP
-455,Non-Rural,63,74,75,70.67,71.75,,,,,None,,The University of Wollongong,5.5,71.75,['CSP'],1.0,0,2,0,4th,None,,Unsure,,2023,0-5,"ANU, Griffith, UniMelb, UNDS, UQ",['CSP']
+455,Non-Rural,63,74,75,70.67,71.75,,,,,None,None,The University of Wollongong,5.5,71.75,['CSP'],1.0,0,2,0,4th,None,,Unsure,,2023,0-5,"ANU, Griffith, UniMelb, UNDS, UQ",['CSP']
 456,Rural,54,59,58,57.0,57.25,The University of Queensland (RMP),6.53,57.0,BMP,1.0,Yes,,,,"['CSP', 'BMP']",None,10,0,0,None,Tier 1 (DD RMP),Yes,Well,,2023,11-25,,BMP
 457,Non-Rural,59,77,61,65.67,64.5,The University of Notre Dame Sydney,6.75,65.67,FFP,6.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,2,0,0,4th,None,Unsure,Unsure,,2023,26-50,,FFP
 458,Non-Rural,83,75,77,78.33,78.0,The University of Queensland (Metro),7.0,78.33,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,Yes,Unsure,,2023,0-5,,CSP
-459,Non-Rural,63,66,71,66.67,67.75,,,,,None,,The University of Notre Dame Sydney,6.5,66.67,"['CSP', 'BMP', 'FFP']",1.0,0,0,3,4th,None,,Well,,2023,11-25,"Griffith, MQ, UniMelb, UNDF, UoW","['CSP', 'BMP', 'FFP']"
+459,Non-Rural,63,66,71,66.67,67.75,,,,,None,None,The University of Notre Dame Sydney,6.5,66.67,"['CSP', 'BMP', 'FFP']",1.0,0,0,3,4th,None,,Well,,2023,11-25,"Griffith, MQ, UniMelb, UNDF, UoW","['CSP', 'BMP', 'FFP']"
 460,Rural,63,64,68,65.0,65.75,Deakin University,6.313,65.75,CSP,2.0,Yes,,,,"['CSP', 'BMP']",None,10,0,0,4th,None,Yes,Unsure,,2023,6-10,,CSP
-461,Non-Rural,74,83,80,79.0,79.25,,,,,None,,The University of Notre Dame Sydney,5.476,79.0,"['CSP', 'BMP']",2.0,4,0,0,4th,Tier 3,,Well,,2023,26-50,"Griffith, MQ, UNDF, UQ","['CSP', 'BMP']"
+461,Non-Rural,74,83,80,79.0,79.25,,,,,None,None,The University of Notre Dame Sydney,5.476,79.0,"['CSP', 'BMP']",2.0,4,0,0,4th,Tier 3,,Well,,2023,26-50,"Griffith, MQ, UNDF, UQ","['CSP', 'BMP']"
 462,Rural,66,65,64,65.0,64.75,Griffith University,6.93,64.75,CSP,1.0,Yes,,,,['CSP'],None,2,0,0,3rd,None,Yes,Unsure,,2023,11-25,,CSP
 463,Rural,58,70,58,62.0,61.0,The University of Queensland (RMP),6.73,62.0,CSP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,0,0,2nd,Tier 1 (DD RMP),Yes,Very well,,2023,26-50,,CSP
-464,Non-Rural,68,80,74,74.0,74.0,,,,,None,,Deakin University,6.625,74.0,"['CSP', 'BMP']",1.0,2,0,0,2nd,None,,Very well,,2023,11-25,"ANU, Griffith, UNDS, UQ","['CSP', 'BMP']"
+464,Non-Rural,68,80,74,74.0,74.0,,,,,None,None,Deakin University,6.625,74.0,"['CSP', 'BMP']",1.0,2,0,0,2nd,None,,Very well,,2023,11-25,"ANU, Griffith, UNDS, UQ","['CSP', 'BMP']"
 465,Non-Rural,60,73,88,73.67,77.25,Griffith University,6.95,77.25,BMP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,Yes,Unsure,,2023,51-100,,BMP
 466,Non-Rural,65,74,79,72.67,74.25,Griffith University,6.813,74.25,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,2,0,4th,Tier 3,Yes,Well,"grif-gc, honours 1st class",2023,51-100,,CSP
 467,Non-Rural,67,77,60,68.0,66.0,The University of Notre Dame Fremantle,6.75,68.0,BMP,2.0,No,The University of Notre Dame Sydney,6.75,68.0,"['CSP', 'BMP']",1.0,0,0,0,4th,None,Unsure,Very well,,2023,6-10,,BMP
 468,Non-Rural,69,74,84,75.67,77.75,The University of Notre Dame Sydney,6.9,75.67,CSP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,0,0,4th,None,Yes,Very well,,2023,11-25,,CSP
-469,Non-Rural,75,66,74,71.67,72.25,,,,,None,,The University of Notre Dame Fremantle,6.625,71.67,"['CSP', 'BMP', 'FFP']",5.0,0,2,0,2nd,None,,Poorly,,2023,0-5,ANU,"['CSP', 'BMP', 'FFP']"
-470,Non-Rural,71,57,80,69.33,72.0,,,,,None,,The University of Queensland (RMP),6.833,69.33,"['CSP', 'BMP']",1.0,0,0,0,None,Tier 3,,Well,,2023,6-10,Griffith,"['CSP', 'BMP']"
-471,Non-Rural,60,76,67,67.67,67.5,,,,,None,,The University of Queensland (RMP),7.0,67.67,"['CSP', 'BMP', 'FFP']",1.0,2,2,0,4th,Tier 3,,Well,gam application also.,2023,26-50,"ANU, Deakin, UniMelb, UNDS, UWA","['CSP', 'BMP', 'FFP']"
+469,Non-Rural,75,66,74,71.67,72.25,,,,,None,None,The University of Notre Dame Fremantle,6.625,71.67,"['CSP', 'BMP', 'FFP']",5.0,0,2,0,2nd,None,,Poorly,,2023,0-5,ANU,"['CSP', 'BMP', 'FFP']"
+470,Non-Rural,71,57,80,69.33,72.0,,,,,None,None,The University of Queensland (RMP),6.833,69.33,"['CSP', 'BMP']",1.0,0,0,0,None,Tier 3,,Well,,2023,6-10,Griffith,"['CSP', 'BMP']"
+471,Non-Rural,60,76,67,67.67,67.5,,,,,None,None,The University of Queensland (RMP),7.0,67.67,"['CSP', 'BMP', 'FFP']",1.0,2,2,0,4th,Tier 3,,Well,gam application also.,2023,26-50,"ANU, Deakin, UniMelb, UNDS, UWA","['CSP', 'BMP', 'FFP']"
 472,Rural,68,67,56,63.67,61.75,The University of Queensland (Metro),7.0,63.67,CSP,1.0,Yes,,,,['CSP'],None,0,0,0,None,None,Yes,Well,,2023,0-5,,CSP
 473,Non-Rural,67,72,76,71.67,72.75,Deakin University,6.487,72.75,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,4,0,0,4th,None,Yes,Very well,"gam, strong interview",2023,26-50,,CSP
 474,Non-Rural,65,71,63,66.33,65.5,The University of Queensland (RMP),7.0,66.33,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,2,2,0,None,Tier 3,Yes,Poorly,offer was for bundaberg,2023,0-5,,CSP
-475,Non-Rural,61,64,62,62.33,62.25,,,,,None,,The University of Notre Dame Sydney,7.0,62.33,"['CSP', 'BMP']",1.0,0,0,0,4th,None,,Unsure,,2023,11-25,"ANU, Deakin, UNDF, UQ, UoW","['CSP', 'BMP']"
-476,Non-Rural,65,77,74,72.0,72.5,,,,,None,,The University of Melbourne,6.93,72.0,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Unsure,,2023,51-100,"ANU, Deakin, Griffith, MQ, UQ","['CSP', 'BMP']"
-477,Non-Rural,56,56,75,62.33,65.5,,,,,None,,Deakin University,6.71,65.5,"['CSP', 'BMP', 'FFP']",1.0,6,0,0,3rd,None,,Unsure,,2023,26-50,"Griffith, MQ, UniMelb, UNDS, UWA","['CSP', 'BMP', 'FFP']"
+475,Non-Rural,61,64,62,62.33,62.25,,,,,None,None,The University of Notre Dame Sydney,7.0,62.33,"['CSP', 'BMP']",1.0,0,0,0,4th,None,,Unsure,,2023,11-25,"ANU, Deakin, UNDF, UQ, UoW","['CSP', 'BMP']"
+476,Non-Rural,65,77,74,72.0,72.5,,,,,None,None,The University of Melbourne,6.93,72.0,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Unsure,,2023,51-100,"ANU, Deakin, Griffith, MQ, UQ","['CSP', 'BMP']"
+477,Non-Rural,56,56,75,62.33,65.5,,,,,None,None,Deakin University,6.71,65.5,"['CSP', 'BMP', 'FFP']",1.0,6,0,0,3rd,None,,Unsure,,2023,26-50,"Griffith, MQ, UniMelb, UNDS, UWA","['CSP', 'BMP', 'FFP']"
 478,Rural,74,72,70,72.0,71.5,The University of Wollongong,5.5,71.5,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,2nd,None,Unsure,Poorly,strong portfolio (imo),2023,6-10,,CSP
 479,Non-Rural,71,67,87,75.0,78.0,Australian National University,6.835,78.0,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,2,0,0,None,None,Yes,Poorly,gam,2023,6-10,,CSP
 480,Non-Rural,74,70,64,69.33,68.0,The University of Notre Dame Sydney,6.8,69.33,CSP,3.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,0,0,4th,None,Yes,Well,,2023,11-25,,CSP
-481,Non-Rural,67,77,57,67.0,64.5,,,,,None,,The University of Notre Dame Sydney,6.824,67.0,"['CSP', 'BMP']",3.0,0,0,0,3rd,None,,Unsure,,2023,11-25,"Deakin, UniMelb","['CSP', 'BMP']"
+481,Non-Rural,67,77,57,67.0,64.5,,,,,None,None,The University of Notre Dame Sydney,6.824,67.0,"['CSP', 'BMP']",3.0,0,0,0,3rd,None,,Unsure,,2023,11-25,"Deakin, UniMelb","['CSP', 'BMP']"
 482,Non-Rural,63,69,84,72.0,75.0,Deakin University,6.671,75.0,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,6,0,0,None,None,No,Very well,,2023,11-25,,CSP
 483,Non-Rural,71,79,64,71.33,69.5,The University of Notre Dame Fremantle,6.585,71.33,BMP,5.0,No,The University of Notre Dame Sydney,6.585,71.33,"['CSP', 'BMP']",1.0,0,0,0,4th,None,No,Unsure,,2023,11-25,"UniMelb, UWA, UoW",BMP
-484,Non-Rural,69,63,75,69.0,70.5,,,,,None,,Deakin University,6.427,70.5,"['CSP', 'BMP']",2.0,8,0,0,None,None,,Unsure,"interview - felt like i had hit the nail on the head with some stations, and completely missed the plot in others.",2023,6-10,"ANU, Griffith, UWA","['CSP', 'BMP']"
+484,Non-Rural,69,63,75,69.0,70.5,,,,,None,None,Deakin University,6.427,70.5,"['CSP', 'BMP']",2.0,8,0,0,None,None,,Unsure,"interview - felt like i had hit the nail on the head with some stations, and completely missed the plot in others.",2023,6-10,"ANU, Griffith, UWA","['CSP', 'BMP']"
 485,Non-Rural,67,75,69,70.33,70.0,Deakin University,6.354,70.0,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,14,0,0,4th,None,Yes,Well,,2023,11-25,,CSP
 486,Non-Rural,61,71,65,65.67,65.5,Deakin University,6.5,65.5,CSP,5.0,No,The University of Wollongong,5.5,65.5,"['CSP', 'BMP']",2.0,2,0,0,3rd,None,Yes,Unsure,,2023,6-10,"ANU, UniMelb",CSP
-487,Non-Rural,58,76,89,74.33,78.0,,,,,None,,The University of Melbourne,6.98,74.33,"['CSP', 'BMP']",1.0,0,0,0,3rd,None,,Well,,2023,101-250,"ANU, Griffith, UNDS, UQ","['CSP', 'BMP']"
+487,Non-Rural,58,76,89,74.33,78.0,,,,,None,None,The University of Melbourne,6.98,74.33,"['CSP', 'BMP']",1.0,0,0,0,3rd,None,,Well,,2023,101-250,"ANU, Griffith, UNDS, UQ","['CSP', 'BMP']"
 488,Non-Rural,61,69,87,72.33,76.0,Australian National University,6.505,76.0,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,2,0,0,None,None,Yes,Well,,2023,6-10,,CSP
 489,Non-Rural,54,65,70,63.0,64.75,The University of Notre Dame Sydney,6.907,63.0,CSP,2.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,4th,None,Yes,Unsure,,2023,26-50,,CSP
-490,Non-Rural,73,63,76,70.67,72.0,,,,,None,,The University of Melbourne,6.75,70.67,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,2nd,None,,Poorly,gam,2023,26-50,"ANU, Deakin, MQ, UNDS, UoW","['CSP', 'BMP', 'FFP']"
-491,Non-Rural,62,69,65,65.33,65.25,,,,,None,,The University of Notre Dame Fremantle,7.0,65.33,"['CSP', 'BMP']",1.0,0,0,0,4th,None,,Well,wa resident,2023,6-10,UWA,"['CSP', 'BMP']"
+490,Non-Rural,73,63,76,70.67,72.0,,,,,None,None,The University of Melbourne,6.75,70.67,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,2nd,None,,Poorly,gam,2023,26-50,"ANU, Deakin, MQ, UNDS, UoW","['CSP', 'BMP', 'FFP']"
+491,Non-Rural,62,69,65,65.33,65.25,,,,,None,None,The University of Notre Dame Fremantle,7.0,65.33,"['CSP', 'BMP']",1.0,0,0,0,4th,None,,Well,wa resident,2023,6-10,UWA,"['CSP', 'BMP']"
 492,Non-Rural,62,67,66,65.0,65.25,The University of Queensland (RMP),6.859,65.0,CSP,1.0,Yes,,,,['CSP'],None,0,0,0,4th,Tier 3,No,Well,,2023,11-25,,CSP
 493,Non-Rural,76,68,59,67.67,65.5,The University of Notre Dame Sydney,6.913,67.67,FFP,3.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,0,0,4th,None,Yes,Poorly,,2023,0-5,,FFP
 494,Rural,50,65,67,60.67,62.25,Deakin University,6.67,62.25,BMP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,8,0,0,None,Tier 2,Yes,Poorly,,2023,0-5,,BMP
@@ -942,30 +942,30 @@
 497,Non-Rural,69,64,75,69.33,70.75,The University of Queensland (RMP),6.868,69.33,CSP,3.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,Tier 3,Yes,Well,,2023,11-25,,CSP
 498,Rural,57,63,83,67.67,71.5,Griffith University,6.643,71.5,BMP,1.0,Yes,,,,"['CSP', 'BMP']",None,10,0,0,None,None,Yes,Well,griffith gc,2023,51-100,,BMP
 499,Non-Rural,60,71,75,68.67,70.25,The University of Queensland (RMP),6.94,68.67,CSP,3.0,Yes,,,,"['CSP', 'BMP']",None,2,0,0,None,Tier 3,Yes,Poorly,,2023,51-100,,CSP
-500,Non-Rural,72,68,70,70.0,70.0,,,,,None,,Griffith University,6.74,70.0,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Unsure,,2023,6-10,"ANU, UniMelb, UQ","['CSP', 'BMP']"
-501,Rural,67,62,77,68.67,70.75,,,,,None,,The University of Queensland (Metro),6.46,68.67,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Well,,2023,6-10,"ANU, Griffith, UniMelb, UWA","['CSP', 'BMP']"
-502,Non-Rural,67,61,67,65.0,65.5,,,,,None,,Macquarie University,7.0,65.5,['FFP'],1.0,0,0,3,None,None,,Unsure,,2023,11-25,,['FFP']
-503,Non-Rural,63,70,67,66.67,66.75,,,,,None,,The University of Notre Dame Sydney,6.2,66.67,"['CSP', 'BMP']",5.0,0,0,0,4th,None,,Very well,,2023,6-10,UoW,"['CSP', 'BMP']"
+500,Non-Rural,72,68,70,70.0,70.0,,,,,None,None,Griffith University,6.74,70.0,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Unsure,,2023,6-10,"ANU, UniMelb, UQ","['CSP', 'BMP']"
+501,Rural,67,62,77,68.67,70.75,,,,,None,None,The University of Queensland (Metro),6.46,68.67,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Well,,2023,6-10,"ANU, Griffith, UniMelb, UWA","['CSP', 'BMP']"
+502,Non-Rural,67,61,67,65.0,65.5,,,,,None,None,Macquarie University,7.0,65.5,['FFP'],1.0,0,0,3,None,None,,Unsure,,2023,11-25,,['FFP']
+503,Non-Rural,63,70,67,66.67,66.75,,,,,None,None,The University of Notre Dame Sydney,6.2,66.67,"['CSP', 'BMP']",5.0,0,0,0,4th,None,,Very well,,2023,6-10,UoW,"['CSP', 'BMP']"
 504,Non-Rural,66,66,81,71.0,73.5,Deakin University,6.729,73.5,CSP,2.0,Yes,,,,"['CSP', 'BMP']",None,4,2,0,3rd,None,Yes,Well,,2023,26-50,,CSP
-505,Non-Rural,59,69,55,61.0,59.5,,,,,None,,The University of Notre Dame Fremantle,6.78,61.0,"['CSP', 'BMP']",1.0,0,2,0,4th,None,,Unsure,,2023,11-25,"ANU, Griffith, UniMelb, UNDS, UoW","['CSP', 'BMP']"
+505,Non-Rural,59,69,55,61.0,59.5,,,,,None,None,The University of Notre Dame Fremantle,6.78,61.0,"['CSP', 'BMP']",1.0,0,2,0,4th,None,,Unsure,,2023,11-25,"ANU, Griffith, UniMelb, UNDS, UoW","['CSP', 'BMP']"
 506,Rural,62,71,53,62.0,59.75,The University of Queensland (RMP),7.0,62.0,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,12,2,0,None,Tier 2,Yes,Unsure,,2023,26-50,,CSP
 507,Non-Rural,64,68,74,68.67,70.0,The University of Wollongong,5.5,70.0,BMP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,3rd,None,Yes,Unsure,strong portfolio,2023,26-50,,BMP
 508,Rural,58,55,59,57.33,57.75,The University of Queensland (RMP),6.3,57.33,CSP,1.0,Yes,,,,['CSP'],None,0,0,0,None,Tier 2,Yes,Poorly,,2023,0-5,,CSP
-509,Non-Rural,56,73,73,67.33,68.75,,,,,None,,The University of Notre Dame Fremantle,6.3,67.33,"['CSP', 'BMP']",6.0,0,0,0,3rd,None,,Unsure,,2023,6-10,,"['CSP', 'BMP']"
+509,Non-Rural,56,73,73,67.33,68.75,,,,,None,None,The University of Notre Dame Fremantle,6.3,67.33,"['CSP', 'BMP']",6.0,0,0,0,3rd,None,,Unsure,,2023,6-10,,"['CSP', 'BMP']"
 510,Rural,71,81,70,74.0,73.0,Deakin University,6.44,73.0,BMP,1.0,Yes,,,,['BMP'],None,8,0,0,None,None,Yes,Well,,2023,6-10,,BMP
-511,Non-Rural,65,71,65,67.0,66.5,,,,,None,,The University of Notre Dame Fremantle,6.68,67.0,"['CSP', 'BMP', 'FFP']",2.0,0,0,0,3rd,None,,Well,,2023,11-25,"Griffith, MQ, UWA, UoW","['CSP', 'BMP', 'FFP']"
+511,Non-Rural,65,71,65,67.0,66.5,,,,,None,None,The University of Notre Dame Fremantle,6.68,67.0,"['CSP', 'BMP', 'FFP']",2.0,0,0,0,3rd,None,,Well,,2023,11-25,"Griffith, MQ, UWA, UoW","['CSP', 'BMP', 'FFP']"
 512,Rural,71,86,80,79.0,79.25,The University of Queensland (RMP),6.906,79.0,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,Tier 2,Yes,Well,,2023,101-250,,CSP
 513,Non-Rural,71,70,66,69.0,68.25,Macquarie University,6.81,68.25,FFP,5.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,0,0,3rd,None,Yes,Very well,,2023,11-25,,FFP
 514,Non-Rural,62,66,74,67.33,69.0,Deakin University,6.99,69.0,CSP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,4,2,0,4th,None,Yes,Well,,2023,11-25,,CSP
 515,Non-Rural,54,75,78,69.0,71.25,Deakin University,6.917,71.25,BMP,3.0,No,The University of Notre Dame Sydney,6.833,69.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,3rd,None,No,Well,,2023,26-50,Griffith,BMP
 516,Non-Rural,68,69,81,72.67,74.75,Deakin University,6.94,74.75,CSP,4.0,No,The University of Queensland (Metro),6.68,72.67,"['CSP', 'BMP']",3.0,4,0,0,None,None,Yes,Unsure,,2023,250+,,CSP
-517,Non-Rural,63,69,85,72.33,75.5,,,,,None,,The University of Queensland (RMP),6.75,72.33,"['CSP', 'BMP', 'FFP']",2.0,0,0,0,2nd,Tier 3,,Very poorly,,2023,0-5,"ANU, Griffith, UNDS, UWA","['CSP', 'BMP', 'FFP']"
+517,Non-Rural,63,69,85,72.33,75.5,,,,,None,None,The University of Queensland (RMP),6.75,72.33,"['CSP', 'BMP', 'FFP']",2.0,0,0,0,2nd,Tier 3,,Very poorly,,2023,0-5,"ANU, Griffith, UNDS, UWA","['CSP', 'BMP', 'FFP']"
 518,Non-Rural,71,68,77,72.0,73.25,The University of Melbourne,6.925,72.0,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,2nd,None,Unsure,Unsure,,2023,26-50,,CSP
 519,Non-Rural,64,82,74,73.33,73.5,The University of Melbourne,6.88,73.33,CSP,1.0,Yes,,,,['CSP'],None,0,0,0,None,None,Yes,Unsure,,2023,26-50,,CSP
 520,Non-Rural,58,75,63,65.33,64.75,Macquarie University,6.9,64.75,FFP,1.0,Yes,,,,['FFP'],None,0,0,3,4th,None,Yes,Well,,2023,51-100,,FFP
-521,Non-Rural,67,77,69,71.0,70.5,,,,,None,,The University of Wollongong,5.5,70.5,"['CSP', 'BMP', 'FFP']",2.0,0,0,0,2nd,None,,Well,,2023,11-25,"ANU, Deakin, Griffith, UniMelb","['CSP', 'BMP', 'FFP']"
+521,Non-Rural,67,77,69,71.0,70.5,,,,,None,None,The University of Wollongong,5.5,70.5,"['CSP', 'BMP', 'FFP']",2.0,0,0,0,2nd,None,,Well,,2023,11-25,"ANU, Deakin, Griffith, UniMelb","['CSP', 'BMP', 'FFP']"
 522,Non-Rural,70,78,84,77.33,79.0,The University of Melbourne,7.0,77.33,CSP,1.0,Yes,,,,['CSP'],None,0,0,0,None,None,Unsure,Unsure,,2023,11-25,,CSP
-523,Rural,60,65,64,63.0,63.25,,,,,None,,The University of Notre Dame Sydney,6.896,63.0,"['CSP', 'BMP']",1.0,6,0,0,1st,None,,Unsure,,2023,6-10,"ANU, Deakin, Griffith, UniMelb, UoW","['CSP', 'BMP']"
+523,Rural,60,65,64,63.0,63.25,,,,,None,None,The University of Notre Dame Sydney,6.896,63.0,"['CSP', 'BMP']",1.0,6,0,0,1st,None,,Unsure,,2023,6-10,"ANU, Deakin, Griffith, UniMelb, UoW","['CSP', 'BMP']"
 524,Non-Rural,68,65,65,66.0,65.75,Deakin University,6.953,65.75,CSP,3.0,No,The University of Notre Dame Sydney,6.953,66.0,"['CSP', 'BMP']",2.0,0,0,0,3rd,None,Unsure,Very well,,2023,26-50,,CSP
 525,Non-Rural,54,73,81,69.33,72.25,Griffith University,6.913,72.25,CSP,1.0,Yes,,,,['CSP'],None,0,0,0,4th,None,Yes,Well,,2023,250+,,CSP
 526,Non-Rural,62,68,72,67.33,68.5,The University of Queensland (RMP),6.786,67.33,CSP,3.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,2,0,0,4th,Tier 3,Yes,Poorly,"preference #1 uq darling downs first, got rocky.",2023,26-50,,CSP
@@ -973,7 +973,7 @@
 528,Rural,55,55,56,55.33,55.5,The University of Queensland (RMP),5.5,55.33,BMP,1.0,Yes,,,,"['CSP', 'BMP']",None,6,0,5,3rd,Tier 1 (CQ-WB RMP),Yes,Very well,,2023,26-50,,BMP
 529,Non-Rural,68,87,90,81.67,83.75,The University of Melbourne,6.96,81.67,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,Yes,Unsure,,2023,11-25,,CSP
 530,Non-Rural,67,73,73,71.0,71.5,The University of Melbourne,6.98,71.0,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,2,0,0,4th,None,No,Unsure,,2023,26-50,,CSP
-531,Non-Rural,62,76,63,67.0,66.0,,,,,None,,The University of Western Australia,7.0,66.0,['CSP'],1.0,0,0,0,None,None,,Very well,phd,2023,26-50,UniMelb,['CSP']
+531,Non-Rural,62,76,63,67.0,66.0,,,,,None,None,The University of Western Australia,7.0,66.0,['CSP'],1.0,0,0,0,None,None,,Very well,phd,2023,26-50,UniMelb,['CSP']
 532,Non-Rural,68,76,69,71.0,70.5,The University of Melbourne,6.8,71.0,CSP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,0,0,None,None,Yes,Well,,2023,0-5,,CSP
 533,Rural,56,57,59,57.33,57.75,The University of Melbourne,6.98,57.33,BMP,1.0,Yes,,,,"['CSP', 'BMP']",None,8,0,3,None,Tier 3,Unsure,Well,,2023,51-100,,BMP
 534,Non-Rural,73,82,75,76.67,76.25,The University of Melbourne,6.593,76.67,CSP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,0,0,None,None,Yes,Unsure,,2023,51-100,,CSP
@@ -986,14 +986,14 @@
 541,Non-Rural,56,70,73,66.33,68.0,The University of Queensland (RMP),6.948,66.33,CSP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,0,0,3rd,Tier 3,Yes,Well,uqrmp- bundy/rocky,2023,26-50,,CSP
 542,Non-Rural,69,74,69,70.67,70.25,The University of Wollongong,5.5,70.25,CSP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,2,0,0,4th,None,Yes,Very well,,2023,51-100,,CSP
 543,Non-Rural,66,65,99,76.67,82.25,The University of Queensland (Metro),6.95,76.67,CSP,1.0,Yes,,,,['CSP'],None,0,0,0,None,None,Unsure,Unsure,,2023,11-25,,CSP
-544,Non-Rural,66,77,72,71.67,71.75,,,,,None,,The University of Melbourne,6.68,71.67,"['CSP', 'BMP']",1.0,0,0,0,2nd,None,,Unsure,,2023,26-50,"ANU, Deakin, UNDS, UQ, UoW","['CSP', 'BMP']"
+544,Non-Rural,66,77,72,71.67,71.75,,,,,None,None,The University of Melbourne,6.68,71.67,"['CSP', 'BMP']",1.0,0,0,0,2nd,None,,Unsure,,2023,26-50,"ANU, Deakin, UNDS, UQ, UoW","['CSP', 'BMP']"
 545,Non-Rural,57,62,75,64.67,67.25,Griffith University,7.0,67.25,BMP,3.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,2nd,None,Unsure,Well,,2023,26-50,,BMP
-546,Non-Rural,76,78,97,83.67,87.0,,,,,None,,The University of Melbourne,6.89,83.67,['CSP'],1.0,0,0,0,None,None,,Well,,2023,51-100,"ANU, Deakin",['CSP']
+546,Non-Rural,76,78,97,83.67,87.0,,,,,None,None,The University of Melbourne,6.89,83.67,['CSP'],1.0,0,0,0,None,None,,Well,,2023,51-100,"ANU, Deakin",['CSP']
 547,Non-Rural,66,68,79,71.0,73.0,The University of Melbourne,7.0,71.0,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,Unsure,Well,,2023,11-25,,CSP
 548,Rural,51,52,77,60.0,64.25,Griffith University,6.5,64.25,BMP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,Yes,Very well,,2023,26-50,,BMP
-549,Non-Rural,62,72,74,69.33,70.5,,,,,None,,The University of Wollongong,5.5,70.5,"['CSP', 'BMP']",1.0,4,2,0,4th,None,,Unsure,,2023,26-50,"ANU, Deakin, Griffith, UNDF, UNDS","['CSP', 'BMP']"
+549,Non-Rural,62,72,74,69.33,70.5,,,,,None,None,The University of Wollongong,5.5,70.5,"['CSP', 'BMP']",1.0,4,2,0,4th,None,,Unsure,,2023,26-50,"ANU, Deakin, Griffith, UNDF, UNDS","['CSP', 'BMP']"
 550,Non-Rural,67,71,83,73.67,76.0,The University of Melbourne,6.736,73.67,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,2,0,3rd,None,Yes,Well,"gam, strong portfolio",2023,51-100,,CSP
-551,Non-Rural,71,72,65,69.33,68.25,,,,,None,,The University of Notre Dame Sydney,6.57,69.33,['CSP'],1.0,0,0,3,4th,None,,Well,,2023,0-5,MQ,['CSP']
+551,Non-Rural,71,72,65,69.33,68.25,,,,,None,None,The University of Notre Dame Sydney,6.57,69.33,['CSP'],1.0,0,0,3,4th,None,,Well,,2023,0-5,MQ,['CSP']
 552,Non-Rural,55,73,69,65.67,66.5,The University of Queensland (RMP),7.0,65.67,CSP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,4,0,0,4th,Tier 3,Yes,Very well,,2023,51-100,,CSP
 553,Non-Rural,73,81,91,81.67,84.0,The University of Melbourne,6.9,81.67,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,4th,None,Yes,Well,,2023,51-100,,CSP
 554,Non-Rural,62,68,82,70.67,73.5,The University of Notre Dame Sydney,6.74,70.67,CSP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,2,2,0,4th,None,Yes,Well,,2023,11-25,,CSP
@@ -1002,14 +1002,14 @@
 557,Non-Rural,57,71,80,69.33,72.0,Macquarie University,6.944,72.0,FFP,6.0,No,The University of Melbourne,7.0,69.33,['CSP'],2.0,0,0,0,1st,None,Yes,Unsure,,2023,26-50,"Deakin, Griffith, UQ",FFP
 558,Non-Rural,63,66,79,69.33,71.75,Deakin University,6.22,71.75,BMP,4.0,No,The University of Wollongong,5.5,71.75,"['CSP', 'BMP']",2.0,0,0,0,3rd,None,Yes,Well,,2023,26-50,UniMelb,BMP
 559,Non-Rural,58,81,57,65.33,63.25,The University of Notre Dame Sydney,6.91,65.33,CSP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,0,0,4th,None,Yes,Unsure,,2023,11-25,,CSP
-560,Non-Rural,66,71,96,77.67,82.25,,,,,None,,Australian National University,6.29,82.25,"['CSP', 'BMP', 'FFP']",3.0,0,0,0,None,None,,Well,offered a guaranteed full fee med place at uni melb,2023,26-50,"Griffith, MQ, UNDS","['CSP', 'BMP', 'FFP']"
+560,Non-Rural,66,71,96,77.67,82.25,,,,,None,None,Australian National University,6.29,82.25,"['CSP', 'BMP', 'FFP']",3.0,0,0,0,None,None,,Well,offered a guaranteed full fee med place at uni melb,2023,26-50,"Griffith, MQ, UNDS","['CSP', 'BMP', 'FFP']"
 561,Non-Rural,70,66,83,73.0,75.5,The University of Melbourne,6.85,73.0,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,Yes,Unsure,,2023,0-5,,CSP
 562,Non-Rural,72,68,80,73.33,75.0,The University of Melbourne,6.875,73.33,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,2,0,0,None,None,Yes,Well,,2023,11-25,,CSP
 563,Rural,73,69,76,72.67,73.5,The University of Notre Dame Sydney,6.5,72.67,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,3rd,None,No,Well,,2023,0-5,,CSP
 564,Non-Rural,59,73,69,67.0,67.5,The University of Melbourne,6.78,67.0,CSP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,6,0,0,4th,None,Yes,Unsure,gam,2023,51-100,,CSP
 565,Rural,53,59,69,60.33,62.5,Deakin University,6.96,62.5,BMP,2.0,No,The University of Melbourne,6.96,60.33,"['CSP', 'BMP']",1.0,10,0,0,None,None,Yes,Unsure,,2023,26-50,,BMP
 566,Non-Rural,65,83,65,71.0,69.5,The University of Melbourne,6.851,71.0,BMP,3.0,No,Griffith University,6.844,69.5,"['CSP', 'BMP']",1.0,0,0,0,None,None,No,Very well,,2023,6-10,UQ,BMP
-567,Non-Rural,63,77,77,72.33,73.5,,,,,None,,The University of Wollongong,5.5,73.5,"['CSP', 'BMP']",3.0,0,0,0,4th,None,,Well,above average portfolio,2023,11-25,"ANU, UNDF, UWA","['CSP', 'BMP']"
+567,Non-Rural,63,77,77,72.33,73.5,,,,,None,None,The University of Wollongong,5.5,73.5,"['CSP', 'BMP']",3.0,0,0,0,4th,None,,Well,above average portfolio,2023,11-25,"ANU, UNDF, UWA","['CSP', 'BMP']"
 568,Non-Rural,60,69,60,63.0,62.25,The University of Wollongong,5.5,62.25,CSP,2.0,Yes,,,,"['CSP', 'BMP']",None,4,0,0,4th,None,Yes,Well,strong diverse portfolio (imo),2023,26-50,,CSP
 569,Non-Rural,65,79,74,72.67,73.0,Australian National University,6.87,73.0,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,2,0,4th,None,No,Well,,2023,51-100,,CSP
 570,Non-Rural,77,70,77,74.67,75.25,The University of Melbourne,6.76,74.67,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,1st,None,Yes,Poorly,,2023,0-5,,CSP
@@ -1021,47 +1021,47 @@
 576,Non-Rural,69,69,67,68.33,68.0,The University of Notre Dame Fremantle,6.56,68.33,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,4th,None,Yes,Well,wa residency scheme,2023,26-50,,CSP
 577,Non-Rural,65,73,62,66.67,65.5,Deakin University,7.0,65.5,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,10,0,0,4th,None,Yes,Unsure,,2023,0-5,,CSP
 578,Non-Rural,60,71,66,65.67,65.75,The University of Wollongong,5.5,65.75,CSP,3.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,3rd,None,Yes,Well,strong portfolio,2023,51-100,,CSP
-579,Non-Rural,62,67,69,66.0,66.75,,,,,None,,Deakin University,6.708,66.75,"['CSP', 'BMP']",1.0,8,0,0,None,None,,Very well,,2023,11-25,"ANU, Griffith, UniMelb, UQ, UWA","['CSP', 'BMP']"
-580,Non-Rural,59,81,55,65.0,62.5,,,,,None,,The University of Notre Dame Fremantle,6.85,65.0,"['CSP', 'BMP']",1.0,0,0,0,4th,None,,Unsure,wa residency,2023,0-5,UoW,"['CSP', 'BMP']"
+579,Non-Rural,62,67,69,66.0,66.75,,,,,None,None,Deakin University,6.708,66.75,"['CSP', 'BMP']",1.0,8,0,0,None,None,,Very well,,2023,11-25,"ANU, Griffith, UniMelb, UQ, UWA","['CSP', 'BMP']"
+580,Non-Rural,59,81,55,65.0,62.5,,,,,None,None,The University of Notre Dame Fremantle,6.85,65.0,"['CSP', 'BMP']",1.0,0,0,0,4th,None,,Unsure,wa residency,2023,0-5,UoW,"['CSP', 'BMP']"
 581,Non-Rural,59,83,60,67.33,65.5,The University of Queensland (RMP),7.0,67.33,CSP,2.0,Yes,,,,"['CSP', 'BMP']",None,0,2,0,4th,Tier 3,Yes,Poorly,uqrmp - bundy,2023,51-100,,CSP
 582,Rural,66,75,68,69.67,69.25,Deakin University,7.0,69.25,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,16,0,0,None,None,Yes,Poorly,rts tier 1,2023,101-250,,CSP
 583,Non-Rural,69,75,70,71.33,71.0,The University of Melbourne,6.919,71.33,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,Yes,Unsure,,2023,51-100,,CSP
 584,Non-Rural,67,76,71,71.33,71.25,The University of Queensland (RMP),7.0,71.33,CSP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,0,0,4th,Tier 3,Yes,Well,uqrmp toowoomba top preference,2023,26-50,,CSP
 585,Non-Rural,64,68,70,67.33,68.0,The University of Melbourne,7.0,67.33,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,2,0,0,None,Tier 3,Yes,Well,,2023,11-25,,CSP
-586,Non-Rural,63,74,62,66.33,65.25,,,,,None,,The University of Notre Dame Sydney,6.884,66.33,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,4th,None,,Well,,2023,0-5,ANU,"['CSP', 'BMP', 'FFP']"
-587,Non-Rural,59,80,74,71.0,71.75,,,,,None,,The University of Melbourne,6.89,71.0,"['CSP', 'BMP']",1.0,0,0,0,3rd,None,,Unsure,,2023,51-100,"ANU, Deakin, Griffith, UNDS, UQ","['CSP', 'BMP']"
-588,Non-Rural,67,60,75,67.33,69.25,,,,,None,,Deakin University,6.948,69.25,['CSP'],1.0,4,0,0,None,None,,Unsure,,2023,26-50,"ANU, Griffith, UniMelb, UQ, UWA",['CSP']
+586,Non-Rural,63,74,62,66.33,65.25,,,,,None,None,The University of Notre Dame Sydney,6.884,66.33,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,4th,None,,Well,,2023,0-5,ANU,"['CSP', 'BMP', 'FFP']"
+587,Non-Rural,59,80,74,71.0,71.75,,,,,None,None,The University of Melbourne,6.89,71.0,"['CSP', 'BMP']",1.0,0,0,0,3rd,None,,Unsure,,2023,51-100,"ANU, Deakin, Griffith, UNDS, UQ","['CSP', 'BMP']"
+588,Non-Rural,67,60,75,67.33,69.25,,,,,None,None,Deakin University,6.948,69.25,['CSP'],1.0,4,0,0,None,None,,Unsure,,2023,26-50,"ANU, Griffith, UniMelb, UQ, UWA",['CSP']
 589,Non-Rural,67,70,81,72.67,74.75,The University of Melbourne,7.0,72.67,BMP,1.0,Yes,,,,"['CSP', 'BMP']",None,2,0,0,None,None,Yes,Unsure,,2023,51-100,,BMP
 590,Non-Rural,62,68,73,67.67,69.0,The University of Queensland (Metro),7.0,67.67,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,Yes,Unsure,honours,2023,6-10,,CSP
-591,Non-Rural,60,78,62,66.67,65.5,,,,,None,,The University of Notre Dame Fremantle,6.44,66.67,"['CSP', 'BMP', 'FFP']",6.0,4,0,0,4th,None,,Very well,,2023,51-100,,"['CSP', 'BMP', 'FFP']"
+591,Non-Rural,60,78,62,66.67,65.5,,,,,None,None,The University of Notre Dame Fremantle,6.44,66.67,"['CSP', 'BMP', 'FFP']",6.0,4,0,0,4th,None,,Very well,,2023,51-100,,"['CSP', 'BMP', 'FFP']"
 592,Non-Rural,73,64,75,70.67,71.75,The University of Melbourne,6.868,70.67,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,4th,None,Yes,Well,,2023,11-25,,CSP
 593,Non-Rural,64,74,65,67.67,67.0,The University of Notre Dame Fremantle,6.938,67.67,CSP,5.0,No,The University of Notre Dame Sydney,6.938,67.67,"['CSP', 'BMP']",4.0,2,0,0,4th,None,Yes,Unsure,,2023,11-25,"ANU, Deakin, UniMelb",CSP
-594,Non-Rural,65,79,62,68.67,67.0,,,,,None,,The University of Notre Dame Sydney,6.969,68.67,"['CSP', 'BMP', 'FFP']",1.0,2,0,0,4th,None,,Well,,2023,11-25,"ANU, Deakin, Griffith, UniMelb, UNDF","['CSP', 'BMP', 'FFP']"
+594,Non-Rural,65,79,62,68.67,67.0,,,,,None,None,The University of Notre Dame Sydney,6.969,68.67,"['CSP', 'BMP', 'FFP']",1.0,2,0,0,4th,None,,Well,,2023,11-25,"ANU, Deakin, Griffith, UniMelb, UNDF","['CSP', 'BMP', 'FFP']"
 595,Non-Rural,71,69,74,71.33,72.0,Griffith University,6.938,72.0,CSP,1.0,Yes,,,,['CSP'],None,0,2,0,3rd,None,Yes,Unsure,,2023,26-50,,CSP
 596,Non-Rural,52,74,91,72.33,77.0,Deakin University,6.99,77.0,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,4,0,0,None,None,Yes,Well,,2023,11-25,,CSP
 597,Non-Rural,58,64,68,63.33,64.5,Macquarie University,6.9,64.5,FFP,2.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,3rd,None,Yes,Well,,2023,11-25,,FFP
 598,Non-Rural,57,78,62,65.67,64.75,The University of Notre Dame Fremantle,6.951,65.67,CSP,4.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,3rd,None,No,Very poorly,undf - not a wa resident,2023,11-25,,CSP
 599,Non-Rural,55,68,85,69.33,73.25,The University of Melbourne,6.906,69.33,BMP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,4th,None,Yes,Well,,2023,11-25,,BMP
-600,Rural,57,59,61,59.0,59.5,,,,,None,,Deakin University,6.97,59.5,"['CSP', 'BMP']",2.0,8,0,0,1st,None,,Poorly,,2023,0-5,Griffith,"['CSP', 'BMP']"
-601,Non-Rural,64,62,72,66.0,67.5,,,,,None,,Macquarie University,6.8,67.5,"['CSP', 'BMP', 'FFP']",1.0,2,0,0,None,None,,Well,,2023,11-25,"ANU, Deakin, Griffith, UniMelb","['CSP', 'BMP', 'FFP']"
+600,Rural,57,59,61,59.0,59.5,,,,,None,None,Deakin University,6.97,59.5,"['CSP', 'BMP']",2.0,8,0,0,1st,None,,Poorly,,2023,0-5,Griffith,"['CSP', 'BMP']"
+601,Non-Rural,64,62,72,66.0,67.5,,,,,None,None,Macquarie University,6.8,67.5,"['CSP', 'BMP', 'FFP']",1.0,2,0,0,None,None,,Well,,2023,11-25,"ANU, Deakin, Griffith, UniMelb","['CSP', 'BMP', 'FFP']"
 602,Non-Rural,57,70,76,67.67,69.75,Deakin University,6.778,69.75,CSP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,2,0,0,3rd,Tier 3,Yes,Poorly,,2023,0-5,,CSP
 603,Non-Rural,59,65,88,70.67,75.0,Griffith University,7.0,75.0,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,Yes,Well,,2023,6-10,,CSP
 604,Non-Rural,61,79,64,68.0,67.0,The University of Wollongong,5.5,67.0,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,4,0,0,4th,None,Yes,Well,"wa resident bonus, average portfolio",2023,26-50,,CSP
 605,Non-Rural,70,81,79,76.67,77.25,Deakin University,6.722,77.25,CSP,2.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,Yes,Poorly,,2023,26-50,,CSP
-606,Non-Rural,62,78,68,69.33,69.0,,,,,None,,The University of Queensland (RMP),6.825,69.33,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,4th,Tier 3,,Unsure,,2023,11-25,"Griffith, UniMelb, UNDF, UNDS, UWA","['CSP', 'BMP', 'FFP']"
+606,Non-Rural,62,78,68,69.33,69.0,,,,,None,None,The University of Queensland (RMP),6.825,69.33,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,4th,Tier 3,,Unsure,,2023,11-25,"Griffith, UniMelb, UNDF, UNDS, UWA","['CSP', 'BMP', 'FFP']"
 607,Non-Rural,66,85,73,74.67,74.25,The University of Melbourne,6.95,74.67,CSP,1.0,Yes,,,,['CSP'],None,0,0,0,None,None,Yes,Poorly,,2023,51-100,,CSP
-608,Non-Rural,60,72,68,66.67,67.0,,,,,None,,The University of Notre Dame Fremantle,6.96,66.67,"['CSP', 'BMP']",1.0,0,0,0,4th,None,,Unsure,wa residency bonus,2023,26-50,UWA,"['CSP', 'BMP']"
+608,Non-Rural,60,72,68,66.67,67.0,,,,,None,None,The University of Notre Dame Fremantle,6.96,66.67,"['CSP', 'BMP']",1.0,0,0,0,4th,None,,Unsure,wa residency bonus,2023,26-50,UWA,"['CSP', 'BMP']"
 609,Non-Rural,63,63,82,69.33,72.5,Deakin University,6.917,72.5,CSP,1.0,Yes,,,,['CSP'],None,2,0,0,None,None,Yes,Unsure,,2023,51-100,,CSP
 610,Non-Rural,68,70,65,67.67,67.0,The University of Notre Dame Fremantle,6.98,67.67,CSP,2.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,4th,None,Yes,Well,,2023,11-25,,CSP
-611,Non-Rural,65,67,73,68.33,69.5,,,,,None,,The University of Notre Dame Sydney,6.87,68.33,"['CSP', 'BMP', 'FFP']",1.0,2,0,0,3rd,None,,Poorly,,2023,26-50,"ANU, Deakin, Griffith, UniMelb, UoW","['CSP', 'BMP', 'FFP']"
+611,Non-Rural,65,67,73,68.33,69.5,,,,,None,None,The University of Notre Dame Sydney,6.87,68.33,"['CSP', 'BMP', 'FFP']",1.0,2,0,0,3rd,None,,Poorly,,2023,26-50,"ANU, Deakin, Griffith, UniMelb, UoW","['CSP', 'BMP', 'FFP']"
 612,Non-Rural,62,64,98,74.67,80.5,The University of Melbourne,6.97,74.67,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,Yes,Unsure,,2023,51-100,,CSP
 613,Non-Rural,65,73,95,77.67,82.0,The University of Melbourne,7.0,77.67,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,Yes,Unsure,,2023,26-50,,CSP
 614,Non-Rural,70,62,69,67.0,67.5,The University of Notre Dame Sydney,6.83,67.0,FFP,2.0,No,The University of Wollongong,5.5,67.5,"['CSP', 'BMP', 'FFP']",1.0,2,0,0,3rd,Tier 3,Yes,Well,,2023,51-100,,FFP
 615,Rural,64,58,65,62.33,63.0,Griffith University,6.4,63.0,BMP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,Yes,Very well,,2023,26-50,,BMP
 616,Non-Rural,61,75,59,65.0,63.5,Griffith University,6.55,63.5,CSP,2.0,No,The University of Notre Dame Sydney,6.75,65.0,"['CSP', 'BMP']",1.0,0,0,0,4th,Tier 3,Yes,Very well,,2023,6-10,,CSP
-617,Non-Rural,64,68,74,68.67,70.0,,,,,None,,The University of Notre Dame Fremantle,6.9,68.67,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,4th,Tier 3,,Poorly,wa residency,2023,26-50,"Griffith, UniMelb, UNDS, UQ, UWA","['CSP', 'BMP', 'FFP']"
+617,Non-Rural,64,68,74,68.67,70.0,,,,,None,None,The University of Notre Dame Fremantle,6.9,68.67,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,4th,Tier 3,,Poorly,wa residency,2023,26-50,"Griffith, UniMelb, UNDS, UQ, UWA","['CSP', 'BMP', 'FFP']"
 618,Non-Rural,60,62,76,66.0,68.5,The University of Queensland (RMP),6.88,66.0,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,2,0,0,None,Tier 3,Unsure,Very well,,2023,51-100,,CSP
-619,Non-Rural,57,64,77,66.0,68.75,,,,,None,,The University of Western Australia,6.7,68.75,"['CSP', 'BMP']",1.0,0,0,0,3rd,None,,Unsure,,2023,0-5,"ANU, Griffith, UNDF, UNDS, UQ","['CSP', 'BMP']"
+619,Non-Rural,57,64,77,66.0,68.75,,,,,None,None,The University of Western Australia,6.7,68.75,"['CSP', 'BMP']",1.0,0,0,0,3rd,None,,Unsure,,2023,0-5,"ANU, Griffith, UNDF, UNDS, UQ","['CSP', 'BMP']"
 620,Non-Rural,62,64,71,65.67,67.0,The University of Western Australia,6.958,67.0,CSP,4.0,No,The University of Queensland (RMP),6.9,65.67,"['CSP', 'BMP']",3.0,0,0,0,None,Tier 3,Unsure,Well,,2023,51-100,,CSP
 621,Rural,72,61,54,62.33,60.25,The University of Notre Dame Sydney,5.741,62.33,BMP,1.0,Yes,,,,"['CSP', 'BMP']",None,6,0,0,3rd,Tier 1 (DD RMP),Yes,Unsure,,2023,0-5,,BMP
 622,Non-Rural,63,62,68,64.33,65.25,The University of Notre Dame Fremantle,6.5,64.33,BMP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,4th,None,Yes,Unsure,wa resident,2023,6-10,,BMP
@@ -1069,18 +1069,18 @@
 624,Non-Rural,64,69,57,63.33,61.75,The University of Notre Dame Sydney,6.907,63.33,FFP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,0,0,4th,None,Yes,Unsure,,2023,26-50,,FFP
 625,Rural,68,64,69,67.0,67.5,The University of Western Australia,6.58,67.5,BMP,4.0,No,The University of Melbourne,6.875,67.0,"['CSP', 'BMP']",1.0,10,0,0,None,None,Unsure,Unsure,gam. got into usyd so probably going there.,2023,0-5,"Deakin, Griffith",BMP
 626,Rural,66,66,58,63.33,62.0,The University of Queensland (RMP),6.0,63.33,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,Tier 1 (CQ-WB RMP),Yes,Well,,2023,6-10,,CSP
-627,Rural,57,76,62,65.0,64.25,,,,,None,,The University of Notre Dame Sydney,6.71,65.0,"['CSP', 'BMP']",3.0,0,0,0,1st,None,,Well,,2023,26-50,"Deakin, UoW","['CSP', 'BMP']"
+627,Rural,57,76,62,65.0,64.25,,,,,None,None,The University of Notre Dame Sydney,6.71,65.0,"['CSP', 'BMP']",3.0,0,0,0,1st,None,,Well,,2023,26-50,"Deakin, UoW","['CSP', 'BMP']"
 628,Non-Rural,67,85,89,80.33,82.5,The University of Melbourne,6.638,80.33,CSP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,0,0,4th,None,Yes,Very poorly,,2023,11-25,,CSP
 629,Rural,50,70,51,57.0,55.5,The University of Melbourne,6.78,57.0,FFP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,4,0,3,1st,None,Yes,Unsure,"gam - rural, extensive portfolio",2023,51-100,,FFP
 630,Non-Rural,55,79,74,69.33,70.5,Griffith University,6.973,70.5,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,2,0,0,4th,None,Yes,Very well,,2023,51-100,,CSP
 631,Non-Rural,52,83,53,62.67,60.25,The University of Notre Dame Fremantle,6.56,62.67,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,4th,None,Yes,Unsure,wa residency,2023,6-10,,CSP
 632,Non-Rural,73,67,90,76.67,80.0,Griffith University,6.46,80.0,BMP,4.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,Yes,Poorly,,2023,6-10,,BMP
 633,Non-Rural,77,81,62,73.33,70.5,The University of Melbourne,6.9,73.33,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,2,0,4th,None,Yes,Well,,2023,6-10,,CSP
-634,Non-Rural,57,76,62,65.0,64.25,,,,,None,,The University of Notre Dame Sydney,6.75,65.0,"['CSP', 'BMP']",3.0,0,0,0,4th,None,,Well,,2023,26-50,"Deakin, UoW","['CSP', 'BMP']"
+634,Non-Rural,57,76,62,65.0,64.25,,,,,None,None,The University of Notre Dame Sydney,6.75,65.0,"['CSP', 'BMP']",3.0,0,0,0,4th,None,,Well,,2023,26-50,"Deakin, UoW","['CSP', 'BMP']"
 635,Rural,61,67,63,63.67,63.5,Griffith University,6.96,63.5,BMP,1.0,Yes,,,,['BMP'],None,0,0,0,None,None,Yes,Well,griffith sc preference and offer,2023,6-10,,BMP
 636,Rural,55,71,58,61.33,60.5,The University of Melbourne,6.217,61.33,FFP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,0,0,None,None,Yes,Unsure,,2023,26-50,,FFP
 637,Non-Rural,61,60,68,63.0,64.25,The University of Queensland (RMP),6.924,63.0,CSP,2.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,Tier 3,Yes,Very well,uqrmp-bundaberg,2023,0-5,,CSP
-638,Non-Rural,58,82,69,69.67,69.5,,,,,None,,The University of Melbourne,7.0,69.67,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Well,,2023,51-100,"ANU, Griffith, UQ, UWA","['CSP', 'BMP']"
+638,Non-Rural,58,82,69,69.67,69.5,,,,,None,None,The University of Melbourne,7.0,69.67,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Well,,2023,51-100,"ANU, Griffith, UQ, UWA","['CSP', 'BMP']"
 639,Non-Rural,66,75,73,71.33,71.75,Deakin University,6.967,71.75,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,8,0,0,None,None,Yes,Unsure,,2023,0-5,,CSP
 640,Non-Rural,62,67,70,66.33,67.25,The University of Notre Dame Sydney,6.99,66.33,FFP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,2,0,0,4th,None,Yes,Unsure,,2023,51-100,,FFP
 641,Non-Rural,64,61,70,65.0,66.25,Deakin University,6.854,66.25,CSP,2.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,8,0,0,4th,None,Yes,Well,,2023,26-50,,CSP
@@ -1092,11 +1092,11 @@
 647,Non-Rural,64,69,75,69.33,70.75,The University of Melbourne,6.975,69.33,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,4,0,2nd,None,Yes,Unsure,,2023,51-100,,CSP
 648,Non-Rural,68,60,95,74.33,79.5,Griffith University,7.0,79.5,CSP,1.0,Yes,,,,['CSP'],None,0,0,0,None,None,Yes,Well,,2023,0-5,,CSP
 649,Non-Rural,71,75,76,74.0,74.5,The University of Melbourne,6.975,74.0,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,2,0,None,None,Yes,Well,phd student,2023,26-50,,CSP
-650,Non-Rural,72,61,78,70.33,72.25,,,,,None,,The University of Queensland (Metro),7.0,70.33,"['CSP', 'BMP']",2.0,0,0,0,None,Tier 3,,Unsure,,2023,6-10,"ANU, Deakin, UniMelb, UWA","['CSP', 'BMP']"
+650,Non-Rural,72,61,78,70.33,72.25,,,,,None,None,The University of Queensland (Metro),7.0,70.33,"['CSP', 'BMP']",2.0,0,0,0,None,Tier 3,,Unsure,,2023,6-10,"ANU, Deakin, UniMelb, UWA","['CSP', 'BMP']"
 651,Non-Rural,54,67,73,64.67,66.75,Australian National University,6.8,66.75,CSP,3.0,Yes,,,,"['CSP', 'BMP']",None,2,2,0,None,None,Yes,Poorly,,2023,26-50,,CSP
 652,Non-Rural,66,53,90,69.67,74.75,The University of Melbourne,7.0,69.67,CSP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,0,0,None,None,Yes,Poorly,,2023,26-50,,CSP
 653,Non-Rural,59,77,71,69.0,69.5,Griffith University,7.0,69.5,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,Yes,Unsure,griffith gc,2023,51-100,,CSP
-654,Non-Rural,66,72,68,68.67,68.5,,,,,None,,The University of Melbourne,6.9,68.67,['CSP'],1.0,2,0,0,None,None,,Very well,,2023,11-25,,['CSP']
+654,Non-Rural,66,72,68,68.67,68.5,,,,,None,None,The University of Melbourne,6.9,68.67,['CSP'],1.0,2,0,0,None,None,,Very well,,2023,11-25,,['CSP']
 655,Non-Rural,65,77,91,77.67,81.0,The University of Western Australia,7.0,81.0,CSP,5.0,No,The University of Melbourne,7.0,77.67,"['CSP', 'BMP']",1.0,2,0,0,None,None,Unsure,Unsure,,2023,11-25,"ANU, Deakin, Griffith",CSP
 656,Non-Rural,78,68,65,70.33,69.0,The University of Melbourne,6.896,70.33,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,Yes,Very well,,2023,6-10,,CSP
 657,Rural,64,76,73,71.0,71.5,The University of Melbourne,7.0,71.0,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,2,2,0,4th,None,Yes,Unsure,,2023,51-100,,CSP
@@ -1131,8 +1131,8 @@
 686,Non-Rural,71,71,70,70.67,70.5,The University of Queensland (Metro),7.0,70.67,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,2,0,0,4th,None,Yes,Very well,,2023,11-25,,CSP
 687,Non-Rural,68,68,81,72.33,74.5,The University of Queensland (Metro),7.0,72.33,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,2,0,4th,None,Yes,Unsure,,2023,26-50,,CSP
 688,Non-Rural,66,64,74,68.0,69.5,The University of Melbourne,6.99,68.0,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,Tier 3,Yes,Well,,2023,11-25,,CSP
-689,Non-Rural,60,73,61,64.67,63.75,,,,,None,,The University of Queensland (RMP),7.0,64.67,"['CSP', 'BMP']",1.0,0,2,0,4th,Tier 3,,Well,,2023,26-50,"ANU, Deakin, Griffith, UNDF, UNDS","['CSP', 'BMP']"
-690,Non-Rural,59,74,66,66.33,66.25,,,,,None,,The University of Notre Dame Sydney,6.78,66.33,"['CSP', 'FFP']",3.0,6,0,0,4th,None,,Unsure,,2023,6-10,"UniMelb, UQ, UWA","['CSP', 'FFP']"
+689,Non-Rural,60,73,61,64.67,63.75,,,,,None,None,The University of Queensland (RMP),7.0,64.67,"['CSP', 'BMP']",1.0,0,2,0,4th,Tier 3,,Well,,2023,26-50,"ANU, Deakin, Griffith, UNDF, UNDS","['CSP', 'BMP']"
+690,Non-Rural,59,74,66,66.33,66.25,,,,,None,None,The University of Notre Dame Sydney,6.78,66.33,"['CSP', 'FFP']",3.0,6,0,0,4th,None,,Unsure,,2023,6-10,"UniMelb, UQ, UWA","['CSP', 'FFP']"
 691,Non-Rural,70,68,77,71.67,73.0,The University of Notre Dame Fremantle,6.4,71.67,CSP,2.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,2nd,None,Yes,Well,und bonus - wa residency,2023,6-10,,CSP
 692,Non-Rural,66,59,85,70.0,73.75,The University of Melbourne,6.95,70.0,CSP,1.0,Yes,,,,['CSP'],None,8,0,0,None,None,Yes,Poorly,,2023,26-50,,CSP
 693,Non-Rural,62,56,85,67.67,72.0,Deakin University,6.575,72.0,BMP,5.0,No,Australian National University,6.575,72.0,"['CSP', 'BMP']",1.0,2,2,0,2nd,None,Yes,Unsure,,2023,6-10,"Deakin, Griffith, UniMelb, UNDS, UoW",BMP
@@ -1140,20 +1140,20 @@
 695,Non-Rural,51,77,63,63.67,63.5,The University of Queensland (RMP),7.0,63.67,CSP,2.0,Yes,,,,"['CSP', 'BMP']",None,4,0,0,4th,Tier 3,Yes,Unsure,uqrmp-rocky,2023,250+,,CSP
 696,Non-Rural,60,68,69,65.67,66.5,The University of Western Australia,6.85,66.5,CSP,4.0,No,The University of Queensland (RMP),6.85,65.67,"['CSP', 'BMP']",3.0,0,0,0,None,Tier 3,No,Well,,2023,11-25,"ANU, Griffith, UWA",CSP
 697,Non-Rural,58,78,74,70.0,71.0,The University of Western Australia,6.88,71.0,CSP,3.0,Yes,,,,['CSP'],None,0,0,0,None,None,Unsure,Well,,2023,6-10,,CSP
-698,Non-Rural,74,75,71,73.33,72.75,,,,,None,,The University of Melbourne,6.9,73.33,['CSP'],1.0,0,0,0,None,None,,Well,,2023,101-250,"Deakin, UQ",['CSP']
-699,Non-Rural,72,62,72,68.67,69.5,,,,,None,,The University of Queensland (RMP),7.0,68.67,"['CSP', 'BMP', 'FFP']",1.0,0,2,0,2nd,Tier 3,,Unsure,,2023,11-25,"Deakin, Griffith, UniMelb, UWA, UoW","['CSP', 'BMP', 'FFP']"
+698,Non-Rural,74,75,71,73.33,72.75,,,,,None,None,The University of Melbourne,6.9,73.33,['CSP'],1.0,0,0,0,None,None,,Well,,2023,101-250,"Deakin, UQ",['CSP']
+699,Non-Rural,72,62,72,68.67,69.5,,,,,None,None,The University of Queensland (RMP),7.0,68.67,"['CSP', 'BMP', 'FFP']",1.0,0,2,0,2nd,Tier 3,,Unsure,,2023,11-25,"Deakin, Griffith, UniMelb, UWA, UoW","['CSP', 'BMP', 'FFP']"
 700,Non-Rural,58,70,78,68.67,71.0,The University of Western Australia,6.839,71.0,CSP,4.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,4th,None,Yes,Well,,2023,51-100,,CSP
 701,Rural,62,65,68,65.0,65.75,The University of Notre Dame Fremantle,6.52,65.0,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,2nd,None,Yes,Unsure,wa residency,2023,11-25,,CSP
 702,Non-Rural,63,71,67,67.0,67.0,The University of Notre Dame Fremantle,6.854,67.0,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,4th,None,Yes,Well,wa resident,2023,11-25,,CSP
 703,Non-Rural,76,68,71,71.67,71.5,The University of Western Australia,6.95,71.5,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,2nd,None,Yes,Unsure,,2023,6-10,,CSP
 704,Non-Rural,65,68,86,73.0,76.25,The University of Melbourne,6.961,73.0,CSP,1.0,Yes,,,,['CSP'],None,0,0,0,None,None,Yes,Well,,2023,26-50,,CSP
-705,Non-Rural,60,72,62,64.67,64.0,,,,,None,,The University of Notre Dame Sydney,6.92,64.67,"['CSP', 'BMP']",1.0,0,0,0,4th,None,,Poorly,,2023,6-10,"ANU, Griffith, UniMelb, UQ, UoW","['CSP', 'BMP']"
+705,Non-Rural,60,72,62,64.67,64.0,,,,,None,None,The University of Notre Dame Sydney,6.92,64.67,"['CSP', 'BMP']",1.0,0,0,0,4th,None,,Poorly,,2023,6-10,"ANU, Griffith, UniMelb, UQ, UoW","['CSP', 'BMP']"
 706,Non-Rural,79,81,100,86.67,90.0,The University of Melbourne,6.875,86.67,CSP,1.0,Yes,,,,['CSP'],None,0,0,0,None,None,Yes,Well,,2023,0-5,,CSP
 707,Non-Rural,71,67,70,69.33,69.5,The University of Notre Dame Sydney,6.9,69.33,FFP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,0,5,3rd,None,No,Unsure,,2023,101-250,,FFP
 708,Non-Rural,75,75,77,75.67,76.0,The University of Western Australia,6.844,76.0,CSP,3.0,No,Griffith University,6.844,76.0,"['CSP', 'BMP']",1.0,0,0,0,4th,None,Unsure,Well,,2023,11-25,UQ,CSP
-709,Non-Rural,56,60,81,65.67,69.5,,,,,None,,The University of Notre Dame Sydney,6.78,65.67,"['CSP', 'BMP', 'FFP']",3.0,2,0,0,4th,None,,Poorly,,2023,26-50,"ANU, UWA","['CSP', 'BMP', 'FFP']"
+709,Non-Rural,56,60,81,65.67,69.5,,,,,None,None,The University of Notre Dame Sydney,6.78,65.67,"['CSP', 'BMP', 'FFP']",3.0,2,0,0,4th,None,,Poorly,,2023,26-50,"ANU, UWA","['CSP', 'BMP', 'FFP']"
 710,Non-Rural,65,58,80,67.67,70.75,Griffith University,6.792,70.75,CSP,4.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,2nd,None,Yes,Well,grif-gc,2023,26-50,,CSP
-711,Rural,60,72,62,64.67,64.0,,,,,None,,The University of Queensland (RMP),7.0,64.67,['CSP'],2.0,0,0,0,4th,Tier 3,,Well,,2023,26-50,"Griffith, UniMelb, UNDF, UoW",['CSP']
+711,Rural,60,72,62,64.67,64.0,,,,,None,None,The University of Queensland (RMP),7.0,64.67,['CSP'],2.0,0,0,0,4th,Tier 3,,Well,,2023,26-50,"Griffith, UniMelb, UNDF, UoW",['CSP']
 712,Non-Rural,66,76,62,68.0,66.5,The University of Notre Dame Fremantle,6.6,68.0,BMP,4.0,No,The University of Queensland (RMP),7.0,68.0,"['CSP', 'BMP']",2.0,0,0,0,3rd,Tier 3,Yes,Well,had a master of medical research considered an hdr for undf.,2023,6-10,UNDS,BMP
 713,Non-Rural,59,68,70,65.67,66.75,The University of Notre Dame Sydney,6.89,65.67,CSP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,0,0,4th,None,Yes,Well,,2023,51-100,,CSP
 714,Non-Rural,63,68,68,66.33,66.75,The University of Western Australia,6.7,66.75,CSP,6.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,Yes,Unsure,,2023,0-5,,CSP
@@ -1164,41 +1164,41 @@
 719,Non-Rural,62,76,77,71.67,73.0,The University of Western Australia,6.938,73.0,CSP,6.0,No,The University of Melbourne,6.95,71.67,['CSP'],1.0,0,0,0,None,None,Yes,Very poorly,,2023,51-100,"ANU, Deakin, Griffith, UQ",CSP
 720,Rural,56,60,84,66.67,71.0,The University of Melbourne,6.988,66.67,BMP,1.0,Yes,,,,"['CSP', 'BMP']",None,8,0,0,None,None,Yes,Very poorly,,2023,11-25,,BMP
 721,Non-Rural,73,65,69,69.0,69.0,Deakin University,6.85,69.0,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,8,0,0,None,None,Yes,Unsure,,2023,51-100,,CSP
-722,Non-Rural,63,56,78,65.67,68.75,,,,,None,,Macquarie University,6.844,68.75,"['CSP', 'BMP', 'FFP']",2.0,0,0,0,2nd,None,,Unsure,,2023,6-10,"ANU, Deakin, Griffith, UQ","['CSP', 'BMP', 'FFP']"
+722,Non-Rural,63,56,78,65.67,68.75,,,,,None,None,Macquarie University,6.844,68.75,"['CSP', 'BMP', 'FFP']",2.0,0,0,0,2nd,None,,Unsure,,2023,6-10,"ANU, Deakin, Griffith, UQ","['CSP', 'BMP', 'FFP']"
 723,Non-Rural,61,73,74,69.33,70.5,The University of Notre Dame Sydney,6.396,69.33,FFP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,2,0,4th,None,Yes,Well,,2023,6-10,,FFP
 724,Non-Rural,65,58,86,69.67,73.75,Griffith University,6.64,73.75,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,No,Well,griffith-sc,2023,11-25,,CSP
 725,Non-Rural,70,65,99,78.0,83.25,The University of Western Australia,7.0,83.25,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,3rd,None,Yes,Poorly,,2023,0-5,,CSP
 726,Rural,52,53,59,54.67,55.75,The University of Queensland (RMP),6.0,54.67,BMP,3.0,No,Deakin University,6.458,55.75,"['CSP', 'BMP']",1.0,8,0,0,1st,Tier 2,Yes,Well,,2023,11-25,UniMelb,BMP
-727,Non-Rural,60,76,84,73.33,76.0,,,,,None,,The University of Queensland (Metro),6.53,73.33,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,2nd,None,,Unsure,,2023,6-10,"Griffith, UniMelb, UNDF, UNDS, UWA","['CSP', 'BMP', 'FFP']"
+727,Non-Rural,60,76,84,73.33,76.0,,,,,None,None,The University of Queensland (Metro),6.53,73.33,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,2nd,None,,Unsure,,2023,6-10,"Griffith, UniMelb, UNDF, UNDS, UWA","['CSP', 'BMP', 'FFP']"
 728,Non-Rural,69,77,62,69.33,67.5,The University of Notre Dame Fremantle,6.668,69.33,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,4th,None,Yes,Poorly,wa residency,2023,26-50,,CSP
 729,Rural,62,56,65,61.0,62.0,The University of Western Australia,6.917,62.0,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,8,0,0,None,None,Yes,Well,,2023,101-250,,CSP
 730,Rural,55,59,62,58.67,59.5,Griffith University,6.656,59.5,BMP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,0,0,None,None,Yes,Well,,2023,26-50,,BMP
-731,Non-Rural,72,68,62,67.33,66.0,,,,,None,,The University of Melbourne,6.4,67.33,"['CSP', 'BMP']",5.0,0,0,0,2nd,Tier 3,,Unsure,,2023,0-5,Deakin,"['CSP', 'BMP']"
+731,Non-Rural,72,68,62,67.33,66.0,,,,,None,None,The University of Melbourne,6.4,67.33,"['CSP', 'BMP']",5.0,0,0,0,2nd,Tier 3,,Unsure,,2023,0-5,Deakin,"['CSP', 'BMP']"
 732,Non-Rural,70,74,73,72.33,72.5,The University of Western Australia,6.854,72.5,CSP,3.0,Yes,,,,"['CSP', 'BMP']",None,2,0,0,None,None,Yes,Well,,2023,11-25,,CSP
-733,Non-Rural,58,87,71,72.0,71.75,,,,,None,,The University of Melbourne,6.85,72.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Unsure,gam,2023,51-100,,"['CSP', 'BMP', 'FFP']"
-734,Non-Rural,60,64,77,67.0,69.5,,,,,None,,Macquarie University,6.648,69.5,['FFP'],6.0,0,2,0,2nd,None,,Poorly,,2023,26-50,,['FFP']
+733,Non-Rural,58,87,71,72.0,71.75,,,,,None,None,The University of Melbourne,6.85,72.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Unsure,gam,2023,51-100,,"['CSP', 'BMP', 'FFP']"
+734,Non-Rural,60,64,77,67.0,69.5,,,,,None,None,Macquarie University,6.648,69.5,['FFP'],6.0,0,2,0,2nd,None,,Poorly,,2023,26-50,,['FFP']
 735,Non-Rural,60,60,77,65.67,68.5,The University of Western Australia,6.75,68.5,CSP,2.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,4th,None,Yes,Unsure,,2023,26-50,,CSP
-736,Non-Rural,70,58,100,76.0,82.0,,,,,None,,The University of Western Australia,6.36,82.0,"['CSP', 'BMP', 'FFP']",1.0,0,2,0,2nd,None,,Unsure,wa resident,2023,26-50,"ANU, Griffith, UniMelb, UNDF, UQ","['CSP', 'BMP', 'FFP']"
+736,Non-Rural,70,58,100,76.0,82.0,,,,,None,None,The University of Western Australia,6.36,82.0,"['CSP', 'BMP', 'FFP']",1.0,0,2,0,2nd,None,,Unsure,wa resident,2023,26-50,"ANU, Griffith, UniMelb, UNDF, UQ","['CSP', 'BMP', 'FFP']"
 737,Non-Rural,69,78,64,70.33,68.75,The University of Western Australia,6.792,68.75,CSP,2.0,Yes,,,,['CSP'],None,4,0,0,None,None,No,Unsure,,2023,0-5,,CSP
-738,Non-Rural,62,78,80,73.33,75.0,,,,,None,,The University of Melbourne,6.729,73.33,"['CSP', 'BMP']",1.0,0,0,0,4th,None,,Well,wa residency bonus,2023,51-100,"Griffith, UNDF, UNDS, UQ, UWA","['CSP', 'BMP']"
+738,Non-Rural,62,78,80,73.33,75.0,,,,,None,None,The University of Melbourne,6.729,73.33,"['CSP', 'BMP']",1.0,0,0,0,4th,None,,Well,wa residency bonus,2023,51-100,"Griffith, UNDF, UNDS, UQ, UWA","['CSP', 'BMP']"
 739,Non-Rural,55,75,68,66.0,66.5,Macquarie University,6.864,66.5,FFP,1.0,Yes,,,,['FFP'],None,0,0,0,None,None,No,Unsure,,2023,6-10,,FFP
 740,Non-Rural,69,72,73,71.33,71.75,Deakin University,6.958,71.75,CSP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,2,0,0,None,None,Yes,Unsure,,2023,26-50,,CSP
 741,Non-Rural,70,74,64,69.33,68.0,The University of Western Australia,6.952,68.0,CSP,4.0,Yes,,,,"['CSP', 'BMP']",None,2,0,0,2nd,None,Yes,Poorly,,2023,26-50,,CSP
 742,Rural,66,52,70,62.67,64.5,The University of Melbourne,6.79,62.67,BMP,1.0,Yes,,,,"['CSP', 'BMP']",None,8,0,0,2nd,Tier 2,Yes,Unsure,,2023,0-5,,BMP
-743,Non-Rural,57,60,71,62.67,64.75,,,,,None,,The University of Notre Dame Fremantle,6.736,62.67,['CSP'],1.0,0,0,0,4th,None,,Unsure,wa residency scheme and decent portfolio (top 60 to80% of those who interviewed at wollongong as per their feedback),2023,11-25,"ANU, UNDS, UQ, UWA, UoW",['CSP']
+743,Non-Rural,57,60,71,62.67,64.75,,,,,None,None,The University of Notre Dame Fremantle,6.736,62.67,['CSP'],1.0,0,0,0,4th,None,,Unsure,wa residency scheme and decent portfolio (top 60 to80% of those who interviewed at wollongong as per their feedback),2023,11-25,"ANU, UNDS, UQ, UWA, UoW",['CSP']
 744,Non-Rural,60,83,60,67.67,65.75,The University of Queensland (RMP),6.75,67.67,CSP,2.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,4,0,0,2nd,Tier 3,Yes,Very well,,2023,0-5,,CSP
 745,Non-Rural,63,82,69,71.33,70.75,The University of Melbourne,6.8,71.33,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,3rd,None,Yes,Well,gam,2023,6-10,,CSP
-746,Non-Rural,53,78,78,69.67,71.75,,,,,None,,The University of Wollongong,5.5,71.75,"['CSP', 'BMP', 'FFP']",2.0,0,0,0,4th,None,,Unsure,moderate portfolio,2023,26-50,"Deakin, Griffith, MQ, UniMelb","['CSP', 'BMP', 'FFP']"
+746,Non-Rural,53,78,78,69.67,71.75,,,,,None,None,The University of Wollongong,5.5,71.75,"['CSP', 'BMP', 'FFP']",2.0,0,0,0,4th,None,,Unsure,moderate portfolio,2023,26-50,"Deakin, Griffith, MQ, UniMelb","['CSP', 'BMP', 'FFP']"
 747,Non-Rural,71,63,69,67.67,68.0,The University of Western Australia,6.88,68.0,CSP,5.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,Yes,Well,,2023,26-50,,CSP
 748,Rural,61,57,69,62.33,64.0,The University of Queensland (RMP),6.185,62.33,CSP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,0,0,1st,Tier 2,Yes,Well,,2023,6-10,,CSP
 749,Non-Rural,62,75,68,68.33,68.25,The University of Western Australia,6.875,68.25,CSP,5.0,Yes,,,,['CSP'],None,0,0,0,2nd,None,Yes,Very well,,2023,101-250,,CSP
 750,Rural,70,70,59,66.33,64.5,Griffith University,6.92,64.5,BMP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,Yes,Poorly,,2023,26-50,,BMP
 751,Non-Rural,57,61,73,63.67,66.0,The University of Western Australia,7.0,66.0,CSP,2.0,Yes,,,,"['CSP', 'BMP']",None,2,0,0,None,None,Yes,Well,,2023,6-10,,CSP
-752,Non-Rural,67,60,73,66.67,68.25,,,,,None,,The University of Queensland (RMP),7.0,66.67,"['CSP', 'BMP']",1.0,0,2,0,None,Tier 3,,Well,,2023,51-100,"ANU, Deakin, Griffith, UniMelb","['CSP', 'BMP']"
+752,Non-Rural,67,60,73,66.67,68.25,,,,,None,None,The University of Queensland (RMP),7.0,66.67,"['CSP', 'BMP']",1.0,0,2,0,None,Tier 3,,Well,,2023,51-100,"ANU, Deakin, Griffith, UniMelb","['CSP', 'BMP']"
 753,Rural,61,65,62,62.67,62.5,Griffith University,7.0,62.5,CSP,1.0,Yes,,,,['CSP'],None,0,0,0,4th,None,Yes,Well,grif-sc,2023,11-25,,CSP
 754,Non-Rural,67,70,75,70.67,71.75,The University of Notre Dame Sydney,6.479,70.67,CSP,2.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,2,2,0,3rd,None,Yes,Well,,2023,26-50,,CSP
 755,Rural,56,69,54,59.67,58.25,The University of Queensland (RMP),6.842,59.67,CSP,2.0,No,Griffith University,6.851,58.25,"['CSP', 'BMP']",1.0,0,0,0,None,Tier 1 (DD RMP),Yes,Unsure,,2023,11-25,,CSP
-756,Non-Rural,70,72,74,72.0,72.5,,,,,None,,The University of Notre Dame Sydney,6.65,72.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,3rd,None,,Poorly,,2023,11-25,"ANU, MQ, UniMelb, UNDF","['CSP', 'BMP', 'FFP']"
+756,Non-Rural,70,72,74,72.0,72.5,,,,,None,None,The University of Notre Dame Sydney,6.65,72.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,3rd,None,,Poorly,,2023,11-25,"ANU, MQ, UniMelb, UNDF","['CSP', 'BMP', 'FFP']"
 757,Non-Rural,71,75,58,68.0,65.5,The University of Western Australia,7.0,65.5,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,3rd,None,Yes,Unsure,,2023,6-10,,CSP
 758,Non-Rural,67,64,95,75.33,80.25,Deakin University,7.0,80.25,CSP,2.0,No,The University of Melbourne,6.708,75.33,"['CSP', 'BMP']",1.0,2,2,0,None,None,Yes,Very poorly,gam applicant,2023,26-50,,CSP
 759,Non-Rural,63,66,65,64.67,64.75,The University of Western Australia,6.958,64.75,CSP,4.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,1st,None,No,Well,,2023,26-50,,CSP
@@ -1208,13 +1208,13 @@
 763,Non-Rural,59,72,67,66.0,66.25,The University of Queensland (RMP),7.0,66.0,CSP,1.0,Yes,,,,['CSP'],None,0,2,0,4th,Tier 3,Yes,Well,,2023,51-100,,CSP
 764,Non-Rural,70,69,65,68.0,67.25,The University of Notre Dame Sydney,6.688,68.0,FFP,3.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,2,2,0,4th,None,Yes,Very well,,2023,26-50,,FFP
 765,Rural,66,73,77,72.0,73.25,The University of Melbourne,6.4,72.0,BMP,1.0,Yes,,,,"['CSP', 'BMP']",None,4,0,0,None,None,Yes,Well,,2023,26-50,,BMP
-766,Non-Rural,58,56,61,58.33,59.0,,,,,None,,The University of Melbourne,6.915,58.33,"['CSP', 'BMP']",1.0,4,4,0,None,None,,Poorly,gam application,2023,26-50,"ANU, Deakin, Griffith, UQ","['CSP', 'BMP']"
+766,Non-Rural,58,56,61,58.33,59.0,,,,,None,None,The University of Melbourne,6.915,58.33,"['CSP', 'BMP']",1.0,4,4,0,None,None,,Poorly,gam application,2023,26-50,"ANU, Deakin, Griffith, UQ","['CSP', 'BMP']"
 767,Rural,57,64,61,60.67,60.75,The University of Melbourne,6.8,60.67,CSP,2.0,Yes,,,,"['CSP', 'BMP']",None,4,0,0,3rd,None,Yes,Unsure,,2023,6-10,,CSP
 768,Non-Rural,63,84,70,72.33,71.75,The University of Melbourne,6.844,72.33,BMP,1.0,Yes,,,,"['CSP', 'BMP']",None,2,0,0,4th,None,Unsure,Poorly,gam,2023,51-100,,BMP
 769,Rural,72,62,54,62.67,60.5,Deakin University,6.89,60.5,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,12,0,0,None,None,Yes,Unsure,deakin rts tier 1,2023,11-25,,CSP
 770,Rural,62,67,61,63.33,62.75,The University of Queensland (RMP),5.99,63.33,BMP,3.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,Tier 2,Yes,Unsure,,2023,0-5,,BMP
 771,Non-Rural,61,62,82,68.33,71.75,Griffith University,7.0,71.75,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,1st,None,Yes,Well,,2023,26-50,,CSP
-772,Non-Rural,65,73,68,68.67,68.5,,,,,None,,Australian National University,6.9,68.5,"['CSP', 'BMP', 'FFP']",1.0,0,2,3,None,Tier 3,,Well,,2023,26-50,"Griffith, MQ, UniMelb, UQ, UWA","['CSP', 'BMP', 'FFP']"
+772,Non-Rural,65,73,68,68.67,68.5,,,,,None,None,Australian National University,6.9,68.5,"['CSP', 'BMP', 'FFP']",1.0,0,2,3,None,Tier 3,,Well,,2023,26-50,"Griffith, MQ, UniMelb, UQ, UWA","['CSP', 'BMP', 'FFP']"
 773,Rural,63,73,69,68.33,68.5,The University of Wollongong,5.5,68.5,CSP,2.0,No,The University of Melbourne,6.625,68.33,"['CSP', 'BMP']",1.0,8,0,0,2nd,None,No,Well,gam,2023,26-50,,CSP
 774,Non-Rural,67,69,83,73.0,75.5,Griffith University,6.688,75.5,CSP,2.0,Yes,,,,"['CSP', 'BMP']",None,2,2,0,4th,None,Yes,Well,,2023,11-25,,CSP
 775,Non-Rural,67,78,93,79.33,82.75,The University of Western Australia,6.688,82.75,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,2,0,3rd,None,Yes,Unsure,,2023,101-250,,CSP
@@ -1223,12 +1223,12 @@
 778,Non-Rural,67,61,97,75.0,80.5,The University of Melbourne,7.0,75.0,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,Yes,Very poorly,,2023,26-50,,CSP
 779,Non-Rural,62,68,90,73.33,77.5,Griffith University,6.23,77.5,CSP,4.0,No,Macquarie University,6.23,77.5,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,Yes,Unsure,,2023,6-10,"UNDS, UQ",CSP
 780,Non-Rural,66,79,76,73.67,74.25,The University of Melbourne,6.69,73.67,CSP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,0,0,None,None,Yes,Well,,2023,51-100,,CSP
-781,Non-Rural,71,65,84,73.33,76.0,,,,,None,,The University of Notre Dame Fremantle,6.625,73.33,"['CSP', 'BMP']",1.0,0,0,0,1st,None,,Well,undf wa residency,2023,11-25,"ANU, Deakin, Griffith, UNDS, UWA","['CSP', 'BMP']"
+781,Non-Rural,71,65,84,73.33,76.0,,,,,None,None,The University of Notre Dame Fremantle,6.625,73.33,"['CSP', 'BMP']",1.0,0,0,0,1st,None,,Well,undf wa residency,2023,11-25,"ANU, Deakin, Griffith, UNDS, UWA","['CSP', 'BMP']"
 782,Rural,70,72,51,64.33,61.0,The University of Queensland (RMP),6.493,64.33,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,Tier 1 (DD RMP),Yes,Well,,2023,0-5,,CSP
-783,Non-Rural,61,60,90,70.33,75.25,,,,,None,,The University of Western Australia,6.65,75.25,"['CSP', 'BMP']",1.0,0,0,0,2nd,None,,Very well,,2023,6-10,"Deakin, Griffith, UNDF, UNDS, UQ","['CSP', 'BMP']"
+783,Non-Rural,61,60,90,70.33,75.25,,,,,None,None,The University of Western Australia,6.65,75.25,"['CSP', 'BMP']",1.0,0,0,0,2nd,None,,Very well,,2023,6-10,"Deakin, Griffith, UNDF, UNDS, UQ","['CSP', 'BMP']"
 784,Rural,58,64,60,60.67,60.5,Deakin University,6.0,60.5,BMP,1.0,Yes,,,,"['CSP', 'BMP']",None,14,0,0,None,None,Yes,Very well,,2023,11-25,,BMP
 785,Non-Rural,58,70,69,65.67,66.5,The University of Queensland (RMP),7.0,65.67,CSP,1.0,Yes,,,,['CSP'],None,2,2,0,1st,Tier 3,Yes,Unsure,"selected bundaberg as uq campus preference, was given this allocation.",2023,11-25,,CSP
-786,Non-Rural,64,76,62,67.33,66.0,,,,,None,,The University of Western Australia,6.969,66.0,"['CSP', 'BMP', 'FFP']",2.0,0,0,0,3rd,None,,Well,,2023,11-25,"Griffith, UNDF, UNDS, UoW","['CSP', 'BMP', 'FFP']"
+786,Non-Rural,64,76,62,67.33,66.0,,,,,None,None,The University of Western Australia,6.969,66.0,"['CSP', 'BMP', 'FFP']",2.0,0,0,0,3rd,None,,Well,,2023,11-25,"Griffith, UNDF, UNDS, UoW","['CSP', 'BMP', 'FFP']"
 787,Non-Rural,68,75,91,78.0,81.25,The University of Melbourne,6.81,78.0,CSP,1.0,Yes,,,,['CSP'],None,0,0,0,None,None,Yes,Well,,2023,51-100,,CSP
 788,Non-Rural,67,67,74,69.33,70.5,Macquarie University,6.73,70.5,FFP,1.0,Yes,,,,"['CSP', 'FFP']",None,0,0,0,4th,None,No,Well,,2023,51-100,,FFP
 789,Non-Rural,65,68,80,71.0,73.25,The University of Melbourne,7.0,71.0,CSP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,0,0,4th,None,Yes,Unsure,,2023,26-50,,CSP
@@ -1241,16 +1241,16 @@
 796,Rural,60,70,60,63.33,62.5,The University of Queensland (RMP),6.2,63.33,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,Tier 1 (DD RMP),Yes,Well,,2023,26-50,,CSP
 797,Non-Rural,75,77,72,74.67,74.0,The University of Melbourne,6.875,74.67,CSP,1.0,Yes,,,,['CSP'],None,0,2,0,None,None,Yes,Well,,2023,51-100,,CSP
 798,Non-Rural,66,66,67,66.33,66.5,The University of Western Australia,6.91,66.5,CSP,5.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,Unsure,Well,,2023,11-25,,CSP
-799,Non-Rural,57,61,71,63.0,65.0,,,,,None,,Macquarie University,6.938,65.0,"['CSP', 'BMP', 'FFP']",2.0,0,2,3,2nd,None,,Unsure,,2023,11-25,"UNDF, UNDS, UQ, UoW","['CSP', 'BMP', 'FFP']"
-800,Non-Rural,84,63,87,78.0,80.25,,,,,None,,The University of Melbourne,6.77,78.0,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Well,,2023,0-5,,"['CSP', 'BMP']"
-801,Non-Rural,68,70,74,70.67,71.5,,,,,None,,The University of Notre Dame Fremantle,6.495,70.67,"['CSP', 'BMP']",2.0,2,2,0,3rd,None,,Well,wa residency,2023,6-10,"ANU, Deakin, Griffith, UQ, UWA","['CSP', 'BMP']"
+799,Non-Rural,57,61,71,63.0,65.0,,,,,None,None,Macquarie University,6.938,65.0,"['CSP', 'BMP', 'FFP']",2.0,0,2,3,2nd,None,,Unsure,,2023,11-25,"UNDF, UNDS, UQ, UoW","['CSP', 'BMP', 'FFP']"
+800,Non-Rural,84,63,87,78.0,80.25,,,,,None,None,The University of Melbourne,6.77,78.0,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Well,,2023,0-5,,"['CSP', 'BMP']"
+801,Non-Rural,68,70,74,70.67,71.5,,,,,None,None,The University of Notre Dame Fremantle,6.495,70.67,"['CSP', 'BMP']",2.0,2,2,0,3rd,None,,Well,wa residency,2023,6-10,"ANU, Deakin, Griffith, UQ, UWA","['CSP', 'BMP']"
 802,Non-Rural,62,64,82,69.33,72.5,The University of Queensland (RMP),6.41,69.33,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,2,3,3rd,Tier 3,Yes,Well,uqrmp- rocky,2023,51-100,,CSP
-803,Rural,64,51,67,60.67,62.25,,,,,None,,The University of Queensland (Metro),7.0,60.67,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Unsure,,2023,11-25,,"['CSP', 'BMP']"
+803,Rural,64,51,67,60.67,62.25,,,,,None,None,The University of Queensland (Metro),7.0,60.67,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Unsure,,2023,11-25,,"['CSP', 'BMP']"
 804,Non-Rural,61,60,74,65.0,67.25,The University of Wollongong,5.5,67.25,BMP,4.0,Yes,,,,"['CSP', 'BMP']",None,4,2,0,4th,None,Yes,Well,,2023,6-10,,BMP
 805,Non-Rural,66,70,74,70.0,71.0,The University of Melbourne,6.938,70.0,CSP,1.0,Yes,,,,['CSP'],None,0,0,0,None,None,Yes,Unsure,,2023,51-100,,CSP
 806,Non-Rural,63,78,62,67.67,66.25,Macquarie University,6.7,66.25,FFP,5.0,No,The University of Wollongong,5.5,66.25,"['CSP', 'BMP', 'FFP']",4.0,0,0,3,4th,None,Yes,Very well,,2023,26-50,,FFP
 807,Rural,55,60,64,59.67,60.75,The University of Queensland (RMP),6.6,59.67,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,Tier 3,No,Well,,2023,0-5,,CSP
-808,Non-Rural,50,62,74,62.0,65.0,,,,,None,,The University of Wollongong,5.5,65.0,"['CSP', 'BMP', 'FFP']",3.0,0,0,0,2nd,None,,Well,top 20% in portfolio,2023,51-100,"Griffith, MQ, UNDS","['CSP', 'BMP', 'FFP']"
+808,Non-Rural,50,62,74,62.0,65.0,,,,,None,None,The University of Wollongong,5.5,65.0,"['CSP', 'BMP', 'FFP']",3.0,0,0,0,2nd,None,,Well,top 20% in portfolio,2023,51-100,"Griffith, MQ, UNDS","['CSP', 'BMP', 'FFP']"
 809,Rural,63,83,54,66.67,63.5,The University of Melbourne,7.0,66.67,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,Yes,Very well,"gam, first time applicant and first time gamsat score used",2023,11-25,,CSP
 810,Non-Rural,65,59,73,65.67,67.5,The University of Notre Dame Sydney,6.9,65.67,CSP,2.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,0,0,4th,None,Yes,Unsure,,2023,11-25,,CSP
 811,Rural,91,90,74,85.0,82.25,The University of Melbourne,6.89,85.0,CSP,1.0,Yes,,,,['CSP'],None,0,0,0,None,None,Unsure,Very well,,2023,0-5,,CSP
@@ -1262,11 +1262,11 @@
 817,Non-Rural,59,72,69,66.67,67.25,Macquarie University,7.0,67.25,FFP,3.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,0,3,2nd,None,Yes,Well,,2023,51-100,,FFP
 818,Non-Rural,56,67,68,63.67,64.75,The University of Notre Dame Sydney,6.728,63.67,FFP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,4,2,0,4th,Tier 3,Yes,Unsure,,2023,11-25,,FFP
 819,Non-Rural,63,60,62,61.67,61.75,The University of Notre Dame Sydney,6.892,61.67,FFP,2.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,0,0,4th,None,Yes,Unsure,,2023,51-100,,FFP
-820,Non-Rural,63,78,84,75.0,77.25,,,,,None,,The University of Melbourne,6.838,75.0,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Poorly,,2023,51-100,"Deakin, Griffith, UQ, UWA","['CSP', 'BMP']"
+820,Non-Rural,63,78,84,75.0,77.25,,,,,None,None,The University of Melbourne,6.838,75.0,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Poorly,,2023,51-100,"Deakin, Griffith, UQ, UWA","['CSP', 'BMP']"
 821,Non-Rural,50,73,66,63.0,63.75,The University of Notre Dame Fremantle,6.431,63.0,BMP,2.0,Yes,,,,['BMP'],None,0,0,0,4th,None,Yes,Very well,"wa residency, above average portfolio",2023,101-250,,BMP
 822,Non-Rural,58,61,64,61.0,61.75,The University of Notre Dame Fremantle,6.875,61.0,CSP,4.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,4,0,0,4th,None,Unsure,Well,experience in healthcare as a registered nurse,2023,11-25,,CSP
 823,Non-Rural,58,66,64,62.67,63.0,Macquarie University,7.0,63.0,FFP,2.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,0,3,4th,None,Yes,Well,,2023,51-100,,FFP
-824,Non-Rural,78,52,83,71.0,74.0,,,,,None,,The University of Notre Dame Fremantle,6.47,71.0,"['CSP', 'BMP']",1.0,0,0,0,3rd,None,,Very well,wa resident,2023,6-10,UWA,"['CSP', 'BMP']"
+824,Non-Rural,78,52,83,71.0,74.0,,,,,None,None,The University of Notre Dame Fremantle,6.47,71.0,"['CSP', 'BMP']",1.0,0,0,0,3rd,None,,Very well,wa resident,2023,6-10,UWA,"['CSP', 'BMP']"
 825,Non-Rural,61,73,89,74.33,78.0,The University of Melbourne,7.0,74.33,FFP,1.0,Yes,,,,"['CSP', 'FFP']",None,0,0,0,None,None,Yes,Very poorly,,2023,26-50,,FFP
 826,Non-Rural,68,57,71,65.33,66.75,Deakin University,6.6,66.75,CSP,2.0,No,The University of Wollongong,5.5,66.75,"['CSP', 'BMP']",1.0,6,0,0,3rd,None,Yes,Well,,2023,101-250,,CSP
 827,Non-Rural,67,71,81,73.0,75.0,The University of Melbourne,6.888,73.0,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,Yes,Poorly,,2023,101-250,,CSP
@@ -1277,7 +1277,7 @@
 832,Rural,59,83,61,67.67,66.0,The University of Melbourne,6.88,67.67,BMP,1.0,Yes,,,,"['CSP', 'BMP']",None,2,0,0,None,Tier 1 (CQ-WB RMP),No,Very well,,2023,26-50,,BMP
 833,Non-Rural,67,75,91,77.67,81.0,The University of Western Australia,6.331,81.0,CSP,4.0,No,The University of Melbourne,6.331,77.67,"['CSP', 'BMP']",1.0,0,0,0,None,None,Unsure,Well,,2023,26-50,"ANU, Deakin, Griffith",CSP
 834,Non-Rural,64,69,65,66.0,65.75,The University of Western Australia,6.8,65.75,CSP,6.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,Yes,Well,,2023,11-25,,CSP
-835,Non-Rural,66,52,78,65.33,68.5,,,,,None,,Australian National University,6.903,68.5,"['CSP', 'BMP', 'FFP']",2.0,0,2,0,2nd,None,,Unsure,,2023,26-50,"Deakin, Griffith, UNDS, UQ","['CSP', 'BMP', 'FFP']"
+835,Non-Rural,66,52,78,65.33,68.5,,,,,None,None,Australian National University,6.903,68.5,"['CSP', 'BMP', 'FFP']",2.0,0,2,0,2nd,None,,Unsure,,2023,26-50,"Deakin, Griffith, UNDS, UQ","['CSP', 'BMP', 'FFP']"
 836,Non-Rural,70,72,65,69.0,68.0,The University of Western Australia,7.0,68.0,CSP,3.0,No,Griffith University,7.0,68.0,"['CSP', 'BMP']",2.0,0,4,0,3rd,None,Yes,Unsure,phd,2023,0-5,UQ,CSP
 837,Non-Rural,68,78,73,73.0,73.0,The University of Melbourne,6.975,73.0,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,4,0,0,None,None,Yes,Unsure,gam applicant,2023,11-25,,CSP
 838,Non-Rural,61,65,77,67.67,70.0,The University of Wollongong,5.5,70.0,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,4th,None,Yes,Unsure,strong portfolio in healthcare and regional areas,2023,11-25,,CSP
@@ -1285,12 +1285,12 @@
 840,Non-Rural,67,58,77,67.33,69.75,The University of Notre Dame Fremantle,6.958,67.33,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,4th,None,Yes,Well,wa residency,2023,26-50,,CSP
 841,Non-Rural,56,66,67,63.0,64.0,The University of Queensland (RMP),7.0,63.0,CSP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,0,0,4th,Tier 3,Yes,Very well,,2023,26-50,,CSP
 842,Non-Rural,64,71,65,66.67,66.25,Australian National University,7.0,66.25,CSP,4.0,No,The University of Wollongong,5.5,66.25,"['CSP', 'BMP']",3.0,4,0,0,3rd,None,Yes,Well,portfolio in top 20% (as per uow feedback),2023,6-10,"Griffith, UNDS",CSP
-843,Non-Rural,62,73,68,67.67,67.75,,,,,None,,The University of Queensland (Metro),7.0,67.67,"['CSP', 'FFP']",1.0,0,2,0,3rd,None,,Unsure,,2023,26-50,"ANU, Griffith, UniMelb, UNDS, UWA","['CSP', 'FFP']"
+843,Non-Rural,62,73,68,67.67,67.75,,,,,None,None,The University of Queensland (Metro),7.0,67.67,"['CSP', 'FFP']",1.0,0,2,0,3rd,None,,Unsure,,2023,26-50,"ANU, Griffith, UniMelb, UNDS, UWA","['CSP', 'FFP']"
 844,Non-Rural,65,78,78,73.67,74.75,Australian National University,6.896,74.75,CSP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,2,0,4th,None,Yes,Well,,2023,101-250,,CSP
 845,Rural,62,62,59,61.0,60.5,Australian National University,6.1,60.5,BMP,3.0,Yes,,,,"['CSP', 'BMP']",None,10,2,3,None,None,Yes,Very well,"rural mm7, not sure if that factors in or not but likely how i got to interview stage.",2023,11-25,,BMP
 846,Rural,70,65,65,66.67,66.25,The University of Western Australia,7.0,66.25,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,Yes,Well,,2023,0-5,,CSP
 847,Non-Rural,62,68,83,71.0,74.0,Australian National University,6.96,74.0,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,Yes,Well,,2023,26-50,,CSP
-848,Non-Rural,54,71,71,65.33,66.75,,,,,None,,The University of Notre Dame Sydney,7.0,65.33,"['CSP', 'BMP']",4.0,0,0,0,4th,None,,Well,,2023,26-50,"Griffith, UQ","['CSP', 'BMP']"
+848,Non-Rural,54,71,71,65.33,66.75,,,,,None,None,The University of Notre Dame Sydney,7.0,65.33,"['CSP', 'BMP']",4.0,0,0,0,4th,None,,Well,,2023,26-50,"Griffith, UQ","['CSP', 'BMP']"
 849,Non-Rural,68,61,83,70.67,73.75,The University of Melbourne,6.844,70.67,CSP,1.0,Yes,,,,['CSP'],None,0,0,0,None,None,Yes,Well,,2023,51-100,,CSP
 850,Rural,57,61,51,56.33,55.0,The University of Western Australia,6.46,55.0,BMP,3.0,No,Deakin University,6.48,55.0,"['CSP', 'BMP']",1.0,10,0,0,None,None,Yes,Very well,deakin tier 1,2023,0-5,UniMelb,BMP
 851,Rural,72,71,50,64.33,60.75,The University of Notre Dame Fremantle,6.2,64.33,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,4th,None,No,Well,"rural (mm6), wa residency, previous undf graduate.",2023,6-10,,CSP
@@ -1300,10 +1300,10 @@
 855,Non-Rural,66,81,64,70.33,68.75,Deakin University,6.642,68.75,CSP,3.0,No,The University of Queensland (RMP),6.542,70.33,"['CSP', 'BMP']",1.0,4,0,0,4th,Tier 3,Yes,Well,,2023,51-100,"Deakin, Griffith, UNDF, UWA, UoW",CSP
 856,Non-Rural,64,72,91,75.67,79.5,The University of Melbourne,6.767,75.67,CSP,2.0,No,The University of Notre Dame Fremantle,6.813,75.67,"['CSP', 'BMP']",1.0,0,0,0,3rd,None,Unsure,Unsure,,2023,101-250,"ANU, Deakin, Griffith, UWA",CSP
 857,Non-Rural,71,65,70,68.67,69.0,Griffith University,6.743,69.0,CSP,4.0,No,The University of Wollongong,5.5,69.0,"['CSP', 'BMP']",1.0,0,0,0,4th,None,No,Unsure,"last year's portfolio = 4th quintile overall. this year same portfolio + additions = 2nd quintile. casper=5th quintile, mmi =4th quintile.",2023,26-50,"ANU, UNDS",CSP
-858,Non-Rural,62,68,66,65.33,65.5,,,,,None,,Macquarie University,7.0,65.5,"['CSP', 'BMP', 'FFP']",1.0,0,0,3,2nd,None,,Unsure,,2023,101-250,"ANU, UNDS, UQ, UoW","['CSP', 'BMP', 'FFP']"
+858,Non-Rural,62,68,66,65.33,65.5,,,,,None,None,Macquarie University,7.0,65.5,"['CSP', 'BMP', 'FFP']",1.0,0,0,3,2nd,None,,Unsure,,2023,101-250,"ANU, UNDS, UQ, UoW","['CSP', 'BMP', 'FFP']"
 859,Non-Rural,61,65,78,68.0,70.5,Griffith University,6.792,70.5,CSP,3.0,No,The University of Notre Dame Sydney,6.844,68.0,"['CSP', 'BMP']",1.0,0,0,0,4th,None,Yes,Poorly,,2023,11-25,"ANU, UniMelb, UQ",CSP
 860,Non-Rural,61,67,59,62.33,61.5,The University of Notre Dame Sydney,6.698,62.33,FFP,2.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,0,0,4th,None,Unsure,Unsure,,2023,26-50,,FFP
-861,Non-Rural,61,68,77,68.67,70.75,,,,,None,,The University of Wollongong,5.5,70.75,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,2nd,None,,Well,,2023,0-5,"ANU, Deakin, UniMelb, UNDF, UNDS","['CSP', 'BMP', 'FFP']"
+861,Non-Rural,61,68,77,68.67,70.75,,,,,None,None,The University of Wollongong,5.5,70.75,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,2nd,None,,Well,,2023,0-5,"ANU, Deakin, UniMelb, UNDF, UNDS","['CSP', 'BMP', 'FFP']"
 862,Rural,54,60,72,62.0,64.5,Australian National University,6.46,64.5,BMP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,2nd,Tier 1 (DD RMP),Unsure,Well,strong uow portfolio,2023,0-5,,BMP
 863,Non-Rural,67,68,75,70.0,71.25,Australian National University,6.925,71.25,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,2,2,0,None,None,No,Well,,2023,11-25,,CSP
 864,Rural,75,64,64,67.67,66.75,Deakin University,6.95,66.75,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,10,0,0,4th,None,No,Very well,i will be declining my gemsas offer in favour of flinders. also received a uni melb bmp.,2023,6-10,,CSP
@@ -1311,34 +1311,34 @@
 866,Non-Rural,67,64,86,72.33,75.75,The University of Melbourne,6.688,72.33,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,2,0,None,None,Yes,Unsure,,2023,51-100,,CSP
 867,Rural,60,72,50,60.67,58.0,The University of Wollongong,5.5,58.0,BMP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,3rd,None,Yes,Unsure,"strong, diverse portfolio- tennis coaching, multiple volunteer roles, marketing for hospital, sports, language, toastmasters",2023,26-50,,BMP
 868,Non-Rural,62,68,78,69.33,71.5,The University of Melbourne,6.9,69.33,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,3rd,None,Yes,Well,,2023,11-25,,CSP
-869,Non-Rural,78,62,62,67.33,66.0,,,,,None,,The University of Wollongong,5.5,66.0,"['CSP', 'BMP']",1.0,0,0,0,3rd,None,,Unsure,,2023,11-25,"ANU, Griffith, MQ, UNDS","['CSP', 'BMP']"
+869,Non-Rural,78,62,62,67.33,66.0,,,,,None,None,The University of Wollongong,5.5,66.0,"['CSP', 'BMP']",1.0,0,0,0,3rd,None,,Unsure,,2023,11-25,"ANU, Griffith, MQ, UNDS","['CSP', 'BMP']"
 870,Non-Rural,71,71,72,71.33,71.5,The University of Queensland (Metro),7.0,71.33,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,3rd,None,Yes,Unsure,,2023,11-25,,CSP
 871,Non-Rural,59,65,72,65.33,67.0,Macquarie University,6.87,67.0,FFP,1.0,Yes,,,,['FFP'],None,0,0,0,None,None,Yes,Poorly,,2023,51-100,,FFP
-872,Non-Rural,65,68,98,77.0,82.25,,,,,None,,Australian National University,7.0,82.25,"['CSP', 'BMP']",1.0,0,0,0,4th,Tier 3,,Unsure,,2023,11-25,"Deakin, Griffith, UniMelb, UQ, UoW","['CSP', 'BMP']"
+872,Non-Rural,65,68,98,77.0,82.25,,,,,None,None,Australian National University,7.0,82.25,"['CSP', 'BMP']",1.0,0,0,0,4th,Tier 3,,Unsure,,2023,11-25,"Deakin, Griffith, UniMelb, UQ, UoW","['CSP', 'BMP']"
 873,Non-Rural,58,61,62,60.33,60.75,Deakin University,6.6,60.75,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,12,2,0,None,None,Yes,Well,,2023,11-25,,CSP
 874,Non-Rural,62,75,58,65.0,63.25,The University of Notre Dame Sydney,6.5,65.0,CSP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,4,0,0,4th,None,Yes,Very well,"registered nurse background, moderate strength portfolio",2023,26-50,,CSP
 875,Rural,51,57,65,57.67,59.5,The University of Melbourne,6.88,57.67,BMP,2.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,Unsure,Poorly,,2023,6-10,,BMP
 876,Rural,66,74,64,68.0,67.0,The University of Queensland (RMP),6.616,68.0,CSP,2.0,No,Griffith University,6.531,67.0,"['CSP', 'BMP']",1.0,10,0,0,None,Tier 2,Yes,Very poorly,uqrmp toowoomba,2023,6-10,,CSP
 877,Non-Rural,75,72,78,75.0,75.75,The University of Melbourne,6.725,75.0,BMP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,Yes,Poorly,,2023,6-10,,BMP
-878,Non-Rural,63,62,78,67.67,70.25,,,,,None,,Griffith University,7.0,70.25,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,3rd,None,,Well,,2023,51-100,"Deakin, UniMelb, UNDS, UQ, UWA","['CSP', 'BMP', 'FFP']"
-879,Non-Rural,67,71,57,65.0,63.0,,,,,None,,The University of Notre Dame Fremantle,6.47,65.0,"['CSP', 'BMP']",1.0,2,0,0,4th,None,,Well,,2023,250+,"ANU, Deakin, UniMelb, UNDS, UWA","['CSP', 'BMP']"
+878,Non-Rural,63,62,78,67.67,70.25,,,,,None,None,Griffith University,7.0,70.25,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,3rd,None,,Well,,2023,51-100,"Deakin, UniMelb, UNDS, UQ, UWA","['CSP', 'BMP', 'FFP']"
+879,Non-Rural,67,71,57,65.0,63.0,,,,,None,None,The University of Notre Dame Fremantle,6.47,65.0,"['CSP', 'BMP']",1.0,2,0,0,4th,None,,Well,,2023,250+,"ANU, Deakin, UniMelb, UNDS, UWA","['CSP', 'BMP']"
 880,Non-Rural,66,71,66,67.67,67.25,The University of Notre Dame Fremantle,6.9,67.67,BMP,6.0,No,The University of Notre Dame Sydney,6.9,67.67,"['CSP', 'BMP']",1.0,0,2,0,1st,None,Yes,Poorly,,2023,0-5,"ANU, Griffith, UniMelb, UNDS, UWA",BMP
 881,Non-Rural,72,74,74,73.33,73.5,Griffith University,6.94,73.5,CSP,1.0,Yes,,,,['CSP'],None,0,0,0,4th,None,Yes,Very well,,2023,51-100,,CSP
 882,Rural,58,59,68,61.67,63.25,The University of Notre Dame Fremantle,6.91,61.67,BMP,4.0,No,Griffith University,6.4,63.25,"['CSP', 'BMP']",1.0,0,0,0,2nd,None,Yes,Unsure,,2023,11-25,"Deakin, UniMelb",BMP
 883,Non-Rural,60,60,74,64.67,67.0,The University of Western Australia,7.0,67.0,CSP,4.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,3rd,None,No,Very well,,2023,51-100,,CSP
 884,Non-Rural,53,60,99,70.67,77.75,The University of Melbourne,6.98,70.67,CSP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,0,0,None,None,Yes,Very well,,2023,101-250,,CSP
-885,Non-Rural,71,76,59,68.67,66.25,,,,,None,,The University of Queensland (Metro),7.0,68.67,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Well,,2023,6-10,Griffith,"['CSP', 'BMP']"
+885,Non-Rural,71,76,59,68.67,66.25,,,,,None,None,The University of Queensland (Metro),7.0,68.67,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Well,,2023,6-10,Griffith,"['CSP', 'BMP']"
 886,Non-Rural,65,61,76,67.33,69.5,The University of Notre Dame Fremantle,6.644,67.33,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,4th,None,Yes,Well,wa residency,2023,11-25,,CSP
 887,Non-Rural,81,66,58,68.33,65.75,The University of Notre Dame Fremantle,6.86,68.33,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,4th,None,Yes,Well,wa residency,2023,6-10,,CSP
 888,Rural,66,59,86,70.33,74.25,The University of Western Australia,6.65,74.25,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,14,0,0,3rd,None,Unsure,Well,wa residency bonus for undf,2023,26-50,,CSP
-889,Non-Rural,69,80,73,74.0,73.75,,,,,None,,The University of Melbourne,6.96,74.0,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Very poorly,,2023,51-100,"ANU, Deakin, Griffith, UWA","['CSP', 'BMP']"
+889,Non-Rural,69,80,73,74.0,73.75,,,,,None,None,The University of Melbourne,6.96,74.0,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Very poorly,,2023,51-100,"ANU, Deakin, Griffith, UWA","['CSP', 'BMP']"
 890,Rural,60,66,61,62.33,62.0,The University of Notre Dame Fremantle,6.5,62.33,CSP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,0,0,1st,None,Yes,Well,wa residency,2023,6-10,,CSP
-891,Non-Rural,59,75,65,66.33,66.0,,,,,None,,The University of Queensland (RMP),7.0,66.33,"['CSP', 'BMP']",3.0,0,2,0,3rd,Tier 3,,Unsure,,2023,0-5,"Griffith, UNDS","['CSP', 'BMP']"
+891,Non-Rural,59,75,65,66.33,66.0,,,,,None,None,The University of Queensland (RMP),7.0,66.33,"['CSP', 'BMP']",3.0,0,2,0,3rd,Tier 3,,Unsure,,2023,0-5,"Griffith, UNDS","['CSP', 'BMP']"
 892,Rural,65,66,54,61.67,59.75,The University of Queensland (RMP),5.3,61.67,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,8,0,0,2nd,Tier 2,No,Well,,2023,0-5,,CSP
-893,Rural,67,75,60,67.33,65.5,,,,,None,,Deakin University,5.912,65.5,"['CSP', 'BMP']",1.0,12,0,0,None,None,,Well,deakin rts tier 3,2023,0-5,,"['CSP', 'BMP']"
+893,Rural,67,75,60,67.33,65.5,,,,,None,None,Deakin University,5.912,65.5,"['CSP', 'BMP']",1.0,12,0,0,None,None,,Well,deakin rts tier 3,2023,0-5,,"['CSP', 'BMP']"
 894,Non-Rural,64,72,80,72.0,74.0,The University of Western Australia,6.98,74.0,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,4th,None,No,Well,,2023,6-10,,CSP
 895,Non-Rural,58,72,76,68.67,70.5,The University of Western Australia,7.0,70.5,CSP,1.0,Yes,,,,['CSP'],None,0,0,0,4th,None,No,Unsure,,2023,6-10,,CSP
-896,Non-Rural,59,65,68,64.0,65.0,,,,,None,,The University of Wollongong,5.5,65.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,4th,None,,Unsure,,2023,11-25,"Deakin, Griffith, UniMelb, UNDS","['CSP', 'BMP', 'FFP']"
+896,Non-Rural,59,65,68,64.0,65.0,,,,,None,None,The University of Wollongong,5.5,65.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,4th,None,,Unsure,,2023,11-25,"Deakin, Griffith, UniMelb, UNDS","['CSP', 'BMP', 'FFP']"
 897,Rural,76,66,82,74.67,76.5,Griffith University,6.85,76.5,CSP,2.0,No,The University of Queensland (Metro),7.0,74.67,"['CSP', 'BMP']",1.0,2,0,0,None,None,Yes,Well,"was offered griffith sunshine coast, which was my first campus preference",2023,26-50,,CSP
 898,Non-Rural,62,79,83,74.67,76.75,The University of Melbourne,6.83,74.67,FFP,1.0,Yes,,,,"['CSP', 'FFP']",None,0,0,0,None,None,No,Well,nope,2023,101-250,,FFP
 899,Non-Rural,64,75,76,71.67,72.75,The University of Queensland (Metro),7.0,71.67,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,2,0,None,None,Yes,Well,first class honours at uq is a gpa of 7,2023,26-50,,CSP
@@ -1352,14 +1352,14 @@
 907,Non-Rural,67,61,74,67.33,69.0,Deakin University,6.0,69.0,CSP,5.0,No,The University of Wollongong,5.5,69.0,"['CSP', 'BMP']",4.0,0,0,0,2nd,None,Yes,Unsure,uow interview score was 5th quintile,2023,51-100,,CSP
 908,Non-Rural,62,73,77,70.67,72.25,The University of Melbourne,6.75,70.67,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,2,0,2nd,None,Yes,Unsure,,2023,51-100,,CSP
 909,Rural,56,57,74,62.33,65.25,Deakin University,6.604,65.25,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,12,4,0,None,Tier 2,No,Well,deakin rts tier 3,2023,51-100,,CSP
-910,Non-Rural,66,70,68,68.0,68.0,,,,,None,,The University of Notre Dame Sydney,6.3,68.0,"['CSP', 'BMP']",1.0,0,0,0,4th,None,,Unsure,,2023,6-10,"Deakin, Griffith, UniMelb, UQ, UoW","['CSP', 'BMP']"
+910,Non-Rural,66,70,68,68.0,68.0,,,,,None,None,The University of Notre Dame Sydney,6.3,68.0,"['CSP', 'BMP']",1.0,0,0,0,4th,None,,Unsure,,2023,6-10,"Deakin, Griffith, UniMelb, UQ, UoW","['CSP', 'BMP']"
 911,Rural,58,60,65,61.0,62.0,Griffith University,6.92,62.0,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,No,Unsure,grif sc,2023,0-5,,CSP
 912,Non-Rural,66,78,73,72.33,72.5,Australian National University,6.94,72.5,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,2nd,None,Unsure,Well,,2023,6-10,,CSP
-913,Non-Rural,54,54,75,61.0,64.5,,,,,None,,The University of Western Australia,6.81,64.5,"['CSP', 'BMP', 'FFP']",4.0,0,0,0,None,None,,Poorly,,2023,11-25,"Deakin, UniMelb","['CSP', 'BMP', 'FFP']"
-914,Non-Rural,68,69,79,72.0,73.75,,,,,None,,Australian National University,6.72,73.75,"['CSP', 'BMP', 'FFP']",2.0,0,0,0,3rd,None,,Unsure,,2023,11-25,"UNDS, UQ, UWA","['CSP', 'BMP', 'FFP']"
+913,Non-Rural,54,54,75,61.0,64.5,,,,,None,None,The University of Western Australia,6.81,64.5,"['CSP', 'BMP', 'FFP']",4.0,0,0,0,None,None,,Poorly,,2023,11-25,"Deakin, UniMelb","['CSP', 'BMP', 'FFP']"
+914,Non-Rural,68,69,79,72.0,73.75,,,,,None,None,Australian National University,6.72,73.75,"['CSP', 'BMP', 'FFP']",2.0,0,0,0,3rd,None,,Unsure,,2023,11-25,"UNDS, UQ, UWA","['CSP', 'BMP', 'FFP']"
 915,Non-Rural,68,72,72,70.67,71.0,The University of Melbourne,6.435,70.67,BMP,6.0,No,The University of Western Australia,6.435,71.0,"['CSP', 'BMP']",2.0,0,0,0,1st,None,Yes,Well,undf wa residency,2023,11-25,"Deakin, UNDS, UQ",BMP
 916,Non-Rural,73,71,60,68.0,66.0,Australian National University,6.958,66.0,CSP,5.0,No,The University of Wollongong,5.5,66.0,"['CSP', 'BMP']",3.0,2,2,0,2nd,None,Yes,Very well,"gam, 3rd quintile portfolio compared to other interviewees",2023,11-25,UNDS,CSP
-917,Non-Rural,68,70,71,69.67,70.0,,,,,None,,The University of Melbourne,6.84,69.67,['BMP'],1.0,0,0,0,3rd,None,,Unsure,,2023,26-50,"ANU, Deakin, Griffith, UNDS, UQ",['BMP']
+917,Non-Rural,68,70,71,69.67,70.0,,,,,None,None,The University of Melbourne,6.84,69.67,['BMP'],1.0,0,0,0,3rd,None,,Unsure,,2023,26-50,"ANU, Deakin, Griffith, UNDS, UQ",['BMP']
 918,Non-Rural,71,70,53,64.67,61.75,The University of Notre Dame Sydney,6.75,64.67,FFP,4.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,6,0,0,4th,None,Yes,Very well,,2023,6-10,,FFP
 919,Non-Rural,62,70,61,64.33,63.5,The University of Queensland (Metro),7.0,64.33,BMP,1.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,2,0,3rd,Tier 3,Yes,Well,rmp interview; second round greater brisbane offer,2023,26-50,,BMP
 920,Rural,63,64,74,67.0,68.75,Griffith University,6.75,68.75,BMP,1.0,Yes,,,,"['CSP', 'BMP']",None,6,0,0,None,None,Yes,Well,,2023,0-5,,BMP
@@ -1367,9 +1367,9 @@
 922,Non-Rural,60,73,62,65.0,64.25,The University of Notre Dame Sydney,6.95,65.0,BMP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,4th,None,Yes,Poorly,second round offer (miracle),2023,11-25,,BMP
 923,Non-Rural,64,70,58,64.0,62.5,The University of Notre Dame Sydney,6.997,64.0,FFP,3.0,Yes,,,,"['CSP', 'BMP', 'FFP']",None,0,0,0,4th,None,Yes,Unsure,second round offer,2023,26-50,,FFP
 924,Rural,57,59,61,59.0,59.5,Australian National University,6.975,59.5,BMP,4.0,No,Deakin University,6.975,59.5,"['CSP', 'BMP']",2.0,8,0,0,1st,None,Yes,Very poorly,,2023,6-10,Griffith,BMP
-925,Non-Rural,60,72,78,70.0,72.0,,,,,None,,The University of Melbourne,6.94,70.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Unsure,,2023,11-25,"ANU, Deakin, Griffith, UQ, UWA","['CSP', 'BMP', 'FFP']"
-926,Non-Rural,63,73,65,67.0,66.5,,,,,None,,Australian National University,6.844,66.5,"['CSP', 'BMP', 'FFP']",4.0,0,0,0,None,None,,Unsure,,2023,26-50,"UQ, UWA","['CSP', 'BMP', 'FFP']"
-927,Non-Rural,69,68,77,71.33,72.75,,,,,None,,The University of Melbourne,7.0,71.33,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Unsure,,2023,11-25,"ANU, Deakin, Griffith, UQ, UWA","['CSP', 'BMP']"
+925,Non-Rural,60,72,78,70.0,72.0,,,,,None,None,The University of Melbourne,6.94,70.0,"['CSP', 'BMP', 'FFP']",1.0,0,0,0,None,None,,Unsure,,2023,11-25,"ANU, Deakin, Griffith, UQ, UWA","['CSP', 'BMP', 'FFP']"
+926,Non-Rural,63,73,65,67.0,66.5,,,,,None,None,Australian National University,6.844,66.5,"['CSP', 'BMP', 'FFP']",4.0,0,0,0,None,None,,Unsure,,2023,26-50,"UQ, UWA","['CSP', 'BMP', 'FFP']"
+927,Non-Rural,69,68,77,71.33,72.75,,,,,None,None,The University of Melbourne,7.0,71.33,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Unsure,,2023,11-25,"ANU, Deakin, Griffith, UQ, UWA","['CSP', 'BMP']"
 928,Non-Rural,59,61,86,68.67,73.0,Deakin University,6.687,73.0,BMP,1.0,Yes,,,,"['CSP', 'BMP']",None,2,0,0,4th,None,Yes,Well,,2023,101-250,,BMP
 929,Rural,61,68,61,63.33,62.75,Australian National University,6.8,62.75,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,4th,None,Yes,Very well,,2023,11-25,,CSP
 930,Rural,58,64,74,65.33,67.5,Australian National University,6.9,67.5,BMP,3.0,No,Deakin University,6.9,67.5,"['CSP', 'BMP']",1.0,14,0,0,None,None,Yes,Well,,2023,26-50,"Griffith, UniMelb, UQ, UWA",BMP
@@ -1381,16 +1381,16 @@
 936,Rural,63,64,50,59.0,56.75,Griffith University,6.49,56.75,BMP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,Yes,Unsure,late offer.,2023,6-10,,BMP
 937,Rural,59,62,59,60.0,59.75,Deakin University,6.53,59.75,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,8,0,0,2nd,None,Yes,Well,,2023,26-50,,CSP
 938,Non-Rural,68,70,74,70.67,71.5,Deakin University,6.49,71.5,BMP,5.0,No,The University of Notre Dame Fremantle,6.49,70.67,"['CSP', 'BMP']",2.0,2,2,0,3rd,Tier 3,Yes,Well,,2023,6-10,"ANU, UQ",BMP
-939,Non-Rural,68,65,73,68.67,69.75,,,,,None,,Griffith University,6.886,69.75,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Well,,2023,0-5,"ANU, Deakin, UniMelb, UQ, UWA","['CSP', 'BMP']"
+939,Non-Rural,68,65,73,68.67,69.75,,,,,None,None,Griffith University,6.886,69.75,"['CSP', 'BMP']",1.0,0,0,0,None,None,,Well,,2023,0-5,"ANU, Deakin, UniMelb, UQ, UWA","['CSP', 'BMP']"
 940,Rural,51,59,55,55.0,55.0,Deakin University,6.7,55.0,BMP,2.0,No,The University of Melbourne,6.7,55.0,"['CSP', 'BMP']",1.0,10,0,0,1st,None,Yes,Well,,2023,11-25,,BMP
 941,Non-Rural,59,65,88,70.67,75.0,Griffith University,6.96,75.0,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,Yes,Well,,2023,11-25,,CSP
 942,Non-Rural,67,63,66,65.33,65.5,The University of Wollongong,5.5,65.5,CSP,6.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,4th,None,No,Well,"5th quintile casper, 3rd quintile portfolio, 4th quintile interview. received rural end-to-end offer.",2023,26-50,,CSP
 943,Non-Rural,64,86,69,73.0,72.0,The University of Queensland (Metro),6.805,73.0,BMP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,4th,None,Unsure,Very poorly,,2023,0-5,,BMP
 944,Rural,57,56,74,62.33,65.25,Griffith University,6.51,65.25,BMP,4.0,No,Deakin University,6.505,65.25,"['CSP', 'BMP']",1.0,10,0,0,1st,None,Yes,Well,received late offer from griffith in jan 2024. didn't meet casper hurdle requirement for uow.,2023,11-25,"UniMelb, UoW",BMP
-945,Non-Rural,65,65,64,64.67,64.5,,,,,None,,The University of Notre Dame Sydney,6.5,64.67,"['CSP', 'BMP']",2.0,0,0,0,2nd,None,,Very poorly,,2023,11-25,ANU,"['CSP', 'BMP']"
-946,Non-Rural,55,52,59,55.33,56.25,,,,,None,,Deakin University,6.9,56.25,['CSP'],1.0,6,0,0,None,None,,Very poorly,,2023,0-5,,['CSP']
-947,Non-Rural,63,71,69,67.67,68.0,,,,,None,,Macquarie University,6.724,68.0,"['CSP', 'BMP', 'FFP']",3.0,0,0,0,None,None,,Well,,2023,26-50,"ANU, UniMelb, UQ","['CSP', 'BMP', 'FFP']"
-948,Non-Rural,52,74,60,62.0,61.5,,,,,None,,The University of Notre Dame Fremantle,6.74,62.0,"['CSP', 'BMP', 'FFP']",2.0,6,0,0,4th,None,,Poorly,,2023,51-100,"Griffith, UNDS, UoW","['CSP', 'BMP', 'FFP']"
-949,Non-Rural,68,70,75,71.0,72.0,,,,,None,,The University of Wollongong,5.5,72.0,['CSP'],1.0,4,0,0,2nd,Tier 1 (CQ-WB RMP),,Very poorly,,2023,26-50,"N/A, UoW",['CSP']
+945,Non-Rural,65,65,64,64.67,64.5,,,,,None,None,The University of Notre Dame Sydney,6.5,64.67,"['CSP', 'BMP']",2.0,0,0,0,2nd,None,,Very poorly,,2023,11-25,ANU,"['CSP', 'BMP']"
+946,Non-Rural,55,52,59,55.33,56.25,,,,,None,None,Deakin University,6.9,56.25,['CSP'],1.0,6,0,0,None,None,,Very poorly,,2023,0-5,,['CSP']
+947,Non-Rural,63,71,69,67.67,68.0,,,,,None,None,Macquarie University,6.724,68.0,"['CSP', 'BMP', 'FFP']",3.0,0,0,0,None,None,,Well,,2023,26-50,"ANU, UniMelb, UQ","['CSP', 'BMP', 'FFP']"
+948,Non-Rural,52,74,60,62.0,61.5,,,,,None,None,The University of Notre Dame Fremantle,6.74,62.0,"['CSP', 'BMP', 'FFP']",2.0,6,0,0,4th,None,,Poorly,,2023,51-100,"Griffith, UNDS, UoW","['CSP', 'BMP', 'FFP']"
+949,Non-Rural,68,70,75,71.0,72.0,,,,,None,None,The University of Wollongong,5.5,72.0,['CSP'],1.0,4,0,0,2nd,Tier 1 (CQ-WB RMP),,Very poorly,,2023,26-50,"N/A, UoW",['CSP']
 950,Non-Rural,62,81,75,72.67,73.25,The University of Melbourne,6.875,72.67,CSP,1.0,Yes,,,,"['CSP', 'BMP']",None,0,0,0,None,None,Yes,Well,,2023,101-250,,CSP
 951,Non-Rural,75,87,79,80.33,80.0,The University of Melbourne,6.3,80.33,CSP,1.0,No,The University of Notre Dame Fremantle,6.3,80.33,"['CSP', 'BMP', 'FFP']",5.0,0,0,0,None,None,Yes,Very well,,2023,26-50,,CSP

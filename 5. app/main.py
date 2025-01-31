@@ -7,6 +7,7 @@ import dash_bootstrap_components as dbc
 # importing
 import pandas as pd
 import ast
+from pprint import pprint
 
 # for running the sever
 import signal
@@ -38,11 +39,20 @@ data_dictionaries = {
     "filter_types": data.parameters.FILTER_TYPES,
     "display_info": data.parameters.DISPLAY_INFO,
     "legend_options": data.parameters.LEGEND_OPTIONS,
+    "options_order_overide": data.parameters.ORDER_OVERIDE,
 
     # precomputed views of the frame and the originals 
     "data_views": data.filtering.create_filters(interview_df, offer_df),
     'original_frames': {'interview': interview_df, 'offer': offer_df}
 }
+
+# update with legened options
+data_dictionaries = data_dictionaries | {
+    'legend_gradients': data.options.create_legend_options(data_dictionaries['filter_to_options'])
+}
+
+#pprint(data_dictionaries[])
+
 
 # create the app
 app = Dash(
