@@ -93,7 +93,7 @@ def register_delete_filter(app, data_dictionaries):
         filter_settings[data_type]['additional value'][deleted_filter] = deleted_filter_value
 
         # make sure additional filters changed only
-        filter_settings['actions'] = [ADDITIONAL_ACTION, GRAPH_ACTION, GRAPH_CLICK_DATA_ACTION]
+        filter_settings['actions'] = [ADDITIONAL_ACTION, GRAPH_ACTION, GRAPH_DATA_ACTION, GRAPH_CLICK_DATA_ACTION]
 
         return json.dumps(filter_settings)
 
@@ -117,7 +117,7 @@ def register_toggle_additional_filters(app):
         filter_settings['additional filters'] = True if additional_filter_enablor != [] else False
 
         # make sure additional filters changed only
-        filter_settings['actions'] = [ADDITIONAL_ACTION, GRAPH_ACTION, GRAPH_CLICK_DATA_ACTION]
+        filter_settings['actions'] = [ADDITIONAL_ACTION, GRAPH_ACTION, GRAPH_DATA_ACTION, GRAPH_CLICK_DATA_ACTION]
 
         # return the filter layout
         return json.dumps(filter_settings)
@@ -169,11 +169,7 @@ def register_alter_settings_filter(app):
         filter_settings[data_type][value_type][triggered_filter_name] = triggered_filter_value
 
         # make sure it triggers the graph
-        filter_settings['actions'] = [GRAPH_ACTION, GRAPH_CLICK_DATA_ACTION]
-
-        # check if need to change the data
-        if (triggered_filter_name == UNIVERSITY):
-            filter_settings['actions'].append(GRAPH_DATA_ACTION)
+        filter_settings['actions'] = [GRAPH_ACTION, GRAPH_DATA_ACTION, GRAPH_CLICK_DATA_ACTION]
 
         return json.dumps(filter_settings)
 

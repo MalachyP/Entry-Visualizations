@@ -368,32 +368,6 @@ def register_alter_settings_legend(app):
 # ------------------------------ GRAPH DATA --------------------------------------
 
 
-def register_change_graph_data(app, data_dictionaries):
-    @app.callback(
-        Output('graph-frame', 'data'),
-        Input('filter-settings', 'data')
-    )
-    def change_graph_data(filter_settings_json):
-        # load the data
-        filter_settings = json.loads(filter_settings_json)
-
-        # check if need to update
-        if (not GRAPH_DATA_ACTION in filter_settings['actions']):
-            raise PreventUpdate
-
-        # get the dataset settings
-        data_type = filter_settings['data type']
-        selected_university = filter_settings[data_type]['static value'][UNIVERSITY]
-        
-        # get the new dataset then
-        uni_dataset = data_dictionaries[DATA_VIEW][data_type][selected_university]
-
-        # save the data
-        saved_dataset = dataframe_to_data(uni_dataset, data_type)
-
-        return saved_dataset
-
-
 def register_click_data(app, data_dictionaries):
     @app.callback(
         Output('graph-info', 'columns', allow_duplicate=True),
@@ -435,16 +409,18 @@ def register_settings_to_graph(app, data_dictionaries):
         Output('graph-info', 'columns'),
         Output('graph-info', 'data'),
         Output({'class': 'graph', 'role': 'legend-dropdown-container'}, 'children'),
+        Output('graph-frame', 'data'),
         Input('filter-settings', 'data')     # get the dataset type
     )
     def settings_to_graph(filter_settings_json):
         # load the data
         filter_settings = json.loads(filter_settings_json)
+        data_type = filter_settings['data type']
         actions = filter_settings['actions']
 
         # create the default values
-        fig_return, column_return, data_return, legend_return = no_update, no_update, no_update, no_update
-
+        fig_return = column_return = data_return = legend_return = dataframe_return = no_update
+        
         # FIGURE UPDATE
         if (GRAPH_ACTION in actions):
             # use a filtering function
@@ -452,6 +428,10 @@ def register_settings_to_graph(app, data_dictionaries):
 
             # graph the dataframe
             fig_return = graph_dataframe(filtered_frame, filter_settings, data_dictionaries)
+
+        # UPDATE FRAME
+        if (GRAPH_DATA_ACTION in actions):
+            dataframe_return = dataframe_to_data(filtered_frame, data_type)
 
         # CLICK DATA UPDATE
         if (GRAPH_CLICK_DATA_ACTION in actions):
@@ -461,8 +441,7 @@ def register_settings_to_graph(app, data_dictionaries):
         if (DATASET_CHANGE_ACTION in actions):
             legend_return = create_legend_dropdown_component(filter_settings, data_dictionaries)
 
-        return fig_return, column_return, data_return, legend_return
-
+        return fig_return, column_return, data_return, legend_return, dataframe_return
 
 
 def register_callbacks(app, data_dictionaries):
@@ -477,4 +456,3 @@ def register_callbacks(app, data_dictionaries):
     # more important callbacks
     register_settings_to_graph(app, data_dictionaries)
     register_click_data(app, data_dictionaries)
-    register_change_graph_data(app, data_dictionaries)

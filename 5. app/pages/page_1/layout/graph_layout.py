@@ -2,6 +2,7 @@ from dash import dcc, html, dash_table
 import dash_bootstrap_components as dbc
 
 # regular functions
+import pandas as pd
 import numpy as np
 
 # for graphing
@@ -48,6 +49,8 @@ def get_y_range_histogram(fig):
     # Get histogram counts
     max_percentages = []
     for trace in fig.data:
+        #print(trace)
+
         # get the percentages
         counts, _ = np.histogram(trace['x'], bins=bin_edges)
 
@@ -68,7 +71,7 @@ def get_y_range_histogram(fig):
 
 
 # gets the count histogram
-def get_histograms(fig):
+def get_texts(fig):
     # find the maximum bin height
     bin_edges = np.arange(
         COMBO_BINS['start'], 
@@ -78,8 +81,21 @@ def get_histograms(fig):
 
     # get the count histogram for each trace
     histograms = [np.histogram(trace['x'], bins=bin_edges)[0] for trace in fig.data]
+    print(histograms)
+    for trace in fig.data:
+        print(sorted(trace['x']))
+        print(bin_edges)
 
-    return histograms
+    # get the texts
+    texts = [
+        [str(int(count)) for count in histogram if count != 0]
+        for histogram in histograms
+    ]
+
+    print(texts)
+
+    return texts
+
 
 
 # ------------------------------ GRAPHING -----------------------------------------------------
@@ -145,7 +161,6 @@ def graph_histogram(dataframe, title, legend_option, data_type, data_dictionarie
         dataframe, 
         x=COMBO,
         color=SUCCESS,
-#        custom_data=['index'],
 
         # histogram type
         histnorm='percent',
@@ -155,20 +170,22 @@ def graph_histogram(dataframe, title, legend_option, data_type, data_dictionarie
         text_auto=True
     )
 
-    # get the histograms (will help for later)
-    histograms = get_histograms(fig)
-
     # Manually set bin edges
     fig.update_traces(
         # bins
         xbins=COMBO_BINS,
-
-        # text on the outside
-        textfont_size=12, 
-        textangle=0, 
-        textposition="outside"#,
-        #cliponaxis=False
     )
+
+    # add the text
+    texts = get_texts(fig)
+    for trace, trace_text in zip(fig.data, texts):
+        trace.update(
+            text=trace_text, 
+            textposition='outside',
+            texttemplate='%{text}'
+        )  # Update each trace with the text
+        #print(trace)
+        #print(trace_text)
 
     # adding the text
     fig.update_layout(
@@ -186,6 +203,7 @@ def graph_histogram(dataframe, title, legend_option, data_type, data_dictionarie
     # customize layout further
     fig.update_layout(
         # the histogram layout
+        clickmode='event+select',
         bargap=0.2,
 
         # axis range
