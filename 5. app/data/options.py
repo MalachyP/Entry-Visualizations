@@ -5,6 +5,8 @@ import matplotlib.colors as mcolors
 from .filtering import create_options
 from . import parameters
 
+THRESHOLD = 8
+SPLIT_START = 6
 
 # --------------------------------- FILTER TO OPTIONS ----------------------------------------
 
@@ -99,6 +101,41 @@ def create_filter_to_options(interview_df, offer_df):
 # -------------------------------- CREATING THE LEGEND ---------------------------------------
 
 
+def get_weightings(n_options):
+    # Generate the gradient
+    if (n_options < THRESHOLD):
+        return [i/(n_options-1) for i in range(n_options)]
+
+    # create the starting array
+    weightings = np.zeros(n_options)
+
+    # assign the first part of the array
+    for idx in range(SPLIT_START):
+        weightings[idx] = idx
+
+    # figure out the number of chunks to assign
+    n_chunks = int(np.ceil( np.log(n_options - SPLIT_START) / np.log(2) ))
+
+    for n_chunk in range(1, n_chunks + 1):
+        # using basically maths, adding the previous parts
+        start = SPLIT_START + (2 ** n_chunk - 2)
+
+        # end will be the start, but remember the true end, 
+        end = min(start + 2 ** n_chunk - 1, n_options - 1)
+
+        for idx in range(start, end + 1):
+            # subtract - 1, as want to start at split_start
+            weightings[idx] = SPLIT_START + n_chunk - 1
+    
+    # divide by the highest value
+    weightings = weightings / weightings[-1]
+
+    # convert to python type
+    weightings = [float(x) for x in weightings]
+
+    return weightings
+
+
 def generate_gradient(n_options):
     def colorFader(c1,c2,mix=0): #fade (linear interpolate) from color c1 (at mix=0) to c2 (mix=1)
         c1=np.array(mcolors.to_rgb(c1))
@@ -109,11 +146,8 @@ def generate_gradient(n_options):
     plotly_blue = "#636EFA"
     plotly_red = "#EF553B"
 
-    # Generate the gradient
-    gradient = [
-        colorFader(plotly_blue, plotly_red, i/(n_options-1))
-        for i in range(n_options)
-    ]
+    # get the gradient
+    gradient = [colorFader(weight) for weight in get_weightings(n_options)]        
 
     return gradient
 
