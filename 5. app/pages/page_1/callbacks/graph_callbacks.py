@@ -17,7 +17,6 @@ import base64
 import plotly.graph_objects as go
 
 # personal functions
-from .graph_paramters import *
 from .callback_header import *
 from ..layout.graph_layout import graph_dataframe
 from ..layout.layout_parameters import SUCCESS, DEFAULT_TITLES
@@ -170,6 +169,14 @@ def dataframe_to_data(dataframe, data_type):
     return dataframe.to_json(orient="records")
 
 
+# check how many triggers
+def n_triggers():
+    ctx = callback_context
+    if not ctx.triggered:
+        return 0  # No inputs triggered
+    return len(ctx.triggered)
+
+
 # ------------------------------- IMAGE CREATION -------------------------------
 
 
@@ -216,7 +223,7 @@ def register_toggle_graph_type(app):
             filter_settings['graph']['type'] = 'scatter'
         
         # only need to change the graph not data
-        filter_settings['actions'] = [GRAPH_ACTION]
+        filter_settings['actions'] = [GRAPH_ACTION, GRAPH_CLICK_DATA_ACTION]
 
         return json.dumps(filter_settings)
 
@@ -234,7 +241,7 @@ def register_reset_graph(app):
         filter_settings = json.loads(filter_settings_json)
 
         # make sure to reload the graph only
-        filter_settings['actions'] = [GRAPH_ACTION]
+        filter_settings['actions'] = [GRAPH_ACTION, GRAPH_CLICK_DATA_ACTION]
 
         # return the default settings
         return json.dumps(filter_settings)
@@ -371,7 +378,7 @@ def register_change_graph_data(app, data_dictionaries):
         filter_settings = json.loads(filter_settings_json)
 
         # check if need to update
-        if (set(filter_settings['actions']) & set([GRAPH_DATA_ACTION]) == set()):
+        if (not GRAPH_DATA_ACTION in filter_settings['actions']):
             raise PreventUpdate
 
         # get the dataset settings
@@ -389,15 +396,16 @@ def register_change_graph_data(app, data_dictionaries):
 
 def register_click_data(app, data_dictionaries):
     @app.callback(
-        Output('graph-info', 'columns'),
-        Output('graph-info', 'data'),
+        Output('graph-info', 'columns', allow_duplicate=True),
+        Output('graph-info', 'data', allow_duplicate=True),
+        Output('graph', 'selectedData'),
         Input('graph', 'selectedData'),
         State('graph-frame', 'data'),
         State('type-dropdown', 'value'),
         prevent_initial_call=True
     )
-    def click_data_change(selected_data, filtered_frame_json, data_type):
-        # don't update if nothing selected
+    def click_data_change(_, selected_data, filtered_frame_json, data_type):
+        # don't update if reset or at the start
         if (selected_data is None):
             return [], []
 
@@ -414,33 +422,41 @@ def register_click_data(app, data_dictionaries):
         display_column_names = [{"name": col, "id": col} for col in display_columns]
 
         # return the json
-        return display_column_names, selected_df[display_columns].to_dict('records')
+        return display_column_names, selected_df[display_columns].to_dict('records'), None
 
 
 # ------------------------------ FUNCTION CALLS -------------------------------------
 
 
-def register_change_graph(app, data_dictionaries):
+def register_settings_to_graph(app, data_dictionaries):
     # function will use the data dictionary to filter the options
     @app.callback(
         Output('graph', 'figure'),
+        Output('graph-info', 'columns'),
+        Output('graph-info', 'data'),
         Input('filter-settings', 'data')     # get the dataset type
     )
     def change_graph(filter_settings_json):
         # load the data
         filter_settings = json.loads(filter_settings_json)
 
-        # check if need to update
-        if (set(filter_settings['actions']) & set([GRAPH_ACTION]) == set()):
-            raise PreventUpdate
+        # FIGURE UPDATE
+        if (GRAPH_ACTION in filter_settings['actions']):
+            # use a filtering function
+            filtered_frame = get_filtered_dataset(filter_settings, data_dictionaries)
 
-        # use a filtering function
-        filtered_frame = get_filtered_dataset(filter_settings, data_dictionaries)
+            # graph the dataframe
+            fig_return = graph_dataframe(filtered_frame, filter_settings, data_dictionaries)
+        else:
+            fig_return = no_update
 
-        # graph the dataframe
-        fig = graph_dataframe(filtered_frame, filter_settings, data_dictionaries)
+        # CLICK DATA UPDATE
+        if (GRAPH_CLICK_DATA_ACTION in filter_settings['actions']):
+            column_return, data_return = [], []
+        else:
+            column_return, data_return = no_update, no_update
 
-        return fig
+        return fig_return, column_return, data_return
 
 
 
@@ -454,6 +470,6 @@ def register_callbacks(app, data_dictionaries):
     register_alter_settings_legend(app)
 
     # more important callbacks
-    register_change_graph(app, data_dictionaries)
+    register_settings_to_graph(app, data_dictionaries)
     register_click_data(app, data_dictionaries)
     register_change_graph_data(app, data_dictionaries)

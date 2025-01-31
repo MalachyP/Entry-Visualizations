@@ -37,8 +37,8 @@ COMBO = 'combo'
 # - adjusting the heading as well (TO DO)
 def graph_scatter(dataframe, title, legend_option, data_type, data_dictionaries):
 #    print(data_dictionaries[LEGEND_GRADIENTS][data_type][legend_option][CATEGORY_ORDER])
-    print(data_dictionaries[LEGEND_GRADIENTS][data_type][legend_option][COLOUR_DISCRETE_MAP])
-    print(list(dataframe[legend_option].unique()))
+#    print(data_dictionaries[LEGEND_GRADIENTS][data_type][legend_option][COLOUR_DISCRETE_MAP])
+#    print(list(dataframe[legend_option].unique()))
 
     # Create the plot based on selected variables for X and Y axes
     fig = px.scatter(
@@ -147,7 +147,16 @@ def create_graph_component(width, legend_options, graph_id=None):
         dbc.Stack(
             [
                 # the graph component
-                dcc.Graph(id=graph_id),
+                dcc.Graph(
+                    id=graph_id,
+                    config={
+                        'doubleClick': False,
+#                        'editable': True,
+                        'modeBarButtonsToRemove': [
+                            'toImage', 'zoomIn2d', 'zoomOut2d', 'autoScale2d', 'resetScale2d'
+                        ]
+                    }
+                ),
 
                 # the stack for reset button, download button, save to image carousel
                 html.Div(

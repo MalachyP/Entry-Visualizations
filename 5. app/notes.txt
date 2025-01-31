@@ -11,6 +11,8 @@ Assumptions and uses
 
 - "graph type" changes the graph basically
 
+- Just a fundamental problem when deselecting, will not be able to update
+
 - Note that the graph function MUST HAVE something that only filters with the active filters
 
 - Shouldn't do the dcc.store (actions: graph) thing I don't reckon, as get finer control (over outputs and stuff)
