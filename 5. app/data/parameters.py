@@ -3,18 +3,18 @@
 # SCHEMA
 SCHEMA = {
     'interview': {
-        'preference': int,
-        'deakin bonus': int,
-        'anu bonus': int,
-        'mq bonus': int,
-        'uow bonuses': float,
+        'preference': str,
+        'deakin bonus': str,
+        'anu bonus': str,
+        'mq bonus': str,
+        'uow bonuses': str,
         'year': int
     },
     'offer': {
-        'preference': int,
-        'deakin bonus': int,
-        'anu bonus': int,
-        'mq bonus': int,
+        'preference': str,
+        'deakin bonus': str,
+        'anu bonus': str,
+        'mq bonus': str,
         'year': int
     }
 }

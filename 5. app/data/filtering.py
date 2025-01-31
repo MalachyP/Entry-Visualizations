@@ -38,7 +38,7 @@ def filter_uni_interview(df, uni_name):
                 df_filtered['pref 6 uni'] == uni_name
             ],
             ['1', '2', '3', '4', '5', '6'],
-            default=np.nan
+            default='None'
         )
     )
     

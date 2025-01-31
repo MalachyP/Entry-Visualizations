@@ -23,11 +23,23 @@ RELATIVE_IN = "../3. curated"
 # ------------------------ EXECUTION --------------------------------------------
 
 # intialize the datasets
-interview_df = pd.read_csv(f"{RELATIVE_IN}/interview.csv", dtype=data.parameters.SCHEMA['interview'])
-offer_df = pd.read_csv(f"{RELATIVE_IN}/offer.csv", dtype=data.parameters.SCHEMA['offer'])
-offer_df['places selected'] = offer_df['places selected'].apply(lambda x: ast.literal_eval(x) if pd.notna(x) else x)
-interview_df.columns, offer_df.columns = ['index'] + list(interview_df.columns)[1:], ['index'] + list(offer_df.columns)[1:]
+interview_df = pd.read_csv(
+    f"{RELATIVE_IN}/interview.csv", 
+    dtype=data.parameters.SCHEMA['interview'],
+    na_values=[''],
+    keep_default_na=False
+)
 
+# read in interview
+offer_df = pd.read_csv(
+    f"{RELATIVE_IN}/offer.csv", 
+    dtype=data.parameters.SCHEMA['offer'],
+    na_values=[''],
+    keep_default_na=False
+)
+
+# read in the places properly
+offer_df['places selected'] = offer_df['places selected'].apply(lambda x: ast.literal_eval(x) if pd.notna(x) else x)
 
 # initalize the data functions
 # - `filter_to_options`:    options of each filter
