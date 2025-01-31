@@ -217,7 +217,7 @@ def create_default_json(filter_to_options, filter_types):
                 for filter_name, filter_options in filter_to_options[data_type].items()
                 if not is_multiselect(filter_name) and filter_name in filter_types[data_type]['additional'] # this will return a dictionary of filters to options
             },
-            'legend': SUCCESS
+            'legend': DEFAULT_LEGEND
         }   
         for data_type in ['interview', 'offer']
     }

@@ -1,6 +1,9 @@
 from dash import dcc, html, dash_table
 import dash_bootstrap_components as dbc
 
+# regular functions
+import numpy as np
+
 # for graphing
 import plotly.express as px
 import plotly.graph_objects as go
@@ -28,6 +31,55 @@ GAMSAT = 'gamsat'
 GPA = 'gpa'
 SUCCESS = 'success'
 COMBO = 'combo'
+
+
+# ----------------------------- HELPER -------------------------------------------------------
+
+
+# gets the bin height
+def get_y_range_histogram(fig):
+    # find the maximum bin height
+    bin_edges = np.arange(
+        COMBO_BINS['start'], 
+        COMBO_BINS['end'] + COMBO_BINS['size'], 
+        COMBO_BINS['size']
+    )
+
+    # Get histogram counts
+    max_percentages = []
+    for trace in fig.data:
+        # get the percentages
+        counts, _ = np.histogram(trace['x'], bins=bin_edges)
+
+        # make sure to avoid no counts
+        if (counts.sum() == 0):
+            continue
+
+        # get the percentages
+        percentages = counts / counts.sum() * 100
+
+        # make get the max percentage, and expand a touch
+        max_percentages.append(percentages.max() * MAX_HEIGHT_EXPAND)
+
+    # Set the y-axis limit dynamically (max of 60% or highest bin)
+    y_max = max(BIN_HEIGHT, *max_percentages)
+
+    return [0, y_max]
+
+
+# gets the count histogram
+def get_histograms(fig):
+    # find the maximum bin height
+    bin_edges = np.arange(
+        COMBO_BINS['start'], 
+        COMBO_BINS['end'] + COMBO_BINS['size'], 
+        COMBO_BINS['size']
+    )
+
+    # get the count histogram for each trace
+    histograms = [np.histogram(trace['x'], bins=bin_edges)[0] for trace in fig.data]
+
+    return histograms
 
 
 # ------------------------------ GRAPHING -----------------------------------------------------
@@ -80,31 +132,70 @@ def graph_scatter(dataframe, title, legend_option, data_type, data_dictionaries)
     return fig
 
 
+# what I want
+# - the combo scores of course, binned
+# - 
+
+
 # can't do anything until I add the combo score unfortunately
 def graph_histogram(dataframe, title, legend_option, data_type, data_dictionaries):
     # create the figure
     fig = px.histogram(
+        # data setting
         dataframe, 
         x=COMBO,
         color=SUCCESS,
-#        custom_data='index',
+#        custom_data=['index'],
+
+        # histogram type
+        histnorm='percent',
         barmode='group',
 
         # formatting
-        #category_orders=CATEGORY_ORDERS,
-        #color_discrete_map=COLOUR_DISCRETE_MAP,
+        text_auto=True
     )
 
+    # get the histograms (will help for later)
+    histograms = get_histograms(fig)
+
+    # Manually set bin edges
+    fig.update_traces(
+        # bins
+        xbins=COMBO_BINS,
+
+        # text on the outside
+        textfont_size=12, 
+        textangle=0, 
+        textposition="outside"#,
+        #cliponaxis=False
+    )
+
+    # adding the text
     fig.update_layout(
+        # tiltes and stuff
         title={
             "text": title,  # Title text
             "x": 0.5,                 # Center the title
             "xanchor": "center"       # Anchor text to the center
         },
         xaxis_title=COMBO,
-        yaxis_title='Count',
+        yaxis_title='Percentage',
         legend_title=SUCCESS
     )
+
+    # customize layout further
+    fig.update_layout(
+        # the histogram layout
+        bargap=0.2,
+
+        # axis range
+        yaxis=dict(range=get_y_range_histogram(fig)),
+        xaxis=dict(range=X_RANGE),
+
+        # whitespace
+        margin=dict(l=20, r=20, t=40, b=20)  # Reduce whitespace (left, right, top, bottom)
+    )
+    
 
     return fig
 
@@ -216,7 +307,7 @@ def create_graph_component(width, legend_options, graph_id=None):
                         html.Div(
                             dcc.Dropdown(
                                 options=legend_options,
-                                value=SUCCESS,  # start at success of course
+                                value=DEFAULT_LEGEND,  # start at success of course
                                 placeholder=DEFAULT_LEGEND_OPTION,
                                 id={'class': 'graph', 'role': 'legend-dropdown'}
                             ),

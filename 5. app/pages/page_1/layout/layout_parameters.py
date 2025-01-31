@@ -20,11 +20,22 @@ DEFAULT_TITLES = {
 
 DEFAULT_LEGEND = SUCCESS
 
+# -------- SCATTER ------------------
+
 GAMSAT_LIM = [55, 85]
 GPA_LIM = [5.2, 7.2]
 
 OPACITY = 0.7
 
-# for the legend aspect
-#COLOUR_DISCRETE_MAP = {'Yes': 'blue', 'No': 'red'}
-#CATEGORY_ORDERS = {SUCCESS: ['Yes', 'No']}
+# -------- HISTOGRAM ----------------
+
+# default ranges
+X_RANGE = [1.54, 1.86]
+BIN_HEIGHT = 60
+MAX_HEIGHT_EXPAND = 1.1
+
+COMBO_BINS = {
+    'start': 1.2,           # min is 1.22
+    'end': 2,               # max is 1.89
+    'size': 0.02
+}
