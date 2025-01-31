@@ -89,11 +89,11 @@ def create_filters_layout(data_dictionaries):
 
 # ----------------------- GRAPH COMPONENTS ---------------------------------------------------
 
-def create_graph_layout():
+def create_graph_layout(data_dictionaries):
     return [
         # graph container
         dbc.Row(
-            graph_layout.create_default_graph(),
+            graph_layout.create_default_graph(data_dictionaries),
             id='graph-container', 
             justify='center'
         ),
@@ -142,6 +142,6 @@ def create_layout(data_dictionaries):
         *create_head_layout(),
         *create_dataset_layout(),
         *create_filters_layout(data_dictionaries),
-        *create_graph_layout(),
+        *create_graph_layout(data_dictionaries),
         *create_carousel()
         ])

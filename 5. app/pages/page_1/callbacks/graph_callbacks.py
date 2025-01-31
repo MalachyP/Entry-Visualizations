@@ -262,20 +262,33 @@ def register_download_graph(app):
 def register_graph_title(app):
     @app.callback(
         Output('graph', 'figure', allow_duplicate=True),
+        Output('filter-settings', 'data', allow_duplicate=True),
         Input({'class': 'graph', 'role': 'graph-title'}, 'n_blur'),     # is basically clicking away
         Input({'class': 'graph', 'role': 'graph-title'}, 'n_submit'),   # is basically pressing the enter button
         State({'class': 'graph', 'role': 'graph-title'}, 'value'),      # basically getting what's written
         State('graph', 'figure'),
         State({'class': 'graph', 'role': 'graph-type-toggle'}, 'value'),    # for deciding default title
+        State('filter-settings', 'data'),                   # add filter settings for keeping the title
         prevent_initial_call=True
     )
-    def change_graph_title(n_blur, n_submit, new_graph_title, figure_dict, is_histogram):
+    def change_graph_title(_a, _b, new_graph_title, figure_dict, is_histogram, filter_settings_json):
         # load in the settings
-        figure = go.Figure(figure_dict)
+        filter_settings = json.loads(filter_settings_json)
 
+        # decide what the new title would be
         if (not new_graph_title):
             graph_type = 'histogram' if is_histogram else 'scatter'
             new_graph_title = DEFAULT_TITLES[graph_type]
+
+        # check if no update necessary
+        if (filter_settings['graph']['title'] == new_graph_title):
+            raise PreventUpdate
+
+        # save the title
+        filter_settings['graph']['title'] = new_graph_title
+
+        # load the figure
+        figure = go.Figure(figure_dict)
 
         # change the title
         figure.update_layout(
@@ -286,7 +299,10 @@ def register_graph_title(app):
             }
         )
 
-        return figure
+        # no need to change the graph again
+        filter_settings['actions'] = []
+
+        return figure, json.dumps(filter_settings)
 
 
 def register_add_image_carousel(app):
@@ -315,6 +331,31 @@ def register_add_image_carousel(app):
         carousel_settings['actions'] = [CAROUSEL_ACTION]
 
         return json.dumps(carousel_settings)
+
+
+def register_alter_settings_legend(app):
+    @app.callback(
+        Output('filter-settings', 'data', allow_duplicate=True),
+        Input({'class': 'graph', 'role': 'legend-dropdown'}, 'value'),
+        State('filter-settings', 'data'),
+        prevent_initial_call=True
+    )
+    def alter_settings_legend(new_legend_value, filter_settings_json):
+        # load settings
+        filter_settings = json.loads(filter_settings_json)
+        data_type = filter_settings['data type']
+
+        # check to see if there is a change to make
+        if (filter_settings[data_type]['legend'] == new_legend_value):
+            raise PreventUpdate
+        
+        # change the settings and return
+        filter_settings[data_type]['legend'] = new_legend_value
+
+        # only need to graph
+        filter_settings['actions'] = [GRAPH_ACTION]
+
+        return json.dumps(filter_settings)
 
 
 # ------------------------------ GRAPH DATA --------------------------------------
@@ -397,7 +438,7 @@ def register_change_graph(app, data_dictionaries):
         filtered_frame = get_filtered_dataset(filter_settings, data_dictionaries)
 
         # graph the dataframe
-        fig = graph_dataframe(filtered_frame, filter_settings)
+        fig = graph_dataframe(filtered_frame, filter_settings, data_dictionaries)
 
         return fig
 
@@ -410,6 +451,7 @@ def register_callbacks(app, data_dictionaries):
     register_download_graph(app)
     register_graph_title(app)
     register_add_image_carousel(app)
+    register_alter_settings_legend(app)
 
     # more important callbacks
     register_change_graph(app, data_dictionaries)

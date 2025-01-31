@@ -6,6 +6,7 @@ from pprint import pprint
 
 from . import layout_parameters
 from ..callbacks.callback_header import *
+from .layout_parameters import *
 
 # names of dictionary data functions
 FILTER_TO_OPTIONS = "filter_to_options"
@@ -215,7 +216,9 @@ def create_default_json(filter_to_options, filter_types):
                 filter_name: filter_options[0] 
                 for filter_name, filter_options in filter_to_options[data_type].items()
                 if not is_multiselect(filter_name) and filter_name in filter_types[data_type]['additional'] # this will return a dictionary of filters to options
-            }        }
+            },
+            'legend': SUCCESS
+        }   
         for data_type in ['interview', 'offer']
     }
 
@@ -224,7 +227,7 @@ def create_default_json(filter_to_options, filter_types):
         'graph': {
             'type': 'scatter',
             'title': None
-        }
+       }
     }
 
     # add extra information

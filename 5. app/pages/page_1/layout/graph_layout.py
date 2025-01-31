@@ -15,6 +15,13 @@ HOVER_DOWNLOAD = 'download image as jpg'
 
 # create the default option
 DEFAULT_LEGEND_OPTION = 'enter alternative legend' #'success'
+DEFAULT_GRAPH_ID = 'graph'
+
+# data dictionary key
+LEGEND_OPTIONS = 'legend_options'
+LEGEND_GRADIENTS = 'legend_gradients'
+CATEGORY_ORDER = 'category order'
+COLOUR_DISCRETE_MAP = 'color map discrete'
 
 # Don't change (for axes)
 GAMSAT = 'gamsat'
@@ -28,19 +35,23 @@ COMBO = 'combo'
 
 # graph the dataframe with all the given options. Should include
 # - adjusting the heading as well (TO DO)
-def graph_scatter(dataframe, title):
+def graph_scatter(dataframe, title, legend_option, data_type, data_dictionaries):
+#    print(data_dictionaries[LEGEND_GRADIENTS][data_type][legend_option][CATEGORY_ORDER])
+    print(data_dictionaries[LEGEND_GRADIENTS][data_type][legend_option][COLOUR_DISCRETE_MAP])
+    print(list(dataframe[legend_option].unique()))
+
     # Create the plot based on selected variables for X and Y axes
     fig = px.scatter(
         # data input
         dataframe,
         x=GAMSAT,
         y=GPA,
-        color=SUCCESS,
+        color=legend_option,
         custom_data='index',
 
         # formatting
-        category_orders=CATEGORY_ORDERS,
-        color_discrete_map=COLOUR_DISCRETE_MAP,
+        category_orders=data_dictionaries[LEGEND_GRADIENTS][data_type][legend_option][CATEGORY_ORDER],
+        color_discrete_map=data_dictionaries[LEGEND_GRADIENTS][data_type][legend_option][COLOUR_DISCRETE_MAP],
         opacity=OPACITY,
     )
 
@@ -70,7 +81,7 @@ def graph_scatter(dataframe, title):
 
 
 # can't do anything until I add the combo score unfortunately
-def graph_histogram(dataframe, title):
+def graph_histogram(dataframe, title, legend_option, data_type, data_dictionaries):
     # create the figure
     fig = px.histogram(
         dataframe, 
@@ -80,8 +91,8 @@ def graph_histogram(dataframe, title):
         barmode='group',
 
         # formatting
-        category_orders=CATEGORY_ORDERS,
-        color_discrete_map=COLOUR_DISCRETE_MAP,
+        #category_orders=CATEGORY_ORDERS,
+        #color_discrete_map=COLOUR_DISCRETE_MAP,
     )
 
     fig.update_layout(
@@ -99,7 +110,7 @@ def graph_histogram(dataframe, title):
 
 
 # chooses which figure to create
-def graph_dataframe(dataframe, filter_settings):
+def graph_dataframe(dataframe, filter_settings, data_dictionaries):
     # get the graph type
     graph_type = filter_settings['graph']['type']
 
@@ -108,11 +119,15 @@ def graph_dataframe(dataframe, filter_settings):
     if (filter_settings['graph']['title'] is None):
         title = DEFAULT_TITLES[graph_type]
 
+    # get the current legend options
+    data_type = filter_settings['data type']
+    legend_option = filter_settings[data_type]['legend']
+
     # check which kind of graph to create
     if (graph_type == 'scatter'):
-        return graph_scatter(dataframe, title)
+        return graph_scatter(dataframe, title, legend_option, data_type, data_dictionaries)
     elif (graph_type == 'histogram'):
-        return graph_histogram(dataframe, title)
+        return graph_histogram(dataframe, title, legend_option, data_type, data_dictionaries)
     else:
         return None
 
@@ -175,7 +190,7 @@ def create_graph_component(width, legend_options, graph_id=None):
                         html.Div(
                             dcc.Dropdown(
                                 options=legend_options,
-                                value=DEFAULT_LEGEND_OPTION,
+                                value=SUCCESS,  # start at success of course
                                 placeholder=DEFAULT_LEGEND_OPTION,
                                 id={'class': 'graph', 'role': 'legend-dropdown'}
                             ),
@@ -202,8 +217,11 @@ def create_graph_component(width, legend_options, graph_id=None):
 
 # ------------------------------- CREATING DEFAULT VALUES -------------------------------------
 
-def create_default_graph():
+
+def create_default_graph(data_dictionaries):
+    default_legend_options = data_dictionaries[LEGEND_OPTIONS]['offer']
+
     return [
         # create the single column
-        create_graph_component(8, ['Yes', 'No'], graph_id='graph')
+        create_graph_component(8, default_legend_options, graph_id=DEFAULT_GRAPH_ID)
     ]

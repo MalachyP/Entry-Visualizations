@@ -23,14 +23,8 @@ LEGEND_OPTIONS = "legend_options"
 # 2. register_delete_filter:         when the user decides to delete a filter
 # 3. register_changing_environments: for changing the dataset being used
 
-# to do
-# 1. enable extra filters page
-
 
 # ------------------------------ HELPER FUNCTIONS -------------------------------
-
-
-
 
 
 ##############################################################################
@@ -135,14 +129,14 @@ def register_toggle_additional_filters(app):
 # - I mean I guess this works if I'm taking the first callback context and it hasn't changed, because that 
 #   means either a change in dataset happened or something, so need to change (notice ctx.triggered could be a list
 #   but only taking the first value)
-def register_alter_settings(app):
+def register_alter_settings_filter(app):
     @app.callback(
         Output('filter-settings', 'data', allow_duplicate=True),
         Input({'class': 'filters', 'filter': ALL, 'role': 'dropdown', 'type': ALL}, 'value'),
         State('filter-settings', 'data'),
         prevent_initial_call=True
     )
-    def alter_settings(_, filter_settings_json):
+    def alter_settings_filter(_, filter_settings_json):
         # read in the settings
         filter_settings = json.loads(filter_settings_json)
         data_type = filter_settings["data type"]
@@ -254,7 +248,7 @@ def register_callbacks(app, data_dictionaries):
 
     # other ways of updating settings
     register_toggle_additional_filters(app)
-    register_alter_settings(app)
+    register_alter_settings_filter(app)
 
     # for actually creating changes
     register_settings_to_all_filters(app, data_dictionaries)

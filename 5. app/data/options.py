@@ -78,9 +78,9 @@ def create_filter_to_options(interview_df, offer_df):
                 filter_to_options[data_type][filter] = [str(x) for x in list(range(1, 7))]
             elif (filter == "success"):
                 filter_to_options[data_type][filter] = ["Yes", "No"]
-            elif (filter == "offer uni place type"):
-                # exclude the none option
-                filter_to_options[data_type][filter] = get_unique_options("offer uni place type")[:-1]
+            elif (filter in parameters.ORDER_OVERIDE):
+                # figure out if a specific order required
+                filter_to_options[data_type][filter] = parameters.ORDER_OVERIDE[filter]
             elif (filter == 'places selected (include all)' or filter == 'places selected (exclude all)'):
                 # don't need to exclude the none option
                 filter_to_options[data_type][filter] = get_unique_options("places selected")

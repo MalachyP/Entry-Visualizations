@@ -102,6 +102,7 @@ ORDER_OVERIDE = {
     'interview opinion': ['Very well', 'Well', 'Unsure', 'Poorly', 'Very poorly'],
     'interviewed?': ['Yes', 'No', 'None'],
     'offer uni place type': ['CSP', 'BMP', 'FFP'],
+    'deakin bonus': [str(x) for x in range(0, 21, 2)],
     #'places selected': ['CSP', 'BMP', 'FFP']
     'interview prep hours': ['250+', '101-250', '51-100', '26-50', '11-25', '6-10', '0-5', 'None']
 }
