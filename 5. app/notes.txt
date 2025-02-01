@@ -32,7 +32,10 @@ Next Steps:
 - Should maybe make a raw version of filter_to_options?
 - Should also probably also consider replace np.nan values in an earlier stage
 
-
+- ADDED EPSILION to the bins, as this will basically for them include
+  - Can't be that bad overall, as no way 13 points of precision gamsat, divided or not,
+    definitely won't be.
+  - Remember in beta mode so if anyone spots a bug can fix
 
 Next time
 - Create a mark as outlier button for clicked data

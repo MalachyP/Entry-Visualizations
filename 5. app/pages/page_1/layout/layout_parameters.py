@@ -34,10 +34,10 @@ X_RANGE = [1.54, 1.86]
 BIN_HEIGHT = 60
 MAX_HEIGHT_EXPAND = 1.1
 
+# binning
+EPSILON = 1e-12
 COMBO_BINS = {
-    'start': 1.2,           # min is 1.22
-    'end': 2,               # max is 1.89
+    'start': 1.2 - EPSILON,             # min is 1.22
+    'end': 2 - EPSILON,                 # max is 1.89
     'size': 0.02
 }
-
-EPSILON = 1e-8
