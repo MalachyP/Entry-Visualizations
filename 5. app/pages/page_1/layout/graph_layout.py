@@ -158,7 +158,7 @@ def graph_scatter(dataframe, title, legend_option, data_type, data_dictionaries)
 
 
 # can't do anything until I add the combo score unfortunately
-def graph_histogram(dataframe, title, legend_option, data_type, data_dictionaries):
+def graph_histogram(dataframe, title, legend_option, data_type, data_dictionaries, scaled=False):
     # load in the settings
     category_order = data_dictionaries[LEGEND_GRADIENTS][data_type][legend_option][CATEGORY_ORDER]#[legend_option]
     legend_gradients = data_dictionaries[LEGEND_GRADIENTS][data_type][legend_option][COLOUR_DISCRETE_MAP]
@@ -239,12 +239,12 @@ def graph_dataframe(dataframe, filter_settings, data_dictionaries):
     legend_option = filter_settings[data_type]['legend']
 
     # check which kind of graph to create
-    if (graph_type == 'scatter'):
+    if (graph_type == GAMSAT_VS_GPA_GRAPH):
         return graph_scatter(dataframe, title, legend_option, data_type, data_dictionaries)
-    elif (graph_type == 'histogram'):
-        return graph_histogram(dataframe, title, legend_option, data_type, data_dictionaries)
+    elif (graph_type == COMBO_SCORE_GRAPH):
+        return graph_histogram(dataframe, title, legend_option, data_type, data_dictionaries, scaled=False)
     else:
-        return None
+        return graph_histogram(dataframe, title, legend_option, data_type, data_dictionaries, scaled=True)
 
 
 # ------------------------- COMPONENT FUNCTIONS -----------------------------------------------
@@ -283,7 +283,7 @@ def create_graph_component(width, legend_options, graph_id=None):
                     id=graph_id,
                     config={
                         'doubleClick': False,
-#                        'editable': True,
+                        'editable': True,
                         'modeBarButtonsToRemove': [
                             'toImage', 'zoomIn2d', 'zoomOut2d', 'autoScale2d', 'resetScale2d'
                         ]
@@ -295,17 +295,27 @@ def create_graph_component(width, legend_options, graph_id=None):
                     [
                         # the legend option (in div to grow)
                         html.Div(
+                            dcc.Dropdown(
+                                options=legend_options,
+                                placeholder=LEGEND_PLACE_HOLDER,
+                                id={'class': 'graph', 'role': 'legend-dropdown'}
+                            ),
+                            className='flex-grow-1',
+                            id={'class': 'graph', 'role': 'legend-dropdown-container'}
+                        ),
+
+                        html.Div(
                             [
-                                dbc.Input(
-                                    placeholder="Enter graph title", 
-                                    type="text",
-                                    id={'class': 'graph', 'role': 'graph-title'}
+                                dcc.Dropdown(
+                                    options=GRAPH_OPTIONS,
+                                    placeholder=GRAPH_PLACEHOLDER,
+                                    id={'class': 'graph', 'role': 'graph-options'},
                                 )
                             ],
                             className='flex-grow-1'
                         ),
 
-                        # reset basically
+                        # Buttons to the left
                         dbc.Button(
                             'reset',
                             title=HOVER_RESET,
@@ -324,32 +334,7 @@ def create_graph_component(width, legend_options, graph_id=None):
                     ],
                     className='d-flex gap-2 justify-content-end align-items-center',
                     style={'flex-wrap': 'nowrap'}
-                ),
-
-                html.Div(
-                    [
-                        html.Div(
-                            dcc.Dropdown(
-                                options=legend_options,
-                                value=DEFAULT_LEGEND,  # start at success of course
-                                placeholder=DEFAULT_LEGEND_OPTION,
-                                id={'class': 'graph', 'role': 'legend-dropdown'}
-                            ),
-                            className='flex-grow-1',
-                            id={'class': 'graph', 'role': 'legend-dropdown-container'}
-                        ),
-
-                        dbc.Switch(
-                            label="histogram",
-                            value=False,
-                            id={'class': 'graph', 'role': 'graph-type-toggle'},
-                            class_name="mt-2"
-                        ),
-                    ],
-                    className='d-flex gap-2 justify-content-end align-items-start',
-                    style={'flex-wrap': 'nowrap'}
                 )
-
             ],
             gap=1
         ),

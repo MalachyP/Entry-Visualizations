@@ -19,12 +19,13 @@ import plotly.graph_objects as go
 # personal functions
 from .callback_header import *
 from ..layout.graph_layout import graph_dataframe, create_legend_dropdown_component
-from ..layout.layout_parameters import SUCCESS, DEFAULT_TITLES
+from ..layout.layout_parameters import SUCCESS, DEFAULT_TITLES, GAMSAT_VS_GPA_GRAPH
 
 # key words
 DATA_VIEW = "data_views"
 DISPLAY_INFO = "display_info"
 UNIVERSITY = "university"
+COMBO = 'combo'
 NONE = "None"
 LEGEND_GRADIENTS = 'legend_gradients'
 CATEGORY_ORDER = 'category order'
@@ -171,12 +172,67 @@ def dataframe_to_data(dataframe, data_type):
     return dataframe.to_json(orient="records")
 
 
-# check how many triggers
-def n_triggers():
-    ctx = callback_context
-    if not ctx.triggered:
-        return 0  # No inputs triggered
-    return len(ctx.triggered)
+def get_selected_dataframe(selected_data, filtered_frame, filter_settings, data_dictionaries):
+    # load in the settings
+    data_type = filter_settings['data type']
+    graph_type = filter_settings['graph']['type']
+    legend_option = filter_settings[data_type]['legend']
+
+    # get the point indices
+    if (graph_type == GAMSAT_VS_GPA_GRAPH):
+        points_info = [
+            {'curve': point['curveNumber'], 'index': point['pointNumber']} 
+            for point in selected_data['points']
+        ]
+    else:
+        points_info = [
+            {'curve': bar['curveNumber'], 'index': index}
+            for bar in selected_data['points'] for index in bar['pointNumbers']
+        ]
+
+    # map the curve numbers to legend options
+    legend_option_options = data_dictionaries[LEGEND_GRADIENTS][data_type][legend_option][CATEGORY_ORDER][legend_option]
+    curve_number_to_legend_option_option = {
+        idx: legend_option_options[idx] for idx in range(len(legend_option_options))
+    }
+
+    # legend_option_options to points
+    legend_option_options_to_points = {
+        legend_option_option: [] for legend_option_option in legend_option_options
+    }
+    for point_info in points_info:
+        # append the point for the corresponding legend option each time
+        legend_option_options_to_points[
+            curve_number_to_legend_option_option[point_info['curve']]
+        ].append(point_info['index'])
+
+    # get the true points now
+    true_points = []
+    for legend_option_option, points in legend_option_options_to_points.items():
+        if (points == []):
+            continue
+
+        # get the new view
+        filtered_frame_view = filtered_frame[filtered_frame[legend_option] == legend_option_option]
+
+        # get the indices
+        true_points += list(filtered_frame_view.iloc[points].index)
+
+    # return the filtered frame
+    return filtered_frame.loc[true_points]
+
+
+def format_selected_dataframe(selected_df, filter_settings):
+    # sort the frame
+    selected_df = selected_df.sort_values(by=COMBO, ascending=False)
+
+    # round
+    selected_df[COMBO] = selected_df[COMBO].round(3)
+
+    # replace 'None' with blank to make more readable
+    selected_df = selected_df.replace('None', '')
+
+    return selected_df
 
 
 # ------------------------------- IMAGE CREATION -------------------------------
@@ -204,30 +260,6 @@ def create_image_src(figure_dict):
 
 
 # ------------------------------ BUTTONS --------------------------------------
-
-
-# switches between graph types
-def register_toggle_graph_type(app):
-    @app.callback(
-        Output('filter-settings', 'data', allow_duplicate=True),
-        Input({'class': 'graph', 'role': 'graph-type-toggle'}, 'value'),
-        State('filter-settings', 'data'),
-        prevent_initial_call=True
-    )
-    def toggle_graph_type(is_histogram, filter_settings_json):
-        # load in the settings
-        filter_settings = json.loads(filter_settings_json)
-
-        # check which type to switch to
-        if (is_histogram):
-            filter_settings['graph']['type'] = 'histogram'
-        else:
-            filter_settings['graph']['type'] = 'scatter'
-        
-        # only need to change the graph not data
-        filter_settings['actions'] = [GRAPH_ACTION, GRAPH_CLICK_DATA_ACTION]
-
-        return json.dumps(filter_settings)
 
 
 # reset
@@ -314,6 +346,7 @@ def register_graph_title(app):
         return figure, json.dumps(filter_settings)
 
 
+# add image
 def register_add_image_carousel(app):
     @app.callback(
         Output('carousel-settings', 'data'),
@@ -342,6 +375,7 @@ def register_add_image_carousel(app):
         return json.dumps(carousel_settings)
 
 
+# alter legend
 def register_alter_settings_legend(app):
     @app.callback(
         Output('filter-settings', 'data', allow_duplicate=True),
@@ -367,57 +401,32 @@ def register_alter_settings_legend(app):
         return json.dumps(filter_settings)
 
 
+# alter graph type
+def register_alter_graph_type(app):
+    @app.callback(
+        Output('filter-settings', 'data', allow_duplicate=True),
+        Input({'class': 'graph', 'role': 'graph-options'}, 'value'),
+        State('filter-settings', 'data'),
+        prevent_initial_call=True
+    )
+    def alter_graph_type(new_graph_option, filter_settings_json):
+        # load settings
+        filter_settings = json.loads(filter_settings_json)
+
+        # check to see if there is a change to make
+        if (filter_settings['graph']['type'] == new_graph_option):
+            raise PreventUpdate
+        
+        # change the settings and return
+        filter_settings['graph']['type'] = new_graph_option
+
+        # only need to graph
+        filter_settings['actions'] = [GRAPH_ACTION, GRAPH_CLICK_DATA_ACTION]
+
+        return json.dumps(filter_settings) 
+
+
 # ------------------------------ GRAPH DATA --------------------------------------
-
-
-def get_selected_dataframe(selected_data, filtered_frame, filter_settings, data_dictionaries):
-    # load in the settings
-    data_type = filter_settings['data type']
-    graph_type = filter_settings['graph']['type']
-    legend_option = filter_settings[data_type]['legend']
-
-    # get the point indices
-    if (graph_type == 'scatter'):
-        points_info = [
-            {'curve': point['curveNumber'], 'index': point['pointNumber']} 
-            for point in selected_data['points']
-        ]
-    else:
-        points_info = [
-            {'curve': bar['curveNumber'], 'index': index}
-            for bar in selected_data['points'] for index in bar['pointNumbers']
-        ]
-
-    # map the curve numbers to legend options
-    legend_option_options = data_dictionaries[LEGEND_GRADIENTS][data_type][legend_option][CATEGORY_ORDER][legend_option]
-    curve_number_to_legend_option_option = {
-        idx: legend_option_options[idx] for idx in range(len(legend_option_options))
-    }
-
-    # legend_option_options to points
-    legend_option_options_to_points = {
-        legend_option_option: [] for legend_option_option in legend_option_options
-    }
-    for point_info in points_info:
-        # append the point for the corresponding legend option each time
-        legend_option_options_to_points[
-            curve_number_to_legend_option_option[point_info['curve']]
-        ].append(point_info['index'])
-
-    # get the true points now
-    true_points = []
-    for legend_option_option, points in legend_option_options_to_points.items():
-        if (points == []):
-            continue
-
-        # get the new view
-        filtered_frame_view = filtered_frame[filtered_frame[legend_option] == legend_option_option]
-
-        # get the indices
-        true_points += list(filtered_frame_view.iloc[points].index)
-
-    # return the filtered frame
-    return filtered_frame.loc[true_points]
 
 
 def register_click_data(app, data_dictionaries):
@@ -447,13 +456,14 @@ def register_click_data(app, data_dictionaries):
             selected_data, filtered_frame, filter_settings, data_dictionaries
         )
 
+        # prepare the selected df
+        selected_df = format_selected_dataframe(selected_df, filter_settings)
+
         # get the current display columns
         display_columns = data_dictionaries[DISPLAY_INFO][data_type]
         display_column_names = [{"name": col, "id": col} for col in display_columns]
 
         return display_column_names, selected_df[display_columns].to_dict('records'), None
-
-
 
 
 # ------------------------------ FUNCTION CALLS -------------------------------------
@@ -503,12 +513,12 @@ def register_settings_to_graph(app, data_dictionaries):
 
 def register_callbacks(app, data_dictionaries):
     # button callbacks
-    register_toggle_graph_type(app)
     register_reset_graph(app)
     register_download_graph(app)
     register_graph_title(app)
     register_add_image_carousel(app)
     register_alter_settings_legend(app)
+    register_alter_graph_type(app)
 
     # more important callbacks
     register_settings_to_graph(app, data_dictionaries)

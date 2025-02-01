@@ -15,12 +15,31 @@ filter_to_title = {}
 # a really important term for filtering
 SUCCESS = 'success'
 
-DEFAULT_TITLES = {
-    'scatter': 'GAMSAT vs GPA',
-    'histogram': 'Combo Score Frequency'
-}
+# get the place holder and default option
+LEGEND_PLACE_HOLDER = 'Choose A Legend'
+LEGEND_DEFAULT_OPTION = SUCCESS
 
-DEFAULT_LEGEND = SUCCESS
+# the name of the place holder
+GRAPH_PLACEHOLDER = 'Choose A Graph Type'
+
+# naming the graph components
+GAMSAT_VS_GPA_GRAPH = 'GAMSAT vs GPA'
+COMBO_SCORE_GRAPH = 'Combo Score'
+COMBO_SCORE_SCALED_GRAPH = 'Combo Score Scaled'
+
+# get the graph options and default value
+GRAPH_OPTIONS = [
+    GAMSAT_VS_GPA_GRAPH,
+    COMBO_SCORE_GRAPH,
+    COMBO_SCORE_SCALED_GRAPH
+]
+GRAPH_DEFAULT_OPTION = GAMSAT_VS_GPA_GRAPH
+
+DEFAULT_TITLES = {
+    GAMSAT_VS_GPA_GRAPH: 'GAMSAT vs GPA',
+    COMBO_SCORE_GRAPH: 'Combo Score Frequency',
+    COMBO_SCORE_SCALED_GRAPH: 'Scaled Combo Score Frequency'
+}
 
 # -------- SCATTER ------------------
 

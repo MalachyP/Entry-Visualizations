@@ -1,0 +1,6 @@
+.flex-component {
+    display: flex;  /* Makes it a flex container */
+    flex: 1; /* Takes equal space */
+    min-width: 0; /* Prevents overflow issues */
+    flex-direction: row;  /* Ensures horizontal layout */
+}

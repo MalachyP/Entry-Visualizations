@@ -45,6 +45,8 @@ Next time
 - Image carousel
 - colors can be hashed to colours for consistency
 
+- is good now, ugly, but whatever
+
 - Could make bin width consistent
 
 - Would be nice to learn how to stop the black screen fade moving forward
