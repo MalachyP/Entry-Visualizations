@@ -4,6 +4,7 @@ import dash_bootstrap_components as dbc
 # regular functions
 import pandas as pd
 import numpy as np
+from collections import Counter
 
 # for graphing
 import plotly.express as px
@@ -38,31 +39,9 @@ COMBO = 'combo'
 
 
 # gets the bin height
-def get_y_range_histogram(fig):
-    # find the maximum bin height
-    bin_edges = np.arange(
-        COMBO_BINS['start'], 
-        COMBO_BINS['end'] + COMBO_BINS['size'], 
-        COMBO_BINS['size']
-    )
-
-    # Get histogram counts
-    max_percentages = []
-    for trace in fig.data:
-        #print(trace)
-
-        # get the percentages
-        counts, _ = np.histogram(trace['x'], bins=bin_edges)
-
-        # make sure to avoid no counts
-        if (counts.sum() == 0):
-            continue
-
-        # get the percentages
-        percentages = counts / counts.sum() * 100
-
-        # make get the max percentage, and expand a touch
-        max_percentages.append(percentages.max() * MAX_HEIGHT_EXPAND)
+def get_y_range_histogram(percent_histograms):
+    # get the max percentages for each trace
+    max_percentages = [max(percent_histogram) * MAX_HEIGHT_EXPAND for percent_histogram in percent_histograms]
 
     # Set the y-axis limit dynamically (max of 60% or highest bin)
     y_max = max(BIN_HEIGHT, *max_percentages)
@@ -71,7 +50,32 @@ def get_y_range_histogram(fig):
 
 
 # gets the count histogram
-def get_texts(fig):
+def get_texts(count_histograms):
+    texts = []
+    for count_histogram in count_histograms:
+        # discard values until non-zero reached
+        start_idx = len(count_histogram)    # set as default value if nothing found
+        for idx, count in enumerate(count_histogram):
+            if (count != 0):
+                start_idx = idx
+                break
+
+        # do the remaining values as text
+        curr_text = [str(int(count)) for count in count_histogram][start_idx:]
+        texts.append(curr_text)
+
+    return texts
+
+
+# will
+# - iterate through each legend option option in category order
+# - create a corresponding dataframe
+# - create a count histogram then a percent histogram
+# returns
+# - series views of COMBO, split on the legend
+# - percent histogram
+# - count histogram 
+def get_histograms(dataframe, legend_option, category_order):
     # find the maximum bin height
     bin_edges = np.arange(
         COMBO_BINS['start'], 
@@ -79,23 +83,32 @@ def get_texts(fig):
         COMBO_BINS['size']
     )
 
-    # get the count histogram for each trace
-    histograms = [np.histogram(trace['x'], bins=bin_edges)[0] for trace in fig.data]
-    print(histograms)
-    for trace in fig.data:
-        print(sorted(trace['x']))
-        print(bin_edges)
+    # iterate through
+    series_views = []
+    count_histograms = []   
+    new_count_histograms = []
+    counts = np.zeros(len(category_order))      # easy to sum
+    for idx, legend_option_option in enumerate(category_order):
+        # get the current histogram
+        curr_series = dataframe.loc[dataframe[legend_option] == legend_option_option, COMBO]
+        curr_histogram = np.digitize(curr_series, bins=bin_edges) - 1
+        new_curr_histogram = pd.cut(curr_series, bins=bin_edges)
 
-    # get the texts
-    texts = [
-        [str(int(count)) for count in histogram if count != 0]
-        for histogram in histograms
-    ]
+        print(bin_edges.dtype)
+        print(list(bin_edges))
+        print(curr_series.dtype)
 
-    print(texts)
+        # append information
+        series_views.append(curr_series)
+        count_histograms.append(curr_histogram)
+        new_count_histograms.append(new_curr_histogram)
+        counts[idx] = curr_histogram.sum()
+    
+    # get the histograms as percentages
+    total_count = counts.sum()
+    percent_histograms = [count_histogram / total_count * 100 for count_histogram in count_histograms]
 
-    return texts
-
+    return series_views, percent_histograms, count_histograms, new_count_histograms
 
 
 # ------------------------------ GRAPHING -----------------------------------------------------
@@ -148,47 +161,49 @@ def graph_scatter(dataframe, title, legend_option, data_type, data_dictionaries)
     return fig
 
 
-# what I want
-# - the combo scores of course, binned
-# - 
-
-
 # can't do anything until I add the combo score unfortunately
 def graph_histogram(dataframe, title, legend_option, data_type, data_dictionaries):
-    # create the figure
-    fig = px.histogram(
-        # data setting
-        dataframe, 
-        x=COMBO,
-        color=SUCCESS,
+    # load in the settings
+    category_order = data_dictionaries[LEGEND_GRADIENTS][data_type][legend_option][CATEGORY_ORDER][legend_option]
+    legend_gradients = data_dictionaries[LEGEND_GRADIENTS][data_type][legend_option][COLOUR_DISCRETE_MAP]
 
-        # histogram type
-        histnorm='percent',
-        barmode='group',
+    print(category_order)
+    print(legend_gradients)
 
-        # formatting
-        text_auto=True
+    # get the histograms
+    series_views, percent_histograms, count_histograms, new_count_histograms = get_histograms(
+        dataframe, legend_option, category_order
     )
 
-    # Manually set bin edges
-    fig.update_traces(
-        # bins
-        xbins=COMBO_BINS,
-    )
+    # get the text
+    texts = get_texts(count_histograms)
 
-    # add the text
-    texts = get_texts(fig)
-    for trace, trace_text in zip(fig.data, texts):
-        trace.update(
-            text=trace_text, 
+    # get all the traces
+    traces = []
+    for idx, legend_option_option in enumerate(category_order):
+        traces.append(go.Histogram(
+            # create the graph
+            x=series_views[idx],
+            xbins=COMBO_BINS,
+            #y=percent_histograms[idx],
+
+            # add formatting
+            name=str(legend_option_option),
+            marker=dict(color=legend_gradients[legend_option_option]),
+            text=texts[idx],
             textposition='outside',
             texttemplate='%{text}'
-        )  # Update each trace with the text
-        #print(trace)
-        #print(trace_text)
+        ))
+
+        print(sorted(series_views[idx].values))
+        print(percent_histograms[idx])
+        print(Counter(count_histograms[idx]))
+        #print(new_count_histograms[idx])
+        #print(new_count_histograms[idx].value_counts())
+        print(new_count_histograms[idx].value_counts().sort_index().T)
 
     # adding the text
-    fig.update_layout(
+    layout = go.Layout(
         # tiltes and stuff
         title={
             "text": title,  # Title text
@@ -197,23 +212,23 @@ def graph_histogram(dataframe, title, legend_option, data_type, data_dictionarie
         },
         xaxis_title=COMBO,
         yaxis_title='Percentage',
-        legend_title=SUCCESS
-    )
+        legend_title=SUCCESS,
 
-    # customize layout further
-    fig.update_layout(
         # the histogram layout
+        barmode='group',
         clickmode='event+select',
         bargap=0.2,
 
         # axis range
-        yaxis=dict(range=get_y_range_histogram(fig)),
+        yaxis=dict(range=get_y_range_histogram(percent_histograms)),
         xaxis=dict(range=X_RANGE),
 
         # whitespace
         margin=dict(l=20, r=20, t=40, b=20)  # Reduce whitespace (left, right, top, bottom)
     )
     
+    # create the figure
+    fig = go.Figure(data=traces, layout=layout)
 
     return fig
 

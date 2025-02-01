@@ -39,3 +39,5 @@ COMBO_BINS = {
     'end': 2,               # max is 1.89
     'size': 0.02
 }
+
+EPSILON = 1e-8
