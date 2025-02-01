@@ -54,7 +54,7 @@ FILTER_TYPES = {
 DISPLAY_INFO = {
     'interview': [
         # identifying information
-        'gamsat', 'gpa', 'rurality',
+        'gamsat', 'gpa', 'combo', 'rurality',
 
         # information about the success
         'preference', 'success', 'notes',
@@ -64,7 +64,7 @@ DISPLAY_INFO = {
     ],
     'offer': [
         # identifying information
-        'gamsat', 'gpa', 'rurality', 'offer uni place type', 'places selected',
+        'gamsat', 'gpa', 'combo', 'rurality', 'offer uni place type', 'places selected',
 
         # information about the success
         'preference', 'success', 'notes',

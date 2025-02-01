@@ -29,6 +29,7 @@ interview_df = pd.read_csv(
     na_values=[''],
     keep_default_na=False
 )
+interview_df = interview_df.rename(columns={"index": "index old"})
 
 # read in interview
 offer_df = pd.read_csv(
@@ -37,6 +38,8 @@ offer_df = pd.read_csv(
     na_values=[''],
     keep_default_na=False
 )
+offer_df = offer_df.rename(columns={"index": "index old"})
+
 
 # read in the places properly
 offer_df['places selected'] = offer_df['places selected'].apply(lambda x: ast.literal_eval(x) if pd.notna(x) else x)

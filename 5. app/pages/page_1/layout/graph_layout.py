@@ -104,8 +104,6 @@ def get_histograms(dataframe, legend_option, category_order):
     total_count = counts.sum()
     percent_histograms = [count_histogram / total_count * 100 for count_histogram in count_histograms]
 
-    print(percent_histograms)
-
     return percent_histograms, count_histograms
 
 
@@ -126,7 +124,7 @@ def graph_scatter(dataframe, title, legend_option, data_type, data_dictionaries)
         x=GAMSAT,
         y=GPA,
         color=legend_option,
-        custom_data='index',
+        custom_data='index old',
 
         # formatting
         category_orders=data_dictionaries[LEGEND_GRADIENTS][data_type][legend_option][CATEGORY_ORDER],
@@ -166,7 +164,7 @@ def graph_histogram(dataframe, title, legend_option, data_type, data_dictionarie
     legend_gradients = data_dictionaries[LEGEND_GRADIENTS][data_type][legend_option][COLOUR_DISCRETE_MAP]
 
     # include a percentage column to sum
-    dataframe.loc[:, 'percentage'] = 100 / dataframe.shape[0]
+    dataframe.loc[:, 'percentage'] = 100 / dataframe.shape[0] if dataframe.shape[0] else 0
 
     # get the histograms
     percent_histograms, count_histograms = get_histograms(dataframe, legend_option, category_order)
@@ -184,12 +182,8 @@ def graph_histogram(dataframe, title, legend_option, data_type, data_dictionarie
         color_discrete_map=legend_gradients,
     )
 
-    print(sorted(dataframe[COMBO][dataframe[legend_option] == category_order[legend_option][0]].values))
-    print(count_histograms)
-
     # get the text
     texts = get_texts(count_histograms)
-    print(texts)
     for i, trace in enumerate(fig.data):
         trace.update(
             text=texts[i],

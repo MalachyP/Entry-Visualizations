@@ -26,6 +26,8 @@ DATA_VIEW = "data_views"
 DISPLAY_INFO = "display_info"
 UNIVERSITY = "university"
 NONE = "None"
+LEGEND_GRADIENTS = 'legend_gradients'
+CATEGORY_ORDER = 'category order'
 
 # the name for filter values
 OFFER_PLACE_FILTER = 'offer uni place type'
@@ -368,6 +370,56 @@ def register_alter_settings_legend(app):
 # ------------------------------ GRAPH DATA --------------------------------------
 
 
+def get_selected_dataframe(selected_data, filtered_frame, filter_settings, data_dictionaries):
+    # load in the settings
+    data_type = filter_settings['data type']
+    graph_type = filter_settings['graph']['type']
+    legend_option = filter_settings[data_type]['legend']
+
+    # get the point indices
+    if (graph_type == 'scatter'):
+        points_info = [
+            {'curve': point['curveNumber'], 'index': point['pointNumber']} 
+            for point in selected_data['points']
+        ]
+    else:
+        points_info = [
+            {'curve': bar['curveNumber'], 'index': index}
+            for bar in selected_data['points'] for index in bar['pointNumbers']
+        ]
+
+    # map the curve numbers to legend options
+    legend_option_options = data_dictionaries[LEGEND_GRADIENTS][data_type][legend_option][CATEGORY_ORDER][legend_option]
+    curve_number_to_legend_option_option = {
+        idx: legend_option_options[idx] for idx in range(len(legend_option_options))
+    }
+
+    # legend_option_options to points
+    legend_option_options_to_points = {
+        legend_option_option: [] for legend_option_option in legend_option_options
+    }
+    for point_info in points_info:
+        # append the point for the corresponding legend option each time
+        legend_option_options_to_points[
+            curve_number_to_legend_option_option[point_info['curve']]
+        ].append(point_info['index'])
+
+    # get the true points now
+    true_points = []
+    for legend_option_option, points in legend_option_options_to_points.items():
+        if (points == []):
+            continue
+
+        # get the new view
+        filtered_frame_view = filtered_frame[filtered_frame[legend_option] == legend_option_option]
+
+        # get the indices
+        true_points += list(filtered_frame_view.iloc[points].index)
+
+    # return the filtered frame
+    return filtered_frame.loc[true_points]
+
+
 def register_click_data(app, data_dictionaries):
     @app.callback(
         Output('graph-info', 'columns', allow_duplicate=True),
@@ -375,28 +427,33 @@ def register_click_data(app, data_dictionaries):
         Output('graph', 'selectedData'),
         Input('graph', 'selectedData'),
         State('graph-frame', 'data'),
-        State('type-dropdown', 'value'),
+        State('filter-settings', 'data'),
         prevent_initial_call=True
     )
-    def click_data_change(selected_data, filtered_frame_json, data_type):
+    def click_data_change(selected_data, filtered_frame_json, filter_settings_json):
         # don't update if reset or at the start
-        if (selected_data is None):
-            return [], []
+        if (selected_data is None or selected_data == [] or selected_data['points'] == []):
+            return [], [], None
 
-        # load the dataframe
+        # load the data frame (just have the default index)
         filtered_frame = pd.DataFrame(json.loads(filtered_frame_json))
-        filtered_frame = filtered_frame.set_index('index')
 
-        # find selected points and filter
-        point_indices = [point['customdata'][0] for point in selected_data['points']]
-        selected_df = filtered_frame.loc[point_indices]
+        # load filter settings
+        filter_settings = json.loads(filter_settings_json)
+        data_type = filter_settings['data type']
+
+        # get the selected dataframe
+        selected_df = get_selected_dataframe(
+            selected_data, filtered_frame, filter_settings, data_dictionaries
+        )
 
         # get the current display columns
         display_columns = data_dictionaries[DISPLAY_INFO][data_type]
         display_column_names = [{"name": col, "id": col} for col in display_columns]
 
-        # return the json
         return display_column_names, selected_df[display_columns].to_dict('records'), None
+
+
 
 
 # ------------------------------ FUNCTION CALLS -------------------------------------
