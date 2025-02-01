@@ -1,3 +1,5 @@
+import numpy as np
+
 # ---------------------------- FILTERING ----------------------------------------------------
 
 # display variables
@@ -34,10 +36,20 @@ X_RANGE = [1.54, 1.86]
 BIN_HEIGHT = 60
 MAX_HEIGHT_EXPAND = 1.1
 
-# binning
+# binning parameters
+BIN_START = 1.2     # min is 1.22
+BIN_END = 2         # max is 1.89
+BIN_SIZE = 0.02
+
+# binning implementation
 EPSILON = 1e-12
 COMBO_BINS = {
-    'start': 1.2 - EPSILON,             # min is 1.22
-    'end': 2 - EPSILON,                 # max is 1.89
-    'size': 0.02
+    'start': BIN_START - EPSILON,             
+    'end': BIN_END - EPSILON,                 
+    'size': BIN_SIZE
 }
+COMBO_BINS_NUMPY = np.arange(
+    BIN_START - EPSILON,
+    BIN_END + BIN_SIZE - EPSILON,
+    BIN_SIZE
+)

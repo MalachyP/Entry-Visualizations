@@ -77,25 +77,24 @@ def get_texts(count_histograms):
 # - create a corresponding dataframe
 # - create a count histogram then a percent histogram
 # returns
-# - series views of COMBO, split on the legend
-# - percent histogram
-# - count histogram 
+# - percent histogram (does not include empty traces)
+# - count histogram (does not include empty traces)
 def get_histograms(dataframe, legend_option, category_order):
     # get the categories
     categories = category_order[legend_option]
-
-    # find the maximum bin height
-    bin_edges = np.arange(
-        COMBO_BINS['start'], COMBO_BINS['end'] + COMBO_BINS['size'], COMBO_BINS['size']
-    )
 
     # iterate through
     count_histograms = []   
     counts = np.zeros(len(categories))      # easy to sum
     for idx, legend_option_option in enumerate(categories):
-        # get the current histogram
-        curr_series = dataframe.loc[dataframe[legend_option] == legend_option_option, COMBO]
-        curr_histogram = np.histogram(curr_series, bins=bin_edges)[0]
+        # get the current data frame
+        curr_frame = dataframe[dataframe[legend_option] == legend_option_option]
+
+        # if empty, just continue (as counts already zero)
+        if (curr_frame.empty):
+            continue
+
+        curr_histogram = np.histogram(curr_frame[COMBO], bins=COMBO_BINS_NUMPY)[0]
 
         # append information
         count_histograms.append(curr_histogram)
@@ -104,6 +103,8 @@ def get_histograms(dataframe, legend_option, category_order):
     # get the histograms as percentages
     total_count = counts.sum()
     percent_histograms = [count_histogram / total_count * 100 for count_histogram in count_histograms]
+
+    print(percent_histograms)
 
     return percent_histograms, count_histograms
 
@@ -178,19 +179,28 @@ def graph_histogram(dataframe, title, legend_option, data_type, data_dictionarie
         histfunc='sum',
         color=legend_option,
 
-        # get more formatting
+        # more layout information
         category_orders=category_order,
-        color_discrete_map=legend_gradients
+        color_discrete_map=legend_gradients,
     )
+
+    print(sorted(dataframe[COMBO][dataframe[legend_option] == category_order[legend_option][0]].values))
+    print(count_histograms)
 
     # get the text
     texts = get_texts(count_histograms)
+    print(texts)
     for i, trace in enumerate(fig.data):
         trace.update(
             text=texts[i],
             textposition='outside',
             texttemplate='%{text}'
         )
+
+    # add the bins
+    fig.update_traces(
+        xbins=COMBO_BINS
+    )
     
     # get more layout
     fig.update_layout(
