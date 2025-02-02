@@ -4,6 +4,7 @@ ADDITIONAL_ACTION = 'additional'
 GRAPH_ACTION = 'graph'
 GRAPH_DATA_ACTION = 'graph data'
 GRAPH_CLICK_DATA_ACTION = 'click data action'
+WARNING_ACTION = 'warning action'
 
 # carousel actions
 CAROUSEL_ACTION = 'carousel'

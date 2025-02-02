@@ -12,6 +12,7 @@ def get_data_dictionaries(interview_df, offer_df):
         "display_info": parameters.DISPLAY_INFO,
         "legend_options": parameters.LEGEND_OPTIONS,
         "options_order_overide": parameters.ORDER_OVERIDE,
+        "missing_columns": options.MISSING_OPTIONS,
 
         # precomputed views of the frame and the originals 
         "data_views": filtering.create_filters(interview_df, offer_df),

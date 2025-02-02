@@ -17,6 +17,7 @@ from .callback_header import *
 FILTER_TO_OPTIONS = "filter_to_options"
 FILTER_TYPES = "filter_types"
 LEGEND_OPTIONS = "legend_options"
+MISSING_OPTIONS = "missing_columns"
 
 # Functions in this page
 # 1. register_adjust_new_filters:    for when the user selects a new filter
@@ -24,7 +25,30 @@ LEGEND_OPTIONS = "legend_options"
 # 3. register_changing_environments: for changing the dataset being used
 
 
-# ------------------------------ HELPER FUNCTIONS -------------------------------
+# ------------------------------ WARNING FUNCTIONS -------------------------------
+
+
+# get the actual warning message
+def get_warning_returns(filter_settings, data_dictionaries):
+    # get the current year and data type
+    data_type = filter_settings['data type']
+    year = filter_settings[data_type]['static value']['year']
+
+    # find the additional filters to warn about (both missing and active) and keep in order
+    filters_warn = [
+        filter 
+        for filter in filter_settings[data_type]['active']
+        if filter in data_dictionaries[MISSING_OPTIONS][data_type][year]
+    ]
+
+    # when don't need to warn
+    if (len(filters_warn) == 0):
+        return False, no_update
+
+    # create the warning message
+    warning_message = f"Warning! {', '.join(filters_warn)} not in {year} {data_type} dataset"
+
+    return True, warning_message
 
 
 ##############################################################################
@@ -35,7 +59,7 @@ LEGEND_OPTIONS = "legend_options"
 # ------------------------- Creation / deletion -----------------------------------------
 
 # creates a new additional filter and reduces the options elsewhere
-def register_adjust_new_filters(app):
+def register_adjust_new_filters(app, data_dictionaries):
     @app.callback(
         Output('filter-settings', 'data', allow_duplicate=True),
         Input('add-filter-dropdown', 'value'),                                  # input is the dropdown menu
@@ -56,7 +80,7 @@ def register_adjust_new_filters(app):
         filter_settings[data_type]['active'] = filter_settings[data_type]['active'] + [new_filter]
 
         # make sure additional filters changed only
-        filter_settings['actions'] = [ADDITIONAL_ACTION]
+        filter_settings['actions'] = [ADDITIONAL_ACTION, WARNING_ACTION]
 
         return json.dumps(filter_settings)
 
@@ -93,7 +117,10 @@ def register_delete_filter(app, data_dictionaries):
         filter_settings[data_type]['additional value'][deleted_filter] = deleted_filter_value
 
         # make sure additional filters changed only
-        filter_settings['actions'] = [ADDITIONAL_ACTION, GRAPH_ACTION, GRAPH_DATA_ACTION, GRAPH_CLICK_DATA_ACTION]
+        filter_settings['actions'] = [
+            ADDITIONAL_ACTION, WARNING_ACTION,                          # filtering
+            GRAPH_ACTION, GRAPH_DATA_ACTION, GRAPH_CLICK_DATA_ACTION    # graphing
+        ]
 
         return json.dumps(filter_settings)
 
@@ -205,6 +232,8 @@ def register_settings_to_all_filters(app, data_dictionaries):
     @app.callback(
         Output('filter-static-container', 'children', allow_duplicate=True),
         Output('filter-additional-content', 'children', allow_duplicate=True),
+        Output('filter-alert', 'is_open'),      # the warning status
+        Output('filter-alert', 'children'),     # the warning message
         Input('filter-settings', 'data'),
         prevent_initial_call=True
     )
@@ -213,12 +242,9 @@ def register_settings_to_all_filters(app, data_dictionaries):
         filter_settings = json.loads(filter_settings_json)
         actions = filter_settings['actions']    # determine the actions to do
 
-        # check if no update needed
-        if (set(actions) & set([DATASET_CHANGE_ACTION, ADDITIONAL_ACTION]) == set()):
-            raise PreventUpdate
-
         # create the default values
-        static_return, additional_return = no_update, no_update
+        static_return = additional_return = no_update
+        warning_status_return = warning_message_return = no_update
 
         # deal with static content
         if (DATASET_CHANGE_ACTION in actions):
@@ -226,17 +252,22 @@ def register_settings_to_all_filters(app, data_dictionaries):
 
         # deal with the additional content
         if (ADDITIONAL_ACTION in actions):
-            additional_return = settings_to_additional_filters_layout(filter_settings, data_dictionaries) 
+            additional_return = settings_to_additional_filters_layout(filter_settings, data_dictionaries)
+
+        if (WARNING_ACTION in actions):
+            warning_status_return, warning_message_return = get_warning_returns(
+                filter_settings, data_dictionaries
+            )
 
         # return all the info
-        return static_return, additional_return
+        return static_return, additional_return, warning_status_return, warning_message_return
 
 
 # ------------------------------- Final Step --------------------------------------
 
 def register_callbacks(app, data_dictionaries):
     # for adding and removing filters
-    register_adjust_new_filters(app)
+    register_adjust_new_filters(app, data_dictionaries)
     register_delete_filter(app, data_dictionaries)
 
     # other ways of updating settings

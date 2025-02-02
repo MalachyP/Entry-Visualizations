@@ -83,7 +83,16 @@ def create_filters_layout(data_dictionaries):
         html.Br(),
 
         # used to store the content for dynamically created content (toggle)
-        html.Div(id='filter-additional-content')
+        html.Div(id='filter-additional-content'),
+
+        # used to store warning messages
+        dbc.Alert(
+            id="filter-alert",
+            color="danger",     # make it RED
+            dismissable=True,   # able to close or not
+            fade=False,         # no fading in
+            is_open=False,      # starts not open
+        ),
     ]
 
 

@@ -1,0 +1,19 @@
+/* Fade-in animation */
+@keyframes fadeIn {
+    0% { opacity: 0; visibility: visible; }
+    100% { opacity: 1; visibility: visible; }
+}
+
+/* Fade-out animation */
+@keyframes fadeOut {
+    0% { opacity: 1; visibility: visible; }
+    100% { opacity: 0; visibility: hidden; }
+}
+
+.fade-message-in {
+    animation: fadeIn 1s ease-out forwards;
+}
+
+.fade-message-out {
+    animation: fadeOut 1s ease-out forwards;
+}

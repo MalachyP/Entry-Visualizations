@@ -197,3 +197,28 @@ def create_legend_options(filter_to_options):
     # finally return the out
     return out
 
+
+# -------------------------------- THE MISSING OPTIONS ----------------------------------------
+
+MISSING_OPTIONS = {
+    'interview': {
+        2022: [
+            'uq tier', 'casper quartile', 
+            'deakin tier', 'unimelb gam',
+            'undf bonuses' , 'unds bonuses', 
+            'uow bonuses'
+        ],
+        2023: [
+            'undf bonuses' , 'unds bonuses',
+            'deakin tier', 'unimelb gam',
+            'uow bonuses'
+        ],
+        2024: []
+    },
+    'offer': {
+        2022: [
+            'interview prep hours'
+        ],
+        2023: []
+    }
+}
