@@ -107,3 +107,7 @@ Future Ideas
 - User information
   - double clicking the graph to reset
     - information about lasso
+
+
+
+- hopefully it's not bad for existing callbacks (like not registering)

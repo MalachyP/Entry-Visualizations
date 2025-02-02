@@ -16,7 +16,7 @@ import os
 
 # my own modules
 import data.dictionary
-from pages import main_page
+from pages import main_page, info_page
 from pages import page_callbacks
 
 RELATIVE_IN = "../3. curated"
@@ -64,13 +64,24 @@ dash.register_page(
     layout=main_page.page_layout.create_layout(data_dictionaries)
 )
 
+# register the pages
+dash.register_page(
+    "information", 
+    path='/information', 
+    layout=info_page.page_layout.create_layout()
+)
+
 # create layout
 app.layout = html.Div([
-    html.Div([
-        html.Div(
-            dcc.Link(f"{page['name']} - {page['path']}", href=page["relative_path"])
-        ) for page in dash.page_registry.values()
-    ]),
+    dbc.Stack(
+        [
+            html.Div(
+                dcc.Link(f"{page['name']}", href=page["relative_path"])
+            ) for page in dash.page_registry.values()
+        ],
+        direction='horizontal',
+        gap=2
+    ),
     dash.page_container,
 ])
 
