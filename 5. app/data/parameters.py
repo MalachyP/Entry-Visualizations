@@ -80,7 +80,7 @@ DISPLAY_INFO = {
 # ---------------------------------- LEGEND --------------------------------------------
 
 # for legend options
-LEGEND_OPTIONS = {
+LEGEND_OPTIONS_UNSORTED = {
     "interview": [
         # normal options
         "success",      # 'year', 'rural' potentially as well
@@ -102,6 +102,10 @@ LEGEND_OPTIONS = {
         # more uni specific
         'casper quartile', 'deakin bonus', 'anu bonus', 'mq bonus', 'uq rmp tier'
     ]
+}
+
+LEGEND_OPTIONS = {
+    data_type: sorted(legend_options) for data_type, legend_options in LEGEND_OPTIONS_UNSORTED.items()
 }
 
 # for ensuring there is a correct ordering

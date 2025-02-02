@@ -180,8 +180,15 @@ def get_selected_dataframe(selected_data, filtered_frame, filter_settings, data_
             for bar in selected_data['points'] for index in bar['pointNumbers']
         ]
 
-    # map the curve numbers to legend options
+    # get the legend options that are in the dataset
     legend_option_options = data_dictionaries[LEGEND_GRADIENTS][data_type][legend_option][CATEGORY_ORDER][legend_option]
+    present_options = filtered_frame[legend_option].unique()
+    legend_option_options = [
+        legend_option_option for legend_option_option in legend_option_options
+        if legend_option_option in present_options
+    ]
+
+    # map the curve number to the option
     curve_number_to_legend_option_option = {
         idx: legend_option_options[idx] for idx in range(len(legend_option_options))
     }
