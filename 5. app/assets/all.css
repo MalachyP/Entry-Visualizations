@@ -1,0 +1,19 @@
+/* for the body */
+html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+/* for the page navigation */
+.top-bar {
+    margin-left: 0.75rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;   
+}
+
+/* for the titles */
+.title {
+    margin-left: 0.75rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}

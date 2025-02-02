@@ -31,36 +31,41 @@ def create_head_layout():
 
 # ----------------------- FILTERING COMPONENTS ------------------------------------------------------
 
+
 def create_dataset_layout():
     return [
-        html.H3('Dataset Type'),
+        html.H3('Dataset Type', className='title'),
         # the starting filter
-        dbc.Row([
-            dbc.Col(
-                dcc.Dropdown(
-                    id='type-dropdown',
-                    options=['interview', 'offer'],
-                    value='interview',
+        dbc.Row(
+            [
+                dbc.Col(
+                    dcc.Dropdown(
+                        id='type-dropdown',
+                        options=['interview', 'offer'],
+                        value='interview',
+                    ),
+                    width=4,
+                    #className="px-3"
                 ),
-                width=4
-            ),
-            dbc.Col(
-                dbc.Checklist(
-                    options=["Enable Extra Filters"],
-                    value=[],
-                    switch=True,
-                    id='toggle-additional-filters'
-                ),
-                class_name="mt-2",
-                width="auto"
-            )
-        ])
+                dbc.Col(
+                    dbc.Checklist(
+                        options=["Enable Extra Filters"],
+                        value=[],
+                        switch=True,
+                        id='toggle-additional-filters'
+                    ),
+                    class_name="mt-2",
+                    width="auto"
+                )
+            ],
+            className='mx-0 my-2'
+        )
     ]
 
 
 def create_filters_layout(data_dictionaries):
     return [
-        html.H3('Filters'),
+        html.H3('Filters', className='title'),
 
         # storage for switching between
         dcc.Store(
@@ -108,7 +113,7 @@ def create_graph_layout(data_dictionaries):
         ),
 
         # displayed information
-        html.H3("Current Graph Data"),
+        html.H3("Current Graph Data", className='title'),
         html.Div(
             dash_table.DataTable(
                 id='graph-info',
@@ -128,18 +133,22 @@ def create_graph_layout(data_dictionaries):
 
 def create_carousel():
     return [
-        html.H3("Carousel"),
+        html.H3("Carousel", className='title'),
         dbc.Row(
             [
                 carousel_layout.create_carousel_slides(),
                 carousel_layout.create_carousel_gif()
             ],
-            justify='center'
+            justify='center',
+            className='mx-1'
         ),
         dcc.Store(
             data=carousel_layout.create_carousel_settings(),
             id='carousel-settings'
-        )
+        ),
+
+        # empty space at bottom of page
+        html.Div(style={"height": "10vh", "overflow-y": "auto"})
     ]
 
 

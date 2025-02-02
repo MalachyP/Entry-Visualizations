@@ -80,7 +80,8 @@ app.layout = html.Div([
             ) for page in dash.page_registry.values()
         ],
         direction='horizontal',
-        gap=2
+        gap=2,
+        className='top-bar'
     ),
     dash.page_container,
 ])

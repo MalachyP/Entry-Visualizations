@@ -175,7 +175,7 @@ def settings_to_additional_filters_layout(filter_settings, data_dictionaries):
 
     # this is the case where they are enabled
     return [
-        html.H3('Additional Filters'),
+        html.H3('Additional Filters', className='title'),
 
         # filter container basically
         dbc.Container(
