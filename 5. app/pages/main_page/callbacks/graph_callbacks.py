@@ -41,17 +41,6 @@ ALL_UNIQUE_FILTERS = [OFFER_PLACE_FILTER, PLACES_SELECTED_INCLUDE, PLACES_SELECT
 # ------------------------------ FILTERING LOWER LEVEL --------------------------------------
 
 
-# will convert a values object, and can all str instances of 'None' to np.nan
-def convert_values_for_na(object):
-    if (isinstance(object, str) and object == NONE):
-        return np.nan
-    elif (isinstance(object, list)):
-        return [convert_values_for_na(item) for item in object]
-    else:
-        # keep the same
-        return object
-
-
 def condition_all(list_value, filter_value, exclude=False):
     # create an error for a value that isn't a list or na
     if (not isinstance(list_value, list) and pd.notna(list_value)):
@@ -83,7 +72,8 @@ def filter_dataset(uni_dataset, filter_names, filter_values):
             continue
 
         # check for na so check
-        converted_filter_value = convert_values_for_na(filter_value)
+        #converted_filter_value = convert_values_for_na(filter_value)
+        converted_filter_value = filter_value        
 
         # test to see if it is a multi select and create mask accordingly``
         if (not isinstance(filter_value, list)):

@@ -33,9 +33,11 @@ def convert_numpy(obj):
 def create_get_unique_options(interview_df, offer_df):
     def get_unique_options_creator(filter):
         def sort_with_nan(array):
-            if (any([pd.isna(x) for x in array])):
-                return sorted([x for x in array if not pd.isna(x)]) + ['None']
-            elif ('None' in array):
+            # make sure no nans are here (should be dealt with elsewhere)
+            assert not any([pd.isna(x) for x in array])
+
+            # sort like normal
+            if ('None' in array):
                 return sorted([x for x in array if not x == 'None']) + ['None']
             return sorted(array)
 

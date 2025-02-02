@@ -1,4 +1,5 @@
 # main components for callbacks
+from dash import dcc
 from dash import ALL, MATCH, no_update
 from dash.dependencies import Input, Output, State
 from dash.exceptions import PreventUpdate
@@ -18,6 +19,8 @@ FILTER_TO_OPTIONS = "filter_to_options"
 FILTER_TYPES = "filter_types"
 LEGEND_OPTIONS = "legend_options"
 MISSING_OPTIONS = "missing_columns"
+
+YEAR = "year"
 
 # Functions in this page
 # 1. register_adjust_new_filters:    for when the user selects a new filter
@@ -46,7 +49,10 @@ def get_warning_returns(filter_settings, data_dictionaries):
         return False, no_update
 
     # create the warning message
-    warning_message = f"Warning! {', '.join(filters_warn)} not in {year} {data_type} dataset"
+    warning_message = [
+        f"Warning! {', '.join(filters_warn)} not in {year} {data_type} dataset. See ",
+        dcc.Link('more information', href="/more-information", target="_blank")
+    ]
 
     return True, warning_message
 
@@ -91,9 +97,10 @@ def register_delete_filter(app, data_dictionaries):
         Output('filter-settings', 'data', allow_duplicate=True),                            # change the settings
         Input({'class': 'filters', 'filter': ALL, 'role': 'delete-button'}, 'n_clicks'),    # trigger is the delete button click
         State('filter-settings', 'data'),
+        State('filter-alert', 'is_open'),           # decide is need to trigger alert
         prevent_initial_call=True
     )
-    def delete_filter(n_clicks, filter_settings_json):
+    def delete_filter(n_clicks, filter_settings_json, alert_is_open):
         # check to see if the button has actually been clicked (note that all([]) is true)
         if (all([n_click is None for n_click in n_clicks])):
             raise PreventUpdate
@@ -117,10 +124,11 @@ def register_delete_filter(app, data_dictionaries):
         filter_settings[data_type]['additional value'][deleted_filter] = deleted_filter_value
 
         # make sure additional filters changed only
-        filter_settings['actions'] = [
-            ADDITIONAL_ACTION, WARNING_ACTION,                          # filtering
-            GRAPH_ACTION, GRAPH_DATA_ACTION, GRAPH_CLICK_DATA_ACTION    # graphing
-        ]
+        filter_settings['actions'] = [ADDITIONAL_ACTION, GRAPH_ACTION, GRAPH_DATA_ACTION, GRAPH_CLICK_DATA_ACTION]
+
+        # close filter if open necessary or adjust info
+        if (alert_is_open):
+            filter_settings['actions'].append(WARNING_ACTION)
 
         return json.dumps(filter_settings)
 
@@ -198,6 +206,10 @@ def register_alter_settings_filter(app):
         # make sure it triggers the graph
         filter_settings['actions'] = [GRAPH_ACTION, GRAPH_DATA_ACTION, GRAPH_CLICK_DATA_ACTION]
 
+        # decide whether to trigger a warning
+        if (triggered_filter_name == YEAR):
+            filter_settings['actions'].append(WARNING_ACTION)
+
         return json.dumps(filter_settings)
 
 
@@ -219,7 +231,10 @@ def register_change_dataset(app):
         filter_settings['data type'] = new_data_type
 
         # update the actions
-        filter_settings['actions'] = [DATASET_CHANGE_ACTION, ADDITIONAL_ACTION, GRAPH_ACTION, GRAPH_DATA_ACTION, GRAPH_CLICK_DATA_ACTION]
+        filter_settings['actions'] = [
+            DATASET_CHANGE_ACTION, ADDITIONAL_ACTION, WARNING_ACTION,       # filtering
+            GRAPH_ACTION, GRAPH_DATA_ACTION, GRAPH_CLICK_DATA_ACTION        # graphing
+        ]
 
         return json.dumps(filter_settings)
 

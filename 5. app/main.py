@@ -66,8 +66,8 @@ dash.register_page(
 
 # register the pages
 dash.register_page(
-    "information", 
-    path='/information', 
+    "more information", 
+    path='/more-information', 
     layout=info_page.page_layout.create_layout()
 )
 
