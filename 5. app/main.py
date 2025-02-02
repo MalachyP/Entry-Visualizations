@@ -1,7 +1,8 @@
 # --------------------------- MODULES --------------------------------------
 
 # core components for container
-from dash import Dash
+import dash
+from dash import Dash, html, dcc
 import dash_bootstrap_components as dbc
 
 # importing
@@ -14,9 +15,9 @@ import signal
 import os
 
 # my own modules
-from pages import page_layout
+import data.dictionary
+from pages import main_page
 from pages import page_callbacks
-import data
 
 RELATIVE_IN = "../3. curated"
 
@@ -29,7 +30,6 @@ interview_df = pd.read_csv(
     na_values=[''],
     keep_default_na=False
 )
-interview_df = interview_df.rename(columns={"index": "index old"})
 
 # read in interview
 offer_df = pd.read_csv(
@@ -38,46 +38,41 @@ offer_df = pd.read_csv(
     na_values=[''],
     keep_default_na=False
 )
-offer_df = offer_df.rename(columns={"index": "index old"})
-
 
 # read in the places properly
 offer_df['places selected'] = offer_df['places selected'].apply(lambda x: ast.literal_eval(x) if pd.notna(x) else x)
 
-# initalize the data functions
-# - `filter_to_options`:    options of each filter
-# - `filter_types`:         static/dynamic filters for each datasets
-# - `data_views`:           the data views for each dataset and uni option
-data_dictionaries = {
-    # dictionaries to determine the types of data
-    "filter_to_options": data.options.create_filter_to_options(interview_df, offer_df), 
-    "filter_types": data.parameters.FILTER_TYPES,
-    "display_info": data.parameters.DISPLAY_INFO,
-    "legend_options": data.parameters.LEGEND_OPTIONS,
-    "options_order_overide": data.parameters.ORDER_OVERIDE,
+# get the data dictionaries
+data_dictionaries = data.dictionary.get_data_dictionaries(interview_df, offer_df)
 
-    # precomputed views of the frame and the originals 
-    "data_views": data.filtering.create_filters(interview_df, offer_df),
-    'original_frames': {'interview': interview_df, 'offer': offer_df}
-}
 
-# update with legened options
-data_dictionaries = data_dictionaries | {
-    'legend_gradients': data.options.create_legend_options(data_dictionaries['filter_to_options'])
-}
-
-#pprint(data_dictionaries[])
+# ------------------------ APP CREATION --------------------------------------------
 
 
 # create the app
 app = Dash(
     __name__, 
     external_stylesheets=[dbc.themes.BOOTSTRAP, dbc.icons.BOOTSTRAP],
-    suppress_callback_exceptions=True
+    suppress_callback_exceptions=True,
+    use_pages=True
+)
+
+# register the pages
+dash.register_page(
+    "home", 
+    path='/', 
+    layout=main_page.page_layout.create_layout(data_dictionaries)
 )
 
 # create layout
-app.layout = page_layout.create_layout(data_dictionaries)
+app.layout = html.Div([
+    html.Div([
+        html.Div(
+            dcc.Link(f"{page['name']} - {page['path']}", href=page["relative_path"])
+        ) for page in dash.page_registry.values()
+    ]),
+    dash.page_container,
+])
 
 # register callbacks
 page_callbacks.register_callbacks(app, data_dictionaries)

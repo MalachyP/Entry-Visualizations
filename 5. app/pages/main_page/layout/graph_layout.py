@@ -124,7 +124,6 @@ def graph_scatter(dataframe, title, legend_option, data_type, data_dictionaries)
         x=GAMSAT,
         y=GPA,
         color=legend_option,
-        custom_data='index old',
 
         # formatting
         category_orders=data_dictionaries[LEGEND_GRADIENTS][data_type][legend_option][CATEGORY_ORDER],
