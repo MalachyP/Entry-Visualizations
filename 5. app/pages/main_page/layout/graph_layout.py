@@ -33,6 +33,7 @@ GAMSAT = 'gamsat'
 GPA = 'gpa'
 SUCCESS = 'success'
 COMBO = 'combo'
+SCALED_COMBO = 'scaled combo'
 
 
 # ----------------------------- HELPER -------------------------------------------------------
@@ -43,8 +44,8 @@ def get_y_range_histogram(percent_histograms):
     # get the max percentages for each trace
     max_percentages = [max(percent_histogram) * MAX_HEIGHT_EXPAND for percent_histogram in percent_histograms]
 
-    # Set the y-axis limit dynamically (max of 60% or highest bin)
-    y_max = max(BIN_HEIGHT, *max_percentages)
+    # Set the y-axis limit dynamically (max of 60% or highest bin) (ensure max doesn't have a singelton with 0)
+    y_max = max(BIN_HEIGHT, *max_percentages, 0)
 
     return [0, y_max]
 
@@ -79,7 +80,7 @@ def get_texts(count_histograms):
 # returns
 # - percent histogram (does not include empty traces)
 # - count histogram (does not include empty traces)
-def get_histograms(dataframe, legend_option, category_order):
+def get_histograms(dataframe, x_variable, legend_option, category_order):
     # get the categories
     categories = category_order[legend_option]
 
@@ -94,7 +95,8 @@ def get_histograms(dataframe, legend_option, category_order):
         if (curr_frame.empty):
             continue
 
-        curr_histogram = np.histogram(curr_frame[COMBO], bins=COMBO_BINS_NUMPY)[0]
+        # apply the binning to the correct variable
+        curr_histogram = np.histogram(curr_frame[x_variable], bins=COMBO_BINS_NUMPY)[0]
 
         # append information
         count_histograms.append(curr_histogram)
@@ -162,16 +164,19 @@ def graph_histogram(dataframe, title, legend_option, data_type, data_dictionarie
     category_order = data_dictionaries[LEGEND_GRADIENTS][data_type][legend_option][CATEGORY_ORDER]#[legend_option]
     legend_gradients = data_dictionaries[LEGEND_GRADIENTS][data_type][legend_option][COLOUR_DISCRETE_MAP]
 
+    # figure out the scaled x axis
+    x_variable = COMBO if scaled == False else SCALED_COMBO
+
     # include a percentage column to sum
-    dataframe.loc[:, 'percentage'] = 100 / dataframe.shape[0] if dataframe.shape[0] else 0
+    dataframe.loc[:, 'percentage'] = 100 / dataframe.shape[0] if dataframe.shape[0] else []
 
     # get the histograms
-    percent_histograms, count_histograms = get_histograms(dataframe, legend_option, category_order)
+    percent_histograms, count_histograms = get_histograms(dataframe, x_variable, legend_option, category_order)
 
     fig = px.histogram(
         # main graphing
         dataframe,
-        x=COMBO,
+        x=x_variable,
         y='percentage',
         histfunc='sum',
         color=legend_option,
@@ -203,7 +208,7 @@ def graph_histogram(dataframe, title, legend_option, data_type, data_dictionarie
             "x": 0.5,                   # Center the title
             "xanchor": "center"         # Anchor text to the center
         },
-        xaxis_title=COMBO,
+        xaxis_title=x_variable,
         yaxis_title='Percentage',
         legend_title=SUCCESS,
 
@@ -284,7 +289,7 @@ def create_graph_component(width, legend_options, graph_id=None):
                         'doubleClick': False,
                         'editable': True,
                         'modeBarButtonsToRemove': [
-                            'toImage', 'zoomIn2d', 'zoomOut2d', 'autoScale2d', 'resetScale2d'
+                            'toImage', 'autoScale2d', 'resetScale2d'#, 'zoomIn2d', 'zoomOut2d', 
                         ]
                     }
                 ),

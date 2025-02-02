@@ -22,6 +22,7 @@ __pycache__/
 
 # notes
 notes.
+guides/*
 
 # tests
 test*

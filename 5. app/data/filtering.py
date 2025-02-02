@@ -3,7 +3,64 @@ import numpy as np
 
 from . import parameters
 
+# column names
+GAMSAT = 'gamsat'
+GPA = 'gpa'
+COMBO = 'combo'
+SCALED_COMBO = 'scaled combo'
+
+# uni names
+ANU = 'Australian National University'
+DEAKIN = 'Deakin University'
+MACQUARIE = 'Macquarie University'
+ND_FREMANTLE = 'The University of Notre Dame Fremantle'
+ND_SYDNEY = 'The University of Notre Dame Sydney'
+
+# get the scaled unis and ones to handle carefully
+SCALED_UNIS = [ANU, DEAKIN, MACQUARIE, ND_FREMANTLE, ND_SYDNEY]
+ND_UNIS = [ND_FREMANTLE, ND_SYDNEY]
+
+DO_ND_SCALING = False
+
 # ------------------------- Filtering Functions -----------------------------------------
+
+
+# convert combo score to scaled combo score
+# Does as Much scaling as possible
+# NO ND SCALING NO ND SCALING NO ND SCALING NO ND SCALING NO ND SCALING NO ND SCALING NO ND SCALING
+def get_scaled_combo(uni_dataset, uni_name, interview=True):
+    # ANU
+    if (uni_name == ANU):
+        uni_dataset.loc[:, SCALED_COMBO] = uni_dataset.loc[:, COMBO] * (1 + uni_dataset.loc[:, 'anu bonus'].astype(int) / 100)
+    
+    # Deakin
+    elif (uni_name == DEAKIN):
+        uni_dataset.loc[:, SCALED_COMBO] = uni_dataset.loc[:, COMBO] * (1 + uni_dataset.loc[:, 'deakin bonus'].astype(int) / 100)
+    
+    # MACQUARIE (not accounting for interview)
+    elif (uni_name == MACQUARIE):
+        uni_dataset.loc[:, SCALED_COMBO] = (
+            (uni_dataset.loc[:, GAMSAT] / 100) + (uni_dataset.loc[:, GPA] / 7) * (1 + uni_dataset.loc[:, 'mq bonus'].astype(int) / 100)
+        )
+    
+    # ND_UNIS (don't change offer data as don't have the data)
+    elif (uni_name in ND_UNIS and interview and DO_ND_SCALING):
+        # apply combo as normal
+        uni_dataset.loc[:, SCALED_COMBO] = uni_dataset.loc[:, COMBO]
+
+        # find location 2024 interview and get the bonus column
+        year_2024_mask = uni_dataset['year'] == 2024
+        bonus_column = "undf bonuses" if uni_name == ND_FREMANTLE else "unds bonuses"
+
+        # apply the transform
+        uni_dataset.loc[year_2024_mask, SCALED_COMBO] = (
+            (6 * uni_dataset.loc[year_2024_mask, SCALED_COMBO] / 2 + 
+            uni_dataset.loc[year_2024_mask, bonus_column] / 100) / 7
+        )
+    else:
+        uni_dataset.loc[:, SCALED_COMBO] = uni_dataset.loc[:, COMBO]
+    
+    return uni_dataset
 
 
 # na values should be:
@@ -96,7 +153,10 @@ def filter_uni_interview(df, uni_name):
     #print(((df_filtered[["gamsat", "gpa"]].isna().any(axis=1)) & (df_filtered[["gamsat", "gpa"]].notna().any(axis=1))).sum())
 
     # add the combo score
-    df_filtered.loc[:, 'combo'] = (df_filtered['gamsat'] / 100) + (df_filtered['gpa'] / 7)
+    df_filtered.loc[:, COMBO] = (df_filtered['gamsat'] / 100) + (df_filtered['gpa'] / 7)
+
+    # get the scaled combo score
+    df_filtered = get_scaled_combo(df_filtered, uni_name, interview=True)
 
     # convert the values
     df_filtered.index.name = 'index'
@@ -159,7 +219,10 @@ def filter_uni_offer(df, uni_name):
     )
 
     # add the combo score
-    df_filtered.loc[:, 'combo'] = (df_filtered['gamsat'] / 100) + (df_filtered['gpa'] / 7)
+    df_filtered.loc[:, COMBO] = (df_filtered['gamsat'] / 100) + (df_filtered['gpa'] / 7)
+
+    # add the scaled combo score
+    df_filtered = get_scaled_combo(df_filtered, uni_name, interview=True)    
 
     df_filtered.index.name = 'index'
 
