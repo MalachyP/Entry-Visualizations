@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 8050
 
 # Command to run the application
-CMD ["python", "main.py"]
+CMD ["gunicorn", "-b", "0.0.0.0:8050", "main:server"]

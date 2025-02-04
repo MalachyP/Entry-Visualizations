@@ -56,6 +56,9 @@ app = Dash(
     use_pages=True
 )
 
+## IMPORTANT FOR PRODUCTION
+server = app.server
+
 # register the pages
 dash.register_page(
     "home", 
@@ -95,5 +98,6 @@ load_dotenv()
 if __name__ == "__main__":
     debug = (os.getenv('DEBUG', 'False') == 'True')
 
-    app.run_server(debug=debug, port=8050, threaded=True)
+    if debug:
+        app.run_server(debug=True, port=8050, threaded=True)
 
