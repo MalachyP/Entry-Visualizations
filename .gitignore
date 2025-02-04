@@ -21,7 +21,11 @@ MANIFEST
 __pycache__/
 
 # notes
-notes.txt
+notes.
+guides/*
+
+# tests
+test*
 
 # PyInstaller
 #  Usually these files are written by a python script from a template

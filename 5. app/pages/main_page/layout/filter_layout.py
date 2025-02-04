@@ -5,6 +5,8 @@ import json
 from pprint import pprint
 
 from . import layout_parameters
+from ..callbacks.callback_header import *
+from .layout_parameters import *
 
 # names of dictionary data functions
 FILTER_TO_OPTIONS = "filter_to_options"
@@ -173,7 +175,7 @@ def settings_to_additional_filters_layout(filter_settings, data_dictionaries):
 
     # this is the case where they are enabled
     return [
-        html.H3('Additional Filters'),
+        html.H3('Additional Filters', className='title'),
 
         # filter container basically
         dbc.Container(
@@ -214,14 +216,23 @@ def create_default_json(filter_to_options, filter_types):
                 filter_name: filter_options[0] 
                 for filter_name, filter_options in filter_to_options[data_type].items()
                 if not is_multiselect(filter_name) and filter_name in filter_types[data_type]['additional'] # this will return a dictionary of filters to options
-            }
-        }
+            },
+            'legend': LEGEND_DEFAULT_OPTION
+        }   
         for data_type in ['interview', 'offer']
+    }
+
+    # add information about the graph
+    default_dict = default_dict | {
+        'graph': {
+            'type': GRAPH_DEFAULT_OPTION,
+            'title': None
+       }
     }
 
     # add extra information
     default_dict = default_dict | {
-        'actions': [],
+        'actions': [GRAPH_ACTION, GRAPH_DATA_ACTION],
         'additional filters': False,
         'data type': 'interview'
     }
