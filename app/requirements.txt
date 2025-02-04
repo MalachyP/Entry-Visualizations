@@ -1,0 +1,9 @@
+pandas
+dash
+dash_bootstrap_components
+numpy
+plotly
+python-dotenv
+pillow
+matplotlib
+kaleido

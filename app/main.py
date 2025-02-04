@@ -8,18 +8,17 @@ import dash_bootstrap_components as dbc
 # importing
 import pandas as pd
 import ast
-from pprint import pprint
 
 # for running the sever
-import signal
 import os
+from dotenv import load_dotenv
 
 # my own modules
 import data.dictionary
 from pages import main_page, info_page
 from pages import page_callbacks
 
-RELATIVE_IN = "../3. curated"
+RELATIVE_IN = "./data/datasets"
 
 # ------------------------ EXECUTION --------------------------------------------
 
@@ -89,10 +88,12 @@ app.layout = html.Div([
 # register callbacks
 page_callbacks.register_callbacks(app, data_dictionaries)
 
+# load enviroment variables
+load_dotenv()
+
 # run app locally
-try:
-    app.run_server(debug=True, port=8050, threaded=True)
-finally:
-    os.kill(os.getpid(), signal.SIGTERM)
-    print("Server stopped.")
+if __name__ == "__main__":
+    debug = (os.getenv('DEBUG', 'False') == 'True')
+
+    app.run_server(debug=debug, port=8050, threaded=True)
 
