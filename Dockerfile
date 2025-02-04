@@ -13,5 +13,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Expose the port the app runs on
 EXPOSE 8050
 
+RUN pip install gunicorn
+
 # Command to run the application
 CMD ["gunicorn", "-b", "0.0.0.0:8050", "main:server"]
