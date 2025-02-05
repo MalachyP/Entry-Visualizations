@@ -178,11 +178,7 @@ def register_alter_settings_filter(app):
 
         # figure out which ID caused the trigger
         ctx = callback_context
-<<<<<<< HEAD:5. app/pages/page_1/callbacks/filter_callbacks.py
         
-=======
-
->>>>>>> 7acca190c510ec6d15f3041041d57ca3d7a94a22:app/pages/main_page/callbacks/filter_callbacks.py
         # check to see it's not triggered by a deletion
         if (ctx.triggered_id is None):
             raise PreventUpdate
@@ -190,6 +186,10 @@ def register_alter_settings_filter(app):
         # get the filter that changed
         triggered_id = ast.literal_eval(ctx.triggered[0]['prop_id'].split('.')[0])
         triggered_filter_name = triggered_id['filter']
+
+        # change name if necessary
+        if (triggered_filter_name == UNIVERSITY):
+            raise PreventUpdate
 
         # get the new value
         triggered_filter_value = ctx.triggered[0]['value']
@@ -218,29 +218,6 @@ def register_alter_settings_filter(app):
 
 
 # ------------------------------- for changing the environment -------------------------------------
-
-
-def register_change_dataset(app):
-    @app.callback(
-        Output('filter-settings', 'data', allow_duplicate=True),
-        Input('type-dropdown', 'value'),
-        State('filter-settings', 'data'),
-        prevent_initial_call=True
-    )
-    def change_dataset(new_data_type, filter_settings_json):
-        # load the data
-        filter_settings = json.loads(filter_settings_json)
-
-        # update the value
-        filter_settings['data type'] = new_data_type
-
-        # update the actions
-        filter_settings['actions'] = [
-            DATASET_CHANGE_ACTION, ADDITIONAL_ACTION, WARNING_ACTION,       # filtering
-            GRAPH_ACTION, GRAPH_DATA_ACTION, GRAPH_CLICK_DATA_ACTION        # graphing
-        ]
-
-        return json.dumps(filter_settings)
 
 
 # ------------------------------- Actually creating the filters -----------------------------
@@ -295,7 +272,3 @@ def register_callbacks(app, data_dictionaries):
 
     # for actually creating changes
     register_settings_to_all_filters(app, data_dictionaries)
-
-    # switching settings
-    register_change_dataset(app)
-

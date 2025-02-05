@@ -343,61 +343,6 @@ def register_graph_title(app):
         return figure, json.dumps(filter_settings)
 
 
-# add image
-def register_add_image_carousel(app):
-    @app.callback(
-        Output('carousel-settings', 'data'),
-        Input({'class': 'graph', 'role': 'save-image'}, 'n_clicks'),    # when the graph is initially saved
-        State('graph', 'figure'),                                       # want to save the new graph
-        State('carousel-settings', 'data'),                         # want to get the former children
-        prevent_initial_call=True
-    )
-    def add_image_carousel(n_clicks, figure_dict, carousel_settings_json):
-        # load in the data
-        carousel_settings = json.loads(carousel_settings_json)
-
-        # create a new image
-        new_src = create_image_src(figure_dict)
-
-        # get the new item
-        new_key = len(carousel_settings['slide items']) + 1
-        new_item = {"key": new_key, "src": new_src}
-
-        # append to the list
-        carousel_settings['slide items'].append(new_item)
-
-        # make sure to change the action
-        carousel_settings['actions'] = [CAROUSEL_ACTION]
-
-        return json.dumps(carousel_settings)
-
-
-# alter legend
-def register_alter_settings_legend(app):
-    @app.callback(
-        Output('filter-settings', 'data', allow_duplicate=True),
-        Input({'class': 'graph', 'role': 'legend-dropdown'}, 'value'),
-        State('filter-settings', 'data'),
-        prevent_initial_call=True
-    )
-    def alter_settings_legend(new_legend_value, filter_settings_json):
-        # load settings
-        filter_settings = json.loads(filter_settings_json)
-        data_type = filter_settings['data type']
-
-        # check to see if there is a change to make
-        if (filter_settings[data_type]['legend'] == new_legend_value):
-            raise PreventUpdate
-        
-        # change the settings and return
-        filter_settings[data_type]['legend'] = new_legend_value
-
-        # only need to graph
-        filter_settings['actions'] = [GRAPH_ACTION]
-
-        return json.dumps(filter_settings)
-
-
 # alter graph type
 def register_alter_graph_type(app):
     @app.callback(
@@ -513,8 +458,6 @@ def register_callbacks(app, data_dictionaries):
     register_reset_graph(app)
     register_download_graph(app)
     register_graph_title(app)
-    register_add_image_carousel(app)
-    register_alter_settings_legend(app)
     register_alter_graph_type(app)
 
     # more important callbacks

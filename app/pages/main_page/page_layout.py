@@ -9,7 +9,7 @@ FILTER_TO_OPTIONS = "filter_to_options"
 FILTER_TYPES = "filter_types"
 DEFAULT_JSON = "default_json"
 
-from .layout import filter_layout, graph_layout, carousel_layout
+from .layout import filter_layout, graph_layout
 
 # ---------------------------- HEADER --------------------------------------------------------------
 
@@ -34,32 +34,6 @@ def create_head_layout():
 
 def create_dataset_layout():
     return [
-        html.H3('Dataset Type', className='title'),
-        # the starting filter
-        dbc.Row(
-            [
-                dbc.Col(
-                    dcc.Dropdown(
-                        id='type-dropdown',
-                        options=['interview', 'offer'],
-                        value='interview',
-                    ),
-                    width=4,
-                    #className="px-3"
-                ),
-                dbc.Col(
-                    dbc.Checklist(
-                        options=["Enable Extra Filters"],
-                        value=[],
-                        switch=True,
-                        id='toggle-additional-filters'
-                    ),
-                    class_name="mt-2",
-                    width="auto"
-                )
-            ],
-            className='mx-0 my-2'
-        )
     ]
 
 
@@ -74,6 +48,21 @@ def create_filters_layout(data_dictionaries):
             data=filter_layout.create_default_json(data_dictionaries[FILTER_TO_OPTIONS],
                                                    data_dictionaries[FILTER_TYPES])
         ),
+
+        # basically create the toggle
+#        dbc.Container(
+#            dbc.Row(
+#        dbc.Col(
+        dbc.Checklist(
+            options=["Enable Extra Filters"],
+            value=[],
+            switch=True,
+            id='toggle-additional-filters',
+            class_name="my-3 ms-3",
+        ),
+        #class_name="mt-2",
+        #width="auto"
+    
 
         # filter conainer basically
         dbc.Container(
@@ -133,20 +122,6 @@ def create_graph_layout(data_dictionaries):
 
 def create_carousel():
     return [
-        html.H3("Carousel", className='title'),
-        dbc.Row(
-            [
-                carousel_layout.create_carousel_slides(),
-                carousel_layout.create_carousel_gif()
-            ],
-            justify='center',
-            className='mx-1'
-        ),
-        dcc.Store(
-            data=carousel_layout.create_carousel_settings(),
-            id='carousel-settings'
-        ),
-
         # empty space at bottom of page
         html.Div(style={"height": "10vh", "overflow-y": "auto"})
     ]

@@ -11,7 +11,7 @@ import ast
 
 # for running the sever
 import os
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
 # my own modules
 import data.dictionary
@@ -92,12 +92,10 @@ app.layout = html.Div([
 page_callbacks.register_callbacks(app, data_dictionaries)
 
 # load enviroment variables
-load_dotenv()
+#load_dotenv()
 
 # run app locally
 if __name__ == "__main__":
-    debug = (os.getenv('DEBUG', 'False') == 'True')
-
-    if debug:
-        app.run_server(debug=True, port=8050, threaded=True)
+    #debug = (os.getenv('DEBUG', 'False') == 'True')
+    app.run_server(debug=False, port=8050, threaded=True)
 
