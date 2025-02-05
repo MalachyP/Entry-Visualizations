@@ -21,7 +21,7 @@ MANIFEST
 __pycache__/
 
 # notes
-notes.
+notes*
 guides/*
 
 # tests
