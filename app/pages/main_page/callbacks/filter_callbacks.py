@@ -187,12 +187,17 @@ def register_alter_settings_filter(app):
         triggered_id = ast.literal_eval(ctx.triggered[0]['prop_id'].split('.')[0])
         triggered_filter_name = triggered_id['filter']
 
-        # change name if necessary
-        if (triggered_filter_name == UNIVERSITY):
-            raise PreventUpdate
-
+        # UNIVERSITY PREVENTION UPDATE
+        #if (triggered_filter_name == UNIVERSITY):
+        #    raise PreventUpdate
+        
         # get the new value
         triggered_filter_value = ctx.triggered[0]['value']
+
+        # YEAR UPDATE
+        if (triggered_filter_name == YEAR): #and triggered_filter_value == 2022):
+            raise PreventUpdate
+
 
         # update the dictionary (check if current filter in static value (same as keys))
         if (triggered_filter_name in filter_settings[data_type]['static value']):

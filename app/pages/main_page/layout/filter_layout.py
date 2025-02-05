@@ -13,6 +13,14 @@ FILTER_TO_OPTIONS = "filter_to_options"
 FILTER_TYPES = "filter_types"
 DEFAULT_JSON = "default_json"
 
+UNIVERSITY = "university"
+#UNIVERSITY_OPTION = "Deakin University"
+UNIVERSITY_OPTION = "The University of Melbourne"
+#UNIVERSITY_OPTION = "The University of Queensland (Metro)"
+
+YEAR = "year"
+YEAR_OPTION = 2024
+
 # ---------------------------- HELPER FUNCTIONS ---------------------------------------------
 
 def is_multiselect(filter):
@@ -48,7 +56,11 @@ def get_default_value(filter_name, options):
 
 def create_static_filter(new_filter, options, value='__default__'):
     # deal with the default value
-    if (value == '__default__'):
+    if (new_filter == UNIVERSITY):
+        value = UNIVERSITY_OPTION
+    elif (new_filter == YEAR):
+        value = YEAR_OPTION
+    elif (value == '__default__'):
         value = get_default_value(new_filter, options)
             
     return dbc.Col(
@@ -57,7 +69,6 @@ def create_static_filter(new_filter, options, value='__default__'):
                 dcc.Dropdown(
                     id={'class': 'filters', 'filter': new_filter, 'role': 'dropdown', 'type': 'static'},
                     options=options,
-                    placeholder=layout_parameters.PLACEHOLDER,
                     multi=is_multiselect(new_filter),
                     value=value,
                     style={'width': '100%'}
@@ -194,6 +205,15 @@ def settings_to_additional_filters_layout(filter_settings, data_dictionaries):
 # ------------------------------- CREATING DEFAULT VALUES -------------------------------------
 
 
+def correct_filter_option(filter_name, filter_options):
+    if (filter_name == UNIVERSITY):
+        return UNIVERSITY_OPTION
+    elif (filter_name == YEAR):
+        return YEAR_OPTION
+    else:
+        return filter_options[0]
+
+
 def create_default_json(filter_to_options, filter_types):
     # get most of the default options
     default_dict =  {
@@ -204,7 +224,7 @@ def create_default_json(filter_to_options, filter_types):
                 for filter_name, filter_options in filter_to_options[data_type].items()
                 if is_multiselect(filter_name) and filter_name in filter_types[data_type]['static'] # this will return a dictionary of filters to options
             } | {
-                filter_name: filter_options[0] 
+                filter_name: correct_filter_option(filter_name, filter_options)
                 for filter_name, filter_options in filter_to_options[data_type].items()
                 if not is_multiselect(filter_name) and filter_name in filter_types[data_type]['static'] # this will return a dictionary of filters to options
             }, 

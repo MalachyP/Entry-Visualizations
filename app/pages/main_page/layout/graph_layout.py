@@ -5,6 +5,7 @@ import dash_bootstrap_components as dbc
 import pandas as pd
 import numpy as np
 from collections import Counter
+from pprint import pprint
 
 # for graphing
 import plotly.express as px
