@@ -1,0 +1,14 @@
+.carousel-indicators button[aria-current="false"]{
+    background-color: #a9a9a9;  /* Inactive indicator color */
+}
+
+.carousel-indicators .active {
+    background-color: #1a63bc;  /* Active indicator color */
+}
+
+/* Style the carousel control buttons (previous and next) */
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+    background-color: #9f9f9f;  /* Color of the previous and next buttons */
+    opacity: 0.7;
+}
